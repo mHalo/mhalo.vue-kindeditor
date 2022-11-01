@@ -1,0 +1,34 @@
+{
+  "name": "mhalo.vue-kindeditor",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "LGPL-2.1",
+  "description": "a component use mhalo.kindeditor for vue3.",
+  "bugs": {
+    "url": "https://github.com/mHalo/mhalo.vue-kindeditor/issues"
+  },
+  "homepage": "https://github.com/mHalo/mhalo.vue-kindeditor#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "files": ["dist"],
+  "main": "./dist/mhalo.vue-kindeditor.umd.js",
+  "module": "./dist/mhalo.vue-kindeditor.es.js",
+  "exports": {
+      ".": {
+          "import": "./dist/mhalo.vue-kindeditor.es.js",
+          "require": "./dist/mhalo.vue-kindeditor.umd.js"
+      }
+  },
+
+  "dependencies": {
+    "mhalo.kindeditor": "^4.3.1",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.0"
+  }
+}
