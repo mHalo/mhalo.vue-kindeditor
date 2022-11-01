@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import VKindEditor from './index'
+
+
+createApp(App)
+.use(VKindEditor, { name: 'VEditor' })
+.mount('#app')

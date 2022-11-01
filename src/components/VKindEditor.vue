@@ -33,9 +33,7 @@ const originalAfterBlurEvt = props.configs?.afterBlur
 const originalAfterChangeEvt = props.configs?.afterChange
 const editorId = props.id
 var options = Object.assign({}, props.configs,{
-  themesPath: '../../node_modules/mhalo.kindeditor/themes/',
-  basePath:'../../node_modules/mhalo.kindeditor/',
-  pluginsPath: '../../node_modules/mhalo.kindeditor/plugins/',
+  loadStyleMode: false,
   allowFlashUpload: false,
   readonly: props.readonly,
   afterBlur: function () {
