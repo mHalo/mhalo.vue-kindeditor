@@ -12,7 +12,6 @@ const editor = reactive({
     configs: {
         resizeType: 1,
         pasteType: 2,//0:禁止粘贴, 1:纯文本粘贴, 2:HTML粘贴
-        allowPreviewEmoticons: false,
         allowImageUpload: true,
         formatUploadUrl: false,
         minHeight: 120,

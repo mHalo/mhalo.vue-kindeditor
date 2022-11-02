@@ -33,8 +33,13 @@ const originalAfterBlurEvt = props.configs?.afterBlur
 const originalAfterChangeEvt = props.configs?.afterChange
 const editorId = props.id
 var options = Object.assign({}, props.configs,{
+  resizeType: 1,
+  pasteType: 2,
   loadStyleMode: false,
   allowFlashUpload: false,
+  allowFileManager: false,
+  imageSizeLimit: '2MB',
+  items: KindEditor.Tools.All,
   readonly: props.readonly,
   afterBlur: function () {
       this.sync();
