@@ -1,13 +1,13 @@
-(function(){ try {var elementStyle = document.createElement('style'); elementStyle.appendChild(document.createTextNode("@import\"//at.alicdn.com/t/c/font_1491367_njeebnzeclh.css\";.ke-container *{box-sizing:border-box}.ke-inline-block{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;*display: inline}.ke-clearfix{zoom:1}.ke-clearfix:after{content:\".\";display:block;clear:both;font-size:0;height:0;line-height:0;visibility:hidden}.ke-shadow{box-shadow:0 0 30px -6px #999;-moz-box-shadow:0px 0px 30px -6px #999;-webkit-box-shadow:0px 0px 30px -6px #999;filter:progid:DXImageTransform.Microsoft.Shadow(color=\"#A0A0A0\",Direction=135,Strength=3);background-color:#f0f0ee}.ke-menu a,.ke-menu a:hover,.ke-dialog a,.ke-dialog a:hover{color:#337fe5;text-decoration:none}.ke-icon-source{background-position:0px 0px;width:16px;height:16px}.ke-icon-preview{background-position:0px -16px;width:16px;height:16px}.ke-icon-print{background-position:0px -32px;width:16px;height:16px}.ke-icon-undo{background-position:0px -48px;width:16px;height:16px}.ke-icon-redo{background-position:0px -64px;width:16px;height:16px}.ke-icon-cut{background-position:0px -80px;width:16px;height:16px}.ke-icon-copy{background-position:0px -96px;width:16px;height:16px}.ke-icon-paste{background-position:0px -112px;width:16px;height:16px}.ke-icon-selectall{background-position:0px -128px;width:16px;height:16px}.ke-icon-justifyleft{background-position:0px -144px;width:16px;height:16px}.ke-icon-justifycenter{background-position:0px -160px;width:16px;height:16px}.ke-icon-justifyright{background-position:0px -176px;width:16px;height:16px}.ke-icon-justifyfull{background-position:0px -192px;width:16px;height:16px}.ke-icon-insertorderedlist{background-position:0px -208px;width:16px;height:16px}.ke-icon-insertunorderedlist{background-position:0px -224px;width:16px;height:16px}.ke-icon-indent{background-position:0px -240px;width:16px;height:16px}.ke-icon-outdent{background-position:0px -256px;width:16px;height:16px}.ke-icon-subscript{background-position:0px -272px;width:16px;height:16px}.ke-icon-superscript{background-position:0px -288px;width:16px;height:16px}.ke-icon-date{background-position:0px -304px;width:25px;height:16px}.ke-icon-time{background-position:0px -320px;width:25px;height:16px}.ke-icon-formatblock{background-position:0px -336px;width:25px;height:16px}.ke-icon-fontname{background-position:0px -352px;width:21px;height:16px}.ke-icon-fontsize{background-position:0px -368px;width:23px;height:16px}.ke-icon-forecolor{background-position:0px -384px;width:20px;height:16px}.ke-icon-hilitecolor{background-position:0px -400px;width:23px;height:16px}.ke-icon-bold{background-position:0px -416px;width:16px;height:16px}.ke-icon-italic{background-position:0px -432px;width:16px;height:16px}.ke-icon-underline{background-position:0px -448px;width:16px;height:16px}.ke-icon-strikethrough{background-position:0px -464px;width:16px;height:16px}.ke-icon-removeformat{background-position:0px -480px;width:16px;height:16px}.ke-icon-image{background-position:0px -496px;width:16px;height:16px}.ke-icon-flash{background-position:0px -512px;width:16px;height:16px}.ke-icon-media{background-position:0px -528px;width:16px;height:16px}.ke-icon-div{background-position:0px -544px;width:16px;height:16px}.ke-icon-formula{background-position:0px -576px;width:16px;height:16px}.ke-icon-hr{background-position:0px -592px;width:16px;height:16px}.ke-icon-link{background-position:0px -624px;width:16px;height:16px}.ke-icon-unlink{background-position:0px -640px;width:16px;height:16px}.ke-icon-fullscreen{background-position:0px -656px;width:16px;height:16px}.ke-icon-about{background-position:0px -672px;width:16px;height:16px}.ke-icon-plainpaste{background-position:0px -704px;width:16px;height:16px}.ke-icon-wordpaste{background-position:0px -720px;width:16px;height:16px}.ke-icon-table{background-position:0px -784px;width:16px;height:16px}.ke-icon-tablemenu{background-position:0px -768px;width:16px;height:16px}.ke-icon-tableinsert{background-position:0px -784px;width:16px;height:16px}.ke-icon-tabledelete{background-position:0px -800px;width:16px;height:16px}.ke-icon-tablecolinsertleft{background-position:0px -816px;width:16px;height:16px}.ke-icon-tablecolinsertright{background-position:0px -832px;width:16px;height:16px}.ke-icon-tablerowinsertabove{background-position:0px -848px;width:16px;height:16px}.ke-icon-tablerowinsertbelow{background-position:0px -864px;width:16px;height:16px}.ke-icon-tablecoldelete{background-position:0px -880px;width:16px;height:16px}.ke-icon-tablerowdelete{background-position:0px -896px;width:16px;height:16px}.ke-icon-tablecellprop{background-position:0px -912px;width:16px;height:16px}.ke-icon-tableprop{background-position:0px -928px;width:16px;height:16px}.ke-icon-checked{background-position:0px -944px;width:16px;height:16px}.ke-icon-code{background-position:0px -960px;width:16px;height:16px}.ke-icon-map,.ke-icon-baidumap{background-position:0px -976px;width:16px;height:16px}.ke-icon-lineheight{background-position:0px -992px;width:16px;height:16px}.ke-icon-clearhtml{background-position:0px -1008px;width:16px;height:16px}.ke-icon-pagebreak{background-position:0px -1024px;width:16px;height:16px}.ke-icon-insertfile{background-position:0px -1040px;width:16px;height:16px}.ke-icon-quickformat{background-position:0px -1056px;width:16px;height:16px}.ke-icon-template{background-position:0px -1072px;width:16px;height:16px}.ke-icon-tablecellsplit{background-position:0px -1088px;width:16px;height:16px}.ke-icon-tablerowmerge{background-position:0px -1104px;width:16px;height:16px}.ke-icon-tablerowsplit{background-position:0px -1120px;width:16px;height:16px}.ke-icon-tablecolmerge{background-position:0px -1136px;width:16px;height:16px}.ke-icon-tablecolsplit{background-position:0px -1152px;width:16px;height:16px}.ke-icon-anchor{background-position:0px -1168px;width:16px;height:16px}.ke-icon-search{background-position:0px -1184px;width:16px;height:16px}.ke-icon-new{background-position:0px -1200px;width:16px;height:16px}.ke-icon-specialchar{background-position:0px -1216px;width:16px;height:16px}.ke-icon-multiimage{background-position:0px -1232px;width:16px;height:16px}.ke-container{display:block;border:1px solid #CCCCCC;background-color:#fff;overflow:hidden;margin:0;padding:0}.ke-toolbar{border-bottom:1px solid #CCC;background-color:#f0f0ee;padding:3px 5px;text-align:left;overflow:hidden;zoom:1;box-sizing:border-box}.ke-toolbar-icon{width:30px;height:30px;text-align:center;line-height:30px;font-size:18px;display:inline-block}.ke-toolbar-icon-url{background:none}.ke-toolbar .ke-outline{border:1px solid #F0F0EE;margin:1px;padding:1px 2px;font-size:0;line-height:0;overflow:hidden;cursor:pointer;display:block;float:left}.ke-toolbar .ke-on{border:1px solid #5690D2}.ke-toolbar .ke-selected{border:1px solid #5690D2;background-color:#e9eff6}.ke-toolbar .ke-disabled{cursor:default}.ke-toolbar .ke-separator{height:24px;margin:5px 3px;border-left:1px solid #b2c9cd;border-right:1px solid #FFFFFF;border-top:0;border-bottom:0;width:0;font-size:0;line-height:0;overflow:hidden;display:block;float:left}.ke-toolbar .ke-hr{overflow:hidden;height:1px;clear:both}.ke-edit{padding:0}.ke-edit-iframe,.ke-edit-textarea{border:0;margin:0;padding:0;overflow:auto}.ke-edit-textarea{font:12px/1.5 Consolas,Monaco,Bitstream Vera Sans Mono,Courier New,Courier,monospace;color:#000;overflow:auto;resize:none}.ke-edit-textarea:focus{outline:none}.ke-statusbar{position:relative;background-color:#94afb41a;border-top:1px solid #c9d8da;font-size:0;line-height:0;overflow:hidden;text-align:center;cursor:s-resize}.ke-statusbar-center-icon{width:25px;height:11px;position:relative}.ke-statusbar-center-icon i{width:100%;height:1px;background:#94afb4;display:block;transform:scaleY(.5);border:none;margin-top:2px}.ke-statusbar-right-icon{position:absolute;right:0;bottom:0;cursor:se-resize;background-position:-5px -741px;width:11px;height:11px}.ke-menu{background-color:#fff;color:#222;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;text-align:left;overflow:hidden;padding:3px 0}.ke-menu-item{border:1px solid transparent;background-color:#fff;color:#222;height:30px;overflow:hidden;cursor:pointer;font-size:13px;margin:3px 0}.ke-menu-item-on{border:1px solid transparent;background-color:#e9eff6}.ke-menu-item-left{width:27px;text-align:center;overflow:hidden}.ke-menu-item-left .icon-ke-font{height:auto;line-height:1}.ke-menu-item-center{width:0;height:24px;border-left:1px solid #E3E3E3;border-right:1px solid #FFFFFF;border-top:0;border-bottom:0}.ke-menu-item-center-on{border-left:1px solid #E9EFF6;border-right:1px solid #E9EFF6}.ke-menu-item-right{border:0;padding:0 0 0 5px;line-height:24px;text-align:left;overflow:hidden}.ke-menu-separator{margin:2px 0;height:0;overflow:hidden;border-top:1px solid #CCCCCC;border-bottom:1px solid #FFFFFF;border-left:0;border-right:0}.ke-colorpicker{background-color:#fff;color:#222;padding:4px}.ke-colorpicker-table{border:0;margin:0;padding:0;border-collapse:separate}.ke-colorpicker-cell{font-size:0;line-height:0;border:1px solid transparent;cursor:pointer;margin:3px;padding:0}.ke-colorpicker-cell-top{font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:14px;line-height:30px;border:1px solid transparent;cursor:pointer;margin:0;padding:0;text-align:center}.ke-colorpicker-cell-on{border:1px solid #5690D2}.ke-colorpicker-cell-selected{border:1px solid #2446AB}.ke-colorpicker-cell-color{width:24px;height:24px;margin:4px;padding:0;border:0}.ke-dialog{position:absolute;margin:0;padding:0}.ke-dialog *{box-sizing:border-box}.ke-dialog .ke-header{width:100%;margin-bottom:10px}.ke-dialog .ke-header .ke-left{float:left}.ke-dialog .ke-header .ke-right{float:right}.ke-dialog .ke-header label{margin-right:0;cursor:pointer;font-weight:400;display:inline;vertical-align:top}.ke-dialog-content{background-color:#fff;width:100%;height:100%;color:#333;border:1px solid #c9d8da}.ke-dialog-shadow{position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;box-shadow:0 0 42px -12px #5555554d;-moz-box-shadow:0px 0px 42px -12px rgb(85,85,85,.3);-webkit-box-shadow:0px 0px 42px -12px rgb(85,85,85,.3);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=\"3\",MakeShadow=\"true\",ShadowOpacity=\"0.3\");background-color:#f0f0ee}.ke-dialog-header{border:0;margin:0;padding:0 10px;background:#f8f8f8;border-bottom:1px solid #c9d8da;height:48px;font:14px/48px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:left;color:#222;cursor:move}.ke-dialog-icon-close{display:block;width:48px;height:48px;line-height:48px;position:absolute;right:0;top:0;cursor:pointer;text-align:center;font-size:22px;color:#5c6e71}.ke-dialog-icon-close:before{font-family:icon-ke-font!important;font-size:inherit;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\"\\e69b\"}.ke-dialog-body{font:12px/30px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:left;overflow:hidden;width:100%}.ke-dialog-body textarea{display:block;overflow:auto;padding:0;resize:none}.ke-dialog-body textarea:focus,.ke-dialog-body input:focus,.ke-dialog-body select:focus{outline:none}.ke-dialog-body label{margin-right:10px;cursor:pointer;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-dialog-body img{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-dialog-body select{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;width:auto;height:30px;padding:#c9d8da;border-color:#c9d8da;color:#636363}.ke-dialog-body .ke-textarea{display:block;width:408px;height:260px;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;border-color:#c9d8da;border-style:solid;border-width:1px}.ke-dialog-body .ke-form{margin:0;padding:0}.ke-dialog-body .ke-multi-image{width:106px}.ke-dialog-loading{position:absolute;top:0;left:1px;z-index:1;text-align:center}@keyframes spinner-loader{0%{-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0)}to{-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.ke-dialog-loading-content{color:#666;font-size:14px;font-weight:700;height:30px;line-height:31px;padding-left:36px;position:relative}.ke-dialog-loading-content:after{content:\"\";-moz-animation:spinner-loader 1.5s infinite linear;-webkit-animation:spinner-loader 1.5s infinite linear;animation:spinner-loader 1.5s infinite linear;-moz-border-radius:.5em;border-radius:20px;-moz-box-shadow:rgba(0,0,51,.3) 1.5em 0 0 0,rgba(0,0,51,.3) 1.1em 1.1em 0 0,rgba(0,0,51,.3) 0 1.5em 0 0,rgba(0,0,51,.3) -1.1em 1.1em 0 0,rgba(0,0,51,.3) -1.5em 0 0 0,rgba(0,0,51,.3) -1.1em -1.1em 0 0,rgba(0,0,51,.3) 0 -1.5em 0 0,rgba(0,0,51,.3) 1.1em -1.1em 0 0;-webkit-box-shadow:rgba(0,0,51,.3) 1.5em 0 0 0,rgba(0,0,51,.3) 1.1em 1.1em 0 0,rgba(0,0,51,.3) 0 1.5em 0 0,rgba(0,0,51,.3) -1.1em 1.1em 0 0,rgba(0,0,51,.3) -1.5em 0 0 0,rgba(0,0,51,.3) -1.1em -1.1em 0 0,rgba(0,0,51,.3) 0 -1.5em 0 0,rgba(0,0,51,.3) 1.1em -1.1em 0 0;box-shadow:#0000334d 1.5em 0,#0000334d 1.1em 1.1em,#0000334d 0 1.5em,#0000334d -1.1em 1.1em,#0000334d -1.5em 0,#0000334d -1.1em -1.1em,#0000334d 0 -1.5em,#0000334d 1.1em -1.1em;display:inline-block;width:6px;height:6px;overflow:hidden;position:absolute;left:12px;top:12px;font-size:6px}.ke-dialog-row{margin-bottom:10px}.ke-dialog-footer{font:12px/30px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:right;padding:10px 20px;background-color:#fff;width:100%}.ke-dialog-footer .ke-button-common.ke-dialog-no:last-child{margin-right:0}.ke-dialog-preview,.ke-dialog-yes{margin:5px}.ke-dialog-no{margin:5px 10px 5px 5px}.ke-dialog-mask{background-color:#fff;filter:alpha(opacity=50);opacity:.5}.ke-button-common{height:30px;line-height:30px;overflow:visible;display:inline-block;vertical-align:top;cursor:pointer;background-color:#2196f3;border-color:#2565c4;box-shadow:0 1px 9pt 1px #0000001f}.ke-button-outer{padding:0;display:inline-block;vertical-align:middle}.ke-button{padding:0 24px 0 20px;margin:0;border:0 none;color:#fff;text-decoration:none}.ke-input-text{background-color:#fff;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;line-height:17px;height:17px;padding:2px 4px;border-color:#c9d8da;border-style:solid;border-width:1px;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-input-number{width:50px}.ke-input-color{border:1px solid #A0A0A0;background-color:#fff;font-size:12px;width:80px;height:30px;text-align:center;line-height:30px;padding-left:5px;overflow:hidden;cursor:pointer;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-upload-button{position:relative}.ke-upload-area{position:relative;overflow:hidden;margin:0;padding:0}.ke-upload-area .ke-upload-file{position:absolute;font-size:18px;top:0;left:-200px;padding:0;margin:0;z-index:811212;border:0 none;opacity:0;filter:alpha(opacity=0);cursor:pointer}.ke-tabs{font:12px/1 PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;border-bottom:1px solid #c9d8da;padding-left:5px;margin-bottom:20px}.ke-tabs-ul{list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}.ke-tabs-li{position:relative;border:1px solid #c9d8da;background-color:#f6f6f6;margin:0 6px -1px 0;padding:0 20px;float:left;line-height:32px;text-align:center;color:#555;cursor:pointer}.ke-tabs-li-selected{background-color:#fff;border-bottom:1px solid #FFF;color:#000;cursor:default}.ke-tabs-li-on{background-color:#fff;color:#000}.ke-progressbar{position:relative;margin:0;padding:0}.ke-progressbar-bar{border:1px solid #6FA5DB;width:80px;height:5px;margin:10px 10px 0;padding:0}.ke-progressbar-bar-inner{width:0;height:5px;background-color:#6fa5db;overflow:hidden;margin:0;padding:0}.ke-progressbar-percent{position:absolute;top:0;left:40%;display:none}.ke-swfupload-top{position:relative;margin-bottom:16px;_width:608px}.ke-swfupload-button{height:30px;line-height:30px}.webuploader-container input[type=file]{opacity:0;cursor:pointer;width:500px;height:100px;margin-left:-200px}.webuploader-element-invisible{opacity:0;position:relative;z-index:3}.webuploader-container{background-color:#2196f3;border-color:#2565c4;box-shadow:0 1px 9pt 1px #0000001f}.webuploader-pick{position:relative;display:inline-block;cursor:pointer;width:100%;height:100%;box-sizing:border-box;border-radius:1px;overflow:visible;zoom:1}.webuploader-pick:after{content:\"\\9009\\62e9\\56fe\\7247\";position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;background-color:#2196f3;border-color:#2565c4;z-index:1;margin:0;padding:0;color:#fff;cursor:pointer;font-size:14px}.ke-swfupload-desc{padding:0 10px;height:23px;line-height:23px;font-size:14px}.ke-swfupload-startupload{position:absolute;top:0;right:0}.ke-swfupload-body{overflow-y:scroll;background-color:#fff;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px;width:auto;height:330px;padding:5px}.ke-swfupload-body .ke-item{width:110px;margin:4px}.ke-swfupload-body .ke-photo{position:relative;background-color:#2196f3;padding:2px}.ke-swfupload-body .ke-delete{display:block;width:20px;height:20px;line-height:20px;text-align:center;position:absolute;right:0;top:0;cursor:pointer;z-index:1;background:rgba(255,255,255,.42);font-size:14px;font-weight:700}.ke-swfupload-body .ke-delete:after{font-family:icon-ke-font!important;font-size:inherit;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\"\\e69b\"}.ke-swfupload-body .ke-status{position:absolute;left:0;bottom:0;width:110px;height:22px;line-height:18px}.ke-swfupload-body .ke-message{width:100%;text-align:center;overflow:hidden;height:22px;background:rgba(0,0,0,.5);color:#fff}.ke-swfupload-body .ke-error{color:red}.ke-swfupload-body .ke-name{width:100px;text-align:center;overflow:hidden;height:16px;line-height:16px}.ke-swfupload-body .ke-on{background-color:#e3eefa}.ke-swfupload .ke-progressbar{position:absolute;margin:0;padding:0;bottom:0;left:0;width:100%;height:100%;background:rgba(0,179,14,.28);text-shadow:1px 1px 4px #000000}.ke-swfupload .ke-progressbar-bar{height:4px;padding:0;width:100%;margin:0;background:#565656;border:none;position:absolute;bottom:0}.ke-swfupload .ke-progressbar-bar-inner{width:0%;height:4px;background-color:#32ce62;overflow:hidden;margin:0;padding:0}.ke-swfupload .ke-progressbar-percent{position:absolute;bottom:3px;left:0;font-weight:700;color:#7f0;display:block;width:100%;text-align:center}.ke-swfupload-body{border:3px dashed #CCC}.ke-swfupload-body:after{content:\"\\53ef\\62d6\\62fd\\6587\\4ef6\\81f3\\6b64\\5904\\4e0a\\4f20\";position:absolute;top:50%;left:0;width:100%;height:30px;font-size:24px;color:#e2e2e2;text-align:center;margin-top:-15px}.ke-swfupload-body.drag-hover{border:3px dashed #000}.ke-swfupload-body .ke-item{position:relative;z-index:1;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}.ke-swfupload .ke-progressbar.error{background:rgba(255,178,178,.5)}.ke-swfupload .ke-progressbar.error .ke-progressbar-bar-inner{background:#ff1010}.ke-swfupload .ke-progressbar.error .ke-progressbar-percent{color:#ff1010}.ke-swfupload{position:relative}.ke-swfupload .upload-error-result{position:absolute;bottom:0;left:0;width:100%;height:30px;box-sizing:border-box;padding:0 50px;background:#ff000096;display:none;text-align:center;line-height:30px;color:#fff;z-index:2}.ke-swfupload .upload-error-result.show{display:block}.ke-status.upload-error{width:100%;height:100%}.ke-status.upload-error .ke-message{width:100%;height:100%;vertical-align:middle;display:flex;justify-content:space-around;align-items:center;z-index:0;background:rgba(132,0,0,.52);color:#fff;padding:0 5px;text-shadow:1px 1px #b50000}.ke-plugin-plainpaste-textarea,.ke-plugin-wordpaste-iframe{display:block;width:408px;height:260px;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px}.ke-plugin-filemanager-header{width:100%;margin-bottom:10px}.ke-plugin-filemanager-header .ke-left{float:left}.ke-plugin-filemanager-header .ke-right{float:right}.ke-plugin-filemanager-body{overflow:scroll;background-color:#fff;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px;width:auto;height:370px;padding:5px}.ke-plugin-filemanager-body .ke-item{width:100px;margin:5px}.ke-plugin-filemanager-body .ke-photo{border:1px solid #DDDDDD;background-color:#fff;padding:10px}.ke-plugin-filemanager-body .ke-name{width:100px;text-align:center;overflow:hidden;height:16px}.ke-plugin-filemanager-body .ke-on{border:1px solid #5690D2;background-color:#e9eff6}.ke-plugin-filemanager-body .ke-table{width:95%;border:0;margin:0;padding:0;border-collapse:separate}.ke-plugin-filemanager-body .ke-table .ke-cell{margin:0;padding:0;border:0}.ke-plugin-filemanager-body .ke-table .ke-name{width:55%;text-align:left}.ke-plugin-filemanager-body .ke-table .ke-size{width:15%;text-align:left}.ke-plugin-filemanager-body .ke-table .ke-datetime{width:30%;text-align:center}.ke-dialog-body .ke-input-text{height:30px;min-height:30px;min-width:80px;line-height:30px}.ke-dialog-body input[type=checkbox]{width:22px;height:22px;vertical-align:middle;margin-left:0}.ke-dialog-body .ke-upload-button.ke-inline-block,.ke-dialog-body .ke-file-viewer.ke-button-outer{margin-left:5px}.ke-container{border:1px solid #c9d8db}.ke-toolbar{border-bottom:1px solid #c9d8da;background-color:#fff}.ke-toolbar .ke-outline{border-color:transparent;padding:0}.ke-toolbar .ke-outline.ke-on{background-color:#eaeff5}.ke-toolbar .ke-toolbar-icon{width:38px}")); document.head.appendChild(elementStyle);} catch(e) {console.error('vite-plugin-css-injected-by-js', e);} })();import { watch as Ni, onMounted as Ii, onDeactivated as Ai, onActivated as Li, openBlock as Ri, createElementBlock as Bi, unref as Fi } from "vue";
+(function(){ try {var elementStyle = document.createElement('style'); elementStyle.appendChild(document.createTextNode("@import\"//at.alicdn.com/t/c/font_1491367_njeebnzeclh.css\";.ke-container *{box-sizing:border-box}.ke-inline-block{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-clearfix{zoom:1}.ke-clearfix:after{content:\".\";display:block;clear:both;font-size:0;height:0;line-height:0;visibility:hidden}.ke-shadow{box-shadow:0 0 30px -6px #999;-moz-box-shadow:0px 0px 30px -6px #999;-webkit-box-shadow:0px 0px 30px -6px #999;filter:progid:DXImageTransform.Microsoft.Shadow(color=\"#A0A0A0\",Direction=135,Strength=3);background-color:#f0f0ee}.ke-menu a,.ke-menu a:hover,.ke-dialog a,.ke-dialog a:hover{color:#337fe5;text-decoration:none}.ke-icon-source{background-position:0px 0px;width:16px;height:16px}.ke-icon-preview{background-position:0px -16px;width:16px;height:16px}.ke-icon-print{background-position:0px -32px;width:16px;height:16px}.ke-icon-undo{background-position:0px -48px;width:16px;height:16px}.ke-icon-redo{background-position:0px -64px;width:16px;height:16px}.ke-icon-cut{background-position:0px -80px;width:16px;height:16px}.ke-icon-copy{background-position:0px -96px;width:16px;height:16px}.ke-icon-paste{background-position:0px -112px;width:16px;height:16px}.ke-icon-selectall{background-position:0px -128px;width:16px;height:16px}.ke-icon-justifyleft{background-position:0px -144px;width:16px;height:16px}.ke-icon-justifycenter{background-position:0px -160px;width:16px;height:16px}.ke-icon-justifyright{background-position:0px -176px;width:16px;height:16px}.ke-icon-justifyfull{background-position:0px -192px;width:16px;height:16px}.ke-icon-insertorderedlist{background-position:0px -208px;width:16px;height:16px}.ke-icon-insertunorderedlist{background-position:0px -224px;width:16px;height:16px}.ke-icon-indent{background-position:0px -240px;width:16px;height:16px}.ke-icon-outdent{background-position:0px -256px;width:16px;height:16px}.ke-icon-subscript{background-position:0px -272px;width:16px;height:16px}.ke-icon-superscript{background-position:0px -288px;width:16px;height:16px}.ke-icon-date{background-position:0px -304px;width:25px;height:16px}.ke-icon-time{background-position:0px -320px;width:25px;height:16px}.ke-icon-formatblock{background-position:0px -336px;width:25px;height:16px}.ke-icon-fontname{background-position:0px -352px;width:21px;height:16px}.ke-icon-fontsize{background-position:0px -368px;width:23px;height:16px}.ke-icon-forecolor{background-position:0px -384px;width:20px;height:16px}.ke-icon-hilitecolor{background-position:0px -400px;width:23px;height:16px}.ke-icon-bold{background-position:0px -416px;width:16px;height:16px}.ke-icon-italic{background-position:0px -432px;width:16px;height:16px}.ke-icon-underline{background-position:0px -448px;width:16px;height:16px}.ke-icon-strikethrough{background-position:0px -464px;width:16px;height:16px}.ke-icon-removeformat{background-position:0px -480px;width:16px;height:16px}.ke-icon-image{background-position:0px -496px;width:16px;height:16px}.ke-icon-flash{background-position:0px -512px;width:16px;height:16px}.ke-icon-media{background-position:0px -528px;width:16px;height:16px}.ke-icon-div{background-position:0px -544px;width:16px;height:16px}.ke-icon-formula{background-position:0px -576px;width:16px;height:16px}.ke-icon-hr{background-position:0px -592px;width:16px;height:16px}.ke-icon-link{background-position:0px -624px;width:16px;height:16px}.ke-icon-unlink{background-position:0px -640px;width:16px;height:16px}.ke-icon-fullscreen{background-position:0px -656px;width:16px;height:16px}.ke-icon-about{background-position:0px -672px;width:16px;height:16px}.ke-icon-plainpaste{background-position:0px -704px;width:16px;height:16px}.ke-icon-wordpaste{background-position:0px -720px;width:16px;height:16px}.ke-icon-table{background-position:0px -784px;width:16px;height:16px}.ke-icon-tablemenu{background-position:0px -768px;width:16px;height:16px}.ke-icon-tableinsert{background-position:0px -784px;width:16px;height:16px}.ke-icon-tabledelete{background-position:0px -800px;width:16px;height:16px}.ke-icon-tablecolinsertleft{background-position:0px -816px;width:16px;height:16px}.ke-icon-tablecolinsertright{background-position:0px -832px;width:16px;height:16px}.ke-icon-tablerowinsertabove{background-position:0px -848px;width:16px;height:16px}.ke-icon-tablerowinsertbelow{background-position:0px -864px;width:16px;height:16px}.ke-icon-tablecoldelete{background-position:0px -880px;width:16px;height:16px}.ke-icon-tablerowdelete{background-position:0px -896px;width:16px;height:16px}.ke-icon-tablecellprop{background-position:0px -912px;width:16px;height:16px}.ke-icon-tableprop{background-position:0px -928px;width:16px;height:16px}.ke-icon-checked{background-position:0px -944px;width:16px;height:16px}.ke-icon-code{background-position:0px -960px;width:16px;height:16px}.ke-icon-map,.ke-icon-baidumap{background-position:0px -976px;width:16px;height:16px}.ke-icon-lineheight{background-position:0px -992px;width:16px;height:16px}.ke-icon-clearhtml{background-position:0px -1008px;width:16px;height:16px}.ke-icon-pagebreak{background-position:0px -1024px;width:16px;height:16px}.ke-icon-insertfile{background-position:0px -1040px;width:16px;height:16px}.ke-icon-quickformat{background-position:0px -1056px;width:16px;height:16px}.ke-icon-template{background-position:0px -1072px;width:16px;height:16px}.ke-icon-tablecellsplit{background-position:0px -1088px;width:16px;height:16px}.ke-icon-tablerowmerge{background-position:0px -1104px;width:16px;height:16px}.ke-icon-tablerowsplit{background-position:0px -1120px;width:16px;height:16px}.ke-icon-tablecolmerge{background-position:0px -1136px;width:16px;height:16px}.ke-icon-tablecolsplit{background-position:0px -1152px;width:16px;height:16px}.ke-icon-anchor{background-position:0px -1168px;width:16px;height:16px}.ke-icon-search{background-position:0px -1184px;width:16px;height:16px}.ke-icon-new{background-position:0px -1200px;width:16px;height:16px}.ke-icon-specialchar{background-position:0px -1216px;width:16px;height:16px}.ke-icon-multiimage{background-position:0px -1232px;width:16px;height:16px}.ke-container{display:block;border:1px solid #CCCCCC;background-color:#fff;overflow:hidden;margin:0;padding:0}.ke-toolbar{border-bottom:1px solid #CCC;background-color:#f0f0ee;padding:3px 5px;text-align:left;overflow:hidden;zoom:1;box-sizing:border-box}.ke-toolbar-icon{width:30px;height:30px;text-align:center;line-height:30px;font-size:18px;display:inline-block}.ke-toolbar-icon-url{background:none}.ke-toolbar .ke-outline{border:1px solid #F0F0EE;margin:1px;padding:1px 2px;font-size:0;line-height:0;overflow:hidden;cursor:pointer;display:block;float:left}.ke-toolbar .ke-on{border:1px solid #5690D2}.ke-toolbar .ke-selected{border:1px solid #5690D2;background-color:#e9eff6}.ke-toolbar .ke-disabled{cursor:default}.ke-toolbar .ke-separator{height:24px;margin:5px 3px;border-left:1px solid #b2c9cd;border-right:1px solid #FFFFFF;border-top:0;border-bottom:0;width:0;font-size:0;line-height:0;overflow:hidden;display:block;float:left}.ke-toolbar .ke-hr{overflow:hidden;height:1px;clear:both}.ke-edit{padding:0}.ke-edit-iframe,.ke-edit-textarea{border:0;margin:0;padding:0;overflow:auto}.ke-edit-textarea{font:12px/1.5 Consolas,Monaco,Bitstream Vera Sans Mono,Courier New,Courier,monospace;color:#000;overflow:auto;resize:none}.ke-edit-textarea:focus{outline:none}.ke-statusbar{position:relative;background-color:#94afb41a;border-top:1px solid #c9d8da;font-size:0;line-height:0;overflow:hidden;text-align:center;cursor:s-resize}.ke-statusbar-center-icon{width:25px;height:11px;position:relative}.ke-statusbar-center-icon i{width:100%;height:1px;background:#94afb4;display:block;transform:scaleY(.5);border:none;margin-top:2px}.ke-statusbar-right-icon{position:absolute;right:0;bottom:0;cursor:se-resize;background-position:-5px -741px;width:11px;height:11px}.ke-menu{background-color:#fff;color:#222;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;text-align:left;overflow:hidden;padding:3px 0}.ke-menu-item{border:1px solid transparent;background-color:#fff;color:#222;height:30px;overflow:hidden;cursor:pointer;font-size:13px;margin:3px 0}.ke-menu-item-on{border:1px solid transparent;background-color:#e9eff6}.ke-menu-item-left{width:27px;text-align:center;overflow:hidden}.ke-menu-item-left .icon-ke-font{height:auto;line-height:1}.ke-menu-item-center{width:0;height:24px;border-left:1px solid #E3E3E3;border-right:1px solid #FFFFFF;border-top:0;border-bottom:0}.ke-menu-item-center-on{border-left:1px solid #E9EFF6;border-right:1px solid #E9EFF6}.ke-menu-item-right{border:0;padding:0 0 0 5px;line-height:24px;text-align:left;overflow:hidden}.ke-menu-separator{margin:2px 0;height:0;overflow:hidden;border-top:1px solid #CCCCCC;border-bottom:1px solid #FFFFFF;border-left:0;border-right:0}.ke-colorpicker{background-color:#fff;color:#222;padding:4px}.ke-colorpicker-table{border:0;margin:0;padding:0;border-collapse:separate}.ke-colorpicker-cell{font-size:0;line-height:0;border:1px solid transparent;cursor:pointer;margin:3px;padding:0}.ke-colorpicker-cell-top{font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:14px;line-height:30px;border:1px solid transparent;cursor:pointer;margin:0;padding:0;text-align:center}.ke-colorpicker-cell-on{border:1px solid #5690D2}.ke-colorpicker-cell-selected{border:1px solid #2446AB}.ke-colorpicker-cell-color{width:24px;height:24px;margin:4px;padding:0;border:0}.ke-dialog{position:absolute;margin:0;padding:0}.ke-dialog *{box-sizing:border-box}.ke-dialog .ke-header{width:100%;margin-bottom:10px}.ke-dialog .ke-header .ke-left{float:left}.ke-dialog .ke-header .ke-right{float:right}.ke-dialog .ke-header label{margin-right:0;cursor:pointer;font-weight:400;display:inline;vertical-align:top}.ke-dialog-content{background-color:#fff;width:100%;height:100%;color:#333;border:1px solid #c9d8da}.ke-dialog-shadow{position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;box-shadow:0 0 42px -12px #5555554d;-moz-box-shadow:0px 0px 42px -12px rgb(85,85,85,.3);-webkit-box-shadow:0px 0px 42px -12px rgb(85,85,85,.3);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=\"3\",MakeShadow=\"true\",ShadowOpacity=\"0.3\");background-color:#f0f0ee}.ke-dialog-header{border:0;margin:0;padding:0 10px;background:#f8f8f8;border-bottom:1px solid #c9d8da;height:48px;font:14px/48px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:left;color:#222;cursor:move}.ke-dialog-icon-close{display:block;width:48px;height:48px;line-height:48px;position:absolute;right:0;top:0;cursor:pointer;text-align:center;font-size:22px;color:#5c6e71}.ke-dialog-icon-close:before{font-family:icon-ke-font!important;font-size:inherit;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\"\\e69b\"}.ke-dialog-body{font:12px/30px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:left;overflow:hidden;width:100%}.ke-dialog-body textarea{display:block;overflow:auto;padding:0;resize:none}.ke-dialog-body textarea:focus,.ke-dialog-body input:focus,.ke-dialog-body select:focus{outline:none}.ke-dialog-body label{margin-right:10px;cursor:pointer;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-dialog-body img{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-dialog-body select{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;width:auto;height:30px;padding:#c9d8da;border-color:#c9d8da;color:#636363}.ke-dialog-body .ke-textarea{display:block;width:408px;height:260px;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;border-color:#c9d8da;border-style:solid;border-width:1px}.ke-dialog-body .ke-form{margin:0;padding:0}.ke-dialog-body .ke-multi-image{width:106px}.ke-dialog-loading{position:absolute;top:0;left:1px;z-index:1;text-align:center}@keyframes spinner-loader{0%{-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0)}to{-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.ke-dialog-loading-content{color:#666;font-size:14px;font-weight:700;height:30px;line-height:31px;padding-left:36px;position:relative}.ke-dialog-loading-content:after{content:\"\";-moz-animation:spinner-loader 1.5s infinite linear;-webkit-animation:spinner-loader 1.5s infinite linear;animation:spinner-loader 1.5s infinite linear;-moz-border-radius:.5em;border-radius:20px;-moz-box-shadow:rgba(0,0,51,.3) 1.5em 0 0 0,rgba(0,0,51,.3) 1.1em 1.1em 0 0,rgba(0,0,51,.3) 0 1.5em 0 0,rgba(0,0,51,.3) -1.1em 1.1em 0 0,rgba(0,0,51,.3) -1.5em 0 0 0,rgba(0,0,51,.3) -1.1em -1.1em 0 0,rgba(0,0,51,.3) 0 -1.5em 0 0,rgba(0,0,51,.3) 1.1em -1.1em 0 0;-webkit-box-shadow:rgba(0,0,51,.3) 1.5em 0 0 0,rgba(0,0,51,.3) 1.1em 1.1em 0 0,rgba(0,0,51,.3) 0 1.5em 0 0,rgba(0,0,51,.3) -1.1em 1.1em 0 0,rgba(0,0,51,.3) -1.5em 0 0 0,rgba(0,0,51,.3) -1.1em -1.1em 0 0,rgba(0,0,51,.3) 0 -1.5em 0 0,rgba(0,0,51,.3) 1.1em -1.1em 0 0;box-shadow:#0000334d 1.5em 0,#0000334d 1.1em 1.1em,#0000334d 0 1.5em,#0000334d -1.1em 1.1em,#0000334d -1.5em 0,#0000334d -1.1em -1.1em,#0000334d 0 -1.5em,#0000334d 1.1em -1.1em;display:inline-block;width:6px;height:6px;overflow:hidden;position:absolute;left:12px;top:12px;font-size:6px}.ke-dialog-row{margin-bottom:10px}.ke-dialog-footer{font:12px/30px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:right;padding:10px 20px;background-color:#fff;width:100%}.ke-dialog-footer .ke-button-common.ke-dialog-no:last-child{margin-right:0}.ke-dialog-preview,.ke-dialog-yes{margin:5px}.ke-dialog-no{margin:5px 10px 5px 5px}.ke-dialog-mask{background-color:#fff;filter:alpha(opacity=50);opacity:.5}.ke-button-common{height:30px;line-height:30px;overflow:visible;display:inline-block;vertical-align:top;cursor:pointer;background-color:#2196f3;border-color:#2565c4;box-shadow:0 1px 9pt 1px #0000001f}.ke-button-outer{padding:0;display:inline-block;vertical-align:middle}.ke-button{padding:0 24px 0 20px;margin:0;border:0 none;color:#fff;text-decoration:none}.ke-input-text{background-color:#fff;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;line-height:17px;height:17px;padding:2px 4px;border-color:#c9d8da;border-style:solid;border-width:1px;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-input-number{width:50px}.ke-input-color{border:1px solid #A0A0A0;background-color:#fff;font-size:12px;width:80px;height:30px;text-align:center;line-height:30px;padding-left:5px;overflow:hidden;cursor:pointer;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-upload-button{position:relative}.ke-upload-area{position:relative;overflow:hidden;margin:0;padding:0}.ke-upload-area .ke-upload-file{position:absolute;font-size:18px;top:0;left:-200px;padding:0;margin:0;z-index:811212;border:0 none;opacity:0;filter:alpha(opacity=0);cursor:pointer}.ke-tabs{font:12px/1 PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;border-bottom:1px solid #c9d8da;padding-left:5px;margin-bottom:20px}.ke-tabs-ul{list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}.ke-tabs-li{position:relative;border:1px solid #c9d8da;background-color:#f6f6f6;margin:0 6px -1px 0;padding:0 20px;float:left;line-height:32px;text-align:center;color:#555;cursor:pointer}.ke-tabs-li-selected{background-color:#fff;border-bottom:1px solid #FFF;color:#000;cursor:default}.ke-tabs-li-on{background-color:#fff;color:#000}.ke-progressbar{position:relative;margin:0;padding:0}.ke-progressbar-bar{border:1px solid #6FA5DB;width:80px;height:5px;margin:10px 10px 0;padding:0}.ke-progressbar-bar-inner{width:0;height:5px;background-color:#6fa5db;overflow:hidden;margin:0;padding:0}.ke-progressbar-percent{position:absolute;top:0;left:40%;display:none}.ke-swfupload-top{position:relative;margin-bottom:16px;_width:608px}.ke-swfupload-button{height:30px;line-height:30px}.webuploader-container input[type=file]{opacity:0;cursor:pointer;width:500px;height:100px;margin-left:-200px}.webuploader-element-invisible{opacity:0;position:relative;z-index:3}.webuploader-container{background-color:#2196f3;border-color:#2565c4;box-shadow:0 1px 9pt 1px #0000001f}.webuploader-pick{position:relative;display:inline-block;cursor:pointer;width:100%;height:100%;box-sizing:border-box;border-radius:1px;overflow:visible;zoom:1}.webuploader-pick:after{content:\"\\9009\\62e9\\56fe\\7247\";position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;background-color:#2196f3;border-color:#2565c4;z-index:1;margin:0;padding:0;color:#fff;cursor:pointer;font-size:14px}.ke-swfupload-desc{padding:0 10px;height:23px;line-height:23px;font-size:14px}.ke-swfupload-startupload{position:absolute;top:0;right:0}.ke-swfupload-body{overflow-y:scroll;background-color:#fff;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px;width:auto;height:330px;padding:5px}.ke-swfupload-body .ke-item{width:110px;margin:4px}.ke-swfupload-body .ke-photo{position:relative;background-color:#2196f3;padding:2px}.ke-swfupload-body .ke-delete{display:block;width:20px;height:20px;line-height:20px;text-align:center;position:absolute;right:0;top:0;cursor:pointer;z-index:1;background:rgba(255,255,255,.42);font-size:14px;font-weight:700}.ke-swfupload-body .ke-delete:after{font-family:icon-ke-font!important;font-size:inherit;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\"\\e69b\"}.ke-swfupload-body .ke-status{position:absolute;left:0;bottom:0;width:110px;height:22px;line-height:18px}.ke-swfupload-body .ke-message{width:100%;text-align:center;overflow:hidden;height:22px;background:rgba(0,0,0,.5);color:#fff}.ke-swfupload-body .ke-error{color:red}.ke-swfupload-body .ke-name{width:100px;text-align:center;overflow:hidden;height:16px;line-height:16px}.ke-swfupload-body .ke-on{background-color:#e3eefa}.ke-swfupload .ke-progressbar{position:absolute;margin:0;padding:0;bottom:0;left:0;width:100%;height:100%;background:rgba(0,179,14,.28);text-shadow:1px 1px 4px #000000}.ke-swfupload .ke-progressbar-bar{height:4px;padding:0;width:100%;margin:0;background:#565656;border:none;position:absolute;bottom:0}.ke-swfupload .ke-progressbar-bar-inner{width:0%;height:4px;background-color:#32ce62;overflow:hidden;margin:0;padding:0}.ke-swfupload .ke-progressbar-percent{position:absolute;bottom:3px;left:0;font-weight:700;color:#7f0;display:block;width:100%;text-align:center}.ke-swfupload-body{border:3px dashed #CCC}.ke-swfupload-body:after{content:\"\\53ef\\62d6\\62fd\\6587\\4ef6\\81f3\\6b64\\5904\\4e0a\\4f20\";position:absolute;top:50%;left:0;width:100%;height:30px;font-size:24px;color:#e2e2e2;text-align:center;margin-top:-15px}.ke-swfupload-body.drag-hover{border:3px dashed #000}.ke-swfupload-body .ke-item{position:relative;z-index:1;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}.ke-swfupload .ke-progressbar.error{background:rgba(255,178,178,.5)}.ke-swfupload .ke-progressbar.error .ke-progressbar-bar-inner{background:#ff1010}.ke-swfupload .ke-progressbar.error .ke-progressbar-percent{color:#ff1010}.ke-swfupload{position:relative}.ke-swfupload .upload-error-result{position:absolute;bottom:0;left:0;width:100%;height:30px;box-sizing:border-box;padding:0 50px;background:#ff000096;display:none;text-align:center;line-height:30px;color:#fff;z-index:2}.ke-swfupload .upload-error-result.show{display:block}.ke-status.upload-error{width:100%;height:100%}.ke-status.upload-error .ke-message{width:100%;height:100%;vertical-align:middle;display:flex;justify-content:space-around;align-items:center;z-index:0;background:rgba(132,0,0,.52);color:#fff;padding:0 5px;text-shadow:1px 1px #b50000}.ke-plugin-plainpaste-textarea,.ke-plugin-wordpaste-iframe{display:block;width:408px;height:260px;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px}.ke-plugin-filemanager-header{width:100%;margin-bottom:10px}.ke-plugin-filemanager-header .ke-left{float:left}.ke-plugin-filemanager-header .ke-right{float:right}.ke-plugin-filemanager-body{overflow:scroll;background-color:#fff;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px;width:auto;height:370px;padding:5px}.ke-plugin-filemanager-body .ke-item{width:100px;margin:5px}.ke-plugin-filemanager-body .ke-photo{border:1px solid #DDDDDD;background-color:#fff;padding:10px}.ke-plugin-filemanager-body .ke-name{width:100px;text-align:center;overflow:hidden;height:16px}.ke-plugin-filemanager-body .ke-on{border:1px solid #5690D2;background-color:#e9eff6}.ke-plugin-filemanager-body .ke-table{width:95%;border:0;margin:0;padding:0;border-collapse:separate}.ke-plugin-filemanager-body .ke-table .ke-cell{margin:0;padding:0;border:0}.ke-plugin-filemanager-body .ke-table .ke-name{width:55%;text-align:left}.ke-plugin-filemanager-body .ke-table .ke-size{width:15%;text-align:left}.ke-plugin-filemanager-body .ke-table .ke-datetime{width:30%;text-align:center}.ke-dialog-body .ke-input-text{height:30px;min-height:30px;min-width:80px;line-height:30px}.ke-dialog-body input[type=checkbox]{width:22px;height:22px;vertical-align:middle;margin-left:0}.ke-dialog-body .ke-upload-button.ke-inline-block,.ke-dialog-body .ke-file-viewer.ke-button-outer{margin-left:5px}.ke-container{border:1px solid #c9d8db}.ke-toolbar{border-bottom:1px solid #c9d8da;background-color:#fff}.ke-toolbar .ke-outline{border-color:transparent;padding:0}.ke-toolbar .ke-outline.ke-on{background-color:#eaeff5}.ke-toolbar .ke-toolbar-icon{width:38px}")); document.head.appendChild(elementStyle);} catch(e) {console.error('vite-plugin-css-injected-by-js', e);} })();import { watch as Ni, onMounted as Ii, onDeactivated as Ai, onActivated as Li, openBlock as Ri, createElementBlock as Bi, unref as Fi } from "vue";
 var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {}, Oi = { exports: {} };
-(function($e, ft) {
-  (function(te, ce) {
-    $e.exports = ce();
+(function(We, ft) {
+  (function(ie, re) {
+    We.exports = re();
   })(Ui, function() {
-    function te(e) {
+    function ie(e) {
       return e ? Object.prototype.toString.call(e) === "[object Array]" : !1;
     }
-    function ce(e) {
+    function re(e) {
       return e ? Object.prototype.toString.call(e) === "[object Function]" : !1;
     }
     function pe(e, t) {
@@ -17,7 +17,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return -1;
     }
     function P(e, t) {
-      if (te(e))
+      if (ie(e))
         for (var n = 0, o = e.length; o > n && t.call(e[n], n, e[n]) !== !1; n++)
           ;
       else
@@ -28,7 +28,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     function ee(e) {
       return e.replace(/(?:^[ \t\n\r]+)|(?:[ \t\n\r]+$)/g, "");
     }
-    function Ve(e, t, n) {
+    function $e(e, t, n) {
       return n = n === void 0 ? "," : n, (n + t + n).indexOf(n + e + n) >= 0;
     }
     function J(e, t) {
@@ -38,13 +38,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var t;
       return e && (t = /(\d+)/.exec(e)) ? parseInt(t[1], 10) : 0;
     }
-    function ae(e) {
+    function se(e) {
       return e.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     }
-    function Ke(e) {
+    function Ve(e) {
       return e.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&amp;/g, "&");
     }
-    function Ge(e) {
+    function Ke(e) {
       var t = e.split("-");
       return e = "", P(t, function(n, o) {
         e += n > 0 ? o.charAt(0).toUpperCase() + o.substr(1) : o;
@@ -59,9 +59,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         return "#" + t(o) + t(r) + t(s);
       });
     }
-    function re(e, t) {
+    function oe(e, t) {
       t = t === void 0 ? "," : t;
-      var n, o = {}, r = te(e) ? e : e.split(t);
+      var n, o = {}, r = ie(e) ? e : e.split(t);
       return P(r, function(s, c) {
         if (n = /^(\d+)\.\.(\d+)$/.exec(c))
           for (var a = parseInt(n[1], 10); a <= parseInt(n[2], 10); a++)
@@ -139,36 +139,36 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           Oe(e, this, n);
         });
       var o = Et(e);
-      o || (o = Kn(e)), oe[o] === void 0 && (oe[o] = {});
-      var r = oe[o][t];
-      r && r.length > 0 ? ht(e, t, r[0]) : (oe[o][t] = [], oe[o].el = e), r = oe[o][t], r.length === 0 && (r[0] = function(s) {
+      o || (o = Kn(e)), le[o] === void 0 && (le[o] = {});
+      var r = le[o][t];
+      r && r.length > 0 ? ht(e, t, r[0]) : (le[o][t] = [], le[o].el = e), r = le[o][t], r.length === 0 && (r[0] = function(s) {
         var c = s ? new Xt(e, s) : void 0;
         P(r, function(a, i) {
           a > 0 && i && i.call(e, c);
         });
       }), pe(n, r) < 0 && r.push(n), Vn(e, t, r[0]);
     }
-    function Qe(e, t, n) {
+    function Ge(e, t, n) {
       if (t && t.indexOf(",") >= 0)
         return void P(t.split(","), function() {
-          Qe(e, this, n);
+          Ge(e, this, n);
         });
       var o = Et(e);
       if (o) {
         if (t === void 0)
-          return void (o in oe && (P(oe[o], function(c, a) {
+          return void (o in le && (P(le[o], function(c, a) {
             c != "el" && a.length > 0 && ht(e, c, a[0]);
-          }), delete oe[o], Jt(e)));
-        if (oe[o]) {
-          var r = oe[o][t];
+          }), delete le[o], Jt(e)));
+        if (le[o]) {
+          var r = le[o][t];
           if (r && r.length > 0) {
-            n === void 0 ? (ht(e, t, r[0]), delete oe[o][t]) : (P(r, function(c, a) {
+            n === void 0 ? (ht(e, t, r[0]), delete le[o][t]) : (P(r, function(c, a) {
               c > 0 && a === n && r.splice(c, 1);
-            }), r.length == 1 && (ht(e, t, r[0]), delete oe[o][t]));
+            }), r.length == 1 && (ht(e, t, r[0]), delete le[o][t]));
             var s = 0;
-            P(oe[o], function() {
+            P(le[o], function() {
               s++;
-            }), 2 > s && (delete oe[o], Jt(e));
+            }), 2 > s && (delete le[o], Jt(e));
           }
         }
       }
@@ -180,8 +180,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         });
       var n = Et(e);
       if (n) {
-        var o = oe[n][t];
-        oe[n] && o && o.length > 0 && o[0]();
+        var o = le[n][t];
+        le[n] && o && o.length > 0 && o[0]();
       }
     }
     function Dt(e, t, n) {
@@ -248,7 +248,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         t += n + ":" + o + ";";
       }), t;
     }
-    function Ye(e, t, n, o) {
+    function Qe(e, t, n, o) {
       function r(i) {
         for (var d = i.split("/"), u = [], l = 0, f = d.length; f > l; l++) {
           var p = d[l];
@@ -291,7 +291,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var c = {};
       t && (P(t, function(d, u) {
         for (var l = d.split(","), f = 0, p = l.length; p > f; f++)
-          c[l[f]] = re(u);
+          c[l[f]] = oe(u);
       }), c.script || (e = e.replace(/(<(?:script|script\s[^>]*)>)([\s\S]*?)(<\/script>)/gi, "")), c.style || (e = e.replace(/(<(?:style|style\s[^>]*)>)([\s\S]*?)(<\/style>)/gi, "")));
       var a = /(\s*)<(\/)?([\w\-:]+)((?:\s+|(?:\s+[\w\-:]+)|(?:\s+[\w\-:]+=[^\s"'<>]+)|(?:\s+[\w\-:"]+="[^"]*")|(?:\s+[\w\-:"]+='[^']*'))*)(\/)?>(\s*)/g, i = [];
       return e = e.replace(a, function(d, u, l, f, p, m, g) {
@@ -322,7 +322,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             }), E.style = w;
           }
           P(E, function(x, _) {
-            if (xi[x] && (E[x] = x), pe(x, ["src", "href"]) >= 0 && (E[x] = Ye(_, n)), (t && x !== "style" && !c[D]["*"] && !c[D][x] || D === "body" && x === "contenteditable" || /^kindeditor_\d+$/.test(x)) && delete E[x], x === "style" && _ !== "") {
+            if (xi[x] && (E[x] = x), pe(x, ["src", "href"]) >= 0 && (E[x] = Qe(_, n)), (t && x !== "style" && !c[D]["*"] && !c[D][x] || D === "body" && x === "contenteditable" || /^kindeditor_\d+$/.test(x)) && delete E[x], x === "style" && _ !== "") {
               var M = Pe(_);
               P(M, function(I, O) {
                 !t || c[D].style || c[D]["." + I] || delete M[I];
@@ -394,7 +394,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       else {
         var o = e.ownerDocument.createElement("div");
         o.appendChild(e.cloneNode(!1));
-        var r = ke(Ke(o.innerHTML));
+        var r = ke(Ve(o.innerHTML));
         t in r && (n = r[t]);
       }
       return t === "style" && n !== null && (n = Yn(n)), n;
@@ -453,7 +453,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           var O = M[1].toLowerCase(), U = M[2];
           F = O === "id" ? s(U, I, _) : O === "class" ? c(U, I, _) : O === "name" ? a(U, I, _) : i(O, U, I, _);
         } else
-          for (var W, z = _.getElementsByTagName(I), V = 0, ne = z.length; ne > V; V++)
+          for (var W, z = _.getElementsByTagName(I), V = 0, te = z.length; te > V; V++)
             W = z[V], W.nodeType == 1 && F.push(W);
         return F;
       }
@@ -519,19 +519,19 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }
     }
     function Nt(e, t) {
-      return Ve(t, e.className, " ");
+      return $e(t, e.className, " ");
     }
     function It(e, t, n) {
-      Z && 8 > se && t.toLowerCase() == "class" && (t = "className"), e.setAttribute(t, "" + n);
+      Z && 8 > ce && t.toLowerCase() == "class" && (t = "className"), e.setAttribute(t, "" + n);
     }
     function ti(e, t) {
-      Z && 8 > se && t.toLowerCase() == "class" && (t = "className"), It(e, t, ""), e.removeAttribute(t);
+      Z && 8 > ce && t.toLowerCase() == "class" && (t = "className"), It(e, t, ""), e.removeAttribute(t);
     }
     function ln(e) {
       return e && e.nodeName ? e.nodeName.toLowerCase() : "";
     }
     function ni(e, t) {
-      var n = Le(e), o = Ge(t), r = "";
+      var n = Le(e), o = Ke(t), r = "";
       if (n.getComputedStyle) {
         var s = n.getComputedStyle(e, null);
         r = s[o] || s.getPropertyValue(t) || e.style[o];
@@ -583,7 +583,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       function s(D, A) {
         for (var N, B = D.firstChild; B; ) {
           var j = new we(c).selectNode(B);
-          if (d = j.compareBoundaryPoints(at, e), d >= 0 && 0 >= u && (u = j.compareBoundaryPoints(lt, e)), u >= 0 && 0 >= l && (l = j.compareBoundaryPoints(He, e)), l >= 0 && 0 >= f && (f = j.compareBoundaryPoints(st, e)), f >= 0)
+          if (d = j.compareBoundaryPoints(lt, e), d >= 0 && 0 >= u && (u = j.compareBoundaryPoints(ot, e)), u >= 0 && 0 >= l && (l = j.compareBoundaryPoints(He, e)), l >= 0 && 0 >= f && (f = j.compareBoundaryPoints(at, e)), f >= 0)
             return !1;
           if (N = B.nextSibling, d > 0) {
             if (B.nodeType == 1)
@@ -618,7 +618,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }
       return t ? m : e;
     }
-    function Ze(e, t) {
+    function Ye(e, t) {
       for (var n = t; n; ) {
         var o = v(n);
         if (o.name == "marquee" || o.name == "select")
@@ -637,14 +637,14 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       if (s.length === 0)
         return { node: r.parentNode, offset: v(r).index() };
       var c = n, a = 0, i = -1, d = e.duplicate();
-      Ze(d, r);
+      Ye(d, r);
       for (var u = 0, l = s.length; l > u; u++) {
         var f = s[u];
         if (i = d.compareEndPoints("StartToStart", o), i === 0)
           return { node: f.parentNode, offset: u };
         if (f.nodeType == 1) {
           var p, m = e.duplicate(), g = v(f), y = f;
-          g.isControl() && (p = n.createElement("span"), g.after(p), y = p, a += g.text().replace(/\r\n|\n|\r/g, "").length), Ze(m, y), d.setEndPoint("StartToEnd", m), i > 0 ? a += m.text.replace(/\r\n|\n|\r/g, "").length : a = 0, p && v(p).remove();
+          g.isControl() && (p = n.createElement("span"), g.after(p), y = p, a += g.text().replace(/\r\n|\n|\r/g, "").length), Ye(m, y), d.setEndPoint("StartToEnd", m), i > 0 ? a += m.text.replace(/\r\n|\n|\r/g, "").length : a = 0, p && v(p).remove();
         } else
           f.nodeType == 3 && (d.moveStart("character", f.nodeValue.length), a += f.nodeValue.length);
         0 > i && (c = f);
@@ -654,7 +654,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       if (i > 0)
         for (; c.nextSibling && c.nodeType == 1; )
           c = c.nextSibling;
-      if (d = e.duplicate(), Ze(d, r), d.setEndPoint("StartToEnd", o), a -= d.text.replace(/\r\n|\n|\r/g, "").length, i > 0 && c.nodeType == 3)
+      if (d = e.duplicate(), Ye(d, r), d.setEndPoint("StartToEnd", o), a -= d.text.replace(/\r\n|\n|\r/g, "").length, i > 0 && c.nodeType == 3)
         for (var b = c.previousSibling; b && b.nodeType == 3; )
           a -= b.nodeValue.length, b = b.previousSibling;
       return { node: c, offset: a };
@@ -671,12 +671,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           return t === 1 && (r = !0), t === 2 && (r = !1), o.collapse(r), o;
         if (s.nodeType == 1) {
           var a, i = v(s);
-          return i.isControl() && (a = n.createElement("span"), r ? i.before(a) : i.after(a), s = a), Ze(o, s), o.collapse(r), a && v(a).remove(), o;
+          return i.isControl() && (a = n.createElement("span"), r ? i.before(a) : i.after(a), s = a), Ye(o, s), o.collapse(r), a && v(a).remove(), o;
         }
         e = s, t = r ? 0 : s.nodeValue.length;
       }
       var d = n.createElement("span");
-      return v(e).before(d), Ze(o, d), o.moveStart("character", t), v(d).remove(), o;
+      return v(e).before(d), Ye(o, d), o.moveStart("character", t), v(d).remove(), o;
     }
     function dn(e) {
       function t(a) {
@@ -768,7 +768,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
               break;
             }
             var d = /^(\.?)([^=]+)(?:=([^=]*))?$/.exec(i);
-            i = d[2], d[1] ? (i = Ge(i), e[0].style[i] && (e[0].style[i] = "")) : e.removeAttr(i);
+            i = d[2], d[1] ? (i = Ke(i), e[0].style[i] && (e[0].style[i] = "")) : e.removeAttr(i);
           }
           s && e.remove(!0);
         }
@@ -816,7 +816,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }
       return !1;
     }
-    function Xe(e) {
+    function Ze(e) {
       this.init(e);
     }
     function gn(e) {
@@ -824,12 +824,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         var t = Ae(e);
         e = Lt(t).selectNodeContents(t.body).collapse(!1);
       }
-      return new Xe(e);
+      return new Ze(e);
     }
     function Ot(e) {
       var t = e.moveEl, n = e.moveFn, o = e.clickEl || t, r = e.beforeDrag, s = e.iframeFix === void 0 ? !0 : e.iframeFix, c = [document];
       s && v("iframe").each(function() {
-        var a = Ye(this.src || "", "absolute");
+        var a = Qe(this.src || "", "absolute");
         if (!/^https?:\/\//.test(a)) {
           var i;
           try {
@@ -871,12 +871,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }
     function si(e, t, n, o) {
       var r = [Gt === "" ? "<html>" : '<html dir="' + Gt + '">', '<head><meta charset="utf-8" /><title></title>', "<style>", "html,body {margin:0;padding:0;}", 'body, td {font:12px/1.5 "PingFang","Microsoft Yahei","\u82F9\u65B9","\u5FAE\u8F6F\u96C5\u9ED1", "sans serif",tahoma,verdana,helvetica;}', "body, p, div {word-wrap: break-word;line-height:28px;}", "table {border-collapse:collapse;}", "noscript {display:none;}", "table.ke-zeroborder td {border:1px dotted #AAA;}", ".ke-content {padding: 15px;}", 'img[data-ke-class="ke-image"] { max-width: 100%;border: 2px solid transparent; }', 'img[data-ke-class="ke-image"]:hover { border-color: #4696ec; }', "audio,video{ border:3px solid transparent; }", "audio:hover, video:hover{ border:3px solid #2196f3; }", "pre{ font-size: 14px;line-height: 20px;width: 100%;background-color: antiquewhite;padding: 6px 18px;box-sizing: border-box; }", ".ke-script, .ke-noscript, .ke-display-none {", "	display:none;", "	font-size:0;", "	width:0;", "	height:0;", "}", ".ke-pagebreak {", "	border:1px dotted #AAA;", "	font-size:0;", "	height:2px;", "}", "</style>"];
-      return te(n) || (n = [n]), P(n, function(s, c) {
+      return ie(n) || (n = [n]), P(n, function(s, c) {
         c && r.push('<link href="' + c + '" rel="stylesheet" />');
       }), o && r.push("<style>" + o + "</style>"), r.push("</head><body " + (t ? 'class="' + t + '"' : "") + ' author="MHalo"></body></html>'), r.join(`
 `);
     }
-    function Je(e, t) {
+    function Xe(e, t) {
       if (e.hasVal()) {
         if (t === void 0) {
           var n = e.val();
@@ -886,11 +886,11 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }
       return e.html(t);
     }
-    function et(e) {
+    function Je(e) {
       this.init(e);
     }
     function vn(e) {
-      return new et(e);
+      return new Je(e);
     }
     function yn(e, t) {
       var n = this, o = n.get(e);
@@ -906,17 +906,17 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     function kn(e) {
       return new yt(e);
     }
-    function tt(e) {
+    function et(e) {
       this.init(e);
     }
     function zt(e) {
-      return new tt(e);
+      return new et(e);
     }
-    function nt(e) {
+    function tt(e) {
       this.init(e);
     }
     function bn(e) {
-      return new nt(e);
+      return new tt(e);
     }
     function Ht(e) {
       this.init(e);
@@ -929,11 +929,11 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var t = e.name || "", n = v('<span class="ke-button-common ke-button-outer" title="' + t + '"></span>'), o = v('<input class="ke-button-common ke-button" type="button" value="' + t + '" />');
       return e.click && o.click(e.click), n.append(o), n;
     }
-    function it(e) {
+    function nt(e) {
       this.init(e);
     }
     function wn(e) {
-      return new it(e);
+      return new nt(e);
     }
     function di(e) {
       var t = Pt(e), n = t.remove, o = e.afterSelect, r = t.div, s = [];
@@ -971,8 +971,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return t > 0 ? e.substr(0, t) : e;
     }
     function Wt(e) {
-      for (var t = document.getElementsByTagName("head")[0] || (Ee ? document.body : document.documentElement), n = document.createElement("link"), o = xn(Ye(e, "absolute")), r = v('link[rel="stylesheet"]', t), s = 0, c = r.length; c > s; s++)
-        if (xn(Ye(r[s].href, "absolute")) === o)
+      for (var t = document.getElementsByTagName("head")[0] || (Ee ? document.body : document.documentElement), n = document.createElement("link"), o = xn(Qe(e, "absolute")), r = v('link[rel="stylesheet"]', t), s = 0, c = r.length; c > s; s++)
+        if (xn(Qe(r[s].href, "absolute")) === o)
           return;
       t.appendChild(n), n.href = e, n.rel = "stylesheet";
     }
@@ -1065,14 +1065,14 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         return a;
       }
       var t = this, n = t.edit.doc, o = t.newlineTag;
-      if (!(Z && o !== "br" || Re && 3 > se && o !== "p" || $t && 9 > se)) {
-        var r = re("h1,h2,h3,h4,h5,h6,pre,li"), s = re("p,h1,h2,h3,h4,h5,h6,pre,li,blockquote");
+      if (!(Z && o !== "br" || Re && 3 > ce && o !== "p" || $t && 9 > ce)) {
+        var r = oe("h1,h2,h3,h4,h5,h6,pre,li"), s = oe("p,h1,h2,h3,h4,h5,h6,pre,li,blockquote");
         v(n).keydown(function(c) {
           if (!(c.which != 13 || c.shiftKey || c.ctrlKey || c.altKey)) {
             t.cmd.selection();
             var a = e(t.cmd.range), i = (v(a).prev(), v(a).parent(), a.name);
             if (i != "marquee" && i != "select")
-              return o !== "br" || r[i] ? void (s[i] || _e(n, "formatblock", "<p>")) : (c.preventDefault(), void t.insertHtml("<br />" + (Z && 9 > se ? "" : "\u200B")));
+              return o !== "br" || r[i] ? void (s[i] || _e(n, "formatblock", "<p>")) : (c.preventDefault(), void t.insertHtml("<br />" + (Z && 9 > ce ? "" : "\u200B")));
           }
         }), v(n).keyup(function(c) {
           if (!(c.which != 13 || c.shiftKey || c.ctrlKey || c.altKey) && o != "br") {
@@ -1131,9 +1131,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var a = e.pop();
       return Se(o.html) === Se(a.html) && e.length > 0 && (a = e.pop()), s.designMode ? (s.html(a.html), a.start && (n.moveToBookmark(a), r.select())) : v(c).html(Se(a.html)), r;
     }
-    function rt(e) {
+    function it(e) {
       function t(r, s) {
-        rt.prototype[r] === void 0 && (n[r] = s), n.options[r] = s;
+        it.prototype[r] === void 0 && (n[r] = s), n.options[r] = s;
       }
       var n = this;
       n.options = {}, P(e, function(r, s) {
@@ -1142,15 +1142,15 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         n[r] === void 0 && t(r, s);
       });
       var o = v(n.srcElement || "<textarea/>");
-      n.width || (n.width = o[0].style.width || o.width()), n.height || (n.height = o[0].style.height || o.height()), t("width", $(n.width, n.minWidth)), t("height", $(n.height, n.minHeight)), t("width", J(n.width)), t("height", J(n.height)), ki && (!bi || 534 > se) && (n.designMode = !1), n.srcElement = o, n.initContent = "", n.plugin = {}, n.isCreated = !1, n._handlers = {}, n._contextmenus = [], n._undoStack = [], n._redoStack = [], n._firstAddBookmark = !0, n.menu = n.contextmenu = null, n.dialogs = [];
+      n.width || (n.width = o[0].style.width || o.width()), n.height || (n.height = o[0].style.height || o.height()), t("width", $(n.width, n.minWidth)), t("height", $(n.height, n.minHeight)), t("width", J(n.width)), t("height", J(n.height)), ki && (!bi || 534 > ce) && (n.designMode = !1), n.srcElement = o, n.initContent = "", n.plugin = {}, n.isCreated = !1, n._handlers = {}, n._contextmenus = [], n._undoStack = [], n._redoStack = [], n._firstAddBookmark = !0, n.menu = n.contextmenu = null, n.dialogs = [];
     }
     function vi(e) {
-      return new rt(e);
+      return new it(e);
     }
     function Dn(e, t) {
       function n(c) {
         return P(xe, function(a, i) {
-          ce(i) && (i.call(c, KindEditor), c._pluginStatus || (c._pluginStatus = {}), c._pluginStatus[a] = "inited");
+          re(i) && (i.call(c, KindEditor), c._pluginStatus || (c._pluginStatus = {}), c._pluginStatus[a] = "inited");
         }), c.create();
       }
       if (t = t || {}, t.basePath = $(t.basePath, v.basePath), t.themesPath = $(t.themesPath, t.basePath + "themes/"), t.langPath = $(t.langPath, t.basePath + "lang/"), t.pluginsPath = $(t.pluginsPath, t.basePath + "plugins/"), $(t.loadStyleMode, v.options.loadStyleMode)) {
@@ -1162,17 +1162,17 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         if (r.length > 1)
           return r.each(function() {
             Dn(this, t);
-          }), ct[0];
+          }), st[0];
         t.srcElement = r[0];
-        var s = new rt(t);
-        return ct.push(s), Ce[s.langType] ? n(s) : (qt(s.langPath + s.langType + ".js?ver=" + encodeURIComponent(v.DEBUG ? xt : wt), function() {
+        var s = new it(t);
+        return st.push(s), Ce[s.langType] ? n(s) : (qt(s.langPath + s.langType + ".js?ver=" + encodeURIComponent(v.DEBUG ? xt : wt), function() {
           n(s);
         }), s);
       }
     }
-    function ot(e, t) {
+    function rt(e, t) {
       v(e).each(function(n, o) {
-        v.each(ct, function(r, s) {
+        v.each(st, function(r, s) {
           return s && s.srcElement[0] == o ? (t.call(s, r), !1) : void 0;
         });
       });
@@ -1266,7 +1266,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           for (var T = 0, L = h.childNodes.length; L > T; T++)
             j(h.childNodes[T], k);
         }
-        var R, E, S, w, x, _, M = [], F = M.concat, I = M.filter, O = M.slice, U = e.document, W = {}, z = {}, V = { "column-count": 1, columns: 1, "font-weight": 1, "line-height": 1, opacity: 1, "z-index": 1, zoom: 1 }, ne = /^\s*<(\w+|!)[^>]*>/, K = /^<(\w+)\s*\/?>(?:<\/\1>|)$/, le = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi, Y = /^(?:body|html)$/i, Q = /([A-Z])/g, ie = ["val", "css", "html", "text", "data", "width", "height", "offset"], Fe = ["after", "prepend", "before", "append"], Me = U.createElement("table"), ut = U.createElement("tr"), jn = { tr: U.createElement("tbody"), tbody: Me, thead: Me, tfoot: Me, td: ut, th: ut, "*": U.createElement("div") }, Di = /^[\w-]*$/, Qt = {}, Mi = Qt.toString, G = {}, zn = U.createElement("div"), Yt = { tabindex: "tabIndex", readonly: "readOnly", for: "htmlFor", class: "className", maxlength: "maxLength", cellspacing: "cellSpacing", cellpadding: "cellPadding", rowspan: "rowSpan", colspan: "colSpan", usemap: "useMap", frameborder: "frameBorder", contenteditable: "contentEditable" }, qe = Array.isArray || function(h) {
+        var R, E, S, w, x, _, M = [], F = M.concat, I = M.filter, O = M.slice, U = e.document, W = {}, z = {}, V = { "column-count": 1, columns: 1, "font-weight": 1, "line-height": 1, opacity: 1, "z-index": 1, zoom: 1 }, te = /^\s*<(\w+|!)[^>]*>/, K = /^<(\w+)\s*\/?>(?:<\/\1>|)$/, ae = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi, Y = /^(?:body|html)$/i, Q = /([A-Z])/g, ne = ["val", "css", "html", "text", "data", "width", "height", "offset"], Fe = ["after", "prepend", "before", "append"], Me = U.createElement("table"), ct = U.createElement("tr"), jn = { tr: U.createElement("tbody"), tbody: Me, thead: Me, tfoot: Me, td: ct, th: ct, "*": U.createElement("div") }, Di = /^[\w-]*$/, Qt = {}, Mi = Qt.toString, G = {}, zn = U.createElement("div"), Yt = { tabindex: "tabIndex", readonly: "readOnly", for: "htmlFor", class: "className", maxlength: "maxLength", cellspacing: "cellSpacing", cellpadding: "cellPadding", rowspan: "rowSpan", colspan: "colSpan", usemap: "useMap", frameborder: "frameBorder", contenteditable: "contentEditable" }, qe = Array.isArray || function(h) {
           return h instanceof Array;
         };
         return G.matches = function(h, k) {
@@ -1287,10 +1287,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           });
         }, G.fragment = function(h, k, T) {
           var L, q, H;
-          return K.test(h) && (L = S(U.createElement(RegExp.$1))), L || (h.replace && (h = h.replace(le, "<$1></$2>")), k === R && (k = ne.test(h) && RegExp.$1), k in jn || (k = "*"), H = jn[k], H.innerHTML = "" + h, L = S.each(O.call(H.childNodes), function() {
+          return K.test(h) && (L = S(U.createElement(RegExp.$1))), L || (h.replace && (h = h.replace(ae, "<$1></$2>")), k === R && (k = te.test(h) && RegExp.$1), k in jn || (k = "*"), H = jn[k], H.innerHTML = "" + h, L = S.each(O.call(H.childNodes), function() {
             H.removeChild(this);
           })), a(T) && (q = S(L), S.each(T, function(me, fe) {
-            ie.indexOf(me) > -1 ? q[me](fe) : q.attr(me, fe);
+            ne.indexOf(me) > -1 ? q[me](fe) : q.attr(me, fe);
           })), L;
         }, G.Z = function(h, k) {
           return new y(h, k);
@@ -1301,7 +1301,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           if (!h)
             return G.Z();
           if (typeof h == "string")
-            if (h = h.trim(), h[0] == "<" && ne.test(h))
+            if (h = h.trim(), h[0] == "<" && te.test(h))
               T = G.fragment(h, RegExp.$1, k), h = null;
             else {
               if (k !== R)
@@ -1317,7 +1317,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
               T = d(h);
             else if (c(h))
               T = [h], h = null;
-            else if (ne.test(h))
+            else if (te.test(h))
               T = G.fragment(h.trim(), RegExp.$1, k), h = null;
             else {
               if (k !== R)
@@ -1713,12 +1713,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             return H.length < 1 ? this : this.each(function(fe, ue) {
               q = T ? ue : ue.parentNode, ue = k == 0 ? ue.nextSibling : k == 1 ? ue.firstChild : k == 2 ? ue : null;
               var Ue = S.contains(U.documentElement, q);
-              H.forEach(function(dt) {
+              H.forEach(function(ut) {
                 if (me)
-                  dt = dt.cloneNode(!0);
+                  ut = ut.cloneNode(!0);
                 else if (!q)
-                  return S(dt).remove();
-                q.insertBefore(dt, ue), Ue && j(dt, function(Ne) {
+                  return S(ut).remove();
+                q.insertBefore(ut, ue), Ue && j(ut, function(Ne) {
                   if (!(Ne.nodeName == null || Ne.nodeName.toUpperCase() !== "SCRIPT" || Ne.type && Ne.type !== "text/javascript" || Ne.src)) {
                     var Hn = Ne.ownerDocument ? Ne.ownerDocument.defaultView : e;
                     Hn.eval.call(Hn, Ne.innerHTML);
@@ -1762,15 +1762,15 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
               return n(document).ready(_);
             var V = s(z);
             V.fn = _, V.sel = F, V.e in B && (_ = function(K) {
-              var le = K.relatedTarget;
-              return !le || le !== this && !n.contains(this, le) ? V.fn.apply(this, arguments) : void 0;
+              var ae = K.relatedTarget;
+              return !ae || ae !== this && !n.contains(this, ae) ? V.fn.apply(this, arguments) : void 0;
             }), V.del = I;
-            var ne = I || _;
+            var te = I || _;
             V.proxy = function(K) {
               if (K = l(K), !K.isImmediatePropagationStopped()) {
                 K.data = M;
-                var le = ne.apply(w, K._args == p ? [K] : [K].concat(K._args));
-                return le === !1 && (K.preventDefault(), K.stopPropagation()), le;
+                var ae = te.apply(w, K._args == p ? [K] : [K].concat(K._args));
+                return ae === !1 && (K.preventDefault(), K.stopPropagation()), ae;
               }
             }, V.i = W.length, W.push(V), "addEventListener" in w && w.addEventListener(i(V.e), V.proxy, a(V, O));
           });
@@ -1847,8 +1847,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             F && (I = function(V) {
               return u(z, V.type, M), M.apply(this, arguments);
             }), x && (O = function(V) {
-              var ne, K = n(V.target).closest(x, z).get(0);
-              return K && K !== z ? (ne = n.extend(f(V), { currentTarget: K, liveFired: z }), (I || M).apply(K, [ne].concat(g.call(arguments, 1)))) : void 0;
+              var te, K = n(V.target).closest(x, z).get(0);
+              return K && K !== z ? (te = n.extend(f(V), { currentTarget: K, liveFired: z }), (I || M).apply(K, [te].concat(g.call(arguments, 1)))) : void 0;
             }), d(z, w, M, _, x, O || I);
           }));
         }, n.fn.off = function(w, x, _) {
@@ -3320,9 +3320,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), n("webuploader");
     }), window.console || (window.console = {}), console.log || (console.log = function() {
     });
-    var wt = "4.3.9 (2022-11-03)", ve = navigator.userAgent.toLowerCase(), Z = ve.indexOf("msie") > -1 && ve.indexOf("opera") == -1, yi = ve.indexOf("msie") == -1 && ve.indexOf("trident") > -1, Re = ve.indexOf("gecko") > -1 && ve.indexOf("khtml") == -1, Be = ve.indexOf("applewebkit") > -1, $t = ve.indexOf("opera") > -1, ki = ve.indexOf("mobile") > -1, bi = /ipad|iphone|ipod/.test(ve), Ee = document.compatMode != "CSS1Compat", ye = !window.getSelection, Mn = /(?:msie|firefox|webkit|opera)[\/:\s](\d+)/.exec(ve), se = Mn ? Mn[1] : "0", xt = new Date().getTime(), De = Math.round, v = { DEBUG: !1, VERSION: wt, IE: Z, GECKO: Re, WEBKIT: Be, OPERA: $t, V: se, TIME: xt, each: P, isArray: te, isFunction: ce, inArray: pe, inString: Ve, trim: ee, addUnit: J, removeUnit: X, escape: ae, unescape: Ke, toCamel: Ge, toHex: pt, toMap: re, toArray: St, undef: $, invalidUrl: qn, addParam: Wn, extend: he, json: Zt }, Nn = re("a,abbr,acronym,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,img,input,ins,kbd,label,map,q,s,samp,select,small,span,strike,strong,sub,sup,textarea,tt,u,var"), In = re("address,applet,blockquote,body,center,dd,dir,div,dl,dt,fieldset,form,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,iframe,ins,isindex,li,map,menu,meta,noframes,noscript,object,ol,p,pre,script,style,table,tbody,td,tfoot,th,thead,title,tr,ul,audio,video"), An = re("area,base,basefont,br,col,frame,hr,img,input,isindex,link,meta,param,embed"), Ln = re("b,basefont,big,del,em,font,i,s,small,span,strike,strong,sub,sup,u"), wi = re("img,table,input,textarea,button,audio,video"), Vt = re("pre,style,script"), Ct = re("html,head,body,td,tr,table,ol,ul,li"), xi = (re("colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr"), re("checked,compact,declare,defer,disabled,ismap,multiple,nohref,noresize,noshade,nowrap,readonly,selected")), Ci = re("input,button,textarea,select");
+    var wt = "4.4.0 (2022-11-03)", ve = navigator.userAgent.toLowerCase(), Z = ve.indexOf("msie") > -1 && ve.indexOf("opera") == -1, yi = ve.indexOf("msie") == -1 && ve.indexOf("trident") > -1, Re = ve.indexOf("gecko") > -1 && ve.indexOf("khtml") == -1, Be = ve.indexOf("applewebkit") > -1, $t = ve.indexOf("opera") > -1, ki = ve.indexOf("mobile") > -1, bi = /ipad|iphone|ipod/.test(ve), Ee = document.compatMode != "CSS1Compat", ye = !window.getSelection, Mn = /(?:msie|firefox|webkit|opera)[\/:\s](\d+)/.exec(ve), ce = Mn ? Mn[1] : "0", xt = new Date().getTime(), De = Math.round, v = { DEBUG: !1, VERSION: wt, IE: Z, GECKO: Re, WEBKIT: Be, OPERA: $t, V: ce, TIME: xt, each: P, isArray: ie, isFunction: re, inArray: pe, inString: $e, trim: ee, addUnit: J, removeUnit: X, escape: se, unescape: Ve, toCamel: Ke, toHex: pt, toMap: oe, toArray: St, undef: $, invalidUrl: qn, addParam: Wn, extend: he, json: Zt }, Nn = oe("a,abbr,acronym,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,img,input,ins,kbd,label,map,q,s,samp,select,small,span,strike,strong,sub,sup,textarea,tt,u,var"), In = oe("address,applet,blockquote,body,center,dd,dir,div,dl,dt,fieldset,form,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,iframe,ins,isindex,li,map,menu,meta,noframes,noscript,object,ol,p,pre,script,style,table,tbody,td,tfoot,th,thead,title,tr,ul,audio,video"), An = oe("area,base,basefont,br,col,frame,hr,img,input,isindex,link,meta,param,embed"), Ln = oe("b,basefont,big,del,em,font,i,s,small,span,strike,strong,sub,sup,u"), wi = oe("img,table,input,textarea,button,audio,video"), Vt = oe("pre,style,script"), Ct = oe("html,head,body,td,tr,table,ol,ul,li"), xi = (oe("colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr"), oe("checked,compact,declare,defer,disabled,ismap,multiple,nohref,noresize,noshade,nowrap,readonly,selected")), Ci = oe("input,button,textarea,select");
     v.basePath = $n(), v.Tools = { All: ["source", "|", "undo", "redo", "removeformat", "clearhtml", "|", "template", "code", "cut", "copy", "plainpaste", "wordpaste", "|", "preview", "selectall", "fullscreen", "print", "|", "quickformat", "/", "formatblock", "fontname", "fontsize", "|", "forecolor", "hilitecolor", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "quote", "subscript", "superscript", "|", "image", "multiimage", "media", "insertfile", "baidumap", "link", "unlink", "|", "table", "anchor", "hr", "pagebreak"], Normal: ["source", "|", "formatblock", "fontname", "fontsize", "|", "forecolor", "hilitecolor", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "image", "multiimage", "media", "insertfile", "baidumap", "link", "unlink", "|", "table", "anchor", "hr", "pagebreak", "|", "quote", "subscript", "superscript", "|", "preview", "fullscreen", "quickformat"], Small: ["source", "|", "formatblock", "fontname", "fontsize", "|", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "quote", "image", "multiimage", "media", "insertfile", "|", "table", "hr", "pagebreak", "|", "link", "unlink", "|", "preview", "fullscreen"], Mini: ["formatblock", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "|", "image", "insertfile", "table", "link"] }, v.Templates = [{ name: "\u56FE\u7247\u548C\u6587\u5B57", content: '<h3><img align="left" height="100" style="margin-right: 10px" width="100" />\u5728\u6B64\u5904\u8F93\u5165\u6807\u9898</h3><p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p>' }, { name: "\u8868\u683C", content: '<h3>\u6807\u9898</h3><table style="width:100%;" cellpadding="2" cellspacing="0" border="1"><tbody><tr><td><h3>\u6807\u98981</h3></td><td><h3>\u6807\u98981</h3></td></tr><tr><td>\u5185\u5BB91</td><td>\u5185\u5BB92</td></tr><tr><td>\u5185\u5BB93</td><td>\u5185\u5BB94</td></tr></tbody></table><p>\u8868\u683C\u8BF4\u660E</p>' }, { name: "\u9879\u76EE\u7F16\u53F7", content: "<p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p><ol><li>\u63CF\u8FF01</li><li>\u63CF\u8FF02</li><li>\u63CF\u8FF03</li></ol><p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p><ul><li>\u63CF\u8FF01</li><li>\u63CF\u8FF02</li><li>\u63CF\u8FF03</li></ul>" }], v.options = { designMode: !0, fullscreenMode: !1, filterMode: !0, wellFormatMode: !0, shadowMode: !0, loadStyleMode: !0, basePath: v.basePath, themesPath: v.basePath + "themes/", langPath: v.basePath + "lang/", pluginsPath: v.basePath + "plugins/", themeType: "default", langType: "zh-CN", urlType: "", newlineTag: "p", resizeType: 2, syncType: "form", pasteType: 2, dialogAlignType: "page", useContextmenu: !0, fullscreenShortcut: !1, bodyClass: "ke-content", indentChar: "	", cssPath: "", cssData: "", minWidth: 650, minHeight: 100, minChangeSize: 50, zIndex: 811213, items: v.Tools.Normal, noDisableItems: ["source", "fullscreen"], colorTable: [["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#4e5f70", "#f1c40f"], ["#16a085", "#27ae60", "#2980b9", "#8e44ad", "#2c3e50", "#f39c12"], ["#E53333", "#E56600", "#FF9900", "#64451D", "#DFC5A4", "#FFE500"], ["#009900", "#006600", "#99BB00", "#B8D100", "#60D978", "#00D5FF"], ["#337FE5", "#003399", "#4C33E5", "#9933E5", "#CC33E5", "#EE33EE"], ["#FFFFFF", "#CCCCCC", "#999999", "#666666", "#333333", "#000000"]], fontSizeTable: ["9px", "10px", "12px", "14px", "16px", "18px", "24px", "32px"], htmlTags: { font: ["id", "class", "color", "size", "face", ".background-color"], span: ["id", "class", ".color", ".background-color", ".font-size", ".font-family", ".background", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".line-height"], div: ["id", "class", "align", ".border", ".margin", ".padding", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".background", ".font-style", ".text-decoration", ".vertical-align", ".margin-left"], table: ["id", "class", "border", "cellspacing", "cellpadding", "width", "height", "align", "bordercolor", ".padding", ".margin", ".border", "bgcolor", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".font-style", ".text-decoration", ".background", ".width", ".height", ".border-collapse"], "td,th": ["id", "class", "align", "valign", "width", "height", "colspan", "rowspan", "bgcolor", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".background", ".border"], a: ["id", "class", "href", "target", "name"], media: ["id", "class"], audio: ["id", "class", "src", "width", "height", "type", "loop", "autostart", "autoplay", ".width", ".height", "controls", "muted", "preload"], video: ["id", "class", "src", "width", "height", "type", "loop", "autostart", "autoplay", ".width", ".height", "controls", "muted", "poster", "preload"], img: ["id", "class", "src", "width", "height", "border", "alt", "title", "align", ".width", ".height", ".border"], "p,ol,ul,li,blockquote,h1,h2,h3,h4,h5,h6": ["id", "class", "align", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".background", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".text-indent", ".margin-left"], pre: ["id", "class"], hr: ["id", "class", ".page-break-after"], "br,tbody,tr,strong,b,sub,sup,em,i,u,strike,s,del": ["id", "class"], iframe: ["id", "class", "src", "frameborder", "width", "height", ".width", ".height"] }, layout: '<div class="container"><div class="toolbar"></div><div class="edit"></div><div class="statusbar"></div></div>' };
-    var Rn = !1, Bn = re("8,9,13,32,46,48..57,59,61,65..90,106,109..111,188,190..192,219..222"), _i = re("33..40"), Kt = {};
+    var Rn = !1, Bn = oe("8,9,13,32,46,48..57,59,61,65..90,106,109..111,188,190..192,219..222"), _i = oe("33..40"), Kt = {};
     P(Bn, function(e, t) {
       Kt[e] = t;
     }), P(_i, function(e, t) {
@@ -3369,18 +3369,18 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }, stop: function() {
       this.preventDefault(), this.stopPropagation();
     } });
-    var _t = "kindeditor_" + xt, Fn = 0, oe = {}, Un = !1;
+    var _t = "kindeditor_" + xt, Fn = 0, le = {}, Un = !1;
     window.attachEvent && window.attachEvent("onunload", function() {
-      P(oe, function(e, t) {
-        t.el && Qe(t.el);
+      P(le, function(e, t) {
+        t.el && Ge(t.el);
       });
-    }), v.ctrl = Dt, v.ready = Gn, v.formatUrl = Ye, v.formatHtml = Ie, v.getCssList = Pe, v.getAttrList = ke, v.mediaType = nn, v.mediaAttrs = rn, v.mediaEmbed = Mt, v.mediaImg = on, v.clearMsWord = tn, v.tmpl = Xn;
+    }), v.ctrl = Dt, v.ready = Gn, v.formatUrl = Qe, v.formatHtml = Ie, v.getCssList = Pe, v.getAttrList = ke, v.mediaType = nn, v.mediaAttrs = rn, v.mediaEmbed = Mt, v.mediaImg = on, v.clearMsWord = tn, v.tmpl = Xn;
     var On = document.createElement("div");
     On.setAttribute("className", "t");
     var Si = On.className !== "t";
     v.query = Jn, v.queryAll = vt, he(de, { init: function(e) {
       var t = this;
-      e = te(e) ? e : [e];
+      e = ie(e) ? e : [e];
       for (var n = 0, o = 0, r = e.length; r > o; o++)
         e[o] && (t[o] = e[o].constructor === de ? e[o][0] : e[o], n++);
       t.length = n, t.doc = Ae(t[0]), t.name = ln(t[0]), t.type = t.length > 0 ? t[0].nodeType : null, t.win = Le(t[0]);
@@ -3395,7 +3395,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), this;
     }, unbind: function(e, t) {
       return this.each(function() {
-        Qe(this, e, t);
+        Ge(this, e, t);
       }), this;
     }, fire: function(e) {
       return this.length < 1 ? this : (en(this[0], e), this);
@@ -3445,8 +3445,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var n = this;
       return e === void 0 ? Pe(n.attr("style")) : typeof e == "object" ? (P(e, function(o, r) {
         n.css(o, r);
-      }), n) : t === void 0 ? n.length < 1 ? "" : n[0].style[Ge(e)] || ni(n[0], e) || "" : (n.each(function() {
-        this.style[Ge(e)] = t;
+      }), n) : t === void 0 ? n.length < 1 ? "" : n[0].style[Ke(e)] || ni(n[0], e) || "" : (n.each(function() {
+        this.style[Ke(e)] = t;
       }), n);
     }, width: function(e) {
       var t = this;
@@ -3494,7 +3494,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }, replaceWith: function(e) {
       var t = [];
       return this.each(function(n, o) {
-        Qe(o);
+        Ge(o);
         var r = be(e);
         o.parentNode.replaceChild(r, o), t.push(r);
       }), v(t);
@@ -3512,7 +3512,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var t = this;
       return t.each(function(n, o) {
         if (o.parentNode) {
-          if (Qe(o), e)
+          if (Ge(o), e)
             for (var r = o.firstChild; r; ) {
               var s = r.nextSibling;
               o.parentNode.insertBefore(r, o), r = s;
@@ -3613,12 +3613,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           }
           return n(vt(e, t));
         }
-        return e && e.constructor === de ? e : (e.toArray && (e = e.toArray()), n(te(e) ? e : St(arguments)));
+        return e && e.constructor === de ? e : (e.toArray && (e = e.toArray()), n(ie(e) ? e : St(arguments)));
       }
     }, P(Ei, function(e, t) {
       v[e] = t;
     }), v.NodeClass = de, window.KindEditor = v;
-    var lt = 0, at = 1, He = 2, st = 3, Pn = 0;
+    var ot = 0, lt = 1, He = 2, at = 3, Pn = 0;
     he(we, { init: function(e) {
       var t = this;
       t.startContainer = e, t.startOffset = 0, t.endContainer = e, t.endOffset = 0, t.collapsed = !0, t.doc = e;
@@ -3660,12 +3660,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       if (!ye)
         return n.compareBoundaryPoints(e, o);
       var r = {};
-      r[lt] = "StartToStart", r[at] = "EndToStart", r[He] = "EndToEnd", r[st] = "StartToEnd";
+      r[ot] = "StartToStart", r[lt] = "EndToStart", r[He] = "EndToEnd", r[at] = "StartToEnd";
       var s = n.compareEndPoints(r[e], o);
       if (s !== 0)
         return s;
       var c, a, i, d, u;
-      if ((e === lt || e === st) && (c = this.startContainer, d = this.startOffset), (e === at || e === He) && (c = this.endContainer, d = this.endOffset), (e === lt || e === at) && (a = t.startContainer, u = t.startOffset), (e === He || e === st) && (a = t.endContainer, u = t.endOffset), c === a) {
+      if ((e === ot || e === at) && (c = this.startContainer, d = this.startOffset), (e === lt || e === He) && (c = this.endContainer, d = this.endOffset), (e === ot || e === lt) && (a = t.startContainer, u = t.startOffset), (e === He || e === at) && (a = t.endContainer, u = t.endOffset), c === a) {
         var l = d - u;
         return l > 0 ? 1 : 0 > l ? -1 : 0;
       }
@@ -3762,7 +3762,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return !o || o.length < 1 || (t.setStartBefore(o[0]), o.remove(), r && r.length > 0 ? (t.setEndBefore(r[0]), r.remove()) : t.collapse(!0)), t;
     }, dump: function() {
       console.log("--------------------"), console.log(this.startContainer.nodeType == 3 ? this.startContainer.nodeValue : this.startContainer, this.startOffset), console.log(this.endContainer.nodeType == 3 ? this.endContainer.nodeValue : this.endContainer, this.endOffset);
-    } }), v.RangeClass = we, v.range = Lt, v.START_TO_START = lt, v.START_TO_END = at, v.END_TO_END = He, v.END_TO_START = st, he(Xe, { init: function(e) {
+    } }), v.RangeClass = we, v.range = Lt, v.START_TO_START = ot, v.START_TO_END = lt, v.END_TO_END = He, v.END_TO_START = at, he(Ze, { init: function(e) {
       var t = this, n = e.doc;
       t.doc = n, t.win = Le(n), t.sel = Rt(n), t.range = e;
     }, selection: function(e) {
@@ -3993,8 +3993,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return this.win.print(), this;
     }, insertimage: function(e, t, n, o, r, s, c, a) {
       t = $(t, ""), c = $(c, "");
-      var i = '<img data-ke-class="' + c + '" src="' + ae(e) + '" data-ke-src="' + ae(e) + '" ';
-      return n && (i += 'width="' + ae(n) + '" '), o && (i += 'height="' + ae(o) + '" '), t && (i += 'title="' + ae(t) + '" '), s && (i += 'align="' + ae(s) + '" '), i += 'alt="' + ae(t) + '" ', i += "/>", a && (i = "<" + a + ">" + i + "</" + a + ">"), this.inserthtml(i);
+      var i = '<img data-ke-class="' + c + '" src="' + se(e) + '" data-ke-src="' + se(e) + '" ';
+      return n && (i += 'width="' + se(n) + '" '), o && (i += 'height="' + se(o) + '" '), t && (i += 'title="' + se(t) + '" '), s && (i += 'align="' + se(s) + '" '), i += 'alt="' + se(t) + '" ', i += "/>", a && (i = "<" + a + ">" + i + "</" + a + ">"), this.inserthtml(i);
     }, createlink: function(e, t) {
       function n(m, g, y) {
         v(m).attr("href", g).attr("data-ke-src", g), y ? v(m).attr("target", y) : v(m).removeAttr("target");
@@ -4003,9 +4003,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       o.select();
       var c = o.commonNode({ a: "*" });
       c && !s.isControl() && (s.selectNode(c.get()), o.select());
-      var a = '<a href="' + ae(e) + '" data-ke-src="' + ae(e) + '" ';
-      if (t && (a += ' target="' + ae(t) + '"'), s.collapsed)
-        return a += ">" + ae(e) + "</a>", o.inserthtml(a);
+      var a = '<a href="' + se(e) + '" data-ke-src="' + se(e) + '" ';
+      if (t && (a += ' target="' + se(t) + '"'), s.collapsed)
+        return a += ">" + se(e) + "</a>", o.inserthtml(a);
       if (s.isControl()) {
         var i = v(s.startContainer.childNodes[s.startOffset]);
         return a += "></a>", i.after(v(a, r)), i.next().append(i), s.selectNode(i[0]), o.select();
@@ -4031,21 +4031,21 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         _e(t, "unlink", null);
       return e;
     } }), P("formatblock,selectall,justifyleft,justifycenter,justifyright,justifyfull,insertorderedlist,insertunorderedlist,indent,outdent,subscript,superscript".split(","), function(e, t) {
-      Xe.prototype[t] = function(n) {
+      Ze.prototype[t] = function(n) {
         var o = this;
         return o.select(), _e(o.doc, t, n), ye && pe(t, "justifyleft,justifycenter,justifyright,justifyfull".split(",")) >= 0 && o.selection(), (!ye || pe(t, "formatblock,selectall,insertorderedlist,insertunorderedlist".split(",")) >= 0) && o.selection(), o;
       };
     }), P("cut,copy,paste".split(","), function(e, t) {
-      Xe.prototype[t] = function() {
+      Ze.prototype[t] = function() {
         var n = this;
         if (!n.doc.queryCommandSupported(t))
           throw "not supported";
         return n.select(), _e(n.doc, t, null), n;
       };
-    }), v.CmdClass = Xe, v.cmd = gn, he(Te, { init: function(e) {
+    }), v.CmdClass = Ze, v.cmd = gn, he(Te, { init: function(e) {
       var t = this;
       if (t.name = e.name || "", t.doc = e.doc || document, t.win = Le(t.doc), t.x = J(e.x), t.y = J(e.y), t.z = e.z, t.width = J(e.width), t.height = J(e.height), t.div = v('<div style="display:block;"></div>'), t.options = e, t._alignEl = e.alignEl, t.width && t.div.css("width", t.width), t.height && t.div.css("height", t.height), t.z && t.div.css({ position: "absolute", left: t.x, top: t.y, "z-index": t.z }), !t.z || t.x !== void 0 && t.y !== void 0 || t.autoPos(t.width, t.height), e.cls && t.div.addClass(e.cls), e.shadowMode && t.div.addClass("ke-shadow"), e.css && t.div.css(e.css), e.src ? v(e.src).replaceWith(t.div) : v(t.doc.body).append(t.div), e.html && t.div.html(e.html), e.autoScroll)
-        if (Z && 7 > se || Ee) {
+        if (Z && 7 > ce || Ee) {
           var n = je();
           v(t.win).bind("scroll", function(o) {
             var r = je(), s = r.x - n.x, c = r.y - n.y;
@@ -4065,10 +4065,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         var f = ge(r.doc);
         n = De(a.x + (f.clientWidth - s) / 2), o = De(a.y + (f.clientHeight - c) / 2);
       }
-      return Z && 7 > se || Ee || (n -= a.x, o -= a.y), r.pos(n, o);
+      return Z && 7 > ce || Ee || (n -= a.x, o -= a.y), r.pos(n, o);
     }, remove: function() {
       var e = this;
-      return (Z && 7 > se || Ee) && v(e.win).unbind("scroll"), e.div.remove(), P(e, function(t) {
+      return (Z && 7 > ce || Ee) && v(e.win).unbind("scroll"), e.div.remove(), P(e, function(t) {
         e[t] = null;
       }), this;
     }, show: function() {
@@ -4082,7 +4082,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }, Ot(e), t;
     } }), v.WidgetClass = Te, v.widget = Pt;
     var Tt, Gt = "";
-    (Tt = document.getElementsByTagName("html")) && (Gt = Tt[0].dir), he(et, Te, { init: function(e) {
+    (Tt = document.getElementsByTagName("html")) && (Gt = Tt[0].dir), he(Je, Te, { init: function(e) {
       function t() {
         var u = jt(n.iframe);
         u.open(), a && (u.domain = document.domain), u.write(si(o, r, s, c)), u.close(), n.win = n.iframe[0].contentWindow, n.doc = u;
@@ -4100,10 +4100,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             var p = l.range;
             p.isControl() && (p.collapse(!0), v(p.startContainer.childNodes[p.startOffset]).remove(), f.preventDefault());
           }
-        })), n.cmd = l, n.html(Je(n.srcElement)), Z ? (u.body.disabled = !0, u.body.contentEditable = !0, u.body.removeAttribute("disabled")) : u.designMode = "on", e.afterCreate && e.afterCreate.call(n);
+        })), n.cmd = l, n.html(Xe(n.srcElement)), Z ? (u.body.disabled = !0, u.body.contentEditable = !0, u.body.removeAttribute("disabled")) : u.designMode = "on", e.afterCreate && e.afterCreate.call(n);
       }
       var n = this;
-      et.parent.init.call(n, e), n.srcElement = v(e.srcElement), n.div.addClass("ke-edit"), n.designMode = $(e.designMode, !0), n.beforeGetHtml = e.beforeGetHtml, n.beforeSetHtml = e.beforeSetHtml, n.afterSetHtml = e.afterSetHtml;
+      Je.parent.init.call(n, e), n.srcElement = v(e.srcElement), n.div.addClass("ke-edit"), n.designMode = $(e.designMode, !0), n.beforeGetHtml = e.beforeGetHtml, n.beforeSetHtml = e.beforeSetHtml, n.afterSetHtml = e.afterSetHtml;
       var o = $(e.themesPath, ""), r = e.bodyClass, s = e.cssPath, c = e.cssData, a = location.protocol != "res:" && location.host.replace(/:\d+/, "") !== document.domain, i = "document.open();" + (a ? 'document.domain="' + document.domain + '";' : "") + "document.close();", d = Z ? ' src="javascript:void(function(){' + encodeURIComponent(i) + '}())"' : "";
       n.iframe = v('<iframe class="ke-edit-iframe" hidefocus="true" frameborder="0"' + d + "></iframe>").css("width", "100%"), n.textarea = v('<textarea class="ke-edit-textarea" hidefocus="true"></textarea>').css("width", "100%"), n.tabIndex = isNaN(parseInt(e.tabIndex, 10)) ? n.srcElement.attr("tabindex") : parseInt(e.tabIndex, 10), n.iframe.attr("tabindex", n.tabIndex), n.textarea.attr("tabindex", n.tabIndex), n.width && n.setWidth(n.width), n.height && n.setHeight(n.height), n.designMode ? n.textarea.hide() : n.iframe.hide(), a && n.iframe.bind("load", function(u) {
         n.iframe.unbind("load"), Z ? t() : setTimeout(t, 0);
@@ -4113,15 +4113,15 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return e = J(e), t.width = e, t.div.css("width", e), t;
     }, setHeight: function(e) {
       var t = this;
-      return e = J(e), t.height = e, t.div.css("height", e), t.iframe.css("height", e), (Z && 8 > se || Ee) && (e = J(X(e) - 2)), t.textarea.css("height", e), t;
+      return e = J(e), t.height = e, t.div.css("height", e), t.iframe.css("height", e), (Z && 8 > ce || Ee) && (e = J(X(e) - 2)), t.textarea.css("height", e), t;
     }, remove: function() {
       var e = this, t = e.doc;
-      v(t.body).unbind(), v(t).unbind(), v(e.win).unbind(), e._mousedownHandler && v(document).unbind("mousedown", e._mousedownHandler), Je(e.srcElement, e.html()), e.srcElement.show(), e.iframe.unbind(), e.textarea.unbind(), et.parent.remove.call(e);
+      v(t.body).unbind(), v(t).unbind(), v(e.win).unbind(), e._mousedownHandler && v(document).unbind("mousedown", e._mousedownHandler), Xe(e.srcElement, e.html()), e.srcElement.show(), e.iframe.unbind(), e.textarea.unbind(), Je.parent.remove.call(e);
     }, html: function(e, t) {
       var n = this, o = n.doc;
       if (n.designMode) {
         var r = o.body;
-        return e === void 0 ? (e = t ? "<!doctype html><html>" + r.parentNode.innerHTML + "</html>" : r.innerHTML, n.beforeGetHtml && (e = n.beforeGetHtml(e)), Re && e == "<br />" && (e = ""), e) : (n.beforeSetHtml && (e = n.beforeSetHtml(e)), Z && se >= 9 && (e = e.replace(/(<.*?checked=")checked(".*>)/gi, "$1$2")), v(r).html(e), n.afterSetHtml && n.afterSetHtml(), n);
+        return e === void 0 ? (e = t ? "<!doctype html><html>" + r.parentNode.innerHTML + "</html>" : r.innerHTML, n.beforeGetHtml && (e = n.beforeGetHtml(e)), Re && e == "<br />" && (e = ""), e) : (n.beforeSetHtml && (e = n.beforeSetHtml(e)), Z && ce >= 9 && (e = e.replace(/(<.*?checked=")checked(".*>)/gi, "$1$2")), v(r).html(e), n.afterSetHtml && n.afterSetHtml(), n);
       }
       return e === void 0 ? n.textarea.val() : (n.textarea.val(e), n);
     }, design: function(e) {
@@ -4159,7 +4159,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         return v(o).keyup(function(s) {
           s.ctrlKey || s.altKey || !Kt[s.which] || e(s);
         }), v(o).mouseup(e).contextmenu(e), v(n.win).blur(e), v(r).bind("paste", t), v(r).bind("cut", t), n;
-    } }), v.EditClass = et, v.edit = vn, v.iframeDoc = jt, he(yt, Te, { init: function(e) {
+    } }), v.EditClass = Je, v.edit = vn, v.iframeDoc = jt, he(yt, Te, { init: function(e) {
       function t(r) {
         var s = v(r);
         return s.hasClass("ke-outline") ? s : s.hasClass("ke-toolbar-icon") ? s.parent() : void 0;
@@ -4173,7 +4173,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }
       }
       var o = this;
-      yt.parent.init.call(o, e), o.disableMode = $(e.disableMode, !1), o.noDisableItemMap = re($(e.noDisableItems, [])), o._itemMap = {}, o.div.addClass("ke-toolbar").bind("contextmenu,mousedown,mousemove", function(r) {
+      yt.parent.init.call(o, e), o.disableMode = $(e.disableMode, !1), o.noDisableItemMap = oe($(e.noDisableItems, [])), o._itemMap = {}, o.div.addClass("ke-toolbar").bind("contextmenu,mousedown,mousemove", function(r) {
         r.preventDefault();
       }).attr("unselectable", "on"), o.div.mouseover(function(r) {
         n(r, "addClass");
@@ -4205,16 +4205,16 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return n && (n.removeClass("ke-selected").addClass("ke-disabled"), n.opacity(0.5)), t;
     }, disableAll: function(e, t) {
       var n = this, o = n.noDisableItemMap;
-      return t && (o = re(t)), (e === void 0 ? !n.disableMode : e) ? (v("span.ke-outline", n.div).each(function() {
+      return t && (o = oe(t)), (e === void 0 ? !n.disableMode : e) ? (v("span.ke-outline", n.div).each(function() {
         var r = v(this), s = r[0].getAttribute("data-name", 2);
         o[s] || n.disable(r);
       }), n.disableMode = !0) : (v("span.ke-outline", n.div).each(function() {
         var r = v(this), s = r[0].getAttribute("data-name", 2);
         o[s] || n.enable(r);
       }), n.disableMode = !1), n;
-    } }), v.ToolbarClass = yt, v.toolbar = kn, he(tt, Te, { init: function(e) {
+    } }), v.ToolbarClass = yt, v.toolbar = kn, he(et, Te, { init: function(e) {
       var t = this;
-      e.z = e.z || 811213, tt.parent.init.call(t, e), t.centerLineMode = $(e.centerLineMode, !0), t.div.addClass("ke-menu").bind("click,mousedown", function(n) {
+      e.z = e.z || 811213, et.parent.init.call(t, e), t.centerLineMode = $(e.centerLineMode, !0), t.div.addClass("ke-menu").bind("click,mousedown", function(n) {
         n.stopPropagation();
       }).attr("unselectable", "on");
     }, addItem: function(e) {
@@ -4233,10 +4233,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }).append(o), a && n.append(a), n.append(r), e.checked && (c = "ke-icon-checked icon-ke-font"), c !== "" && o.html('<span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-toolbar-icon-url ' + c + '"></span>'), r.html(e.title), t;
     }, remove: function() {
       var e = this;
-      return e.options.beforeRemove && e.options.beforeRemove.call(e), v(".ke-menu-item", e.div[0]).unbind(), tt.parent.remove.call(e), e;
-    } }), v.MenuClass = tt, v.menu = zt, he(nt, Te, { init: function(e) {
+      return e.options.beforeRemove && e.options.beforeRemove.call(e), v(".ke-menu-item", e.div[0]).unbind(), et.parent.remove.call(e), e;
+    } }), v.MenuClass = et, v.menu = zt, he(tt, Te, { init: function(e) {
       var t = this;
-      e.z = e.z || 811213, nt.parent.init.call(t, e);
+      e.z = e.z || 811213, tt.parent.init.call(t, e);
       var n = e.colors || [["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#4e5f70", "#f1c40f"], ["#16a085", "#27ae60", "#2980b9", "#8e44ad", "#2c3e50", "#f39c12"], ["#E53333", "#E56600", "#FF9900", "#64451D", "#DFC5A4", "#FFE500"], ["#009900", "#006600", "#99BB00", "#B8D100", "#60D978", "#00D5FF"], ["#337FE5", "#003399", "#4C33E5", "#9933E5", "#CC33E5", "#EE33EE"], ["#FFFFFF", "#CCCCCC", "#999999", "#666666", "#333333", "#000000"]];
       t.selectedColor = (e.selectedColor || "").toLowerCase(), t._cells = [], t.div.addClass("ke-colorpicker").bind("click,mousedown", function(i) {
         i.stopPropagation();
@@ -4263,8 +4263,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var e = this;
       return P(e._cells, function() {
         this.unbind();
-      }), nt.parent.remove.call(e), e;
-    } }), v.ColorPickerClass = nt, v.colorpicker = bn, he(Ht, { init: function(e) {
+      }), tt.parent.remove.call(e), e;
+    } }), v.ColorPickerClass = tt, v.colorpicker = bn, he(Ht, { init: function(e) {
       var t = this, n = v(e.button), o = e.fieldName || "file", r = e.url || "", s = n.val(), c = e.extraParams || {}, a = n[0].className || "", i = e.target || "kindeditor_upload_iframe_" + new Date().getTime();
       e.afterError = e.afterError || function(y) {
         alert(y);
@@ -4294,15 +4294,15 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }, remove: function() {
       var e = this;
       return e.fileBox && e.fileBox.unbind(), e.div.remove(), e.button.show(), e;
-    } }), v.UploadButtonClass = Ht, v.uploadbutton = ci, he(it, Te, { init: function(e) {
+    } }), v.UploadButtonClass = Ht, v.uploadbutton = ci, he(nt, Te, { init: function(e) {
       var t = this, n = $(e.shadowMode, !0);
-      e.z = e.z || 811213, e.shadowMode = !1, e.autoScroll = $(e.autoScroll, !0), it.parent.init.call(t, e);
+      e.z = e.z || 811213, e.shadowMode = !1, e.autoScroll = $(e.autoScroll, !0), nt.parent.init.call(t, e);
       var o = e.title, r = v(e.body, t.doc), s = e.previewBtn, c = e.yesBtn, a = e.noBtn, i = e.closeBtn, d = $(e.showMask, !0);
       t.div.addClass("ke-dialog").bind("click,mousedown", function(b) {
         b.stopPropagation();
       });
       var u = v('<div class="ke-dialog-content"></div>').appendTo(t.div);
-      Z && 7 > se ? t.iframeMask = v('<iframe src="about:blank" class="ke-dialog-shadow"></iframe>').appendTo(t.div) : n && v('<div class="ke-dialog-shadow"></div>').appendTo(t.div);
+      Z && 7 > ce ? t.iframeMask = v('<iframe src="about:blank" class="ke-dialog-shadow"></iframe>').appendTo(t.div) : n && v('<div class="ke-dialog-shadow"></div>').appendTo(t.div);
       var l = v('<div class="ke-dialog-header"></div>');
       u.append(l), l.html(o), t.closeIcon = v('<span class="ke-dialog-icon-close" title="' + i.name + '"></span>').click(i.click), l.append(t.closeIcon), t.draggable({ clickEl: l, beforeDrag: e.beforeDrag });
       var f = v('<div class="ke-dialog-body"></div>');
@@ -4331,14 +4331,14 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var e = this;
       return e.options.beforeRemove && e.options.beforeRemove.call(e), e.mask && e.mask.remove(), e.iframeMask && e.iframeMask.remove(), e.closeIcon.unbind(), v("input", e.div).unbind(), v("button", e.div).unbind(), e.footerDiv.unbind(), e.bodyDiv.unbind(), e.headerDiv.unbind(), v("iframe", e.div).each(function() {
         v(this).remove();
-      }), it.parent.remove.call(e), e;
-    } }), v.DialogClass = it, v.dialog = wn, v.tabs = di, v.loadScript = qt, v.loadStyle = Wt, v.ajax = fi;
+      }), nt.parent.remove.call(e), e;
+    } }), v.DialogClass = nt, v.dialog = wn, v.tabs = di, v.loadScript = qt, v.loadStyle = Wt, v.ajax = fi;
     var xe = {}, Ce = {};
-    rt.prototype = { lang: function(e) {
+    it.prototype = { lang: function(e) {
       return Tn(e, this.langType);
     }, loadPlugin: function(e, t) {
       var n = this, o = this._pluginStatus;
-      return o || (o = this._pluginStatus = {}), xe[e] ? ce(xe[e]) ? (o[e] || (xe[e].call(n, KindEditor), o[e] = "inited"), t && t.call(n), n) : (setTimeout(function() {
+      return o || (o = this._pluginStatus = {}), xe[e] ? re(xe[e]) ? (o[e] || (xe[e].call(n, KindEditor), o[e] = "inited"), t && t.call(n), n) : (setTimeout(function() {
         n.loadPlugin(e, t);
       }, 100), n) : (xe[e] = "loading", qt(n.pluginsPath + e + "/" + e + ".js?ver=" + encodeURIComponent(v.DEBUG ? xt : wt), function() {
         setTimeout(function() {
@@ -4347,7 +4347,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), n);
     }, handler: function(e, t) {
       var n = this;
-      return n._handlers[e] || (n._handlers[e] = []), ce(t) ? (n._handlers[e].push(t), n) : (P(n._handlers[e], function() {
+      return n._handlers[e] || (n._handlers[e] = []), re(t) ? (n._handlers[e].push(t), n) : (P(n._handlers[e], function() {
         t = this.call(n, t);
       }), t);
     }, clickToolbar: function(e, t) {
@@ -4381,7 +4381,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         return t;
       t.srcElement.data("kindeditor", "true"), n ? ge().style.overflow = "hidden" : ge().style.overflow = "";
       var o = n ? ge().clientWidth + "px" : t.width, r = n ? ge().clientHeight + "px" : t.height;
-      (Z && 8 > se || Ee) && (r = J(X(r) + 2));
+      (Z && 8 > ce || Ee) && (r = J(X(r) + 2));
       var s = t.container = v(t.layout);
       n ? v(document.body).append(s) : t.srcElement.before(s);
       var c = v(".toolbar", s), a = v(".edit", s), i = t.statusbar = v(".statusbar", s);
@@ -4442,12 +4442,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return this.isCreated && this.cmd.select(), this;
     }, html: function(e) {
       var t = this;
-      return e === void 0 ? t.isCreated ? t.edit.html() : Je(t.srcElement) : (t.isCreated ? t.edit.html(e) : Je(t.srcElement, e), t.isCreated && t.cmd.selection(), t);
+      return e === void 0 ? t.isCreated ? t.edit.html() : Xe(t.srcElement) : (t.isCreated ? t.edit.html(e) : Xe(t.srcElement, e), t.isCreated && t.cmd.selection(), t);
     }, fullHtml: function() {
       return this.isCreated ? this.edit.html(void 0, !0) : "";
     }, text: function(e) {
       var t = this;
-      return e === void 0 ? ee(t.html().replace(/<(?!img|embed).*?>/gi, "").replace(/&nbsp;/gi, " ")) : t.html(ae(e));
+      return e === void 0 ? ee(t.html().replace(/<(?!img|embed).*?>/gi, "").replace(/&nbsp;/gi, " ")) : t.html(se(e));
     }, isEmpty: function() {
       return ee(this.text().replace(/\r\n|\n|\r/, "")) === "";
     }, isDirty: function() {
@@ -4471,7 +4471,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }
       return this;
     }, sync: function() {
-      return Je(this.srcElement, this.html()), this;
+      return Xe(this.srcElement, this.html()), this;
     }, focus: function() {
       return this.isCreated ? this.edit.focus() : this.srcElement[0].focus(), this;
     }, blur: function() {
@@ -4532,28 +4532,28 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var t = this, n = t.createDialog({ width: 750, title: t.lang("uploadError"), body: '<div style="padding:10px 20px;"><iframe frameborder="0" style="width:708px;height:400px;"></iframe></div>' }), o = v("iframe", n.div), r = v.iframeDoc(o);
       return r.open(), r.write(e), r.close(), v(r.body).css("background-color", "#FFF"), o[0].contentWindow.focus(), t;
     } };
-    var ct = [];
+    var st = [];
     return v.remove = function(e) {
-      ot(e, function(t) {
-        this.remove(), ct.splice(t, 1);
+      rt(e, function(t) {
+        this.remove(), st.splice(t, 1);
       });
     }, v.sync = function(e) {
-      ot(e, function() {
+      rt(e, function() {
         this.sync();
       });
     }, v.html = function(e, t) {
-      ot(e, function() {
+      rt(e, function() {
         this.html(t);
       });
     }, v.insertHtml = function(e, t) {
-      ot(e, function() {
+      rt(e, function() {
         this.insertHtml(t);
       });
     }, v.appendHtml = function(e, t) {
-      ot(e, function() {
+      rt(e, function() {
         this.appendHtml(t);
       });
-    }, Z && 7 > se && _e(document, "BackgroundImageCache", !0), v.EditorClass = rt, v.editor = vi, v.create = Dn, v.instances = ct, v.plugin = Cn, v.lang = Tn, Cn("core", function(e) {
+    }, Z && 7 > ce && _e(document, "BackgroundImageCache", !0), v.EditorClass = it, v.editor = vi, v.create = Dn, v.instances = st, v.plugin = Cn, v.lang = Tn, Cn("core", function(e) {
       var t = this, n = { undo: "Z", redo: "Y", bold: "B", italic: "I", underline: "U", print: "P", selectall: "A" };
       if (t.afterSetHtml(function() {
         t.options.afterChange && t.options.afterChange.call(t);
@@ -4726,12 +4726,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           }
         });
       }), t.beforeGetHtml(function(r) {
-        return Z && 8 >= se && (r = r.replace(/<div\s+[^>]*data-ke-input-tag="([^"]*)"[^>]*>([\s\S]*?)<\/div>/gi, function(s, c) {
+        return Z && 8 >= ce && (r = r.replace(/<div\s+[^>]*data-ke-input-tag="([^"]*)"[^>]*>([\s\S]*?)<\/div>/gi, function(s, c) {
           return unescape(c);
         }), r = r.replace(/(<input)((?:\s+[^>]*)?>)/gi, function(s, c, a) {
           return /\s+type="[^"]+"/i.test(s) ? s : c + ' type="text"' + a;
         })), r.replace(/(<(?:noscript|noscript\s[^>]*)>)([\s\S]*?)(<\/noscript>)/gi, function(s, c, a, i) {
-          return c + Ke(a).replace(/\s+/g, " ") + i;
+          return c + Ve(a).replace(/\s+/g, " ") + i;
         }).replace(/<img[^>]*class="?ke-(flash|rm|media)"?[^>]*>/gi, function(s) {
           var c = ke(s), a = Pe(c.style || ""), i = rn(c["data-ke-tag"]), d = $(a.width, ""), u = $(a.height, "");
           return /px/i.test(d) && (d = X(d)), /px/i.test(u) && (u = X(u)), i.width = $(c.width, d), i.height = $(c.height, u), Mt(i);
@@ -4744,13 +4744,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           return "<noscript" + unescape(c) + ">" + unescape(a) + "</noscript>";
         }).replace(/(<[^>]*)data-ke-src="([^"]*)"([^>]*>)/gi, function(s, c, a, i) {
           return s = s.replace(/(\s+(?:href|src)=")[^"]*(")/i, function(d, u, l) {
-            return u + Ke(a) + l;
+            return u + Ve(a) + l;
           }), s = s.replace(/\s+data-ke-src="[^"]*"/i, "");
         }).replace(/(<[^>]+\s)data-ke-(on\w+="[^"]*"[^>]*>)/gi, function(s, c, a) {
           return c + a;
         });
       }), t.beforeSetHtml(function(r) {
-        return Z && 8 >= se && (r = r.replace(/<input[^>]*>|<(select|button)[^>]*>[\s\S]*?<\/\1>/gi, function(s) {
+        return Z && 8 >= ce && (r = r.replace(/<input[^>]*>|<(select|button)[^>]*>[\s\S]*?<\/\1>/gi, function(s) {
           var c = ke(s), a = Pe(c.style || "");
           return a.display == "none" ? '<div class="ke-display-none" data-ke-input-tag="' + escape(s) + '"></div>' : s;
         })), r.replace(/<embed[^>]*type="([^"]+)"[^>]*>(?:<\/embed>)?/gi, function(s) {
@@ -4764,7 +4764,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }).replace(/<noscript([^>]*)>([\s\S]*?)<\/noscript>/gi, function(s, c, a) {
           return '<div class="ke-noscript" data-ke-noscript-attr="' + escape(c) + '">' + escape(a) + "</div>";
         }).replace(/(<[^>]*)(href|src)="([^"]*)"([^>]*>)/gi, function(s, c, a, i, d) {
-          return s.match(/\sdata-ke-src="[^"]*"/i) ? s : s = c + a + '="' + i + '" data-ke-src="' + ae(i) + '"' + d;
+          return s.match(/\sdata-ke-src="[^"]*"/i) ? s : s = c + a + '="' + i + '" data-ke-src="' + se(i) + '"' + d;
         }).replace(/(<[^>]+\s)(on\w+="[^"]*"[^>]*>)/gi, function(s, c, a) {
           return c + "data-ke-" + a;
         }).replace(/<table[^>]*\s+border="0"[^>]*>/gi, function(s) {
@@ -4919,7 +4919,7 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
       var t = this, n = "image", o = e.undef(t.allowImageUpload, !0), r = e.undef(t.allowImageRemote, !0), s = e.undef(t.allowFileManager, !1), c = e.undef(t.uploadHeader, {}), a = e.undef(t.uploadFileSizeLimit, "2MB"), i = e.undef(t.uploadFileTypeLimit, "*.jpg;*.gif;*.png;*.jpeg,*.bmp"), d = e.undef(t.extraFileUploadParams, {}), u = e.undef(t.filePostName, "imgFile"), l = e.undef(t.uploadJson, t.basePath + "_404.html"), f = e.undef(t.formatUploadUrl, !0), p = e.undef(t.imageTabIndex, 1), m = (t.pluginsPath + "", e.undef(t.fillDescAfterUploadImage, !1)), g = t.lang(n + ".");
       t.plugin.imageDialog = function(y) {
         function b(Y, Q) {
-          O.val(Y), U.val(Q), K = Y, le = Q;
+          O.val(Y), U.val(Q), K = Y, ae = Q;
         }
         var C = (y.imageUrl, e.undef(y.imageWidth, ""), e.undef(y.imageHeight, ""), e.undef(y.imageTitle, ""), e.undef(y.imageAlign, ""), e.undef(y.showRemote, !0)), D = e.undef(y.showLocal, !0), A = e.undef(y.tabIndex, 0), N = y.clickFn, B = ("" + new Date().getTime(), []);
         for (var j in d)
@@ -4934,11 +4934,11 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
           yesBtn: { name: t.lang("yes"), click: function(Y) {
             if (!x.isLoading) {
               if (D && C && R && R.selectedIndex === 1 || !C)
-                return ne.fileBox.val() == "" ? void alert(t.lang("pleaseSelectFile")) : (x.showLoading(t.lang("uploadLoading")), ne.submit(), void F.val(""));
-              var Q = e.trim(M.val()), ie = O.val(), Fe = U.val(), Me = z.val(), ut = "";
+                return te.fileBox.val() == "" ? void alert(t.lang("pleaseSelectFile")) : (x.showLoading(t.lang("uploadLoading")), te.submit(), void F.val(""));
+              var Q = e.trim(M.val()), ne = O.val(), Fe = U.val(), Me = z.val(), ct = "";
               return V.each(function() {
-                return this.checked ? (ut = this.value, !1) : void 0;
-              }), Q == "http://" || e.invalidUrl(Q) ? (alert(t.lang("invalidUrl")), void M[0].focus()) : /^\d*$/.test(ie) ? /^\d*$/.test(Fe) ? void N.call(t, Q, Me, ie, Fe, 0, ut) : (alert(t.lang("invalidHeight")), void U[0].focus()) : (alert(t.lang("invalidWidth")), void O[0].focus());
+                return this.checked ? (ct = this.value, !1) : void 0;
+              }), Q == "http://" || e.invalidUrl(Q) ? (alert(t.lang("invalidUrl")), void M[0].focus()) : /^\d*$/.test(ne) ? /^\d*$/.test(Fe) ? void N.call(t, Q, Me, ne, Fe, 0, ct) : (alert(t.lang("invalidHeight")), void U[0].focus()) : (alert(t.lang("invalidWidth")), void O[0].focus());
             }
           } },
           beforeRemove: function() {
@@ -4947,7 +4947,7 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
         }), _ = x.div, M = e('[name="url"]', _), F = e('[name="localUrl"]', _), I = e('[name="viewServer"]', _), O = e('.tab1 [name="width"]', _), U = e('.tab1 [name="height"]', _), W = e(".ke-refresh-btn", _), z = e('.tab1 [name="title"]', _), V = e('.tab1 [name="align"]', _);
         C && D ? (R = e.tabs({ src: e(".tabs", _), afterSelect: function(Y) {
         } }), R.add({ title: g.remoteImage, panel: e(".tab1", _) }), R.add({ title: g.localImage, panel: e(".tab2", _) }), R.select(A)) : C ? e(".tab1", _).show() : D && e(".tab2", _).show();
-        var ne = e.uploadbutton({ button: e(".ke-upload-button", _)[0], width: "auto", fieldName: u, fileSizeLimit: a, fileTypeLimit: i, uploadHeader: c, uploadData: d, uploadUrl: e.addParam(l, "dir=image"), afterUpload: function(Y) {
+        var te = e.uploadbutton({ button: e(".ke-upload-button", _)[0], width: "auto", fieldName: u, fileSizeLimit: a, fileTypeLimit: i, uploadHeader: c, uploadData: d, uploadUrl: e.addParam(l, "dir=image"), afterUpload: function(Y) {
           if (x.hideLoading(), Y.error === 0) {
             var Q = Y.url;
             f && (Q = e.formatUrl(Q, "absolute")), t.afterUpload && t.afterUpload.call(t, Q, Y, n), m ? (e(".ke-dialog-row #remoteUrl", _).val(Q), e(".ke-tabs-li", _)[0].click(), e(".ke-refresh-btn", _).click()) : N.call(t, Q, Y.title, Y.width, Y.height, Y.border, Y.align);
@@ -4958,25 +4958,25 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
         }, afterError: function(Y) {
           x.hideLoading(), t.errorDialog(Y);
         } });
-        ne.fileBox.change(function(Y) {
-          F.val(ne.fileBox.val());
+        te.fileBox.change(function(Y) {
+          F.val(te.fileBox.val());
         }), s ? I.click(function(Y) {
           t.loadPlugin("filemanager", function() {
-            t.plugin.filemanagerDialog({ viewType: "VIEW", dirName: "image", clickFn: function(Q, ie) {
+            t.plugin.filemanagerDialog({ viewType: "VIEW", dirName: "image", clickFn: function(Q, ne) {
               t.dialogs.length > 1 && (e('[name="url"]', _).val(Q), t.afterSelectFile && t.afterSelectFile.call(t, Q), t.hideDialog());
             } });
           });
         }) : I.hide();
-        var K = 0, le = 0;
+        var K = 0, ae = 0;
         return W.click(function(Y) {
           var Q = e('<img src="' + M.val() + '" />', document).css({ position: "absolute", visibility: "hidden", top: 0, left: "-1000px" });
           Q.bind("load", function() {
             b(Q.width(), Q.height()), Q.remove();
           }), e(document.body).append(Q);
         }), O.change(function(Y) {
-          K > 0 && U.val(Math.round(le / K * parseInt(this.value, 10)));
+          K > 0 && U.val(Math.round(ae / K * parseInt(this.value, 10)));
         }), U.change(function(Y) {
-          le > 0 && O.val(Math.round(K / le * parseInt(this.value, 10)));
+          ae > 0 && O.val(Math.round(K / ae * parseInt(this.value, 10)));
         }), M.val(y.imageUrl), b(y.imageWidth, y.imageHeight), z.val(y.imageTitle), V.each(function() {
           return this.value === y.imageAlign ? (this.checked = !0, !1) : void 0;
         }), C && A === 0 && (M[0].focus(), M[0].select()), x;
@@ -5167,7 +5167,7 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
           e(this).removeClass("ke-on");
         });
         r.append(s);
-        var c = e('<img class="ke-multi-image" src="' + n.url + '" class="ke-img" draggable="false" data-status="0" alt="' + n.name + '" />');
+        var c = e('<img class="ke-multi-image ke-img" src="' + n.url + '" class="ke-img" draggable="false" data-status="0" alt="' + n.name + '" />');
         s.append(c), e('<span class="ke-delete"></span>').appendTo(s).click(function() {
           o.removeFile(n.id);
         });
@@ -5192,12 +5192,12 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
       var t = this, n = "multiimage", o = (e.undef(t.formatUploadUrl, !0), e.undef(t.uploadJson, t.basePath + "php/upload_json.php")), r = e.undef(t.uploadHeader, t.basePath + "php/upload_json.php"), s = e.undef(t.uploadData, t.basePath + "php/upload_json.php"), c = t.pluginsPath + "multiimage/images/", a = e.undef(t.imageSizeLimit, "1MB"), i = (e.undef(t.imageFileTypes, "*.jpg;*.gif;*.png"), e.undef(t.imageUploadLimit, 20)), d = e.undef(t.filePostName, "imgFile"), u = t.lang(n + ".");
       t.plugin.multiImageDialog = function(l) {
         var f = l.clickFn, p = e.tmpl(u.uploadDesc, { uploadLimit: i, sizeLimit: a }), m = ['<div style="padding:10px 20px;">', '<div class="swfupload">', "</div>", "</div>"].join(""), g = t.createDialog({ name: n, width: 650, height: 500, title: t.lang(n), body: m, previewBtn: { name: u.insertAll, click: function(C) {
-          f.call(t, b.getUrlList());
+          console.info(123), f.call(t, b.getUrlList());
         } }, yesBtn: { name: u.clearAll, click: function(C) {
           b.removeFiles();
         } }, beforeRemove: function() {
           b.destroy();
-        } }), y = g.div, b = e.swfupload({ container: e(".swfupload", y), buttonImageUrl: c + (t.langType == "zh-CN" ? "select-files-zh-CN.png" : "select-files-en.png"), buttonWidth: t.langType == "zh-CN" ? 72 : 88, buttonHeight: 23, fileIconUrl: c + "image.png", uploadDesc: p, startButtonValue: u.startUpload, uploadUrl: o, uploadData: s, uploadHeader: r, uploadCompress: t.uploadCompress, formatUploadUrl: t.formatUploadUrl, flashUrl: c + "swfupload.swf", filePostName: d, fileTypes: "*.jpg;*.jpeg;*.gif;*.png;*.bmp", fileTypesDesc: "Image Files", fileUploadLimit: i, fileSizeLimit: a, postParams: e.undef(t.extraFileUploadParams, {}), queueLimitExceeded: u.queueLimitExceeded, fileExceedsSizeLimit: u.fileExceedsSizeLimit, zeroByteFile: u.zeroByteFile, invalidFiletype: u.invalidFiletype, unknownError: u.unknownError, pendingMessage: u.pending, errorMessage: u.uploadError, afterError: function(C) {
+        } }), y = g.div, b = e.swfupload({ container: e(".swfupload", y), buttonImageUrl: c + (t.langType == "zh-CN" ? "select-files-zh-CN.png" : "select-files-en.png"), buttonWidth: t.langType == "zh-CN" ? 72 : 88, buttonHeight: 23, fileIconUrl: c + "image.png", uploadDesc: p, startButtonValue: u.startUpload, uploadUrl: e.addParam(o, "dir=image"), uploadData: s, uploadHeader: r, uploadCompress: t.uploadCompress, formatUploadUrl: t.formatUploadUrl, flashUrl: c + "swfupload.swf", filePostName: d, fileTypes: "*.jpg;*.jpeg;*.gif;*.png;*.bmp", fileTypesDesc: "Image Files", fileUploadLimit: i, fileSizeLimit: a, postParams: e.undef(t.extraFileUploadParams, {}), queueLimitExceeded: u.queueLimitExceeded, fileExceedsSizeLimit: u.fileExceedsSizeLimit, zeroByteFile: u.zeroByteFile, invalidFiletype: u.invalidFiletype, unknownError: u.unknownError, pendingMessage: u.pending, errorMessage: u.uploadError, afterError: function(C) {
           t.errorDialog(C);
         } });
         return e(b.bodyDiv).bind("drop", function(C) {
@@ -5331,7 +5331,7 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
         var u = ['<div style="padding:20px;">', '<div class="ke-dialog-row">', '<label for="keRows" style="width:90px;">' + c.cells + "</label>", c.rows + ' <input type="text" id="keRows" class="ke-input-text ke-input-number" name="rows" value="" maxlength="4" /> &nbsp; ', c.cols + ' <input type="text" class="ke-input-text ke-input-number" name="cols" value="" maxlength="4" />', "</div>", '<div class="ke-dialog-row">', '<label for="keWidth" style="width:90px;">' + c.size + "</label>", c.width + ' <input type="text" id="keWidth" class="ke-input-text ke-input-number" name="width" value="" maxlength="4" /> &nbsp; ', '<select name="widthType">', '<option value="%">' + c.percent + "</option>", '<option value="px">' + c.px + "</option>", "</select> &nbsp; ", c.height + ' <input type="text" class="ke-input-text ke-input-number" name="height" value="" maxlength="4" /> &nbsp; ', '<select name="heightType">', '<option value="%">' + c.percent + "</option>", '<option value="px">' + c.px + "</option>", "</select>", "</div>", '<div class="ke-dialog-row">', '<label for="kePadding" style="width:90px;">' + c.space + "</label>", c.padding + ' <input type="text" id="kePadding" class="ke-input-text ke-input-number" name="padding" value="" maxlength="4" /> &nbsp; ', c.spacing + ' <input type="text" class="ke-input-text ke-input-number" name="spacing" value="" maxlength="4" />', "</div>", '<div class="ke-dialog-row">', '<label for="keAlign" style="width:90px;">' + c.align + "</label>", '<select id="keAlign" name="align">', '<option value="">' + c.alignDefault + "</option>", '<option value="left">' + c.alignLeft + "</option>", '<option value="center">' + c.alignCenter + "</option>", '<option value="right">' + c.alignRight + "</option>", "</select>", "</div>", '<div class="ke-dialog-row">', '<label for="keBorder" style="width:90px;">' + c.border + "</label>", c.borderWidth + ' <input type="text" id="keBorder" class="ke-input-text ke-input-number" name="border" value="" maxlength="4" /> &nbsp; ', c.borderColor + ' <span class="ke-inline-block ke-input-color"></span>', "</div>", '<div class="ke-dialog-row">', '<label for="keBgColor" style="width:90px;">' + c.backgroundColor + "</label>", '<span class="ke-inline-block ke-input-color"></span>', "</div>", "</div>"].join(""), l = r.cmd.range.createBookmark(), f = r.createDialog({ name: s, width: 500, title: r.lang(s), body: u, beforeRemove: function() {
           R.unbind();
         }, yesBtn: { name: r.lang("yes"), click: function(_) {
-          var M = m.val(), F = g.val(), I = y.val(), O = b.val(), U = C.val(), W = D.val(), z = A.val(), V = N.val(), ne = B.val(), K = j.val(), le = e(R[0]).html() || "", Y = e(R[1]).html() || "";
+          var M = m.val(), F = g.val(), I = y.val(), O = b.val(), U = C.val(), W = D.val(), z = A.val(), V = N.val(), te = B.val(), K = j.val(), ae = e(R[0]).html() || "", Y = e(R[1]).html() || "";
           if (M == 0 || !/^\d+$/.test(M))
             return alert(r.lang("invalidRows")), void m[0].focus();
           if (F == 0 || !/^\d+$/.test(F))
@@ -5347,18 +5347,18 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
           if (!/^\d*$/.test(K))
             return alert(r.lang("invalidBorder")), void j[0].focus();
           if (E)
-            return I !== "" ? E.width(I + U) : E.css("width", ""), E[0].width !== void 0 && E.removeAttr("width"), O !== "" ? E.height(O + W) : E.css("height", ""), E[0].height !== void 0 && E.removeAttr("height"), E.css("background-color", Y), E[0].bgColor !== void 0 && E.removeAttr("bgColor"), z !== "" ? E[0].cellPadding = z : E.removeAttr("cellPadding"), V !== "" ? E[0].cellSpacing = V : E.removeAttr("cellSpacing"), ne !== "" ? E[0].align = ne : E.removeAttr("align"), K !== "" ? E.attr("border", K) : E.removeAttr("border"), K === "" || K === "0" ? E.addClass(a) : E.removeClass(a), le !== "" ? E.attr("borderColor", le) : E.removeAttr("borderColor"), r.hideDialog().focus(), r.cmd.range.moveToBookmark(l), r.cmd.select(), void r.addBookmark();
+            return I !== "" ? E.width(I + U) : E.css("width", ""), E[0].width !== void 0 && E.removeAttr("width"), O !== "" ? E.height(O + W) : E.css("height", ""), E[0].height !== void 0 && E.removeAttr("height"), E.css("background-color", Y), E[0].bgColor !== void 0 && E.removeAttr("bgColor"), z !== "" ? E[0].cellPadding = z : E.removeAttr("cellPadding"), V !== "" ? E[0].cellSpacing = V : E.removeAttr("cellSpacing"), te !== "" ? E[0].align = te : E.removeAttr("align"), K !== "" ? E.attr("border", K) : E.removeAttr("border"), K === "" || K === "0" ? E.addClass(a) : E.removeClass(a), ae !== "" ? E.attr("borderColor", ae) : E.removeAttr("borderColor"), r.hideDialog().focus(), r.cmd.range.moveToBookmark(l), r.cmd.select(), void r.addBookmark();
           var Q = "";
           I !== "" && (Q += "width:" + I + U + ";"), O !== "" && (Q += "height:" + O + W + ";"), Y !== "" && (Q += "background-color:" + Y + ";");
-          var ie = "<table";
-          Q !== "" && (ie += ' style="' + Q + '"'), z !== "" && (ie += ' cellpadding="' + z + '"'), V !== "" && (ie += ' cellspacing="' + V + '"'), ne !== "" && (ie += ' align="' + ne + '"'), K !== "" && (ie += ' border="' + K + '"'), (K === "" || K === "0") && (ie += ' class="' + a + '"'), le !== "" && (ie += ' bordercolor="' + le + '"'), ie += ">";
+          var ne = "<table";
+          Q !== "" && (ne += ' style="' + Q + '"'), z !== "" && (ne += ' cellpadding="' + z + '"'), V !== "" && (ne += ' cellspacing="' + V + '"'), te !== "" && (ne += ' align="' + te + '"'), K !== "" && (ne += ' border="' + K + '"'), (K === "" || K === "0") && (ne += ' class="' + a + '"'), ae !== "" && (ne += ' bordercolor="' + ae + '"'), ne += ">";
           for (var Fe = 0; M > Fe; Fe++) {
-            ie += "<tr>";
+            ne += "<tr>";
             for (var Me = 0; F > Me; Me++)
-              ie += "<td>" + (e.IE ? "&nbsp;" : "<br />") + "</td>";
-            ie += "</tr>";
+              ne += "<td>" + (e.IE ? "&nbsp;" : "<br />") + "</td>";
+            ne += "</tr>";
           }
-          ie += "</table>", e.IE || (ie += "<br />"), r.insertHtml(ie), r.select().hideDialog().focus(), r.addBookmark();
+          ne += "</table>", e.IE || (ne += "<br />"), r.insertHtml(ne), r.select().hideDialog().focus(), r.addBookmark();
         } } }), p = f.div, m = e('[name="rows"]', p).val(3), g = e('[name="cols"]', p).val(2), y = e('[name="width"]', p).val(100), b = e('[name="height"]', p), C = e('[name="widthType"]', p), D = e('[name="heightType"]', p), A = e('[name="padding"]', p).val(2), N = e('[name="spacing"]', p).val(0), B = e('[name="align"]', p), j = e('[name="border"]', p).val(1), R = e(".ke-input-color", p);
         n(p, R.eq(0)), n(p, R.eq(1)), t(R.eq(0), "#000000"), t(R.eq(1), ""), m[0].focus(), m[0].select();
         var E;
@@ -5505,17 +5505,13 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
 \u53EA\u5141\u8BB8swf,flv,mp3,wav,wma,wmv,mid,avi,mpg,asf,rm,rmvb\u683C\u5F0F\u3002`, invalidWidth: "\u5BBD\u5EA6\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidHeight: "\u9AD8\u5EA6\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidBorder: "\u8FB9\u6846\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidUrl: "\u8BF7\u8F93\u5165\u6709\u6548\u7684URL\u5730\u5740\u3002", invalidRows: "\u884C\u6570\u4E3A\u5FC5\u9009\u9879\uFF0C\u53EA\u5141\u8BB8\u8F93\u5165\u5927\u4E8E0\u7684\u6570\u5B57\u3002", invalidCols: "\u5217\u6570\u4E3A\u5FC5\u9009\u9879\uFF0C\u53EA\u5141\u8BB8\u8F93\u5165\u5927\u4E8E0\u7684\u6570\u5B57\u3002", invalidPadding: "\u8FB9\u8DDD\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidSpacing: "\u95F4\u8DDD\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidJson: "\u670D\u52A1\u5668\u53D1\u751F\u6545\u969C\u3002", uploadSuccess: "\u4E0A\u4F20\u6210\u529F\u3002", cutError: "\u60A8\u7684\u6D4F\u89C8\u5668\u5B89\u5168\u8BBE\u7F6E\u4E0D\u5141\u8BB8\u4F7F\u7528\u526A\u5207\u64CD\u4F5C\uFF0C\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+X)\u6765\u5B8C\u6210\u3002", copyError: "\u60A8\u7684\u6D4F\u89C8\u5668\u5B89\u5168\u8BBE\u7F6E\u4E0D\u5141\u8BB8\u4F7F\u7528\u590D\u5236\u64CD\u4F5C\uFF0C\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+C)\u6765\u5B8C\u6210\u3002", pasteError: "\u60A8\u7684\u6D4F\u89C8\u5668\u5B89\u5168\u8BBE\u7F6E\u4E0D\u5141\u8BB8\u4F7F\u7528\u7C98\u8D34\u64CD\u4F5C\uFF0C\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+V)\u6765\u5B8C\u6210\u3002", ajaxLoading: "\u52A0\u8F7D\u4E2D\uFF0C\u8BF7\u7A0D\u5019 ...", uploadLoading: "\u4E0A\u4F20\u4E2D\uFF0C\u8BF7\u7A0D\u5019 ...", uploadError: "\u4E0A\u4F20\u9519\u8BEF", "plainpaste.comment": "\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+V)\u628A\u5185\u5BB9\u7C98\u8D34\u5230\u4E0B\u9762\u7684\u65B9\u6846\u91CC\u3002", "wordpaste.comment": "\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+V)\u628A\u5185\u5BB9\u7C98\u8D34\u5230\u4E0B\u9762\u7684\u65B9\u6846\u91CC\u3002", "code.pleaseInput": "\u8BF7\u8F93\u5165\u7A0B\u5E8F\u4EE3\u7801\u3002", "link.url": "URL", "link.linkType": "\u6253\u5F00\u7C7B\u578B", "link.newWindow": "\u65B0\u7A97\u53E3", "link.selfWindow": "\u5F53\u524D\u7A97\u53E3", "flash.url": "URL", "flash.width": "\u5BBD\u5EA6", "flash.height": "\u9AD8\u5EA6", "flash.upload": "\u4E0A\u4F20", "flash.viewServer": "\u6587\u4EF6\u7A7A\u95F4", "media.url": "URL", "media.width": "\u5BBD\u5EA6", "media.height": "\u9AD8\u5EA6", "media.autostart": "\u81EA\u52A8\u64AD\u653E", "media.upload": "\u4E0A\u4F20", "media.viewServer": "\u6587\u4EF6\u7A7A\u95F4", "image.remoteImage": "\u7F51\u7EDC\u56FE\u7247", "image.localImage": "\u672C\u5730\u4E0A\u4F20", "image.remoteUrl": "\u56FE\u7247\u5730\u5740", "image.localUrl": "\u4E0A\u4F20\u6587\u4EF6", "image.size": "\u56FE\u7247\u5927\u5C0F", "image.width": "\u5BBD", "image.height": "\u9AD8", "image.resetSize": "\u91CD\u7F6E\u5927\u5C0F", "image.align": "\u5BF9\u9F50\u65B9\u5F0F", "image.defaultAlign": "\u9ED8\u8BA4\u65B9\u5F0F", "image.leftAlign": "\u5DE6\u5BF9\u9F50", "image.rightAlign": "\u53F3\u5BF9\u9F50", "image.imgTitle": "\u56FE\u7247\u8BF4\u660E", "image.upload": "\u6D4F\u89C8...", "image.viewServer": "\u56FE\u7247\u7A7A\u95F4", "multiimage.uploadDesc": "\u5141\u8BB8\u7528\u6237\u540C\u65F6\u4E0A\u4F20<%=uploadLimit%>\u5F20\u56FE\u7247\uFF0C\u5355\u5F20\u56FE\u7247\u5BB9\u91CF\u4E0D\u8D85\u8FC7<%=sizeLimit%>", "multiimage.startUpload": "\u5F00\u59CB\u4E0A\u4F20", "multiimage.clearAll": "\u5168\u90E8\u6E05\u7A7A", "multiimage.insertAll": "\u5168\u90E8\u63D2\u5165", "multiimage.queueLimitExceeded": "\u6587\u4EF6\u6570\u91CF\u8D85\u8FC7\u9650\u5236\u3002", "multiimage.fileExceedsSizeLimit": "\u6587\u4EF6\u5927\u5C0F\u8D85\u8FC7\u9650\u5236\u3002", "multiimage.zeroByteFile": "\u65E0\u6CD5\u4E0A\u4F20\u7A7A\u6587\u4EF6\u3002", "multiimage.invalidFiletype": "\u6587\u4EF6\u7C7B\u578B\u4E0D\u6B63\u786E\u3002", "multiimage.unknownError": "\u53D1\u751F\u5F02\u5E38\uFF0C\u65E0\u6CD5\u4E0A\u4F20\u3002", "multiimage.pending": "\u7B49\u5F85\u4E0A\u4F20", "multiimage.uploadError": "\u4E0A\u4F20\u5931\u8D25", "filemanager.emptyFolder": "\u7A7A\u6587\u4EF6\u5939", "filemanager.moveup": "\u79FB\u5230\u4E0A\u4E00\u7EA7\u6587\u4EF6\u5939", "filemanager.viewType": "\u663E\u793A\u65B9\u5F0F\uFF1A", "filemanager.viewImage": "\u7F29\u7565\u56FE", "filemanager.listImage": "\u8BE6\u7EC6\u4FE1\u606F", "filemanager.orderType": "\u6392\u5E8F\u65B9\u5F0F\uFF1A", "filemanager.fileName": "\u540D\u79F0", "filemanager.fileSize": "\u5927\u5C0F", "filemanager.fileType": "\u7C7B\u578B", "insertfile.url": "URL", "insertfile.title": "\u6587\u4EF6\u8BF4\u660E", "insertfile.upload": "\u4E0A\u4F20", "insertfile.viewServer": "\u6587\u4EF6\u7A7A\u95F4", "table.cells": "\u5355\u5143\u683C\u6570", "table.rows": "\u884C\u6570", "table.cols": "\u5217\u6570", "table.size": "\u5927\u5C0F", "table.width": "\u5BBD\u5EA6", "table.height": "\u9AD8\u5EA6", "table.percent": "%", "table.px": "px", "table.space": "\u8FB9\u8DDD\u95F4\u8DDD", "table.padding": "\u8FB9\u8DDD", "table.spacing": "\u95F4\u8DDD", "table.align": "\u5BF9\u9F50\u65B9\u5F0F", "table.textAlign": "\u6C34\u5E73\u5BF9\u9F50", "table.verticalAlign": "\u5782\u76F4\u5BF9\u9F50", "table.alignDefault": "\u9ED8\u8BA4", "table.alignLeft": "\u5DE6\u5BF9\u9F50", "table.alignCenter": "\u5C45\u4E2D", "table.alignRight": "\u53F3\u5BF9\u9F50", "table.alignTop": "\u9876\u90E8", "table.alignMiddle": "\u4E2D\u90E8", "table.alignBottom": "\u5E95\u90E8", "table.alignBaseline": "\u57FA\u7EBF", "table.border": "\u8FB9\u6846", "table.borderWidth": "\u8FB9\u6846", "table.borderColor": "\u989C\u8272", "table.backgroundColor": "\u80CC\u666F\u989C\u8272", "map.address": "\u5730\u5740: ", "map.search": "\u641C\u7D22", "baidumap.address": "\u5730\u5740: ", "baidumap.search": "\u641C\u7D22", "baidumap.insertDynamicMap": "\u63D2\u5165\u52A8\u6001\u5730\u56FE", "anchor.name": "\u951A\u70B9\u540D\u79F0", "formatblock.formatBlock": { h1: "\u6807\u9898 1", h2: "\u6807\u9898 2", h3: "\u6807\u9898 3", h4: "\u6807\u9898 4", p: "\u6B63 \u6587" }, "fontname.fontName": { SimSun: "\u5B8B\u4F53", NSimSun: "\u65B0\u5B8B\u4F53", FangSong_GB2312: "\u4EFF\u5B8B_GB2312", KaiTi_GB2312: "\u6977\u4F53_GB2312", SimHei: "\u9ED1\u4F53", "Microsoft YaHei": "\u5FAE\u8F6F\u96C5\u9ED1", Arial: "Arial", "Arial Black": "Arial Black", "Times New Roman": "Times New Roman", "Courier New": "Courier New", Tahoma: "Tahoma", Verdana: "Verdana" }, "lineheight.lineHeight": [{ 1: "\u5355\u500D\u884C\u8DDD" }, { 1.5: "1.5\u500D\u884C\u8DDD" }, { 2: "2\u500D\u884C\u8DDD" }, { 2.5: "2.5\u500D\u884C\u8DDD" }, { 3: "3\u500D\u884C\u8DDD" }], "template.selectTemplate": "\u53EF\u9009\u6A21\u677F", "template.replaceContent": "\u66FF\u6362\u5F53\u524D\u5185\u5BB9", "template.fileList": { "1.html": "\u56FE\u7247\u548C\u6587\u5B57", "2.html": "\u8868\u683C", "3.html": "\u9879\u76EE\u7F16\u53F7" } }, "zh-CN"), KindEditor.options.langType = "zh-CN", KindEditor;
   });
 })(Oi);
-const We = KindEditor, Pi = ["id"], ji = {
+const dt = KindEditor, Pi = ["id"], ji = {
   __name: "VKindEditor",
   props: {
     id: {
       type: String,
       required: !1,
       default: () => "ke_" + Math.random().toString().substring(2)
-    },
-    options: {
-      type: Object,
-      required: !1
     },
     readonly: {
       type: Boolean,
@@ -5531,42 +5527,51 @@ const We = KindEditor, Pi = ["id"], ji = {
     }
   },
   emits: ["update:modelValue"],
-  setup($e, { emit: ft }) {
+  setup(We, { emit: ft }) {
     var J, X;
-    const te = $e;
-    var ce = null;
-    const pe = (J = te.configs) == null ? void 0 : J.afterBlur, P = (X = te.configs) == null ? void 0 : X.afterChange, ee = te.id;
-    var Ve = Object.assign({}, te.configs, {
-      resizeType: 1,
-      pasteType: 2,
-      loadStyleMode: !1,
-      allowFlashUpload: !1,
-      allowFileManager: !1,
-      imageSizeLimit: "2MB",
-      items: We.Tools.All,
-      readonly: te.readonly,
-      afterBlur: function() {
-        this.sync(), pe && pe.call(this);
+    const ie = We;
+    var re = null;
+    const pe = (J = ie.configs) == null ? void 0 : J.afterBlur, P = (X = ie.configs) == null ? void 0 : X.afterChange, ee = ie.id;
+    var $e = Object.assign(
+      {
+        loadStyleMode: !1,
+        resizeType: 1,
+        pasteType: 2,
+        newlineTag: "p"
       },
-      afterChange: function() {
-        ce && ft("update:modelValue", ce.html()), P && P.call(this);
+      ie.configs,
+      {
+        allowFlashUpload: !1,
+        allowFileManager: !1,
+        afterBlur: function() {
+          this.sync(), pe && pe.call(this);
+        },
+        afterChange: function() {
+          re && ft("update:modelValue", re.html()), P && P.call(this);
+        }
       }
-    });
-    return Ni(() => te.readonly, (ae) => {
-      ce && ce.readonly(ae);
-    }), Ii(() => {
-      We.remove("#" + ee), ce = We.create("#" + ee, Ve), te.modelValue && ce.html(te.modelValue);
+    );
+    return Ni(
+      () => ie.readonly,
+      (se) => {
+        re && re.readonly(se);
+      }
+    ), Ii(() => {
+      dt.remove("#" + ee), re = dt.create("#" + ee, $e), ie.modelValue && re.html(ie.modelValue);
     }), Ai(() => {
-      We.remove("#" + ee);
+      dt.remove("#" + ee), re && re.remove(), re = null;
     }), Li(() => {
-      We.remove("#" + ee), ce = We.create("#" + ee, Ve), te.modelValue && ce.html(te.modelValue);
-    }), (ae, Ke) => (Ri(), Bi("div", { id: Fi(ee) }, null, 8, Pi));
+      dt.remove("#" + ee), re = dt.create("#" + ee, $e), ie.modelValue && re.html(ie.modelValue);
+    }), (se, Ve) => (Ri(), Bi("div", {
+      id: Fi(ee),
+      style: { visibility: "hidden" }
+    }, null, 8, Pi));
   }
 };
 const Hi = {
-  install($e, ft) {
-    const te = ft || { name: "VKindEditor" };
-    $e.component(te.name, ji);
+  install(We, ft) {
+    const ie = ft || { name: "VKindEditor" };
+    We.component(ie.name, ji);
   }
 };
 export {

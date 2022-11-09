@@ -1,73 +1,77 @@
 <template>
-  <div :id="editorId"></div>
+  <div :id="editorId" style="visibility: hidden;"></div>
 </template>
 <script setup>
-import KindEditor from 'mhalo.kindeditor'
-import { onActivated, onDeactivated, onMounted, watch } from 'vue'
-const updateEmit = defineEmits(['update:modelValue'])
+import KindEditor from "mhalo.kindeditor";
+import { onActivated, onDeactivated, onMounted, reactive, watch } from "vue";
+const updateEmit = defineEmits(["update:modelValue"]);
 var editor = null;
 const props = defineProps({
   id: {
-      type: String,
-      required: false,
-      default: ()=> ( "ke_" + Math.random().toString().substring(2))
+    type: String,
+    required: false,
+    default: () => "ke_" + Math.random().toString().substring(2),
   },
-  options: {
-      type: Object,
-      required: false
-  },
-  readonly:{
-      type: Boolean,
-      default: false
+  readonly: {
+    type: Boolean,
+    default: false,
   },
   modelValue: {
-      type: String,
-      required: true
+    type: String,
+    required: true,
   },
   configs: {
-      type: Object,
-      default: () => ( {} )
+    type: Object,
+    default: () => ({}),
   },
-})
-const originalAfterBlurEvt = props.configs?.afterBlur
-const originalAfterChangeEvt = props.configs?.afterChange
-const editorId = props.id
-var options = Object.assign({}, props.configs,{
-  resizeType: 1,
-  pasteType: 2,
-  loadStyleMode: false,
-  allowFlashUpload: false,
-  allowFileManager: false,
-  imageSizeLimit: '2MB',
-  items: KindEditor.Tools.All,
-  readonly: props.readonly,
-  afterBlur: function () {
-      this.sync();
-      originalAfterBlurEvt && originalAfterBlurEvt.call(this)
-  },
-  afterChange: function(){
-      if(editor){
-          updateEmit('update:modelValue', editor.html())
-      }
-      originalAfterChangeEvt && originalAfterChangeEvt.call(this)
-  }
 });
+const originalAfterBlurEvt = props.configs?.afterBlur;
+const originalAfterChangeEvt = props.configs?.afterChange;
+const editorId = props.id;
+var options = Object.assign(
+  {
+    loadStyleMode: false,
+    resizeType: 1,
+    pasteType: 2,
+    newlineTag: 'p'
+  },
+  props.configs,
+  {
+    allowFlashUpload: false,
+    allowFileManager: false,
+    afterBlur: function () {
+      this.sync();
+      originalAfterBlurEvt && originalAfterBlurEvt.call(this);
+    },
+    afterChange: function () {
+      if (editor) {
+        updateEmit("update:modelValue", editor.html());
+      }
+      originalAfterChangeEvt && originalAfterChangeEvt.call(this);
+    },
+  }
+);
 
-watch(() => props.readonly,(val) =>{
-  editor && editor.readonly(val);
-})
+watch(
+  () => props.readonly,
+  (val) => {
+    editor && editor.readonly(val);
+  }
+);
 
-onMounted(()=>{
-  KindEditor.remove('#' + editorId)
-  editor = KindEditor.create('#' + editorId, options);
+onMounted(() => {
+  KindEditor.remove("#" + editorId);
+  editor = KindEditor.create("#" + editorId, options);
   props.modelValue && editor.html(props.modelValue);
-})
-onDeactivated(()=>{
-  KindEditor.remove('#' + editorId)
-})
-onActivated(()=>{
-  KindEditor.remove('#' + editorId)
-  editor = KindEditor.create('#' + editorId, options);
-  props.modelValue && editor.html(props.modelValue); 
-})
+});
+onDeactivated(() => {
+  KindEditor.remove("#" + editorId);
+  editor && editor.remove();
+  editor = null;
+});
+onActivated(() => {
+  KindEditor.remove("#" + editorId);
+  editor = KindEditor.create("#" + editorId, options);
+  props.modelValue && editor.html(props.modelValue);
+});
 </script>
