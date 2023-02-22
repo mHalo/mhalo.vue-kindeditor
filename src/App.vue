@@ -21,7 +21,7 @@ const editor = reactive({
             corefx: 'mhalo'
         },
         imageSizeLimit: '2MB',
-        items: KindEditor.Tools.Mini,
+        items: KindEditor.Tools.Normal,
         cssData: 'body{font-size: 16px;line-height: 28px;}',
         afterChange: function(){
             console.info('afterChange')

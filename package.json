@@ -1,6 +1,6 @@
 {
   "name": "mhalo.vue-kindeditor",
-  "version": "1.2.3",
+  "version": "1.2.7",
   "type": "module",
   "license": "LGPL-2.1",
   "description": "a component use mhalo.kindeditor for vue3.",
@@ -25,12 +25,12 @@
     }
   },
   "dependencies": {
-    "mhalo.kindeditor": "^4.4.0",
-    "vue": "^3.2.41"
+    "mhalo.kindeditor": "^4.4.2",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
-    "vite": "^3.2.0",
+    "vite": "^3.2.5",
     "vite-plugin-style-inject": "^0.0.1"
   }
 }

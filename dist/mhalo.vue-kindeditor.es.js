@@ -1,10 +1,10 @@
-(function(){ try {var elementStyle = document.createElement('style'); elementStyle.appendChild(document.createTextNode("@import\"//at.alicdn.com/t/c/font_1491367_njeebnzeclh.css\";.ke-container *{box-sizing:border-box}.ke-inline-block{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-clearfix{zoom:1}.ke-clearfix:after{content:\".\";display:block;clear:both;font-size:0;height:0;line-height:0;visibility:hidden}.ke-shadow{box-shadow:0 0 30px -6px #999;-moz-box-shadow:0px 0px 30px -6px #999;-webkit-box-shadow:0px 0px 30px -6px #999;filter:progid:DXImageTransform.Microsoft.Shadow(color=\"#A0A0A0\",Direction=135,Strength=3);background-color:#f0f0ee}.ke-menu a,.ke-menu a:hover,.ke-dialog a,.ke-dialog a:hover{color:#337fe5;text-decoration:none}.ke-icon-source{background-position:0px 0px;width:16px;height:16px}.ke-icon-preview{background-position:0px -16px;width:16px;height:16px}.ke-icon-print{background-position:0px -32px;width:16px;height:16px}.ke-icon-undo{background-position:0px -48px;width:16px;height:16px}.ke-icon-redo{background-position:0px -64px;width:16px;height:16px}.ke-icon-cut{background-position:0px -80px;width:16px;height:16px}.ke-icon-copy{background-position:0px -96px;width:16px;height:16px}.ke-icon-paste{background-position:0px -112px;width:16px;height:16px}.ke-icon-selectall{background-position:0px -128px;width:16px;height:16px}.ke-icon-justifyleft{background-position:0px -144px;width:16px;height:16px}.ke-icon-justifycenter{background-position:0px -160px;width:16px;height:16px}.ke-icon-justifyright{background-position:0px -176px;width:16px;height:16px}.ke-icon-justifyfull{background-position:0px -192px;width:16px;height:16px}.ke-icon-insertorderedlist{background-position:0px -208px;width:16px;height:16px}.ke-icon-insertunorderedlist{background-position:0px -224px;width:16px;height:16px}.ke-icon-indent{background-position:0px -240px;width:16px;height:16px}.ke-icon-outdent{background-position:0px -256px;width:16px;height:16px}.ke-icon-subscript{background-position:0px -272px;width:16px;height:16px}.ke-icon-superscript{background-position:0px -288px;width:16px;height:16px}.ke-icon-date{background-position:0px -304px;width:25px;height:16px}.ke-icon-time{background-position:0px -320px;width:25px;height:16px}.ke-icon-formatblock{background-position:0px -336px;width:25px;height:16px}.ke-icon-fontname{background-position:0px -352px;width:21px;height:16px}.ke-icon-fontsize{background-position:0px -368px;width:23px;height:16px}.ke-icon-forecolor{background-position:0px -384px;width:20px;height:16px}.ke-icon-hilitecolor{background-position:0px -400px;width:23px;height:16px}.ke-icon-bold{background-position:0px -416px;width:16px;height:16px}.ke-icon-italic{background-position:0px -432px;width:16px;height:16px}.ke-icon-underline{background-position:0px -448px;width:16px;height:16px}.ke-icon-strikethrough{background-position:0px -464px;width:16px;height:16px}.ke-icon-removeformat{background-position:0px -480px;width:16px;height:16px}.ke-icon-image{background-position:0px -496px;width:16px;height:16px}.ke-icon-flash{background-position:0px -512px;width:16px;height:16px}.ke-icon-media{background-position:0px -528px;width:16px;height:16px}.ke-icon-div{background-position:0px -544px;width:16px;height:16px}.ke-icon-formula{background-position:0px -576px;width:16px;height:16px}.ke-icon-hr{background-position:0px -592px;width:16px;height:16px}.ke-icon-link{background-position:0px -624px;width:16px;height:16px}.ke-icon-unlink{background-position:0px -640px;width:16px;height:16px}.ke-icon-fullscreen{background-position:0px -656px;width:16px;height:16px}.ke-icon-about{background-position:0px -672px;width:16px;height:16px}.ke-icon-plainpaste{background-position:0px -704px;width:16px;height:16px}.ke-icon-wordpaste{background-position:0px -720px;width:16px;height:16px}.ke-icon-table{background-position:0px -784px;width:16px;height:16px}.ke-icon-tablemenu{background-position:0px -768px;width:16px;height:16px}.ke-icon-tableinsert{background-position:0px -784px;width:16px;height:16px}.ke-icon-tabledelete{background-position:0px -800px;width:16px;height:16px}.ke-icon-tablecolinsertleft{background-position:0px -816px;width:16px;height:16px}.ke-icon-tablecolinsertright{background-position:0px -832px;width:16px;height:16px}.ke-icon-tablerowinsertabove{background-position:0px -848px;width:16px;height:16px}.ke-icon-tablerowinsertbelow{background-position:0px -864px;width:16px;height:16px}.ke-icon-tablecoldelete{background-position:0px -880px;width:16px;height:16px}.ke-icon-tablerowdelete{background-position:0px -896px;width:16px;height:16px}.ke-icon-tablecellprop{background-position:0px -912px;width:16px;height:16px}.ke-icon-tableprop{background-position:0px -928px;width:16px;height:16px}.ke-icon-checked{background-position:0px -944px;width:16px;height:16px}.ke-icon-code{background-position:0px -960px;width:16px;height:16px}.ke-icon-map,.ke-icon-baidumap{background-position:0px -976px;width:16px;height:16px}.ke-icon-lineheight{background-position:0px -992px;width:16px;height:16px}.ke-icon-clearhtml{background-position:0px -1008px;width:16px;height:16px}.ke-icon-pagebreak{background-position:0px -1024px;width:16px;height:16px}.ke-icon-insertfile{background-position:0px -1040px;width:16px;height:16px}.ke-icon-quickformat{background-position:0px -1056px;width:16px;height:16px}.ke-icon-template{background-position:0px -1072px;width:16px;height:16px}.ke-icon-tablecellsplit{background-position:0px -1088px;width:16px;height:16px}.ke-icon-tablerowmerge{background-position:0px -1104px;width:16px;height:16px}.ke-icon-tablerowsplit{background-position:0px -1120px;width:16px;height:16px}.ke-icon-tablecolmerge{background-position:0px -1136px;width:16px;height:16px}.ke-icon-tablecolsplit{background-position:0px -1152px;width:16px;height:16px}.ke-icon-anchor{background-position:0px -1168px;width:16px;height:16px}.ke-icon-search{background-position:0px -1184px;width:16px;height:16px}.ke-icon-new{background-position:0px -1200px;width:16px;height:16px}.ke-icon-specialchar{background-position:0px -1216px;width:16px;height:16px}.ke-icon-multiimage{background-position:0px -1232px;width:16px;height:16px}.ke-container{display:block;border:1px solid #CCCCCC;background-color:#fff;overflow:hidden;margin:0;padding:0}.ke-toolbar{border-bottom:1px solid #CCC;background-color:#f0f0ee;padding:3px 5px;text-align:left;overflow:hidden;zoom:1;box-sizing:border-box}.ke-toolbar-icon{width:30px;height:30px;text-align:center;line-height:30px;font-size:18px;display:inline-block}.ke-toolbar-icon-url{background:none}.ke-toolbar .ke-outline{border:1px solid #F0F0EE;margin:1px;padding:1px 2px;font-size:0;line-height:0;overflow:hidden;cursor:pointer;display:block;float:left}.ke-toolbar .ke-on{border:1px solid #5690D2}.ke-toolbar .ke-selected{border:1px solid #5690D2;background-color:#e9eff6}.ke-toolbar .ke-disabled{cursor:default}.ke-toolbar .ke-separator{height:24px;margin:5px 3px;border-left:1px solid #b2c9cd;border-right:1px solid #FFFFFF;border-top:0;border-bottom:0;width:0;font-size:0;line-height:0;overflow:hidden;display:block;float:left}.ke-toolbar .ke-hr{overflow:hidden;height:1px;clear:both}.ke-edit{padding:0}.ke-edit-iframe,.ke-edit-textarea{border:0;margin:0;padding:0;overflow:auto}.ke-edit-textarea{font:12px/1.5 Consolas,Monaco,Bitstream Vera Sans Mono,Courier New,Courier,monospace;color:#000;overflow:auto;resize:none}.ke-edit-textarea:focus{outline:none}.ke-statusbar{position:relative;background-color:#94afb41a;border-top:1px solid #c9d8da;font-size:0;line-height:0;overflow:hidden;text-align:center;cursor:s-resize}.ke-statusbar-center-icon{width:25px;height:11px;position:relative}.ke-statusbar-center-icon i{width:100%;height:1px;background:#94afb4;display:block;transform:scaleY(.5);border:none;margin-top:2px}.ke-statusbar-right-icon{position:absolute;right:0;bottom:0;cursor:se-resize;background-position:-5px -741px;width:11px;height:11px}.ke-menu{background-color:#fff;color:#222;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;text-align:left;overflow:hidden;padding:3px 0}.ke-menu-item{border:1px solid transparent;background-color:#fff;color:#222;height:30px;overflow:hidden;cursor:pointer;font-size:13px;margin:3px 0}.ke-menu-item-on{border:1px solid transparent;background-color:#e9eff6}.ke-menu-item-left{width:27px;text-align:center;overflow:hidden}.ke-menu-item-left .icon-ke-font{height:auto;line-height:1}.ke-menu-item-center{width:0;height:24px;border-left:1px solid #E3E3E3;border-right:1px solid #FFFFFF;border-top:0;border-bottom:0}.ke-menu-item-center-on{border-left:1px solid #E9EFF6;border-right:1px solid #E9EFF6}.ke-menu-item-right{border:0;padding:0 0 0 5px;line-height:24px;text-align:left;overflow:hidden}.ke-menu-separator{margin:2px 0;height:0;overflow:hidden;border-top:1px solid #CCCCCC;border-bottom:1px solid #FFFFFF;border-left:0;border-right:0}.ke-colorpicker{background-color:#fff;color:#222;padding:4px}.ke-colorpicker-table{border:0;margin:0;padding:0;border-collapse:separate}.ke-colorpicker-cell{font-size:0;line-height:0;border:1px solid transparent;cursor:pointer;margin:3px;padding:0}.ke-colorpicker-cell-top{font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:14px;line-height:30px;border:1px solid transparent;cursor:pointer;margin:0;padding:0;text-align:center}.ke-colorpicker-cell-on{border:1px solid #5690D2}.ke-colorpicker-cell-selected{border:1px solid #2446AB}.ke-colorpicker-cell-color{width:24px;height:24px;margin:4px;padding:0;border:0}.ke-dialog{position:absolute;margin:0;padding:0}.ke-dialog *{box-sizing:border-box}.ke-dialog .ke-header{width:100%;margin-bottom:10px}.ke-dialog .ke-header .ke-left{float:left}.ke-dialog .ke-header .ke-right{float:right}.ke-dialog .ke-header label{margin-right:0;cursor:pointer;font-weight:400;display:inline;vertical-align:top}.ke-dialog-content{background-color:#fff;width:100%;height:100%;color:#333;border:1px solid #c9d8da}.ke-dialog-shadow{position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;box-shadow:0 0 42px -12px #5555554d;-moz-box-shadow:0px 0px 42px -12px rgb(85,85,85,.3);-webkit-box-shadow:0px 0px 42px -12px rgb(85,85,85,.3);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=\"3\",MakeShadow=\"true\",ShadowOpacity=\"0.3\");background-color:#f0f0ee}.ke-dialog-header{border:0;margin:0;padding:0 10px;background:#f8f8f8;border-bottom:1px solid #c9d8da;height:48px;font:14px/48px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:left;color:#222;cursor:move}.ke-dialog-icon-close{display:block;width:48px;height:48px;line-height:48px;position:absolute;right:0;top:0;cursor:pointer;text-align:center;font-size:22px;color:#5c6e71}.ke-dialog-icon-close:before{font-family:icon-ke-font!important;font-size:inherit;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\"\\e69b\"}.ke-dialog-body{font:12px/30px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:left;overflow:hidden;width:100%}.ke-dialog-body textarea{display:block;overflow:auto;padding:0;resize:none}.ke-dialog-body textarea:focus,.ke-dialog-body input:focus,.ke-dialog-body select:focus{outline:none}.ke-dialog-body label{margin-right:10px;cursor:pointer;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-dialog-body img{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-dialog-body select{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;width:auto;height:30px;padding:#c9d8da;border-color:#c9d8da;color:#636363}.ke-dialog-body .ke-textarea{display:block;width:408px;height:260px;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;border-color:#c9d8da;border-style:solid;border-width:1px}.ke-dialog-body .ke-form{margin:0;padding:0}.ke-dialog-body .ke-multi-image{width:106px}.ke-dialog-loading{position:absolute;top:0;left:1px;z-index:1;text-align:center}@keyframes spinner-loader{0%{-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0)}to{-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.ke-dialog-loading-content{color:#666;font-size:14px;font-weight:700;height:30px;line-height:31px;padding-left:36px;position:relative}.ke-dialog-loading-content:after{content:\"\";-moz-animation:spinner-loader 1.5s infinite linear;-webkit-animation:spinner-loader 1.5s infinite linear;animation:spinner-loader 1.5s infinite linear;-moz-border-radius:.5em;border-radius:20px;-moz-box-shadow:rgba(0,0,51,.3) 1.5em 0 0 0,rgba(0,0,51,.3) 1.1em 1.1em 0 0,rgba(0,0,51,.3) 0 1.5em 0 0,rgba(0,0,51,.3) -1.1em 1.1em 0 0,rgba(0,0,51,.3) -1.5em 0 0 0,rgba(0,0,51,.3) -1.1em -1.1em 0 0,rgba(0,0,51,.3) 0 -1.5em 0 0,rgba(0,0,51,.3) 1.1em -1.1em 0 0;-webkit-box-shadow:rgba(0,0,51,.3) 1.5em 0 0 0,rgba(0,0,51,.3) 1.1em 1.1em 0 0,rgba(0,0,51,.3) 0 1.5em 0 0,rgba(0,0,51,.3) -1.1em 1.1em 0 0,rgba(0,0,51,.3) -1.5em 0 0 0,rgba(0,0,51,.3) -1.1em -1.1em 0 0,rgba(0,0,51,.3) 0 -1.5em 0 0,rgba(0,0,51,.3) 1.1em -1.1em 0 0;box-shadow:#0000334d 1.5em 0,#0000334d 1.1em 1.1em,#0000334d 0 1.5em,#0000334d -1.1em 1.1em,#0000334d -1.5em 0,#0000334d -1.1em -1.1em,#0000334d 0 -1.5em,#0000334d 1.1em -1.1em;display:inline-block;width:6px;height:6px;overflow:hidden;position:absolute;left:12px;top:12px;font-size:6px}.ke-dialog-row{margin-bottom:10px}.ke-dialog-footer{font:12px/30px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:right;padding:10px 20px;background-color:#fff;width:100%}.ke-dialog-footer .ke-button-common.ke-dialog-no:last-child{margin-right:0}.ke-dialog-preview,.ke-dialog-yes{margin:5px}.ke-dialog-no{margin:5px 10px 5px 5px}.ke-dialog-mask{background-color:#fff;filter:alpha(opacity=50);opacity:.5}.ke-button-common{height:30px;line-height:30px;overflow:visible;display:inline-block;vertical-align:top;cursor:pointer;background-color:#2196f3;border-color:#2565c4;box-shadow:0 1px 9pt 1px #0000001f}.ke-button-outer{padding:0;display:inline-block;vertical-align:middle}.ke-button{padding:0 24px 0 20px;margin:0;border:0 none;color:#fff;text-decoration:none}.ke-input-text{background-color:#fff;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;line-height:17px;height:17px;padding:2px 4px;border-color:#c9d8da;border-style:solid;border-width:1px;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-input-number{width:50px}.ke-input-color{border:1px solid #A0A0A0;background-color:#fff;font-size:12px;width:80px;height:30px;text-align:center;line-height:30px;padding-left:5px;overflow:hidden;cursor:pointer;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-upload-button{position:relative}.ke-upload-area{position:relative;overflow:hidden;margin:0;padding:0}.ke-upload-area .ke-upload-file{position:absolute;font-size:18px;top:0;left:-200px;padding:0;margin:0;z-index:811212;border:0 none;opacity:0;filter:alpha(opacity=0);cursor:pointer}.ke-tabs{font:12px/1 PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;border-bottom:1px solid #c9d8da;padding-left:5px;margin-bottom:20px}.ke-tabs-ul{list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}.ke-tabs-li{position:relative;border:1px solid #c9d8da;background-color:#f6f6f6;margin:0 6px -1px 0;padding:0 20px;float:left;line-height:32px;text-align:center;color:#555;cursor:pointer}.ke-tabs-li-selected{background-color:#fff;border-bottom:1px solid #FFF;color:#000;cursor:default}.ke-tabs-li-on{background-color:#fff;color:#000}.ke-progressbar{position:relative;margin:0;padding:0}.ke-progressbar-bar{border:1px solid #6FA5DB;width:80px;height:5px;margin:10px 10px 0;padding:0}.ke-progressbar-bar-inner{width:0;height:5px;background-color:#6fa5db;overflow:hidden;margin:0;padding:0}.ke-progressbar-percent{position:absolute;top:0;left:40%;display:none}.ke-swfupload-top{position:relative;margin-bottom:16px;_width:608px}.ke-swfupload-button{height:30px;line-height:30px}.webuploader-container input[type=file]{opacity:0;cursor:pointer;width:500px;height:100px;margin-left:-200px}.webuploader-element-invisible{opacity:0;position:relative;z-index:3}.webuploader-container{background-color:#2196f3;border-color:#2565c4;box-shadow:0 1px 9pt 1px #0000001f}.webuploader-pick{position:relative;display:inline-block;cursor:pointer;width:100%;height:100%;box-sizing:border-box;border-radius:1px;overflow:visible;zoom:1}.webuploader-pick:after{content:\"\\9009\\62e9\\56fe\\7247\";position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;background-color:#2196f3;border-color:#2565c4;z-index:1;margin:0;padding:0;color:#fff;cursor:pointer;font-size:14px}.ke-swfupload-desc{padding:0 10px;height:23px;line-height:23px;font-size:14px}.ke-swfupload-startupload{position:absolute;top:0;right:0}.ke-swfupload-body{overflow-y:scroll;background-color:#fff;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px;width:auto;height:330px;padding:5px}.ke-swfupload-body .ke-item{width:110px;margin:4px}.ke-swfupload-body .ke-photo{position:relative;background-color:#2196f3;padding:2px}.ke-swfupload-body .ke-delete{display:block;width:20px;height:20px;line-height:20px;text-align:center;position:absolute;right:0;top:0;cursor:pointer;z-index:1;background:rgba(255,255,255,.42);font-size:14px;font-weight:700}.ke-swfupload-body .ke-delete:after{font-family:icon-ke-font!important;font-size:inherit;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\"\\e69b\"}.ke-swfupload-body .ke-status{position:absolute;left:0;bottom:0;width:110px;height:22px;line-height:18px}.ke-swfupload-body .ke-message{width:100%;text-align:center;overflow:hidden;height:22px;background:rgba(0,0,0,.5);color:#fff}.ke-swfupload-body .ke-error{color:red}.ke-swfupload-body .ke-name{width:100px;text-align:center;overflow:hidden;height:16px;line-height:16px}.ke-swfupload-body .ke-on{background-color:#e3eefa}.ke-swfupload .ke-progressbar{position:absolute;margin:0;padding:0;bottom:0;left:0;width:100%;height:100%;background:rgba(0,179,14,.28);text-shadow:1px 1px 4px #000000}.ke-swfupload .ke-progressbar-bar{height:4px;padding:0;width:100%;margin:0;background:#565656;border:none;position:absolute;bottom:0}.ke-swfupload .ke-progressbar-bar-inner{width:0%;height:4px;background-color:#32ce62;overflow:hidden;margin:0;padding:0}.ke-swfupload .ke-progressbar-percent{position:absolute;bottom:3px;left:0;font-weight:700;color:#7f0;display:block;width:100%;text-align:center}.ke-swfupload-body{border:3px dashed #CCC}.ke-swfupload-body:after{content:\"\\53ef\\62d6\\62fd\\6587\\4ef6\\81f3\\6b64\\5904\\4e0a\\4f20\";position:absolute;top:50%;left:0;width:100%;height:30px;font-size:24px;color:#e2e2e2;text-align:center;margin-top:-15px}.ke-swfupload-body.drag-hover{border:3px dashed #000}.ke-swfupload-body .ke-item{position:relative;z-index:1;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}.ke-swfupload .ke-progressbar.error{background:rgba(255,178,178,.5)}.ke-swfupload .ke-progressbar.error .ke-progressbar-bar-inner{background:#ff1010}.ke-swfupload .ke-progressbar.error .ke-progressbar-percent{color:#ff1010}.ke-swfupload{position:relative}.ke-swfupload .upload-error-result{position:absolute;bottom:0;left:0;width:100%;height:30px;box-sizing:border-box;padding:0 50px;background:#ff000096;display:none;text-align:center;line-height:30px;color:#fff;z-index:2}.ke-swfupload .upload-error-result.show{display:block}.ke-status.upload-error{width:100%;height:100%}.ke-status.upload-error .ke-message{width:100%;height:100%;vertical-align:middle;display:flex;justify-content:space-around;align-items:center;z-index:0;background:rgba(132,0,0,.52);color:#fff;padding:0 5px;text-shadow:1px 1px #b50000}.ke-plugin-plainpaste-textarea,.ke-plugin-wordpaste-iframe{display:block;width:408px;height:260px;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px}.ke-plugin-filemanager-header{width:100%;margin-bottom:10px}.ke-plugin-filemanager-header .ke-left{float:left}.ke-plugin-filemanager-header .ke-right{float:right}.ke-plugin-filemanager-body{overflow:scroll;background-color:#fff;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px;width:auto;height:370px;padding:5px}.ke-plugin-filemanager-body .ke-item{width:100px;margin:5px}.ke-plugin-filemanager-body .ke-photo{border:1px solid #DDDDDD;background-color:#fff;padding:10px}.ke-plugin-filemanager-body .ke-name{width:100px;text-align:center;overflow:hidden;height:16px}.ke-plugin-filemanager-body .ke-on{border:1px solid #5690D2;background-color:#e9eff6}.ke-plugin-filemanager-body .ke-table{width:95%;border:0;margin:0;padding:0;border-collapse:separate}.ke-plugin-filemanager-body .ke-table .ke-cell{margin:0;padding:0;border:0}.ke-plugin-filemanager-body .ke-table .ke-name{width:55%;text-align:left}.ke-plugin-filemanager-body .ke-table .ke-size{width:15%;text-align:left}.ke-plugin-filemanager-body .ke-table .ke-datetime{width:30%;text-align:center}.ke-dialog-body .ke-input-text{height:30px;min-height:30px;min-width:80px;line-height:30px}.ke-dialog-body input[type=checkbox]{width:22px;height:22px;vertical-align:middle;margin-left:0}.ke-dialog-body .ke-upload-button.ke-inline-block,.ke-dialog-body .ke-file-viewer.ke-button-outer{margin-left:5px}.ke-container{border:1px solid #c9d8db}.ke-toolbar{border-bottom:1px solid #c9d8da;background-color:#fff}.ke-toolbar .ke-outline{border-color:transparent;padding:0}.ke-toolbar .ke-outline.ke-on{background-color:#eaeff5}.ke-toolbar .ke-toolbar-icon{width:38px}")); document.head.appendChild(elementStyle);} catch(e) {console.error('vite-plugin-css-injected-by-js', e);} })();import { watch as Ni, onMounted as Ii, onDeactivated as Ai, onActivated as Li, openBlock as Ri, createElementBlock as Bi, unref as Fi } from "vue";
-var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {}, Oi = { exports: {} };
+(function(){ try {var elementStyle = document.createElement('style'); elementStyle.appendChild(document.createTextNode("@import\"//at.alicdn.com/t/c/font_1491367_srl4rc2lhnp.css\";.ke-container *{box-sizing:border-box}.ke-inline-block{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-clearfix{zoom:1}.ke-clearfix:after{content:\".\";display:block;clear:both;font-size:0;height:0;line-height:0;visibility:hidden}.ke-shadow{box-shadow:0 0 30px -6px #999;-moz-box-shadow:0px 0px 30px -6px #999;-webkit-box-shadow:0px 0px 30px -6px #999;filter:progid:DXImageTransform.Microsoft.Shadow(color=\"#A0A0A0\",Direction=135,Strength=3);background-color:#f0f0ee}.ke-menu a,.ke-menu a:hover,.ke-dialog a,.ke-dialog a:hover{color:#337fe5;text-decoration:none}.ke-icon-source{background-position:0px 0px;width:16px;height:16px}.ke-icon-preview{background-position:0px -16px;width:16px;height:16px}.ke-icon-print{background-position:0px -32px;width:16px;height:16px}.ke-icon-undo{background-position:0px -48px;width:16px;height:16px}.ke-icon-redo{background-position:0px -64px;width:16px;height:16px}.ke-icon-cut{background-position:0px -80px;width:16px;height:16px}.ke-icon-copy{background-position:0px -96px;width:16px;height:16px}.ke-icon-paste{background-position:0px -112px;width:16px;height:16px}.ke-icon-selectall{background-position:0px -128px;width:16px;height:16px}.ke-icon-justifyleft{background-position:0px -144px;width:16px;height:16px}.ke-icon-justifycenter{background-position:0px -160px;width:16px;height:16px}.ke-icon-justifyright{background-position:0px -176px;width:16px;height:16px}.ke-icon-justifyfull{background-position:0px -192px;width:16px;height:16px}.ke-icon-insertorderedlist{background-position:0px -208px;width:16px;height:16px}.ke-icon-insertunorderedlist{background-position:0px -224px;width:16px;height:16px}.ke-icon-indent{background-position:0px -240px;width:16px;height:16px}.ke-icon-outdent{background-position:0px -256px;width:16px;height:16px}.ke-icon-subscript{background-position:0px -272px;width:16px;height:16px}.ke-icon-superscript{background-position:0px -288px;width:16px;height:16px}.ke-icon-date{background-position:0px -304px;width:25px;height:16px}.ke-icon-time{background-position:0px -320px;width:25px;height:16px}.ke-icon-formatblock{background-position:0px -336px;width:25px;height:16px}.ke-icon-fontname{background-position:0px -352px;width:21px;height:16px}.ke-icon-fontsize{background-position:0px -368px;width:23px;height:16px}.ke-icon-forecolor{background-position:0px -384px;width:20px;height:16px}.ke-icon-hilitecolor{background-position:0px -400px;width:23px;height:16px}.ke-icon-bold{background-position:0px -416px;width:16px;height:16px}.ke-icon-italic{background-position:0px -432px;width:16px;height:16px}.ke-icon-underline{background-position:0px -448px;width:16px;height:16px}.ke-icon-strikethrough{background-position:0px -464px;width:16px;height:16px}.ke-icon-removeformat{background-position:0px -480px;width:16px;height:16px}.ke-icon-image{background-position:0px -496px;width:16px;height:16px}.ke-icon-flash{background-position:0px -512px;width:16px;height:16px}.ke-icon-media{background-position:0px -528px;width:16px;height:16px}.ke-icon-div{background-position:0px -544px;width:16px;height:16px}.ke-icon-formula{background-position:0px -576px;width:16px;height:16px}.ke-icon-hr{background-position:0px -592px;width:16px;height:16px}.ke-icon-link{background-position:0px -624px;width:16px;height:16px}.ke-icon-unlink{background-position:0px -640px;width:16px;height:16px}.ke-icon-fullscreen{background-position:0px -656px;width:16px;height:16px}.ke-icon-about{background-position:0px -672px;width:16px;height:16px}.ke-icon-plainpaste{background-position:0px -704px;width:16px;height:16px}.ke-icon-wordpaste{background-position:0px -720px;width:16px;height:16px}.ke-icon-table{background-position:0px -784px;width:16px;height:16px}.ke-icon-tablemenu{background-position:0px -768px;width:16px;height:16px}.ke-icon-tableinsert{background-position:0px -784px;width:16px;height:16px}.ke-icon-tabledelete{background-position:0px -800px;width:16px;height:16px}.ke-icon-tablecolinsertleft{background-position:0px -816px;width:16px;height:16px}.ke-icon-tablecolinsertright{background-position:0px -832px;width:16px;height:16px}.ke-icon-tablerowinsertabove{background-position:0px -848px;width:16px;height:16px}.ke-icon-tablerowinsertbelow{background-position:0px -864px;width:16px;height:16px}.ke-icon-tablecoldelete{background-position:0px -880px;width:16px;height:16px}.ke-icon-tablerowdelete{background-position:0px -896px;width:16px;height:16px}.ke-icon-tablecellprop{background-position:0px -912px;width:16px;height:16px}.ke-icon-tableprop{background-position:0px -928px;width:16px;height:16px}.ke-icon-checked{background-position:0px -944px;width:16px;height:16px}.ke-icon-code{background-position:0px -960px;width:16px;height:16px}.ke-icon-map,.ke-icon-baidumap{background-position:0px -976px;width:16px;height:16px}.ke-icon-lineheight{background-position:0px -992px;width:16px;height:16px}.ke-icon-clearhtml{background-position:0px -1008px;width:16px;height:16px}.ke-icon-pagebreak{background-position:0px -1024px;width:16px;height:16px}.ke-icon-insertfile{background-position:0px -1040px;width:16px;height:16px}.ke-icon-quickformat{background-position:0px -1056px;width:16px;height:16px}.ke-icon-template{background-position:0px -1072px;width:16px;height:16px}.ke-icon-tablecellsplit{background-position:0px -1088px;width:16px;height:16px}.ke-icon-tablerowmerge{background-position:0px -1104px;width:16px;height:16px}.ke-icon-tablerowsplit{background-position:0px -1120px;width:16px;height:16px}.ke-icon-tablecolmerge{background-position:0px -1136px;width:16px;height:16px}.ke-icon-tablecolsplit{background-position:0px -1152px;width:16px;height:16px}.ke-icon-anchor{background-position:0px -1168px;width:16px;height:16px}.ke-icon-search{background-position:0px -1184px;width:16px;height:16px}.ke-icon-new{background-position:0px -1200px;width:16px;height:16px}.ke-icon-specialchar{background-position:0px -1216px;width:16px;height:16px}.ke-icon-multiimage{background-position:0px -1232px;width:16px;height:16px}.ke-container{display:block;border:1px solid #CCCCCC;background-color:#fff;overflow:hidden;margin:0;padding:0}.ke-toolbar{border-bottom:1px solid #CCC;background-color:#f0f0ee;padding:3px 5px;text-align:left;overflow:hidden;zoom:1;box-sizing:border-box}.ke-toolbar-icon{width:30px;height:30px;text-align:center;line-height:30px;font-size:18px;display:inline-block}.ke-toolbar-icon-url{background:none}.ke-toolbar .ke-outline{border:1px solid #F0F0EE;margin:1px;padding:1px 2px;font-size:0;line-height:0;overflow:hidden;cursor:pointer;display:block;float:left}.ke-toolbar .ke-on{border:1px solid #5690D2}.ke-toolbar .ke-selected{border:1px solid #5690D2;background-color:#e9eff6}.ke-toolbar .ke-disabled{cursor:default}.ke-toolbar .ke-separator{height:24px;margin:5px 3px;border-left:1px solid #b2c9cd;border-right:1px solid #FFFFFF;border-top:0;border-bottom:0;width:0;font-size:0;line-height:0;overflow:hidden;display:block;float:left}.ke-toolbar .ke-hr{overflow:hidden;height:1px;clear:both}.ke-edit{padding:0}.ke-edit-iframe,.ke-edit-textarea{border:0;margin:0;padding:0;overflow:auto}.ke-edit-textarea{font:12px/1.5 Consolas,Monaco,Bitstream Vera Sans Mono,Courier New,Courier,monospace;color:#000;overflow:auto;resize:none}.ke-edit-textarea:focus{outline:none}.ke-statusbar{position:relative;background-color:#94afb41a;border-top:1px solid #c9d8da;font-size:0;line-height:0;overflow:hidden;text-align:center;cursor:s-resize}.ke-statusbar-center-icon{width:25px;height:11px;position:relative}.ke-statusbar-center-icon i{width:100%;height:1px;background:#94afb4;display:block;transform:scaleY(.5);border:none;margin-top:2px}.ke-statusbar-right-icon{position:absolute;right:0;bottom:0;cursor:se-resize;background-position:-5px -741px;width:11px;height:11px}.ke-menu{background-color:#fff;color:#222;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;text-align:left;overflow:hidden;padding:3px 0}.ke-menu-item{border:1px solid transparent;background-color:#fff;color:#222;height:30px;overflow:hidden;cursor:pointer;font-size:13px;margin:3px 0;display:flex;flex-flow:row nowrap;align-items:center}.ke-menu-item-on{border:1px solid transparent;background-color:#e9eff6}.ke-menu-item-left{width:27px;text-align:center;overflow:hidden}.ke-menu-item-left .icon-ke-font{height:auto;line-height:1}.ke-menu-item-center{width:0;height:24px;border-left:1px solid #E3E3E3;border-right:1px solid #FFFFFF;border-top:0;border-bottom:0}.ke-menu-item-center-on{border-left:1px solid #E9EFF6;border-right:1px solid #E9EFF6}.ke-menu-item-right{border:0;padding:0 0 0 5px;line-height:24px;text-align:left;overflow:hidden}.ke-menu-separator{margin:2px 0;height:0;overflow:hidden;border-top:1px solid #CCCCCC;border-bottom:1px solid #FFFFFF;border-left:0;border-right:0}.ke-colorpicker{background-color:#fff;color:#222;padding:4px}.ke-colorpicker-table{border:0;margin:0;padding:0;border-collapse:separate}.ke-colorpicker-cell{font-size:0;line-height:0;border:1px solid transparent;cursor:pointer;margin:3px;padding:0}.ke-colorpicker-cell-top{font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:14px;line-height:30px;border:1px solid transparent;cursor:pointer;margin:0;padding:0;text-align:center}.ke-colorpicker-cell-on{border:1px solid #5690D2}.ke-colorpicker-cell-selected{border:1px solid #2446AB}.ke-colorpicker-cell-color{width:24px;height:24px;margin:4px;padding:0;border:0}.ke-dialog{position:absolute;margin:0;padding:0}.ke-dialog *{box-sizing:border-box}.ke-dialog .ke-header{width:100%;margin-bottom:10px}.ke-dialog .ke-header .ke-left{float:left}.ke-dialog .ke-header .ke-right{float:right}.ke-dialog .ke-header label{margin-right:0;cursor:pointer;font-weight:400;display:inline;vertical-align:top}.ke-dialog-content{background-color:#fff;width:100%;height:100%;color:#333;border:1px solid #c9d8da}.ke-dialog-shadow{position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;box-shadow:0 0 42px -12px #5555554d;-moz-box-shadow:0px 0px 42px -12px rgb(85,85,85,.3);-webkit-box-shadow:0px 0px 42px -12px rgb(85,85,85,.3);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=\"3\",MakeShadow=\"true\",ShadowOpacity=\"0.3\");background-color:#f0f0ee}.ke-dialog-header{border:0;margin:0;padding:0 10px;background:#f8f8f8;border-bottom:1px solid #c9d8da;height:48px;font:14px/48px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:left;color:#222;cursor:move}.ke-dialog-icon-close{display:block;width:48px;height:48px;line-height:48px;position:absolute;right:0;top:0;cursor:pointer;text-align:center;font-size:22px;color:#5c6e71}.ke-dialog-icon-close:before{font-family:icon-ke-font!important;font-size:inherit;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\"\\e69b\"}.ke-dialog-body{font:12px/30px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:left;overflow:hidden;width:100%}.ke-dialog-body textarea{display:block;overflow:auto;padding:0;resize:none}.ke-dialog-body textarea:focus,.ke-dialog-body input:focus,.ke-dialog-body select:focus{outline:none}.ke-dialog-body label{margin-right:10px;cursor:pointer;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-dialog-body img{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-dialog-body select{display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;width:auto;height:30px;padding:#c9d8da;border-color:#c9d8da;color:#636363}.ke-dialog-body .ke-textarea{display:block;width:408px;height:260px;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;border-color:#c9d8da;border-style:solid;border-width:1px}.ke-dialog-body .ke-form{margin:0;padding:0}.ke-dialog-body .ke-multi-image{width:106px}.ke-dialog-loading{position:absolute;top:0;left:1px;z-index:1;text-align:center}@keyframes spinner-loader{0%{-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0)}to{-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.ke-dialog-loading-content{color:#666;font-size:14px;font-weight:700;height:30px;line-height:31px;padding-left:36px;position:relative}.ke-dialog-loading-content:after{content:\"\";-moz-animation:spinner-loader 1.5s infinite linear;-webkit-animation:spinner-loader 1.5s infinite linear;animation:spinner-loader 1.5s infinite linear;-moz-border-radius:.5em;border-radius:20px;-moz-box-shadow:rgba(0,0,51,.3) 1.5em 0 0 0,rgba(0,0,51,.3) 1.1em 1.1em 0 0,rgba(0,0,51,.3) 0 1.5em 0 0,rgba(0,0,51,.3) -1.1em 1.1em 0 0,rgba(0,0,51,.3) -1.5em 0 0 0,rgba(0,0,51,.3) -1.1em -1.1em 0 0,rgba(0,0,51,.3) 0 -1.5em 0 0,rgba(0,0,51,.3) 1.1em -1.1em 0 0;-webkit-box-shadow:rgba(0,0,51,.3) 1.5em 0 0 0,rgba(0,0,51,.3) 1.1em 1.1em 0 0,rgba(0,0,51,.3) 0 1.5em 0 0,rgba(0,0,51,.3) -1.1em 1.1em 0 0,rgba(0,0,51,.3) -1.5em 0 0 0,rgba(0,0,51,.3) -1.1em -1.1em 0 0,rgba(0,0,51,.3) 0 -1.5em 0 0,rgba(0,0,51,.3) 1.1em -1.1em 0 0;box-shadow:#0000334d 1.5em 0,#0000334d 1.1em 1.1em,#0000334d 0 1.5em,#0000334d -1.1em 1.1em,#0000334d -1.5em 0,#0000334d -1.1em -1.1em,#0000334d 0 -1.5em,#0000334d 1.1em -1.1em;display:inline-block;width:6px;height:6px;overflow:hidden;position:absolute;left:12px;top:12px;font-size:6px}.ke-dialog-row{margin-bottom:10px}.ke-dialog-footer{font:12px/30px PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;text-align:right;padding:10px 20px;background-color:#fff;width:100%}.ke-dialog-footer .ke-button-common.ke-dialog-no:last-child{margin-right:0}.ke-dialog-preview,.ke-dialog-yes{margin:5px}.ke-dialog-no{margin:5px 10px 5px 5px}.ke-dialog-mask{background-color:#fff;filter:alpha(opacity=50);opacity:.5}.ke-button-common{height:30px;line-height:30px;overflow:visible;display:inline-block;vertical-align:top;cursor:pointer;background-color:#2196f3;border-color:#2565c4;box-shadow:0 1px 9pt 1px #0000001f}.ke-button-outer{padding:0;display:inline-block;vertical-align:middle}.ke-button{padding:0 24px 0 20px;margin:0;border:0 none;color:#fff;text-decoration:none}.ke-input-text{background-color:#fff;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;line-height:17px;height:17px;padding:2px 4px;border-color:#c9d8da;border-style:solid;border-width:1px;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-input-number{width:50px}.ke-input-color{border:1px solid #A0A0A0;background-color:#fff;font-size:12px;width:80px;height:30px;text-align:center;line-height:30px;overflow:hidden;cursor:pointer;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1}.ke-upload-button{position:relative}.ke-upload-area{position:relative;overflow:hidden;margin:0;padding:0}.ke-upload-area .ke-upload-file{position:absolute;font-size:18px;top:0;left:-200px;padding:0;margin:0;z-index:811212;border:0 none;opacity:0;filter:alpha(opacity=0);cursor:pointer}.ke-tabs{font:12px/1 PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;border-bottom:1px solid #c9d8da;padding-left:5px;margin-bottom:20px}.ke-tabs-ul{list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}.ke-tabs-li{position:relative;border:1px solid #c9d8da;background-color:#f6f6f6;margin:0 6px -1px 0;padding:0 20px;float:left;line-height:32px;text-align:center;color:#555;cursor:pointer}.ke-tabs-li-selected{background-color:#fff;border-bottom:1px solid #FFF;color:#000;cursor:default}.ke-tabs-li-on{background-color:#fff;color:#000}.ke-progressbar{position:relative;margin:0;padding:0}.ke-progressbar-bar{border:1px solid #6FA5DB;width:80px;height:5px;margin:10px 10px 0;padding:0}.ke-progressbar-bar-inner{width:0;height:5px;background-color:#6fa5db;overflow:hidden;margin:0;padding:0}.ke-progressbar-percent{position:absolute;top:0;left:40%;display:none}.ke-swfupload-top{position:relative;margin-bottom:16px;_width:608px}.ke-swfupload-button{height:30px;line-height:30px}.webuploader-container input[type=file]{opacity:0;cursor:pointer;width:500px;height:100px;margin-left:-200px}.webuploader-element-invisible{opacity:0;position:relative;z-index:3}.webuploader-container{background-color:#2196f3;border-color:#2565c4;box-shadow:0 1px 9pt 1px #0000001f}.webuploader-pick{position:relative;display:inline-block;cursor:pointer;width:100%;height:100%;box-sizing:border-box;border-radius:1px;overflow:visible;zoom:1}.webuploader-pick:after{content:\"\\9009\\62e9\\56fe\\7247\";position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;background-color:#2196f3;border-color:#2565c4;z-index:1;margin:0;padding:0;color:#fff;cursor:pointer;font-size:14px}.ke-swfupload-desc{padding:0 10px;height:23px;line-height:23px;font-size:14px}.ke-swfupload-startupload{position:absolute;top:0;right:0}.ke-swfupload-body{overflow-y:scroll;background-color:#fff;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px;width:auto;height:330px;padding:5px}.ke-swfupload-body .ke-item{width:110px;margin:4px}.ke-swfupload-body .ke-photo{position:relative;background-color:#2196f3;padding:2px}.ke-swfupload-body .ke-delete{display:block;width:20px;height:20px;line-height:20px;text-align:center;position:absolute;right:0;top:0;cursor:pointer;z-index:1;background:rgba(255,255,255,.42);font-size:14px;font-weight:700}.ke-swfupload-body .ke-delete:after{font-family:icon-ke-font!important;font-size:inherit;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\"\\e69b\"}.ke-swfupload-body .ke-status{position:absolute;left:0;bottom:0;width:110px;height:22px;line-height:18px}.ke-swfupload-body .ke-message{width:100%;text-align:center;overflow:hidden;height:22px;background:rgba(0,0,0,.5);color:#fff}.ke-swfupload-body .ke-error{color:red}.ke-swfupload-body .ke-name{width:100px;text-align:center;overflow:hidden;height:16px;line-height:16px}.ke-swfupload-body .ke-on{background-color:#e3eefa}.ke-swfupload .ke-progressbar{position:absolute;margin:0;padding:0;bottom:0;left:0;width:100%;height:100%;background:rgba(0,179,14,.28);text-shadow:1px 1px 4px #000000}.ke-swfupload .ke-progressbar-bar{height:4px;padding:0;width:100%;margin:0;background:#565656;border:none;position:absolute;bottom:0}.ke-swfupload .ke-progressbar-bar-inner{width:0%;height:4px;background-color:#32ce62;overflow:hidden;margin:0;padding:0}.ke-swfupload .ke-progressbar-percent{position:absolute;bottom:3px;left:0;font-weight:700;color:#7f0;display:block;width:100%;text-align:center}.ke-swfupload-body{border:3px dashed #CCC}.ke-swfupload-body:after{content:\"\\53ef\\62d6\\62fd\\6587\\4ef6\\81f3\\6b64\\5904\\4e0a\\4f20\";position:absolute;top:50%;left:0;width:100%;height:30px;font-size:24px;color:#e2e2e2;text-align:center;margin-top:-15px}.ke-swfupload-body.drag-hover{border:3px dashed #000}.ke-swfupload-body .ke-item{position:relative;z-index:1;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}.ke-swfupload .ke-progressbar.error{background:rgba(255,178,178,.5)}.ke-swfupload .ke-progressbar.error .ke-progressbar-bar-inner{background:#ff1010}.ke-swfupload .ke-progressbar.error .ke-progressbar-percent{color:#ff1010}.ke-swfupload{position:relative}.ke-swfupload .upload-error-result{position:absolute;bottom:0;left:0;width:100%;height:30px;box-sizing:border-box;padding:0 50px;background:#ff000096;display:none;text-align:center;line-height:30px;color:#fff;z-index:2}.ke-swfupload .upload-error-result.show{display:block}.ke-status.upload-error{width:100%;height:100%}.ke-status.upload-error .ke-message{width:100%;height:100%;vertical-align:middle;display:flex;justify-content:space-around;align-items:center;z-index:0;background:rgba(132,0,0,.52);color:#fff;padding:0 5px;text-shadow:1px 1px #b50000}.ke-plugin-plainpaste-textarea,.ke-plugin-wordpaste-iframe{display:block;width:408px;height:260px;font-family:PingFang,\\82f9\\65b9,Microsoft Yahei,\"sans serif\",tahoma,verdana,helvetica;font-size:12px;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px}.ke-plugin-filemanager-header{width:100%;margin-bottom:10px}.ke-plugin-filemanager-header .ke-left{float:left}.ke-plugin-filemanager-header .ke-right{float:right}.ke-plugin-filemanager-body{overflow:scroll;background-color:#fff;border-color:#848484 #E0E0E0 #E0E0E0 #848484;border-style:solid;border-width:1px;width:auto;height:370px;padding:5px}.ke-plugin-filemanager-body .ke-item{width:100px;margin:5px}.ke-plugin-filemanager-body .ke-photo{border:1px solid #DDDDDD;background-color:#fff;padding:10px}.ke-plugin-filemanager-body .ke-name{width:100px;text-align:center;overflow:hidden;height:16px}.ke-plugin-filemanager-body .ke-on{border:1px solid #5690D2;background-color:#e9eff6}.ke-plugin-filemanager-body .ke-table{width:95%;border:0;margin:0;padding:0;border-collapse:separate}.ke-plugin-filemanager-body .ke-table .ke-cell{margin:0;padding:0;border:0}.ke-plugin-filemanager-body .ke-table .ke-name{width:55%;text-align:left}.ke-plugin-filemanager-body .ke-table .ke-size{width:15%;text-align:left}.ke-plugin-filemanager-body .ke-table .ke-datetime{width:30%;text-align:center}.ke-plugin-emoji{padding:0 3px}.ke-plugin-emoji .ke-table{width:100%}.ke-plugin-emoji .ke-table .ke-emoji{font-size:24px;padding:3px;cursor:pointer;border:1px solid transparent;width:24px;height:24px;display:inline-flex;flex-flow:row;align-items:center;justify-content:center;line-height:0}.ke-plugin-emoji .ke-table .ke-emoji:hover{background-color:#e7edf3;cursor:pointer;border:1px solid #bed6ed}.ke-plugin-emoji .ke-page{padding:7px 5px 5px;text-align:center}.ke-plugin-emoji .ke-page .ke-page-item{margin:0 5px}.ke-dialog-body .ke-input-text{height:30px;min-height:30px;min-width:80px;line-height:30px}.ke-dialog-body input[type=checkbox]{width:22px;height:22px;vertical-align:middle;margin-left:0}.ke-dialog-body .ke-upload-button.ke-inline-block,.ke-dialog-body .ke-file-viewer.ke-button-outer{margin-left:5px}.ke-container{border:1px solid #c9d8db}.ke-toolbar{border-bottom:1px solid #c9d8da;background-color:#fff}.ke-toolbar .ke-outline{border-color:transparent;padding:0}.ke-toolbar .ke-outline.ke-on{background-color:#eaeff5}.ke-toolbar .ke-toolbar-icon{width:38px}")); document.head.appendChild(elementStyle);} catch(e) {console.error('vite-plugin-css-injected-by-js', e);} })();import { onMounted as Ni, onDeactivated as Ii, onActivated as Ai, watch as Li, openBlock as Ri, createElementBlock as Bi, unref as Oi } from "vue";
+var Fi = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {}, Ui = { exports: {} };
 (function(We, ft) {
-  (function(ie, re) {
+  (function(ee, re) {
     We.exports = re();
-  })(Ui, function() {
-    function ie(e) {
+  })(Fi, function() {
+    function ee(e) {
       return e ? Object.prototype.toString.call(e) === "[object Array]" : !1;
     }
     function re(e) {
@@ -17,7 +17,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return -1;
     }
     function P(e, t) {
-      if (ie(e))
+      if (ee(e))
         for (var n = 0, o = e.length; o > n && t.call(e[n], n, e[n]) !== !1; n++)
           ;
       else
@@ -25,7 +25,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           if (e.hasOwnProperty(r) && t.call(e[r], r, e[r]) === !1)
             break;
     }
-    function ee(e) {
+    function te(e) {
       return e.replace(/(?:^[ \t\n\r]+)|(?:[ \t\n\r]+$)/g, "");
     }
     function $e(e, t, n) {
@@ -61,7 +61,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }
     function oe(e, t) {
       t = t === void 0 ? "," : t;
-      var n, o = {}, r = ie(e) ? e : e.split(t);
+      var n, o = {}, r = ee(e) ? e : e.split(t);
       return P(r, function(s, c) {
         if (n = /^(\d+)\.\.(\d+)$/.exec(c))
           for (var a = parseInt(n[1], 10); a <= parseInt(n[2], 10); a++)
@@ -124,7 +124,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return e[_t] || null;
     }
     function Kn(e) {
-      return e[_t] = ++Fn, Fn;
+      return e[_t] = ++On, On;
     }
     function Jt(e) {
       try {
@@ -133,10 +133,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         e.removeAttribute && e.removeAttribute(_t);
       }
     }
-    function Oe(e, t, n) {
+    function Ue(e, t, n) {
       if (t.indexOf(",") >= 0)
         return void P(t.split(","), function() {
-          Oe(e, this, n);
+          Ue(e, this, n);
         });
       var o = Et(e);
       o || (o = Kn(e)), le[o] === void 0 && (le[o] = {});
@@ -185,13 +185,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }
     }
     function Dt(e, t, n) {
-      t = /^\d{2,}$/.test(t) ? t : t.toUpperCase().charCodeAt(0), Oe(e, "keydown", function(o) {
+      t = /^\d{2,}$/.test(t) ? t : t.toUpperCase().charCodeAt(0), Ue(e, "keydown", function(o) {
         !o.ctrlKey || o.which != t || o.shiftKey || o.altKey || (n.call(e), o.stop());
       });
     }
     function Gn(e) {
       function t() {
-        r || (r = !0, e(KindEditor), Un = !0);
+        r || (r = !0, e(KindEditor), Fn = !0);
       }
       function n() {
         if (!r) {
@@ -206,13 +206,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       function o() {
         document.readyState === "complete" && t();
       }
-      if (Un)
+      if (Fn)
         return void e(KindEditor);
       var r = !1;
       if (document.addEventListener)
-        Oe(document, "DOMContentLoaded", t);
+        Ue(document, "DOMContentLoaded", t);
       else if (document.attachEvent) {
-        Oe(document, "readystatechange", o);
+        Ue(document, "readystatechange", o);
         var s = !1;
         try {
           s = window.frameElement == null;
@@ -220,12 +220,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }
         document.documentElement.doScroll && s && n();
       }
-      Oe(window, "load", t);
+      Ue(window, "load", t);
     }
     function Pe(e) {
       e = e.replace(/&quot;/g, '"');
       for (var t, n = {}, o = /\s*([\w\-]+)\s*:([^;]*)(;|$)/g; t = o.exec(e); ) {
-        var r = ee(t[1].toLowerCase()), s = ee(pt(t[2]));
+        var r = te(t[1].toLowerCase()), s = te(pt(t[2]));
         n[r] = s;
       }
       return n;
@@ -295,54 +295,54 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), c.script || (e = e.replace(/(<(?:script|script\s[^>]*)>)([\s\S]*?)(<\/script>)/gi, "")), c.style || (e = e.replace(/(<(?:style|style\s[^>]*)>)([\s\S]*?)(<\/style>)/gi, "")));
       var a = /(\s*)<(\/)?([\w\-:]+)((?:\s+|(?:\s+[\w\-:]+)|(?:\s+[\w\-:]+=[^\s"'<>]+)|(?:\s+[\w\-:"]+="[^"]*")|(?:\s+[\w\-:"]+='[^']*'))*)(\/)?>(\s*)/g, i = [];
       return e = e.replace(a, function(d, u, l, f, p, m, g) {
-        var y = d, b = u || "", C = l || "", D = f.toLowerCase(), A = p || "", N = m ? " " + m : "", B = g || "";
-        if (t && !c[D])
+        var y = d, b = u || "", C = l || "", E = f.toLowerCase(), I = p || "", N = m ? " " + m : "", A = g || "";
+        if (t && !c[E])
           return "";
-        if (N === "" && An[D] && (N = " /"), Nn[D] && (b && (b = " "), B && (B = " ")), Vt[D] && (C ? B = `
+        if (N === "" && An[E] && (N = " /"), Nn[E] && (b && (b = " "), A && (A = " ")), Vt[E] && (C ? A = `
 ` : b = `
-`), o && D == "br" && (B = `
-`), In[D] && !Vt[D])
+`), o && E == "br" && (A = `
+`), In[E] && !Vt[E])
           if (o) {
-            C && i.length > 0 && i[i.length - 1] === D ? i.pop() : i.push(D), b = `
-`, B = `
+            C && i.length > 0 && i[i.length - 1] === E ? i.pop() : i.push(E), b = `
+`, A = `
 `;
             for (var j = 0, R = C ? i.length : i.length - 1; R > j; j++)
-              b += r, C || (B += r);
-            N ? i.pop() : C || (B += r);
+              b += r, C || (A += r);
+            N ? i.pop() : C || (A += r);
           } else
-            b = B = "";
-        if (A !== "") {
-          var E = ke(y);
-          if (D === "font") {
+            b = A = "";
+        if (I !== "") {
+          var D = ke(y);
+          if (E === "font") {
             var S = {}, w = "";
-            P(E, function(x, _) {
-              x === "color" && (S.color = _, delete E[x]), x === "size" && (S["font-size"] = s[parseInt(_, 10) - 1] || "", delete E[x]), x === "face" && (S["font-family"] = _, delete E[x]), x === "style" && (w = _);
+            P(D, function(x, _) {
+              x === "color" && (S.color = _, delete D[x]), x === "size" && (S["font-size"] = s[parseInt(_, 10) - 1] || "", delete D[x]), x === "face" && (S["font-family"] = _, delete D[x]), x === "style" && (w = _);
             }), w && !/;$/.test(w) && (w += ";"), P(S, function(x, _) {
               _ !== "" && (/\s/.test(_) && (_ = "'" + _ + "'"), w += x + ":" + _ + ";");
-            }), E.style = w;
+            }), D.style = w;
           }
-          P(E, function(x, _) {
-            if (xi[x] && (E[x] = x), pe(x, ["src", "href"]) >= 0 && (E[x] = Qe(_, n)), (t && x !== "style" && !c[D]["*"] && !c[D][x] || D === "body" && x === "contenteditable" || /^kindeditor_\d+$/.test(x)) && delete E[x], x === "style" && _ !== "") {
+          P(D, function(x, _) {
+            if (xi[x] && (D[x] = x), pe(x, ["src", "href"]) >= 0 && (D[x] = Qe(_, n)), (t && x !== "style" && !c[E]["*"] && !c[E][x] || E === "body" && x === "contenteditable" || /^kindeditor_\d+$/.test(x)) && delete D[x], x === "style" && _ !== "") {
               var M = Pe(_);
-              P(M, function(I, O) {
-                !t || c[D].style || c[D]["." + I] || delete M[I];
+              P(M, function(L, U) {
+                !t || c[E].style || c[E]["." + L] || delete M[L];
               });
-              var F = "";
-              P(M, function(I, O) {
-                F += I + ":" + O + ";";
-              }), E.style = F;
+              var O = "";
+              P(M, function(L, U) {
+                O += L + ":" + U + ";";
+              }), D.style = O;
             }
-          }), A = "", P(E, function(x, _) {
-            (x !== "style" || _ !== "") && (_ = _.replace(/"/g, "&quot;"), A += " " + x + '="' + _ + '"');
+          }), I = "", P(D, function(x, _) {
+            (x !== "style" || _ !== "") && (_ = _.replace(/"/g, "&quot;"), I += " " + x + '="' + _ + '"');
           });
         }
-        return D === "font" && (D = "span"), b + "<" + C + D + A + N + ">" + B;
+        return E === "font" && (E = "span"), b + "<" + C + E + I + N + ">" + A;
       }), e = e.replace(/(<(?:pre|pre\s[^>]*)>)([\s\S]*?)(<\/pre>)/gi, function(d, u, l, f) {
         return u + l.replace(/\n/g, `<span id="__kindeditor_pre_newline__">
 `) + f;
       }), e = e.replace(/\n\s*\n/g, `
 `), e = e.replace(/<span id="__kindeditor_pre_newline__">\n/g, `
-`), ee(e);
+`), te(e);
     }
     function tn(e, t) {
       return e = e.replace(/<meta[\s\S]*?>/gi, "").replace(/<![\s\S]*?>/gi, "").replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "").replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "").replace(/<w:[^>]+>[\s\S]*?<\/w:[^>]+>/gi, "").replace(/<o:[^>]+>[\s\S]*?<\/o:[^>]+>/gi, "").replace(/<xml>[\s\S]*?<\/xml>/gi, "").replace(/<(?:table|td)[^>]*>/gi, function(n) {
@@ -410,52 +410,52 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         return x === "*" || x.toLowerCase() === n(_.toLowerCase());
       }
       function s(x, _, M) {
-        var F = [], I = M.ownerDocument || M, O = I.getElementById(o(x));
-        return O && r(_, O.nodeName) && mt(M, O) && F.push(O), F;
+        var O = [], L = M.ownerDocument || M, U = L.getElementById(o(x));
+        return U && r(_, U.nodeName) && mt(M, U) && O.push(U), O;
       }
       function c(x, _, M) {
-        var F, I, O, U, W = M.ownerDocument || M, z = [];
+        var O, L, U, F, W = M.ownerDocument || M, z = [];
         if (M.getElementsByClassName)
-          for (F = M.getElementsByClassName(o(x)), I = 0, O = F.length; O > I; I++)
-            U = F[I], r(_, U.nodeName) && z.push(U);
+          for (O = M.getElementsByClassName(o(x)), L = 0, U = O.length; U > L; L++)
+            F = O[L], r(_, F.nodeName) && z.push(F);
         else if (W.querySelectorAll)
-          for (F = W.querySelectorAll((M.nodeName !== "#document" ? M.nodeName + " " : "") + _ + "." + x), I = 0, O = F.length; O > I; I++)
-            U = F[I], mt(M, U) && z.push(U);
+          for (O = W.querySelectorAll((M.nodeName !== "#document" ? M.nodeName + " " : "") + _ + "." + x), L = 0, U = O.length; U > L; L++)
+            F = O[L], mt(M, F) && z.push(F);
         else
-          for (F = M.getElementsByTagName(_), x = " " + x + " ", I = 0, O = F.length; O > I; I++)
-            if (U = F[I], U.nodeType == 1) {
-              var V = U.className;
-              V && (" " + V + " ").indexOf(x) > -1 && z.push(U);
+          for (O = M.getElementsByTagName(_), x = " " + x + " ", L = 0, U = O.length; U > L; L++)
+            if (F = O[L], F.nodeType == 1) {
+              var V = F.className;
+              V && (" " + V + " ").indexOf(x) > -1 && z.push(F);
             }
         return z;
       }
       function a(x, _, M) {
-        for (var F, I = [], O = M.ownerDocument || M, U = O.getElementsByName(o(x)), W = 0, z = U.length; z > W; W++)
-          F = U[W], r(_, F.nodeName) && mt(M, F) && F.getAttribute("name") !== null && I.push(F);
-        return I;
+        for (var O, L = [], U = M.ownerDocument || M, F = U.getElementsByName(o(x)), W = 0, z = F.length; z > W; W++)
+          O = F[W], r(_, O.nodeName) && mt(M, O) && O.getAttribute("name") !== null && L.push(O);
+        return L;
       }
-      function i(x, _, M, F) {
-        for (var I, O = [], U = F.getElementsByTagName(M), W = 0, z = U.length; z > W; W++)
-          I = U[W], I.nodeType == 1 && (_ === null ? gt(I, x) !== null && O.push(I) : _ === n(gt(I, x)) && O.push(I));
-        return O;
+      function i(x, _, M, O) {
+        for (var L, U = [], F = O.getElementsByTagName(M), W = 0, z = F.length; z > W; W++)
+          L = F[W], L.nodeType == 1 && (_ === null ? gt(L, x) !== null && U.push(L) : _ === n(gt(L, x)) && U.push(L));
+        return U;
       }
       function d(x, _) {
-        var M, F = [];
+        var M, O = [];
         M = /^((?:\\.|[^.#\s\[<>])+)/.exec(x);
-        var I = M ? M[1] : "*";
+        var L = M ? M[1] : "*";
         if (M = /#((?:[\w\-]|\\.)+)$/.exec(x))
-          F = s(M[1], I, _);
+          O = s(M[1], L, _);
         else if (M = /\.((?:[\w\-]|\\.)+)$/.exec(x))
-          F = c(M[1], I, _);
+          O = c(M[1], L, _);
         else if (M = /\[((?:[\w\-]|\\.)+)\]/.exec(x))
-          F = i(M[1].toLowerCase(), null, I, _);
+          O = i(M[1].toLowerCase(), null, L, _);
         else if (M = /\[((?:[\w\-]|\\.)+)\s*=\s*['"]?((?:\\.|[^'"]+)+)['"]?\]/.exec(x)) {
-          var O = M[1].toLowerCase(), U = M[2];
-          F = O === "id" ? s(U, I, _) : O === "class" ? c(U, I, _) : O === "name" ? a(U, I, _) : i(O, U, I, _);
+          var U = M[1].toLowerCase(), F = M[2];
+          O = U === "id" ? s(F, L, _) : U === "class" ? c(F, L, _) : U === "name" ? a(F, L, _) : i(U, F, L, _);
         } else
-          for (var W, z = _.getElementsByTagName(I), V = 0, te = z.length; te > V; V++)
-            W = z[V], W.nodeType == 1 && F.push(W);
-        return F;
+          for (var W, z = _.getElementsByTagName(L), V = 0, ne = z.length; ne > V; V++)
+            W = z[V], W.nodeType == 1 && O.push(W);
+        return O;
       }
       var u = e.split(",");
       if (u.length > 1) {
@@ -472,13 +472,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var g = [];
       if (p.length == 1)
         return d(p[0], t);
-      var y, b, C, D, A, N, B, j, R, E, S, w = !1;
+      var y, b, C, E, I, N, A, j, R, D, S, w = !1;
       for (N = 0, R = p.length; R > N; N++)
         if (y = p[N], y !== ">") {
           if (N > 0) {
-            for (b = [], B = 0, E = g.length; E > B; B++)
-              for (D = g[B], C = d(y, D), j = 0, S = C.length; S > j; j++)
-                A = C[j], w ? D === A.parentNode && b.push(A) : b.push(A);
+            for (b = [], A = 0, D = g.length; D > A; A++)
+              for (E = g[A], C = d(y, E), j = 0, S = C.length; S > j; j++)
+                I = C[j], w ? E === I.parentNode && b.push(I) : b.push(I);
             g = b;
           } else
             g = d(y, t);
@@ -557,53 +557,53 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return e.collapsed = e.startContainer === e.endContainer && e.startOffset === e.endOffset, e;
     }
     function At(e, t, n) {
-      function o(D, A, N) {
-        var B, j = D.nodeValue.length;
+      function o(E, I, N) {
+        var A, j = E.nodeValue.length;
         if (t) {
-          var R = D.cloneNode(!0);
-          B = A > 0 ? R.splitText(A) : R, j > N && B.splitText(N - A);
+          var R = E.cloneNode(!0);
+          A = I > 0 ? R.splitText(I) : R, j > N && A.splitText(N - I);
         }
         if (n) {
-          var E = D;
-          if (A > 0 && (E = D.splitText(A), e.setStart(D, A)), j > N) {
-            var S = E.splitText(N - A);
+          var D = E;
+          if (I > 0 && (D = E.splitText(I), e.setStart(E, I)), j > N) {
+            var S = D.splitText(N - I);
             e.setEnd(S, 0);
           }
-          a.push(E);
+          a.push(D);
         }
-        return B;
+        return A;
       }
       function r() {
         n && e.up().collapse(!0);
-        for (var D = 0, A = a.length; A > D; D++) {
-          var N = a[D];
+        for (var E = 0, I = a.length; I > E; E++) {
+          var N = a[E];
           N.parentNode && N.parentNode.removeChild(N);
         }
       }
-      function s(D, A) {
-        for (var N, B = D.firstChild; B; ) {
-          var j = new we(c).selectNode(B);
+      function s(E, I) {
+        for (var N, A = E.firstChild; A; ) {
+          var j = new we(c).selectNode(A);
           if (d = j.compareBoundaryPoints(lt, e), d >= 0 && 0 >= u && (u = j.compareBoundaryPoints(ot, e)), u >= 0 && 0 >= l && (l = j.compareBoundaryPoints(He, e)), l >= 0 && 0 >= f && (f = j.compareBoundaryPoints(at, e)), f >= 0)
             return !1;
-          if (N = B.nextSibling, d > 0) {
-            if (B.nodeType == 1)
+          if (N = A.nextSibling, d > 0) {
+            if (A.nodeType == 1)
               if (u >= 0 && 0 >= l)
-                t && A.appendChild(B.cloneNode(!0)), n && a.push(B);
+                t && I.appendChild(A.cloneNode(!0)), n && a.push(A);
               else {
                 var R;
-                if (t && (R = B.cloneNode(!1), A.appendChild(R)), s(B, R) === !1)
+                if (t && (R = A.cloneNode(!1), I.appendChild(R)), s(A, R) === !1)
                   return !1;
               }
-            else if (B.nodeType == 3) {
-              var E;
-              if (E = B == i.startContainer ? o(B, i.startOffset, B.nodeValue.length) : B == i.endContainer ? o(B, 0, i.endOffset) : o(B, 0, B.nodeValue.length), t)
+            else if (A.nodeType == 3) {
+              var D;
+              if (D = A == i.startContainer ? o(A, i.startOffset, A.nodeValue.length) : A == i.endContainer ? o(A, 0, i.endOffset) : o(A, 0, A.nodeValue.length), t)
                 try {
-                  A.appendChild(E);
+                  I.appendChild(D);
                 } catch {
                 }
             }
           }
-          B = N;
+          A = N;
         }
       }
       var c = e.doc, a = [], i = e.cloneRange().down(), d = -1, u = -1, l = -1, f = -1, p = e.commonAncestor(), m = c.createDocumentFragment();
@@ -754,7 +754,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }
       return !1;
     }
-    function Ft(e, t) {
+    function Ot(e, t) {
       e.type == 1 && (mn(e, t, "*"), mn(e, t));
     }
     function mn(e, t, n) {
@@ -774,7 +774,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }
       }
     }
-    function Ut(e) {
+    function Ft(e) {
       for (var t = e; t.first(); )
         t = t.first();
       return t;
@@ -784,7 +784,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }
     function ri(e, t) {
       e = e.clone(!0);
-      for (var n = Ut(e), o = e, r = !1; t; ) {
+      for (var n = Ft(e), o = e, r = !1; t; ) {
         for (; o; )
           o.name === t.name && (li(o, t.attr(), t.css()), r = !0), o = o.first();
         r || n.append(t.clone(!1)), r = !1, t = t.first();
@@ -793,13 +793,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }
     function oi(e, t) {
       if (t = t.clone(!0), e.type == 3)
-        return Ut(t).append(e.clone(!1)), e.replaceWith(t), t;
+        return Ft(t).append(e.clone(!1)), e.replaceWith(t), t;
       for (var n, o = e; (n = e.first()) && n.children().length == 1; )
         e = n;
       n = e.first();
       for (var r = e.doc.createDocumentFragment(); n; )
         r.appendChild(n[0]), n = n.next();
-      return t = ri(o, t), r.firstChild && Ut(t).append(r), o.replaceWith(t), t;
+      return t = ri(o, t), r.firstChild && Ft(t).append(r), o.replaceWith(t), t;
     }
     function li(e, t, n) {
       P(t, function(o, r) {
@@ -816,17 +816,17 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }
       return !1;
     }
-    function Ze(e) {
-      this.init(e);
+    function Ze(e, t) {
+      this.init(e, t);
     }
-    function gn(e) {
+    function gn(e, t) {
       if (e.nodeName) {
-        var t = Ae(e);
-        e = Lt(t).selectNodeContents(t.body).collapse(!1);
+        var n = Ae(e);
+        e = Lt(n).selectNodeContents(n.body).collapse(!1);
       }
-      return new Ze(e);
+      return new Ze(e, t);
     }
-    function Ot(e) {
+    function Ut(e) {
       var t = e.moveEl, n = e.moveFn, o = e.clickEl || t, r = e.beforeDrag, s = e.iframeFix === void 0 ? !0 : e.iframeFix, c = [document];
       s && v("iframe").each(function() {
         var a = Qe(this.src || "", "absolute");
@@ -844,8 +844,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), o.mousedown(function(a) {
         function i(C) {
           C.preventDefault();
-          var D = v(Ae(C.target)), A = De((D.data("pos-x") || 0) + C.pageX - y), N = De((D.data("pos-y") || 0) + C.pageY - b);
-          n.call(o, f, p, m, g, A, N);
+          var E = v(Ae(C.target)), I = De((E.data("pos-x") || 0) + C.pageX - y), N = De((E.data("pos-y") || 0) + C.pageY - b);
+          n.call(o, f, p, m, g, I, N);
         }
         function d(C) {
           C.preventDefault();
@@ -871,7 +871,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }
     function si(e, t, n, o) {
       var r = [Gt === "" ? "<html>" : '<html dir="' + Gt + '">', '<head><meta charset="utf-8" /><title></title>', "<style>", "html,body {margin:0;padding:0;}", 'body, td {font:12px/1.5 "PingFang","Microsoft Yahei","\u82F9\u65B9","\u5FAE\u8F6F\u96C5\u9ED1", "sans serif",tahoma,verdana,helvetica;}', "body, p, div {word-wrap: break-word;line-height:28px;}", "table {border-collapse:collapse;}", "noscript {display:none;}", "table.ke-zeroborder td {border:1px dotted #AAA;}", ".ke-content {padding: 15px;}", 'img[data-ke-class="ke-image"] { max-width: 100%;border: 2px solid transparent; }', 'img[data-ke-class="ke-image"]:hover { border-color: #4696ec; }', "audio,video{ border:3px solid transparent; }", "audio:hover, video:hover{ border:3px solid #2196f3; }", "pre{ font-size: 14px;line-height: 20px;width: 100%;background-color: antiquewhite;padding: 6px 18px;box-sizing: border-box; }", ".ke-script, .ke-noscript, .ke-display-none {", "	display:none;", "	font-size:0;", "	width:0;", "	height:0;", "}", ".ke-pagebreak {", "	border:1px dotted #AAA;", "	font-size:0;", "	height:2px;", "}", "</style>"];
-      return ie(n) || (n = [n]), P(n, function(s, c) {
+      return ee(n) || (n = [n]), P(n, function(s, c) {
         c && r.push('<link href="' + c + '" rel="stylesheet" />');
       }), o && r.push("<style>" + o + "</style>"), r.push("</head><body " + (t ? 'class="' + t + '"' : "") + ' author="MHalo"></body></html>'), r.join(`
 `);
@@ -981,7 +981,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var s = window.XMLHttpRequest ? new window.XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
       if (s.open(n, e, !0), s.onreadystatechange = function() {
         if (s.readyState == 4 && s.status == 200 && t) {
-          var a = ee(s.responseText);
+          var a = te(s.responseText);
           r == "json" && (a = Zt(a)), t(a);
         }
       }, n == "POST") {
@@ -1112,7 +1112,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       });
     }
     function Se(e) {
-      return ee(e.replace(/<span [^>]*id="?__kindeditor_bookmark_\w+_\d+__"?[^>]*><\/span>/gi, ""));
+      return te(e.replace(/<span [^>]*id="?__kindeditor_bookmark_\w+_\d+__"?[^>]*><\/span>/gi, ""));
     }
     function bt(e) {
       return e.replace(/<div[^>]+class="?__kindeditor_paste__"?[^>]*>[\s\S]*?<\/div>/gi, "");
@@ -1206,7 +1206,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           return T != "function" && !r(h) && (T == "array" || k === 0 || typeof k == "number" && k > 0 && k - 1 in h);
         }
         function d(h) {
-          return I.call(h, function(k) {
+          return L.call(h, function(k) {
             return k != null;
           });
         }
@@ -1224,37 +1224,37 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }
         function m(h) {
           var k, T;
-          return W[h] || (k = U.createElement(h), U.body.appendChild(k), T = getComputedStyle(k, "").getPropertyValue("display"), k.parentNode.removeChild(k), T == "none" && (T = "block"), W[h] = T), W[h];
+          return W[h] || (k = F.createElement(h), F.body.appendChild(k), T = getComputedStyle(k, "").getPropertyValue("display"), k.parentNode.removeChild(k), T == "none" && (T = "block"), W[h] = T), W[h];
         }
         function g(h) {
-          return "children" in h ? O.call(h.children) : S.map(h.childNodes, function(k) {
+          return "children" in h ? U.call(h.children) : S.map(h.childNodes, function(k) {
             return k.nodeType == 1 ? k : void 0;
           });
         }
         function y(h, k) {
-          var T, L = h ? h.length : 0;
-          for (T = 0; L > T; T++)
+          var T, B = h ? h.length : 0;
+          for (T = 0; B > T; T++)
             this[T] = h[T];
-          this.length = L, this.selector = k || "";
+          this.length = B, this.selector = k || "";
         }
         function b(h, k, T) {
-          for (E in k)
-            T && (a(k[E]) || qe(k[E])) ? (a(k[E]) && !a(h[E]) && (h[E] = {}), qe(k[E]) && !qe(h[E]) && (h[E] = []), b(h[E], k[E], T)) : k[E] !== R && (h[E] = k[E]);
+          for (D in k)
+            T && (a(k[D]) || qe(k[D])) ? (a(k[D]) && !a(h[D]) && (h[D] = {}), qe(k[D]) && !qe(h[D]) && (h[D] = []), b(h[D], k[D], T)) : k[D] !== R && (h[D] = k[D]);
         }
         function C(h, k) {
           return k == null ? S(h) : S(h).filter(k);
         }
-        function D(h, k, T, L) {
-          return o(k) ? k.call(h, T, L) : k;
+        function E(h, k, T, B) {
+          return o(k) ? k.call(h, T, B) : k;
         }
-        function A(h, k, T) {
+        function I(h, k, T) {
           T == null ? h.removeAttribute(k) : h.setAttribute(k, T);
         }
         function N(h, k) {
-          var T = h.className || "", L = T && T.baseVal !== R;
-          return k === R ? L ? T.baseVal : T : void (L ? T.baseVal = k : h.className = k);
+          var T = h.className || "", B = T && T.baseVal !== R;
+          return k === R ? B ? T.baseVal : T : void (B ? T.baseVal = k : h.className = k);
         }
-        function B(h) {
+        function A(h) {
           try {
             return h && (h == "true" || (h == "false" ? !1 : h == "null" ? null : +h + "" == h ? +h : /^[\[\{]/.test(h) ? S.parseJSON(h) : h));
           } catch {
@@ -1263,10 +1263,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }
         function j(h, k) {
           k(h);
-          for (var T = 0, L = h.childNodes.length; L > T; T++)
+          for (var T = 0, B = h.childNodes.length; B > T; T++)
             j(h.childNodes[T], k);
         }
-        var R, E, S, w, x, _, M = [], F = M.concat, I = M.filter, O = M.slice, U = e.document, W = {}, z = {}, V = { "column-count": 1, columns: 1, "font-weight": 1, "line-height": 1, opacity: 1, "z-index": 1, zoom: 1 }, te = /^\s*<(\w+|!)[^>]*>/, K = /^<(\w+)\s*\/?>(?:<\/\1>|)$/, ae = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi, Y = /^(?:body|html)$/i, Q = /([A-Z])/g, ne = ["val", "css", "html", "text", "data", "width", "height", "offset"], Fe = ["after", "prepend", "before", "append"], Me = U.createElement("table"), ct = U.createElement("tr"), jn = { tr: U.createElement("tbody"), tbody: Me, thead: Me, tfoot: Me, td: ct, th: ct, "*": U.createElement("div") }, Di = /^[\w-]*$/, Qt = {}, Mi = Qt.toString, G = {}, zn = U.createElement("div"), Yt = { tabindex: "tabIndex", readonly: "readOnly", for: "htmlFor", class: "className", maxlength: "maxLength", cellspacing: "cellSpacing", cellpadding: "cellPadding", rowspan: "rowSpan", colspan: "colSpan", usemap: "useMap", frameborder: "frameBorder", contenteditable: "contentEditable" }, qe = Array.isArray || function(h) {
+        var R, D, S, w, x, _, M = [], O = M.concat, L = M.filter, U = M.slice, F = e.document, W = {}, z = {}, V = { "column-count": 1, columns: 1, "font-weight": 1, "line-height": 1, opacity: 1, "z-index": 1, zoom: 1 }, ne = /^\s*<(\w+|!)[^>]*>/, K = /^<(\w+)\s*\/?>(?:<\/\1>|)$/, ae = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi, Y = /^(?:body|html)$/i, Q = /([A-Z])/g, ie = ["val", "css", "html", "text", "data", "width", "height", "offset"], Oe = ["after", "prepend", "before", "append"], Me = F.createElement("table"), ct = F.createElement("tr"), jn = { tr: F.createElement("tbody"), tbody: Me, thead: Me, tfoot: Me, td: ct, th: ct, "*": F.createElement("div") }, Di = /^[\w-]*$/, Qt = {}, Mi = Qt.toString, G = {}, zn = F.createElement("div"), Yt = { tabindex: "tabIndex", readonly: "readOnly", for: "htmlFor", class: "className", maxlength: "maxLength", cellspacing: "cellSpacing", cellpadding: "cellPadding", rowspan: "rowSpan", colspan: "colSpan", usemap: "useMap", frameborder: "frameBorder", contenteditable: "contentEditable" }, qe = Array.isArray || function(h) {
           return h instanceof Array;
         };
         return G.matches = function(h, k) {
@@ -1275,23 +1275,23 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           var T = h.matches || h.webkitMatchesSelector || h.mozMatchesSelector || h.oMatchesSelector || h.matchesSelector;
           if (T)
             return T.call(h, k);
-          var L, q = h.parentNode, H = !q;
-          return H && (q = zn).appendChild(h), L = ~G.qsa(q, k).indexOf(h), H && zn.removeChild(h), L;
+          var B, q = h.parentNode, H = !q;
+          return H && (q = zn).appendChild(h), B = ~G.qsa(q, k).indexOf(h), H && zn.removeChild(h), B;
         }, x = function(h) {
           return h.replace(/-+(.)?/g, function(k, T) {
             return T ? T.toUpperCase() : "";
           });
         }, _ = function(h) {
-          return I.call(h, function(k, T) {
+          return L.call(h, function(k, T) {
             return h.indexOf(k) == T;
           });
         }, G.fragment = function(h, k, T) {
-          var L, q, H;
-          return K.test(h) && (L = S(U.createElement(RegExp.$1))), L || (h.replace && (h = h.replace(ae, "<$1></$2>")), k === R && (k = te.test(h) && RegExp.$1), k in jn || (k = "*"), H = jn[k], H.innerHTML = "" + h, L = S.each(O.call(H.childNodes), function() {
+          var B, q, H;
+          return K.test(h) && (B = S(F.createElement(RegExp.$1))), B || (h.replace && (h = h.replace(ae, "<$1></$2>")), k === R && (k = ne.test(h) && RegExp.$1), k in jn || (k = "*"), H = jn[k], H.innerHTML = "" + h, B = S.each(U.call(H.childNodes), function() {
             H.removeChild(this);
-          })), a(T) && (q = S(L), S.each(T, function(me, fe) {
-            ne.indexOf(me) > -1 ? q[me](fe) : q.attr(me, fe);
-          })), L;
+          })), a(T) && (q = S(B), S.each(T, function(me, fe) {
+            ie.indexOf(me) > -1 ? q[me](fe) : q.attr(me, fe);
+          })), B;
         }, G.Z = function(h, k) {
           return new y(h, k);
         }, G.isZ = function(h) {
@@ -1301,42 +1301,42 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           if (!h)
             return G.Z();
           if (typeof h == "string")
-            if (h = h.trim(), h[0] == "<" && te.test(h))
+            if (h = h.trim(), h[0] == "<" && ne.test(h))
               T = G.fragment(h, RegExp.$1, k), h = null;
             else {
               if (k !== R)
                 return S(k).find(h);
-              T = G.qsa(U, h);
+              T = G.qsa(F, h);
             }
           else {
             if (o(h))
-              return S(U).ready(h);
+              return S(F).ready(h);
             if (G.isZ(h))
               return h;
             if (qe(h))
               T = d(h);
             else if (c(h))
               T = [h], h = null;
-            else if (te.test(h))
+            else if (ne.test(h))
               T = G.fragment(h.trim(), RegExp.$1, k), h = null;
             else {
               if (k !== R)
                 return S(k).find(h);
-              T = G.qsa(U, h);
+              T = G.qsa(F, h);
             }
           }
           return G.Z(T, h);
         }, S = function(h, k) {
           return G.init(h, k);
         }, S.extend = function(h) {
-          var k, T = O.call(arguments, 1);
-          return typeof h == "boolean" && (k = h, h = T.shift()), T.forEach(function(L) {
-            b(h, L, k);
+          var k, T = U.call(arguments, 1);
+          return typeof h == "boolean" && (k = h, h = T.shift()), T.forEach(function(B) {
+            b(h, B, k);
           }), h;
         }, G.qsa = function(h, k) {
-          var T, L = k[0] == "#", q = !L && k[0] == ".", H = L || q ? k.slice(1) : k, me = Di.test(H);
-          return h.getElementById && me && L ? (T = h.getElementById(H)) ? [T] : [] : h.nodeType !== 1 && h.nodeType !== 9 && h.nodeType !== 11 ? [] : O.call(me && !L && h.getElementsByClassName ? q ? h.getElementsByClassName(H) : h.getElementsByTagName(k) : h.querySelectorAll(k));
-        }, S.contains = U.documentElement.contains ? function(h, k) {
+          var T, B = k[0] == "#", q = !B && k[0] == ".", H = B || q ? k.slice(1) : k, me = Di.test(H);
+          return h.getElementById && me && B ? (T = h.getElementById(H)) ? [T] : [] : h.nodeType !== 1 && h.nodeType !== 9 && h.nodeType !== 11 ? [] : U.call(me && !B && h.getElementsByClassName ? q ? h.getElementsByClassName(H) : h.getElementsByTagName(k) : h.querySelectorAll(k));
+        }, S.contains = F.documentElement.contains ? function(h, k) {
           return h !== k && h.contains(k);
         } : function(h, k) {
           for (; k && (k = k.parentNode); )
@@ -1357,54 +1357,54 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           return h == null ? "" : String.prototype.trim.call(h);
         }, S.uuid = 0, S.support = {}, S.expr = {}, S.noop = function() {
         }, S.map = function(h, k) {
-          var T, L, q, H = [];
+          var T, B, q, H = [];
           if (i(h))
-            for (L = 0; L < h.length; L++)
-              T = k(h[L], L), T != null && H.push(T);
+            for (B = 0; B < h.length; B++)
+              T = k(h[B], B), T != null && H.push(T);
           else
             for (q in h)
               T = k(h[q], q), T != null && H.push(T);
           return u(H);
         }, S.each = function(h, k) {
-          var T, L;
+          var T, B;
           if (i(h)) {
             for (T = 0; T < h.length; T++)
               if (k.call(h[T], T, h[T]) === !1)
                 return h;
           } else
-            for (L in h)
-              if (k.call(h[L], L, h[L]) === !1)
+            for (B in h)
+              if (k.call(h[B], B, h[B]) === !1)
                 return h;
           return h;
         }, S.grep = function(h, k) {
-          return I.call(h, k);
+          return L.call(h, k);
         }, e.JSON && (S.parseJSON = JSON.parse), S.each("Boolean Number String Function Array Date RegExp Object Error".split(" "), function(h, k) {
           Qt["[object " + k + "]"] = k.toLowerCase();
         }), S.fn = { constructor: G.Z, length: 0, forEach: M.forEach, reduce: M.reduce, push: M.push, sort: M.sort, splice: M.splice, indexOf: M.indexOf, concat: function() {
           var h, k, T = [];
           for (h = 0; h < arguments.length; h++)
             k = arguments[h], T[h] = G.isZ(k) ? k.toArray() : k;
-          return F.apply(G.isZ(this) ? this.toArray() : this, T);
+          return O.apply(G.isZ(this) ? this.toArray() : this, T);
         }, map: function(h) {
           return S(S.map(this, function(k, T) {
             return h.call(k, T, k);
           }));
         }, slice: function() {
-          return S(O.apply(this, arguments));
+          return S(U.apply(this, arguments));
         }, ready: function(h) {
-          if (U.readyState === "complete" || U.readyState !== "loading" && !U.documentElement.doScroll)
+          if (F.readyState === "complete" || F.readyState !== "loading" && !F.documentElement.doScroll)
             setTimeout(function() {
               h(S);
             }, 0);
           else {
             var k = function() {
-              U.removeEventListener("DOMContentLoaded", k, !1), e.removeEventListener("load", k, !1), h(S);
+              F.removeEventListener("DOMContentLoaded", k, !1), e.removeEventListener("load", k, !1), h(S);
             };
-            U.addEventListener("DOMContentLoaded", k, !1), e.addEventListener("load", k, !1);
+            F.addEventListener("DOMContentLoaded", k, !1), e.addEventListener("load", k, !1);
           }
           return this;
         }, get: function(h) {
-          return h === R ? O.call(this) : this[h >= 0 ? h : h + this.length];
+          return h === R ? U.call(this) : this[h >= 0 ? h : h + this.length];
         }, toArray: function() {
           return this.get();
         }, size: function() {
@@ -1418,7 +1418,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             return h.call(k, T, k) !== !1;
           }), this;
         }, filter: function(h) {
-          return o(h) ? this.not(this.not(h)) : S(I.call(this, function(k) {
+          return o(h) ? this.not(this.not(h)) : S(L.call(this, function(k) {
             return G.matches(k, h);
           }));
         }, add: function(h, k) {
@@ -1428,13 +1428,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }, not: function(h) {
           var k = [];
           if (o(h) && h.call !== R)
-            this.each(function(L) {
-              h.call(this, L) || k.push(this);
+            this.each(function(B) {
+              h.call(this, B) || k.push(this);
             });
           else {
-            var T = typeof h == "string" ? this.filter(h) : i(h) && o(h.item) ? O.call(h) : S(h);
-            this.forEach(function(L) {
-              T.indexOf(L) < 0 && k.push(L);
+            var T = typeof h == "string" ? this.filter(h) : i(h) && o(h.item) ? U.call(h) : S(h);
+            this.forEach(function(B) {
+              T.indexOf(B) < 0 && k.push(B);
             });
           }
           return S(k);
@@ -1454,23 +1454,23 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           var k = this;
           return h ? typeof h == "object" ? S(h).filter(function() {
             var T = this;
-            return M.some.call(k, function(L) {
-              return S.contains(L, T);
+            return M.some.call(k, function(B) {
+              return S.contains(B, T);
             });
           }) : this.length == 1 ? S(G.qsa(this[0], h)) : this.map(function() {
             return G.qsa(this, h);
           }) : S();
         }, closest: function(h, k) {
-          var T = [], L = typeof h == "object" && S(h);
+          var T = [], B = typeof h == "object" && S(h);
           return this.each(function(q, H) {
-            for (; H && !(L ? L.indexOf(H) >= 0 : G.matches(H, h)); )
+            for (; H && !(B ? B.indexOf(H) >= 0 : G.matches(H, h)); )
               H = H !== k && !s(H) && H.parentNode;
             H && T.indexOf(H) < 0 && T.push(H);
           }), S(T);
         }, parents: function(h) {
           for (var k = [], T = this; T.length > 0; )
-            T = S.map(T, function(L) {
-              return (L = L.parentNode) && !s(L) && k.indexOf(L) < 0 ? (k.push(L), L) : void 0;
+            T = S.map(T, function(B) {
+              return (B = B.parentNode) && !s(B) && k.indexOf(B) < 0 ? (k.push(B), B) : void 0;
             });
           return C(k, h);
         }, parent: function(h) {
@@ -1481,12 +1481,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           }), h);
         }, contents: function() {
           return this.map(function() {
-            return this.contentDocument || O.call(this.childNodes);
+            return this.contentDocument || U.call(this.childNodes);
           });
         }, siblings: function(h) {
           return C(this.map(function(k, T) {
-            return I.call(g(T.parentNode), function(L) {
-              return L !== T;
+            return L.call(g(T.parentNode), function(B) {
+              return B !== T;
             });
           }), h);
         }, empty: function() {
@@ -1506,9 +1506,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }, wrap: function(h) {
           var k = o(h);
           if (this[0] && !k)
-            var T = S(h).get(0), L = T.parentNode || this.length > 1;
+            var T = S(h).get(0), B = T.parentNode || this.length > 1;
           return this.each(function(q) {
-            S(this).wrapAll(k ? h.call(this, q) : L ? T.cloneNode(!0) : T);
+            S(this).wrapAll(k ? h.call(this, q) : B ? T.cloneNode(!0) : T);
           });
         }, wrapAll: function(h) {
           if (this[0]) {
@@ -1521,8 +1521,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }, wrapInner: function(h) {
           var k = o(h);
           return this.each(function(T) {
-            var L = S(this), q = L.contents(), H = k ? h.call(this, T) : h;
-            q.length ? q.wrapAll(H) : L.append(H);
+            var B = S(this), q = B.contents(), H = k ? h.call(this, T) : h;
+            q.length ? q.wrapAll(H) : B.append(H);
           });
         }, unwrap: function() {
           return this.parent().each(function() {
@@ -1546,59 +1546,59 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }, html: function(h) {
           return 0 in arguments ? this.each(function(k) {
             var T = this.innerHTML;
-            S(this).empty().append(D(this, h, k, T));
+            S(this).empty().append(E(this, h, k, T));
           }) : 0 in this ? this[0].innerHTML : null;
         }, text: function(h) {
           return 0 in arguments ? this.each(function(k) {
-            var T = D(this, h, k, this.textContent);
+            var T = E(this, h, k, this.textContent);
             this.textContent = T == null ? "" : "" + T;
           }) : 0 in this ? this.pluck("textContent").join("") : null;
         }, attr: function(h, k) {
           var T;
-          return typeof h != "string" || 1 in arguments ? this.each(function(L) {
+          return typeof h != "string" || 1 in arguments ? this.each(function(B) {
             if (this.nodeType === 1)
               if (c(h))
-                for (E in h)
-                  A(this, E, h[E]);
+                for (D in h)
+                  I(this, D, h[D]);
               else
-                A(this, h, D(this, k, L, this.getAttribute(h)));
+                I(this, h, E(this, k, B, this.getAttribute(h)));
           }) : 0 in this && this[0].nodeType == 1 && (T = this[0].getAttribute(h)) != null ? T : R;
         }, removeAttr: function(h) {
           return this.each(function() {
             this.nodeType === 1 && h.split(" ").forEach(function(k) {
-              A(this, k);
+              I(this, k);
             }, this);
           });
         }, prop: function(h, k) {
           return h = Yt[h] || h, typeof h != "string" || 1 in arguments ? this.each(function(T) {
             if (c(h))
-              for (E in h)
-                this[Yt[E] || E] = h[E];
+              for (D in h)
+                this[Yt[D] || D] = h[D];
             else
-              this[h] = D(this, k, T, this[h]);
+              this[h] = E(this, k, T, this[h]);
           }) : this[0] && this[0][h];
         }, removeProp: function(h) {
           return h = Yt[h] || h, this.each(function() {
             delete this[h];
           });
         }, data: function(h, k) {
-          var T = "data-" + h.replace(Q, "-$1").toLowerCase(), L = 1 in arguments ? this.attr(T, k) : this.attr(T);
-          return L !== null ? B(L) : R;
+          var T = "data-" + h.replace(Q, "-$1").toLowerCase(), B = 1 in arguments ? this.attr(T, k) : this.attr(T);
+          return B !== null ? A(B) : R;
         }, val: function(h) {
           return 0 in arguments ? (h == null && (h = ""), this.each(function(k) {
-            this.value = D(this, h, k, this.value);
+            this.value = E(this, h, k, this.value);
           })) : this[0] && (this[0].multiple ? S(this[0]).find("option").filter(function() {
             return this.selected;
           }).pluck("value") : this[0].value);
         }, offset: function(h) {
           if (h)
             return this.each(function(T) {
-              var L = S(this), q = D(this, h, T, L.offset()), H = L.offsetParent().offset(), me = { top: q.top - H.top, left: q.left - H.left };
-              L.css("position") == "static" && (me.position = "relative"), L.css(me);
+              var B = S(this), q = E(this, h, T, B.offset()), H = B.offsetParent().offset(), me = { top: q.top - H.top, left: q.left - H.left };
+              B.css("position") == "static" && (me.position = "relative"), B.css(me);
             });
           if (!this.length)
             return null;
-          if (U.documentElement !== this[0] && !S.contains(U.documentElement, this[0]))
+          if (F.documentElement !== this[0] && !S.contains(F.documentElement, this[0]))
             return { top: 0, left: 0 };
           var k = this[0].getBoundingClientRect();
           return { left: k.left + e.pageXOffset, top: k.top + e.pageYOffset, width: Math.round(k.width), height: Math.round(k.height) };
@@ -1610,10 +1610,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             if (qe(h)) {
               if (!T)
                 return;
-              var L = {}, q = getComputedStyle(T, "");
+              var B = {}, q = getComputedStyle(T, "");
               return S.each(h, function(me, fe) {
-                L[fe] = T.style[x(fe)] || q.getPropertyValue(fe);
-              }), L;
+                B[fe] = T.style[x(fe)] || q.getPropertyValue(fe);
+              }), B;
             }
           }
           var H = "";
@@ -1622,9 +1622,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
               this.style.removeProperty(l(h));
             });
           else
-            for (E in h)
-              h[E] || h[E] === 0 ? H += l(E) + ":" + p(E, h[E]) + ";" : this.each(function() {
-                this.style.removeProperty(l(E));
+            for (D in h)
+              h[D] || h[D] === 0 ? H += l(D) + ":" + p(D, h[D]) + ";" : this.each(function() {
+                this.style.removeProperty(l(D));
               });
           return this.each(function() {
             this.style.cssText += ";" + H;
@@ -1639,8 +1639,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           return h ? this.each(function(k) {
             if ("className" in this) {
               w = [];
-              var T = N(this), L = D(this, h, k, T);
-              L.split(/\s+/g).forEach(function(q) {
+              var T = N(this), B = E(this, h, k, T);
+              B.split(/\s+/g).forEach(function(q) {
                 S(this).hasClass(q) || w.push(q);
               }, this), w.length && N(this, T + (T ? " " : "") + w.join(" "));
             }
@@ -1650,16 +1650,16 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             if ("className" in this) {
               if (h === R)
                 return N(this, "");
-              w = N(this), D(this, h, k, w).split(/\s+/g).forEach(function(T) {
+              w = N(this), E(this, h, k, w).split(/\s+/g).forEach(function(T) {
                 w = w.replace(f(T), " ");
               }), N(this, w.trim());
             }
           });
         }, toggleClass: function(h, k) {
           return h ? this.each(function(T) {
-            var L = S(this), q = D(this, h, T, N(this));
+            var B = S(this), q = E(this, h, T, N(this));
             q.split(/\s+/g).forEach(function(H) {
-              (k === R ? !L.hasClass(H) : k) ? L.addClass(H) : L.removeClass(H);
+              (k === R ? !B.hasClass(H) : k) ? B.addClass(H) : B.removeClass(H);
             });
           }) : this;
         }, scrollTop: function(h) {
@@ -1682,12 +1682,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           }
         }, position: function() {
           if (this.length) {
-            var h = this[0], k = this.offsetParent(), T = this.offset(), L = Y.test(k[0].nodeName) ? { top: 0, left: 0 } : k.offset();
-            return T.top -= parseFloat(S(h).css("margin-top")) || 0, T.left -= parseFloat(S(h).css("margin-left")) || 0, L.top += parseFloat(S(k[0]).css("border-top-width")) || 0, L.left += parseFloat(S(k[0]).css("border-left-width")) || 0, { top: T.top - L.top, left: T.left - L.left };
+            var h = this[0], k = this.offsetParent(), T = this.offset(), B = Y.test(k[0].nodeName) ? { top: 0, left: 0 } : k.offset();
+            return T.top -= parseFloat(S(h).css("margin-top")) || 0, T.left -= parseFloat(S(h).css("margin-left")) || 0, B.top += parseFloat(S(k[0]).css("border-top-width")) || 0, B.left += parseFloat(S(k[0]).css("border-left-width")) || 0, { top: T.top - B.top, left: T.left - B.left };
           }
         }, offsetParent: function() {
           return this.map(function() {
-            for (var h = this.offsetParent || U.body; h && !Y.test(h.nodeName) && S(h).css("position") == "static"; )
+            for (var h = this.offsetParent || F.body; h && !Y.test(h.nodeName) && S(h).css("position") == "static"; )
               h = h.offsetParent;
             return h;
           });
@@ -1696,29 +1696,29 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             return T[0].toUpperCase();
           });
           S.fn[h] = function(T) {
-            var L, q = this[0];
-            return T === R ? r(q) ? q["inner" + k] : s(q) ? q.documentElement["scroll" + k] : (L = this.offset()) && L[h] : this.each(function(H) {
-              q = S(this), q.css(h, D(this, T, H, q[h]()));
+            var B, q = this[0];
+            return T === R ? r(q) ? q["inner" + k] : s(q) ? q.documentElement["scroll" + k] : (B = this.offset()) && B[h] : this.each(function(H) {
+              q = S(this), q.css(h, E(this, T, H, q[h]()));
             });
           };
-        }), Fe.forEach(function(h, k) {
+        }), Oe.forEach(function(h, k) {
           var T = k % 2;
           S.fn[h] = function() {
-            var L, q, H = S.map(arguments, function(fe) {
+            var B, q, H = S.map(arguments, function(fe) {
               var ue = [];
-              return L = n(fe), L == "array" ? (fe.forEach(function(Ue) {
-                return Ue.nodeType !== R ? ue.push(Ue) : S.zepto.isZ(Ue) ? ue = ue.concat(Ue.get()) : void (ue = ue.concat(G.fragment(Ue)));
-              }), ue) : L == "object" || fe == null ? fe : G.fragment(fe);
+              return B = n(fe), B == "array" ? (fe.forEach(function(Fe) {
+                return Fe.nodeType !== R ? ue.push(Fe) : S.zepto.isZ(Fe) ? ue = ue.concat(Fe.get()) : void (ue = ue.concat(G.fragment(Fe)));
+              }), ue) : B == "object" || fe == null ? fe : G.fragment(fe);
             }), me = this.length > 1;
             return H.length < 1 ? this : this.each(function(fe, ue) {
               q = T ? ue : ue.parentNode, ue = k == 0 ? ue.nextSibling : k == 1 ? ue.firstChild : k == 2 ? ue : null;
-              var Ue = S.contains(U.documentElement, q);
+              var Fe = S.contains(F.documentElement, q);
               H.forEach(function(ut) {
                 if (me)
                   ut = ut.cloneNode(!0);
                 else if (!q)
                   return S(ut).remove();
-                q.insertBefore(ut, ue), Ue && j(ut, function(Ne) {
+                q.insertBefore(ut, ue), Fe && j(ut, function(Ne) {
                   if (!(Ne.nodeName == null || Ne.nodeName.toUpperCase() !== "SCRIPT" || Ne.type && Ne.type !== "text/javascript" || Ne.src)) {
                     var Hn = Ne.ownerDocument ? Ne.ownerDocument.defaultView : e;
                     Hn.eval.call(Hn, Ne.innerHTML);
@@ -1726,10 +1726,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
                 });
               });
             });
-          }, S.fn[T ? h + "To" : "insert" + (k ? "Before" : "After")] = function(L) {
-            return S(L)[h](this), this;
+          }, S.fn[T ? h + "To" : "insert" + (k ? "Before" : "After")] = function(B) {
+            return S(B)[h](this), this;
           };
-        }), G.Z.prototype = y.prototype = S.fn, G.uniq = _, G.deserializeValue = B, S.zepto = G, S;
+        }), G.Z.prototype = y.prototype = S.fn, G.uniq = _, G.deserializeValue = A, S.zepto = G, S;
       }();
       return e.Zepto = t, e.$ === void 0 && (e.$ = t), function(n) {
         function o(w) {
@@ -1737,9 +1737,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         }
         function r(w, x, _, M) {
           if (x = s(x), x.ns)
-            var F = c(x.ns);
-          return (C[o(w)] || []).filter(function(I) {
-            return I && (!x.e || I.e == x.e) && (!x.ns || F.test(I.ns)) && (!_ || o(I.fn) === o(_)) && (!M || I.sel == M);
+            var O = c(x.ns);
+          return (C[o(w)] || []).filter(function(L) {
+            return L && (!x.e || L.e == x.e) && (!x.ns || O.test(L.ns)) && (!_ || o(L.fn) === o(_)) && (!M || L.sel == M);
           });
         }
         function s(w) {
@@ -1750,45 +1750,45 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           return new RegExp("(?:^| )" + w.replace(" ", " .* ?") + "(?: |$)");
         }
         function a(w, x) {
-          return w.del && !A && w.e in N || !!x;
+          return w.del && !I && w.e in N || !!x;
         }
         function i(w) {
-          return B[w] || A && N[w] || w;
+          return A[w] || I && N[w] || w;
         }
-        function d(w, x, _, M, F, I, O) {
-          var U = o(w), W = C[U] || (C[U] = []);
+        function d(w, x, _, M, O, L, U) {
+          var F = o(w), W = C[F] || (C[F] = []);
           x.split(/\s/).forEach(function(z) {
             if (z == "ready")
               return n(document).ready(_);
             var V = s(z);
-            V.fn = _, V.sel = F, V.e in B && (_ = function(K) {
+            V.fn = _, V.sel = O, V.e in A && (_ = function(K) {
               var ae = K.relatedTarget;
               return !ae || ae !== this && !n.contains(this, ae) ? V.fn.apply(this, arguments) : void 0;
-            }), V.del = I;
-            var te = I || _;
+            }), V.del = L;
+            var ne = L || _;
             V.proxy = function(K) {
               if (K = l(K), !K.isImmediatePropagationStopped()) {
                 K.data = M;
-                var ae = te.apply(w, K._args == p ? [K] : [K].concat(K._args));
+                var ae = ne.apply(w, K._args == p ? [K] : [K].concat(K._args));
                 return ae === !1 && (K.preventDefault(), K.stopPropagation()), ae;
               }
-            }, V.i = W.length, W.push(V), "addEventListener" in w && w.addEventListener(i(V.e), V.proxy, a(V, O));
+            }, V.i = W.length, W.push(V), "addEventListener" in w && w.addEventListener(i(V.e), V.proxy, a(V, U));
           });
         }
-        function u(w, x, _, M, F) {
-          var I = o(w);
-          (x || "").split(/\s/).forEach(function(O) {
-            r(w, O, _, M).forEach(function(U) {
-              delete C[I][U.i], "removeEventListener" in w && w.removeEventListener(i(U.e), U.proxy, a(U, F));
+        function u(w, x, _, M, O) {
+          var L = o(w);
+          (x || "").split(/\s/).forEach(function(U) {
+            r(w, U, _, M).forEach(function(F) {
+              delete C[L][F.i], "removeEventListener" in w && w.removeEventListener(i(F.e), F.proxy, a(F, O));
             });
           });
         }
         function l(w, x) {
           if (x || !w.isDefaultPrevented) {
             x || (x = w), n.each(S, function(_, M) {
-              var F = x[_];
+              var O = x[_];
               w[_] = function() {
-                return this[M] = j, F && F.apply(x, arguments);
+                return this[M] = j, O && O.apply(x, arguments);
               }, w[M] = R;
             });
             try {
@@ -1802,13 +1802,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         function f(w) {
           var x, _ = { originalEvent: w };
           for (x in w)
-            E.test(x) || w[x] === p || (_[x] = w[x]);
+            D.test(x) || w[x] === p || (_[x] = w[x]);
           return l(_, w);
         }
         var p, m = 1, g = Array.prototype.slice, y = n.isFunction, b = function(w) {
           return typeof w == "string";
-        }, C = {}, D = {}, A = "onfocusin" in e, N = { focus: "focusin", blur: "focusout" }, B = { mouseenter: "mouseover", mouseleave: "mouseout" };
-        D.click = D.mousedown = D.mouseup = D.mousemove = "MouseEvents", n.event = { add: d, remove: u }, n.proxy = function(w, x) {
+        }, C = {}, E = {}, I = "onfocusin" in e, N = { focus: "focusin", blur: "focusout" }, A = { mouseenter: "mouseover", mouseleave: "mouseout" };
+        E.click = E.mousedown = E.mouseup = E.mousemove = "MouseEvents", n.event = { add: d, remove: u }, n.proxy = function(w, x) {
           var _ = 2 in arguments && g.call(arguments, 2);
           if (y(w)) {
             var M = function() {
@@ -1830,7 +1830,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           return !0;
         }, R = function() {
           return !1;
-        }, E = /^([A-Z]|returnValue$|layer[XY]$|webkitMovement[XY]$)/, S = { preventDefault: "isDefaultPrevented", stopImmediatePropagation: "isImmediatePropagationStopped", stopPropagation: "isPropagationStopped" };
+        }, D = /^([A-Z]|returnValue$|layer[XY]$|webkitMovement[XY]$)/, S = { preventDefault: "isDefaultPrevented", stopImmediatePropagation: "isImmediatePropagationStopped", stopPropagation: "isPropagationStopped" };
         n.fn.delegate = function(w, x, _) {
           return this.on(x, w, _);
         }, n.fn.undelegate = function(w, x, _) {
@@ -1839,22 +1839,22 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           return n(document.body).delegate(this.selector, w, x), this;
         }, n.fn.die = function(w, x) {
           return n(document.body).undelegate(this.selector, w, x), this;
-        }, n.fn.on = function(w, x, _, M, F) {
-          var I, O, U = this;
+        }, n.fn.on = function(w, x, _, M, O) {
+          var L, U, F = this;
           return w && !b(w) ? (n.each(w, function(W, z) {
-            U.on(W, x, _, z, F);
-          }), U) : (b(x) || y(M) || M === !1 || (M = _, _ = x, x = p), (M === p || _ === !1) && (M = _, _ = p), M === !1 && (M = R), U.each(function(W, z) {
-            F && (I = function(V) {
+            F.on(W, x, _, z, O);
+          }), F) : (b(x) || y(M) || M === !1 || (M = _, _ = x, x = p), (M === p || _ === !1) && (M = _, _ = p), M === !1 && (M = R), F.each(function(W, z) {
+            O && (L = function(V) {
               return u(z, V.type, M), M.apply(this, arguments);
-            }), x && (O = function(V) {
-              var te, K = n(V.target).closest(x, z).get(0);
-              return K && K !== z ? (te = n.extend(f(V), { currentTarget: K, liveFired: z }), (I || M).apply(K, [te].concat(g.call(arguments, 1)))) : void 0;
-            }), d(z, w, M, _, x, O || I);
+            }), x && (U = function(V) {
+              var ne, K = n(V.target).closest(x, z).get(0);
+              return K && K !== z ? (ne = n.extend(f(V), { currentTarget: K, liveFired: z }), (L || M).apply(K, [ne].concat(g.call(arguments, 1)))) : void 0;
+            }), d(z, w, M, _, x, U || L);
           }));
         }, n.fn.off = function(w, x, _) {
           var M = this;
-          return w && !b(w) ? (n.each(w, function(F, I) {
-            M.off(F, x, I);
+          return w && !b(w) ? (n.each(w, function(O, L) {
+            M.off(O, x, L);
           }), M) : (b(x) || y(_) || _ === !1 || (_ = x, x = p), _ === !1 && (_ = R), M.each(function() {
             u(this, w, _, x);
           }));
@@ -1864,9 +1864,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           });
         }, n.fn.triggerHandler = function(w, x) {
           var _, M;
-          return this.each(function(F, I) {
-            _ = f(b(w) ? n.Event(w) : w), _._args = x, _.target = I, n.each(r(I, w.type || w), function(O, U) {
-              return M = U.proxy(_), _.isImmediatePropagationStopped() ? !1 : void 0;
+          return this.each(function(O, L) {
+            _ = f(b(w) ? n.Event(w) : w), _._args = x, _.target = L, n.each(r(L, w.type || w), function(U, F) {
+              return M = F.proxy(_), _.isImmediatePropagationStopped() ? !1 : void 0;
             });
           }), M;
         }, "focusin focusout focus blur load resize scroll unload click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select keydown keypress keyup error".split(" ").forEach(function(w) {
@@ -1875,10 +1875,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           };
         }), n.Event = function(w, x) {
           b(w) || (x = w, w = x.type);
-          var _ = document.createEvent(D[w] || "Events"), M = !0;
+          var _ = document.createEvent(E[w] || "Events"), M = !0;
           if (x)
-            for (var F in x)
-              F == "bubbles" ? M = !!x[F] : _[F] = x[F];
+            for (var O in x)
+              O == "bubbles" ? M = !!x[O] : _[O] = x[O];
           return _.initEvent(w, M, !0), l(_);
         };
       }(t), function(n) {
@@ -2252,15 +2252,15 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             (!m || !~m.indexOf(y._name)) && p.push(new y(f));
           }), i.apply(f, arguments);
         }, request: function(f, p, m) {
-          var g, y, b, C, D = 0, A = this._widgets, N = A && A.length, B = [], j = [];
-          for (p = s(p) ? p : [p]; N > D; D++)
-            g = A[D], y = g.invoke(f, p), y !== u && (o.isPromise(y) ? j.push(y) : B.push(y));
+          var g, y, b, C, E = 0, I = this._widgets, N = I && I.length, A = [], j = [];
+          for (p = s(p) ? p : [p]; N > E; E++)
+            g = I[E], y = g.invoke(f, p), y !== u && (o.isPromise(y) ? j.push(y) : A.push(y));
           return m || j.length ? (b = o.when.apply(o, j), C = b.pipe ? "pipe" : "then", b[C](function() {
-            var R = o.Deferred(), E = arguments;
-            return E.length === 1 && (E = E[0]), setTimeout(function() {
-              R.resolve(E);
+            var R = o.Deferred(), D = arguments;
+            return D.length === 1 && (D = D[0]), setTimeout(function() {
+              R.resolve(D);
             }, 1), R.promise();
-          })[m ? C : "done"](m || o.noop)) : B[0];
+          })[m ? C : "done"](m || o.noop)) : A[0];
         }, destroy: function() {
           d.apply(this, arguments), this._widgets = null;
         } }), r.register = c.register = function(f, p) {
@@ -2565,14 +2565,14 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), t("widgets/queue", ["base", "uploader", "queue", "file", "lib/file", "runtime/client", "widgets/widget"], function(o, r, s, c, a, i) {
         var d = o.$, u = /\.\w+$/, l = c.Status;
         return r.register({ name: "queue", init: function(f) {
-          var p, m, g, y, b, C, D, A = this;
+          var p, m, g, y, b, C, E, I = this;
           if (d.isPlainObject(f.accept) && (f.accept = [f.accept]), f.accept) {
             for (b = [], g = 0, m = f.accept.length; m > g; g++)
               y = f.accept[g].extensions, y && b.push(y);
-            b.length && (C = "\\." + b.join(",").replace(/,/g, "$|\\.").replace(/\*/g, ".*") + "$"), A.accept = new RegExp(C, "i");
+            b.length && (C = "\\." + b.join(",").replace(/,/g, "$|\\.").replace(/\*/g, ".*") + "$"), I.accept = new RegExp(C, "i");
           }
-          return A.queue = new s(), A.stats = A.queue.stats, this.request("predict-runtime-type") === "html5" ? (p = o.Deferred(), this.placeholder = D = new i("Placeholder"), D.connectRuntime({ runtimeOrder: "html5" }, function() {
-            A._ruid = D.getRuid(), p.resolve();
+          return I.queue = new s(), I.stats = I.queue.stats, this.request("predict-runtime-type") === "html5" ? (p = o.Deferred(), this.placeholder = E = new i("Placeholder"), E.connectRuntime({ runtimeOrder: "html5" }, function() {
+            I._ruid = E.getRuid(), p.resolve();
           }), p.promise()) : void 0;
         }, _wrapFile: function(f) {
           if (!(f instanceof c)) {
@@ -2678,15 +2678,15 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         } }), s.installTo(c.prototype), c;
       }), t("widgets/upload", ["base", "uploader", "file", "lib/transport", "widgets/widget"], function(o, r, s, c) {
         function a(l, f) {
-          var p, m, g = [], y = l.source, b = y.size, C = f ? Math.ceil(b / f) : 1, D = 0, A = 0;
+          var p, m, g = [], y = l.source, b = y.size, C = f ? Math.ceil(b / f) : 1, E = 0, I = 0;
           for (m = { file: l, has: function() {
             return !!g.length;
           }, shift: function() {
             return g.shift();
           }, unshift: function(N) {
             g.unshift(N);
-          } }; C > A; )
-            p = Math.min(f, b - D), g.push({ file: l, start: D, end: f ? D + p : b, total: b, chunks: C, chunk: A++, cuted: m }), D += p;
+          } }; C > I; )
+            p = Math.min(f, b - E), g.push({ file: l, start: E, end: f ? E + p : b, total: b, chunks: C, chunk: I++, cuted: m }), E += p;
           return l.blocks = g.concat(), l.remaning = g.length, m;
         }
         var i = o.$, d = o.isPromise, u = s.Status;
@@ -2797,25 +2797,25 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             }) : (l.percentage = 1, p.updateFileProgress(m), p._popBlock(l), o.nextTick(p.__tick));
           }));
         }, _doSend: function(l) {
-          var f, p, m = this, g = m.owner, y = i.extend({}, m.options, l.options), b = l.file, C = new c(y), D = i.extend({}, y.formData), A = i.extend({}, y.headers);
+          var f, p, m = this, g = m.owner, y = i.extend({}, m.options, l.options), b = l.file, C = new c(y), E = i.extend({}, y.formData), I = i.extend({}, y.headers);
           l.transport = C, C.on("destroy", function() {
             delete l.transport, m._popBlock(l), o.nextTick(m.__tick);
           }), C.on("progress", function(N) {
             l.percentage = N, m.updateFileProgress(b);
           }), f = function(N) {
-            var B;
-            return p = C.getResponseAsJson() || {}, p._raw = C.getResponse(), p._headers = C.getResponseHeaders(), l.response = p, B = function(j) {
+            var A;
+            return p = C.getResponseAsJson() || {}, p._raw = C.getResponse(), p._headers = C.getResponseHeaders(), l.response = p, A = function(j) {
               N = j;
-            }, g.trigger("uploadAccept", l, p, B) || (N = N || "server"), N;
-          }, C.on("error", function(N, B) {
-            var j, R, E = N.split("|");
-            N = E[0], j = parseFloat(E[1]), R = E[2], l.retried = l.retried || 0, l.chunks > 1 && ~"http,abort,server".indexOf(N.replace(/-.*/, "")) && l.retried < y.chunkRetry ? (l.retried++, m.retryTimer = setTimeout(function() {
+            }, g.trigger("uploadAccept", l, p, A) || (N = N || "server"), N;
+          }, C.on("error", function(N, A) {
+            var j, R, D = N.split("|");
+            N = D[0], j = parseFloat(D[1]), R = D[2], l.retried = l.retried || 0, l.chunks > 1 && ~"http,abort,server".indexOf(N.replace(/-.*/, "")) && l.retried < y.chunkRetry ? (l.retried++, m.retryTimer = setTimeout(function() {
               C.send();
-            }, y.chunkRetryDelay || 1e3)) : (B || N !== "server" || (N = f(N)), b.setStatus(u.ERROR, N), g.trigger("uploadError", b, N, j, R), g.trigger("uploadComplete", b));
+            }, y.chunkRetryDelay || 1e3)) : (A || N !== "server" || (N = f(N)), b.setStatus(u.ERROR, N), g.trigger("uploadError", b, N, j, R), g.trigger("uploadComplete", b));
           }), C.on("load", function() {
             var N;
             return (N = f()) ? void C.trigger("error", N, !0) : void (b.remaning === 1 ? m._finishFile(b, p) : C.destroy());
-          }), D = i.extend(D, { id: b.id, name: b.name, type: b.type, lastModifiedDate: b.lastModifiedDate, size: b.size }), l.chunks > 1 && i.extend(D, { chunks: l.chunks, chunk: l.chunk }), g.trigger("uploadBeforeSend", l, D, A), C.appendBlob(y.fileVal, l.blob, b.name), C.append(D), C.setRequestHeader(A), C.send();
+          }), E = i.extend(E, { id: b.id, name: b.name, type: b.type, lastModifiedDate: b.lastModifiedDate, size: b.size }), l.chunks > 1 && i.extend(E, { chunks: l.chunks, chunk: l.chunk }), g.trigger("uploadBeforeSend", l, E, I), C.appendBlob(y.fileVal, l.blob, b.name), C.append(E), C.setRequestHeader(I), C.send();
         }, _finishFile: function(l, f, p) {
           var m = this.owner;
           return m.request("after-send-file", arguments, function() {
@@ -3199,8 +3199,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           var a = this._canvas;
           this._img.onload = null, a && (a.getContext("2d").clearRect(0, 0, a.width, a.height), a.width = a.height = 0, this._canvas = null), this._img.src = c, this._img = this._blob = null;
         }, _resize: function(a, i, d, u) {
-          var l, f, p, m, g, y = this.options, b = a.width, C = a.height, D = this.getOrientation();
-          ~[5, 6, 7, 8].indexOf(D) && (d ^= u, u ^= d, d ^= u), l = Math[y.crop ? "max" : "min"](d / b, u / C), y.allowMagnify || (l = Math.min(1, l)), f = b * l, p = C * l, y.crop ? (i.width = d, i.height = u) : (i.width = f, i.height = p), m = (i.width - f) / 2, g = (i.height - p) / 2, y.preserveHeaders || this._rotate2Orientaion(i, D), this._renderImageToCanvas(i, a, m, g, f, p);
+          var l, f, p, m, g, y = this.options, b = a.width, C = a.height, E = this.getOrientation();
+          ~[5, 6, 7, 8].indexOf(E) && (d ^= u, u ^= d, d ^= u), l = Math[y.crop ? "max" : "min"](d / b, u / C), y.allowMagnify || (l = Math.min(1, l)), f = b * l, p = C * l, y.crop ? (i.width = d, i.height = u) : (i.width = f, i.height = p), m = (i.width - f) / 2, g = (i.height - p) / 2, y.preserveHeaders || this._rotate2Orientaion(i, E), this._renderImageToCanvas(i, a, m, g, f, p);
         }, _rotate2Orientaion: function(a, i) {
           var d = a.width, u = a.height, l = a.getContext("2d");
           switch (i) {
@@ -3234,10 +3234,10 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           }
         }, _renderImageToCanvas: function() {
           function a(d, u, l) {
-            var f, p, m, g = document.createElement("canvas"), y = g.getContext("2d"), b = 0, C = l, D = l;
-            for (g.width = 1, g.height = l, y.drawImage(d, 0, 0), f = y.getImageData(0, 0, 1, l).data; D > b; )
-              p = f[4 * (D - 1) + 3], p === 0 ? C = D : b = D, D = C + b >> 1;
-            return m = D / l, m === 0 ? 1 : m;
+            var f, p, m, g = document.createElement("canvas"), y = g.getContext("2d"), b = 0, C = l, E = l;
+            for (g.width = 1, g.height = l, y.drawImage(d, 0, 0), f = y.getImageData(0, 0, 1, l).data; E > b; )
+              p = f[4 * (E - 1) + 3], p === 0 ? C = E : b = E, E = C + b >> 1;
+            return m = E / l, m === 0 ? 1 : m;
           }
           function i(d) {
             var u, l, f = d.naturalWidth, p = d.naturalHeight;
@@ -3247,11 +3247,11 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             var g = u.naturalWidth, y = u.naturalHeight, b = a(u, g, y);
             return d.getContext("2d").drawImage(u, 0, 0, g * b, y * b, l, f, p, m);
           } : function(d, u, l, f, p, m) {
-            var g, y, b, C, D, A, N, B = u.naturalWidth, j = u.naturalHeight, R = d.getContext("2d"), E = i(u), S = this.type === "image/jpeg", w = 1024, x = 0, _ = 0;
-            for (E && (B /= 2, j /= 2), R.save(), g = document.createElement("canvas"), g.width = g.height = w, y = g.getContext("2d"), b = S ? a(u, B, j) : 1, C = Math.ceil(w * p / B), D = Math.ceil(w * m / j / b); j > x; ) {
-              for (A = 0, N = 0; B > A; )
-                y.clearRect(0, 0, w, w), y.drawImage(u, -A, -x), R.drawImage(g, 0, 0, w, w, l + N, f + _, C, D), A += w, N += C;
-              x += w, _ += D;
+            var g, y, b, C, E, I, N, A = u.naturalWidth, j = u.naturalHeight, R = d.getContext("2d"), D = i(u), S = this.type === "image/jpeg", w = 1024, x = 0, _ = 0;
+            for (D && (A /= 2, j /= 2), R.save(), g = document.createElement("canvas"), g.width = g.height = w, y = g.getContext("2d"), b = S ? a(u, A, j) : 1, C = Math.ceil(w * p / A), E = Math.ceil(w * m / j / b); j > x; ) {
+              for (I = 0, N = 0; A > I; )
+                y.clearRect(0, 0, w, w), y.drawImage(u, -I, -x), R.drawImage(g, 0, 0, w, w, l + N, f + _, C, E), I += w, N += C;
+              x += w, _ += E;
             }
             R.restore(), g = y = null;
           } : function(d) {
@@ -3320,8 +3320,8 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), n("webuploader");
     }), window.console || (window.console = {}), console.log || (console.log = function() {
     });
-    var wt = "4.4.0 (2022-11-03)", ve = navigator.userAgent.toLowerCase(), Z = ve.indexOf("msie") > -1 && ve.indexOf("opera") == -1, yi = ve.indexOf("msie") == -1 && ve.indexOf("trident") > -1, Re = ve.indexOf("gecko") > -1 && ve.indexOf("khtml") == -1, Be = ve.indexOf("applewebkit") > -1, $t = ve.indexOf("opera") > -1, ki = ve.indexOf("mobile") > -1, bi = /ipad|iphone|ipod/.test(ve), Ee = document.compatMode != "CSS1Compat", ye = !window.getSelection, Mn = /(?:msie|firefox|webkit|opera)[\/:\s](\d+)/.exec(ve), ce = Mn ? Mn[1] : "0", xt = new Date().getTime(), De = Math.round, v = { DEBUG: !1, VERSION: wt, IE: Z, GECKO: Re, WEBKIT: Be, OPERA: $t, V: ce, TIME: xt, each: P, isArray: ie, isFunction: re, inArray: pe, inString: $e, trim: ee, addUnit: J, removeUnit: X, escape: se, unescape: Ve, toCamel: Ke, toHex: pt, toMap: oe, toArray: St, undef: $, invalidUrl: qn, addParam: Wn, extend: he, json: Zt }, Nn = oe("a,abbr,acronym,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,img,input,ins,kbd,label,map,q,s,samp,select,small,span,strike,strong,sub,sup,textarea,tt,u,var"), In = oe("address,applet,blockquote,body,center,dd,dir,div,dl,dt,fieldset,form,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,iframe,ins,isindex,li,map,menu,meta,noframes,noscript,object,ol,p,pre,script,style,table,tbody,td,tfoot,th,thead,title,tr,ul,audio,video"), An = oe("area,base,basefont,br,col,frame,hr,img,input,isindex,link,meta,param,embed"), Ln = oe("b,basefont,big,del,em,font,i,s,small,span,strike,strong,sub,sup,u"), wi = oe("img,table,input,textarea,button,audio,video"), Vt = oe("pre,style,script"), Ct = oe("html,head,body,td,tr,table,ol,ul,li"), xi = (oe("colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr"), oe("checked,compact,declare,defer,disabled,ismap,multiple,nohref,noresize,noshade,nowrap,readonly,selected")), Ci = oe("input,button,textarea,select");
-    v.basePath = $n(), v.Tools = { All: ["source", "|", "undo", "redo", "removeformat", "clearhtml", "|", "template", "code", "cut", "copy", "plainpaste", "wordpaste", "|", "preview", "selectall", "fullscreen", "print", "|", "quickformat", "/", "formatblock", "fontname", "fontsize", "|", "forecolor", "hilitecolor", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "quote", "subscript", "superscript", "|", "image", "multiimage", "media", "insertfile", "baidumap", "link", "unlink", "|", "table", "anchor", "hr", "pagebreak"], Normal: ["source", "|", "formatblock", "fontname", "fontsize", "|", "forecolor", "hilitecolor", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "image", "multiimage", "media", "insertfile", "baidumap", "link", "unlink", "|", "table", "anchor", "hr", "pagebreak", "|", "quote", "subscript", "superscript", "|", "preview", "fullscreen", "quickformat"], Small: ["source", "|", "formatblock", "fontname", "fontsize", "|", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "quote", "image", "multiimage", "media", "insertfile", "|", "table", "hr", "pagebreak", "|", "link", "unlink", "|", "preview", "fullscreen"], Mini: ["formatblock", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "|", "image", "insertfile", "table", "link"] }, v.Templates = [{ name: "\u56FE\u7247\u548C\u6587\u5B57", content: '<h3><img align="left" height="100" style="margin-right: 10px" width="100" />\u5728\u6B64\u5904\u8F93\u5165\u6807\u9898</h3><p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p>' }, { name: "\u8868\u683C", content: '<h3>\u6807\u9898</h3><table style="width:100%;" cellpadding="2" cellspacing="0" border="1"><tbody><tr><td><h3>\u6807\u98981</h3></td><td><h3>\u6807\u98981</h3></td></tr><tr><td>\u5185\u5BB91</td><td>\u5185\u5BB92</td></tr><tr><td>\u5185\u5BB93</td><td>\u5185\u5BB94</td></tr></tbody></table><p>\u8868\u683C\u8BF4\u660E</p>' }, { name: "\u9879\u76EE\u7F16\u53F7", content: "<p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p><ol><li>\u63CF\u8FF01</li><li>\u63CF\u8FF02</li><li>\u63CF\u8FF03</li></ol><p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p><ul><li>\u63CF\u8FF01</li><li>\u63CF\u8FF02</li><li>\u63CF\u8FF03</li></ul>" }], v.options = { designMode: !0, fullscreenMode: !1, filterMode: !0, wellFormatMode: !0, shadowMode: !0, loadStyleMode: !0, basePath: v.basePath, themesPath: v.basePath + "themes/", langPath: v.basePath + "lang/", pluginsPath: v.basePath + "plugins/", themeType: "default", langType: "zh-CN", urlType: "", newlineTag: "p", resizeType: 2, syncType: "form", pasteType: 2, dialogAlignType: "page", useContextmenu: !0, fullscreenShortcut: !1, bodyClass: "ke-content", indentChar: "	", cssPath: "", cssData: "", minWidth: 650, minHeight: 100, minChangeSize: 50, zIndex: 811213, items: v.Tools.Normal, noDisableItems: ["source", "fullscreen"], colorTable: [["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#4e5f70", "#f1c40f"], ["#16a085", "#27ae60", "#2980b9", "#8e44ad", "#2c3e50", "#f39c12"], ["#E53333", "#E56600", "#FF9900", "#64451D", "#DFC5A4", "#FFE500"], ["#009900", "#006600", "#99BB00", "#B8D100", "#60D978", "#00D5FF"], ["#337FE5", "#003399", "#4C33E5", "#9933E5", "#CC33E5", "#EE33EE"], ["#FFFFFF", "#CCCCCC", "#999999", "#666666", "#333333", "#000000"]], fontSizeTable: ["9px", "10px", "12px", "14px", "16px", "18px", "24px", "32px"], htmlTags: { font: ["id", "class", "color", "size", "face", ".background-color"], span: ["id", "class", ".color", ".background-color", ".font-size", ".font-family", ".background", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".line-height"], div: ["id", "class", "align", ".border", ".margin", ".padding", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".background", ".font-style", ".text-decoration", ".vertical-align", ".margin-left"], table: ["id", "class", "border", "cellspacing", "cellpadding", "width", "height", "align", "bordercolor", ".padding", ".margin", ".border", "bgcolor", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".font-style", ".text-decoration", ".background", ".width", ".height", ".border-collapse"], "td,th": ["id", "class", "align", "valign", "width", "height", "colspan", "rowspan", "bgcolor", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".background", ".border"], a: ["id", "class", "href", "target", "name"], media: ["id", "class"], audio: ["id", "class", "src", "width", "height", "type", "loop", "autostart", "autoplay", ".width", ".height", "controls", "muted", "preload"], video: ["id", "class", "src", "width", "height", "type", "loop", "autostart", "autoplay", ".width", ".height", "controls", "muted", "poster", "preload"], img: ["id", "class", "src", "width", "height", "border", "alt", "title", "align", ".width", ".height", ".border"], "p,ol,ul,li,blockquote,h1,h2,h3,h4,h5,h6": ["id", "class", "align", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".background", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".text-indent", ".margin-left"], pre: ["id", "class"], hr: ["id", "class", ".page-break-after"], "br,tbody,tr,strong,b,sub,sup,em,i,u,strike,s,del": ["id", "class"], iframe: ["id", "class", "src", "frameborder", "width", "height", ".width", ".height"] }, layout: '<div class="container"><div class="toolbar"></div><div class="edit"></div><div class="statusbar"></div></div>' };
+    var wt = "4.4.2 (2023-02-22)", ve = navigator.userAgent.toLowerCase(), Z = ve.indexOf("msie") > -1 && ve.indexOf("opera") == -1, yi = ve.indexOf("msie") == -1 && ve.indexOf("trident") > -1, Re = ve.indexOf("gecko") > -1 && ve.indexOf("khtml") == -1, Be = ve.indexOf("applewebkit") > -1, $t = ve.indexOf("opera") > -1, ki = ve.indexOf("mobile") > -1, bi = /ipad|iphone|ipod/.test(ve), Ee = document.compatMode != "CSS1Compat", ye = !window.getSelection, Mn = /(?:msie|firefox|webkit|opera)[\/:\s](\d+)/.exec(ve), ce = Mn ? Mn[1] : "0", xt = new Date().getTime(), De = Math.round, v = { DEBUG: !1, VERSION: wt, IE: Z, GECKO: Re, WEBKIT: Be, OPERA: $t, V: ce, TIME: xt, each: P, isArray: ee, isFunction: re, inArray: pe, inString: $e, trim: te, addUnit: J, removeUnit: X, escape: se, unescape: Ve, toCamel: Ke, toHex: pt, toMap: oe, toArray: St, undef: $, invalidUrl: qn, addParam: Wn, extend: he, json: Zt }, Nn = oe("a,abbr,acronym,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,img,input,ins,kbd,label,map,q,s,samp,select,small,span,strike,strong,sub,sup,textarea,tt,u,var"), In = oe("address,applet,blockquote,body,center,dd,dir,div,dl,dt,fieldset,form,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,iframe,ins,isindex,li,map,menu,meta,noframes,noscript,object,ol,p,pre,script,style,table,tbody,td,tfoot,th,thead,title,tr,ul,audio,video"), An = oe("area,base,basefont,br,col,frame,hr,img,input,isindex,link,meta,param,embed"), Ln = oe("b,basefont,big,del,em,font,i,s,small,span,strike,strong,sub,sup,u"), wi = oe("img,table,input,textarea,button,audio,video"), Vt = oe("pre,style,script"), Ct = oe("html,head,body,td,tr,table,ol,ul,li"), xi = (oe("colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr"), oe("checked,compact,declare,defer,disabled,ismap,multiple,nohref,noresize,noshade,nowrap,readonly,selected")), Ci = oe("input,button,textarea,select");
+    v.basePath = $n(), v.Tools = { All: ["source", "|", "undo", "redo", "removeformat", "clearhtml", "|", "template", "code", "cut", "copy", "plainpaste", "wordpaste", "|", "preview", "selectall", "fullscreen", "print", "|", "quickformat", "/", "formatblock", "fontname", "fontsize", "|", "forecolor", "hilitecolor", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "quote", "subscript", "superscript", "|", "image", "multiimage", "media", "insertfile", "baidumap", "link", "unlink", "|", "table", "anchor", "hr", "pagebreak"], Normal: ["source", "|", "formatblock", "fontname", "fontsize", "|", "forecolor", "hilitecolor", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "image", "multiimage", "media", "insertfile", "baidumap", "link", "unlink", "|", "table", "anchor", "hr", "pagebreak", "|", "quote", "subscript", "superscript", "|", "preview", "fullscreen", "quickformat", "emoticons"], Small: ["source", "|", "formatblock", "fontname", "fontsize", "|", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "quote", "image", "multiimage", "media", "insertfile", "|", "table", "hr", "pagebreak", "|", "link", "unlink", "|", "preview", "fullscreen"], Mini: ["formatblock", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "|", "image", "insertfile", "table", "link"] }, v.Templates = [{ name: "\u56FE\u7247\u548C\u6587\u5B57", content: '<h3><img align="left" height="100" style="margin-right: 10px" width="100" />\u5728\u6B64\u5904\u8F93\u5165\u6807\u9898</h3><p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p>' }, { name: "\u8868\u683C", content: '<h3>\u6807\u9898</h3><table style="width:100%;" cellpadding="2" cellspacing="0" border="1"><tbody><tr><td><h3>\u6807\u98981</h3></td><td><h3>\u6807\u98981</h3></td></tr><tr><td>\u5185\u5BB91</td><td>\u5185\u5BB92</td></tr><tr><td>\u5185\u5BB93</td><td>\u5185\u5BB94</td></tr></tbody></table><p>\u8868\u683C\u8BF4\u660E</p>' }, { name: "\u9879\u76EE\u7F16\u53F7", content: "<p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p><ol><li>\u63CF\u8FF01</li><li>\u63CF\u8FF02</li><li>\u63CF\u8FF03</li></ol><p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p><ul><li>\u63CF\u8FF01</li><li>\u63CF\u8FF02</li><li>\u63CF\u8FF03</li></ul>" }], v.options = { designMode: !0, fullscreenMode: !1, filterMode: !0, wellFormatMode: !0, shadowMode: !0, loadStyleMode: !0, basePath: v.basePath, themesPath: v.basePath + "themes/", langPath: v.basePath + "lang/", pluginsPath: v.basePath + "plugins/", themeType: "default", langType: "zh-CN", urlType: "", newlineTag: "p", resizeType: 2, syncType: "form", pasteType: 2, dialogAlignType: "page", useContextmenu: !0, fullscreenShortcut: !1, bodyClass: "ke-content", indentChar: "	", cssPath: "", cssData: "", minWidth: 650, minHeight: 100, minChangeSize: 50, zIndex: 811213, items: v.Tools.Normal, noDisableItems: ["source", "fullscreen"], colorTable: [["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#4e5f70", "#f1c40f"], ["#16a085", "#27ae60", "#2980b9", "#8e44ad", "#2c3e50", "#f39c12"], ["#E53333", "#E56600", "#FF9900", "#64451D", "#DFC5A4", "#FFE500"], ["#009900", "#006600", "#99BB00", "#B8D100", "#60D978", "#00D5FF"], ["#337FE5", "#003399", "#4C33E5", "#9933E5", "#CC33E5", "#EE33EE"], ["#FFFFFF", "#CCCCCC", "#999999", "#666666", "#333333", "#000000"]], fontSizeTable: ["9px", "10px", "12px", "14px", "16px", "18px", "24px", "32px"], htmlTags: { font: ["id", "class", "color", "size", "face", ".background-color"], span: ["id", "class", ".color", ".background-color", ".font-size", ".font-family", ".background", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".line-height"], div: ["id", "class", "align", ".border", ".margin", ".padding", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".background", ".font-style", ".text-decoration", ".vertical-align", ".margin-left"], table: ["id", "class", "border", "cellspacing", "cellpadding", "width", "height", "align", "bordercolor", ".padding", ".margin", ".border", "bgcolor", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".font-style", ".text-decoration", ".background", ".width", ".height", ".border-collapse"], "td,th": ["id", "class", "align", "valign", "width", "height", "colspan", "rowspan", "bgcolor", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".background", ".border"], a: ["id", "class", "href", "target", "name"], media: ["id", "class"], audio: ["id", "class", "src", "width", "height", "type", "loop", "autostart", "autoplay", ".width", ".height", "controls", "muted", "preload"], video: ["id", "class", "src", "width", "height", "type", "loop", "autostart", "autoplay", ".width", ".height", "controls", "muted", "poster", "preload"], img: ["id", "class", "src", "width", "height", "border", "alt", "title", "align", ".width", ".height", ".border"], "p,ol,ul,li,blockquote,h1,h2,h3,h4,h5,h6": ["id", "class", "align", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".background", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".text-indent", ".margin-left"], pre: ["id", "class"], hr: ["id", "class", ".page-break-after"], "br,tbody,tr,strong,b,sub,sup,em,i,u,strike,s,del": ["id", "class"], iframe: ["id", "class", "src", "frameborder", "width", "height", ".width", ".height"] }, layout: '<div class="container"><div class="toolbar"></div><div class="edit"></div><div class="statusbar"></div></div>' };
     var Rn = !1, Bn = oe("8,9,13,32,46,48..57,59,61,65..90,106,109..111,188,190..192,219..222"), _i = oe("33..40"), Kt = {};
     P(Bn, function(e, t) {
       Kt[e] = t;
@@ -3369,18 +3369,18 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
     }, stop: function() {
       this.preventDefault(), this.stopPropagation();
     } });
-    var _t = "kindeditor_" + xt, Fn = 0, le = {}, Un = !1;
+    var _t = "kindeditor_" + xt, On = 0, le = {}, Fn = !1;
     window.attachEvent && window.attachEvent("onunload", function() {
       P(le, function(e, t) {
         t.el && Ge(t.el);
       });
     }), v.ctrl = Dt, v.ready = Gn, v.formatUrl = Qe, v.formatHtml = Ie, v.getCssList = Pe, v.getAttrList = ke, v.mediaType = nn, v.mediaAttrs = rn, v.mediaEmbed = Mt, v.mediaImg = on, v.clearMsWord = tn, v.tmpl = Xn;
-    var On = document.createElement("div");
-    On.setAttribute("className", "t");
-    var Si = On.className !== "t";
+    var Un = document.createElement("div");
+    Un.setAttribute("className", "t");
+    var Si = Un.className !== "t";
     v.query = Jn, v.queryAll = vt, he(de, { init: function(e) {
       var t = this;
-      e = ie(e) ? e : [e];
+      e = ee(e) ? e : [e];
       for (var n = 0, o = 0, r = e.length; r > o; o++)
         e[o] && (t[o] = e[o].constructor === de ? e[o][0] : e[o], n++);
       t.length = n, t.doc = Ae(t[0]), t.name = ln(t[0]), t.type = t.length > 0 ? t[0].nodeType : null, t.win = Le(t[0]);
@@ -3391,7 +3391,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return t;
     }, bind: function(e, t) {
       return this.each(function() {
-        Oe(this, e, t);
+        Ue(this, e, t);
       }), this;
     }, unbind: function(e, t) {
       return this.each(function() {
@@ -3420,11 +3420,11 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return this.length < 1 ? !1 : Nt(this[0], e);
     }, addClass: function(e) {
       return this.each(function() {
-        Nt(this, e) || (this.className = ee(this.className + " " + e));
+        Nt(this, e) || (this.className = te(this.className + " " + e));
       }), this;
     }, removeClass: function(e) {
       return this.each(function() {
-        Nt(this, e) && (this.className = ee(this.className.replace(new RegExp("(^|\\s)" + e + "(\\s|$)"), " ")));
+        Nt(this, e) && (this.className = te(this.className.replace(new RegExp("(^|\\s)" + e + "(\\s|$)"), " ")));
       }), this;
     }, html: function(e) {
       var t = this;
@@ -3553,7 +3553,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       if (this.length < 1)
         return new de([]);
       for (var e = [], t = this[0].firstChild; t; )
-        (t.nodeType != 3 || ee(t.nodeValue) !== "") && e.push(t), t = t.nextSibling;
+        (t.nodeType != 3 || te(t.nodeValue) !== "") && e.push(t), t = t.nextSibling;
       return new de(e);
     }, first: function() {
       var e = this.children();
@@ -3613,7 +3613,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           }
           return n(vt(e, t));
         }
-        return e && e.constructor === de ? e : (e.toArray && (e = e.toArray()), n(ie(e) ? e : St(arguments)));
+        return e && e.constructor === de ? e : (e.toArray && (e = e.toArray()), n(ee(e) ? e : St(arguments)));
       }
     }, P(Ei, function(e, t) {
       v[e] = t;
@@ -3762,9 +3762,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return !o || o.length < 1 || (t.setStartBefore(o[0]), o.remove(), r && r.length > 0 ? (t.setEndBefore(r[0]), r.remove()) : t.collapse(!0)), t;
     }, dump: function() {
       console.log("--------------------"), console.log(this.startContainer.nodeType == 3 ? this.startContainer.nodeValue : this.startContainer, this.startOffset), console.log(this.endContainer.nodeType == 3 ? this.endContainer.nodeValue : this.endContainer, this.endOffset);
-    } }), v.RangeClass = we, v.range = Lt, v.START_TO_START = ot, v.START_TO_END = lt, v.END_TO_END = He, v.END_TO_START = at, he(Ze, { init: function(e) {
-      var t = this, n = e.doc;
-      t.doc = n, t.win = Le(n), t.sel = Rt(n), t.range = e;
+    } }), v.RangeClass = we, v.range = Lt, v.START_TO_START = ot, v.START_TO_END = lt, v.END_TO_END = He, v.END_TO_START = at, he(Ze, { init: function(e, t) {
+      var n = this, o = e.doc;
+      n.doc = o, n.win = Le(o), n.sel = Rt(o), n.range = e, n.editorOptions = t;
     }, selection: function(e) {
       var t = this, n = t.doc, o = ii(n);
       return t.sel = Rt(n), o ? (t.range = Lt(o), v(t.range.startContainer).name == "html" && t.range.selectNodeContents(n.body).collapse(!1), t) : (e && t.range.selectNodeContents(n.body).collapse(!1), t);
@@ -3789,12 +3789,21 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       if (ye)
         try {
           t = r.get(!0), t.select();
-        } catch (p) {
-          console.info("error", p);
+        } catch (m) {
+          console.info("error", m);
         }
-      else if (d && r.collapse(!1), t = r.get(!0), o.removeAllRanges(), o.addRange(t), a !== document) {
-        var f = v(t.endContainer).pos();
-        i.scrollTo(f.x, f.y);
+      else if (d && r.collapse(!1), t = r.get(!0), o.removeAllRanges(), o.addRange(t), n.editorOptions && n.editorOptions.scrollToEditingTarget && a !== document) {
+        try {
+          var f = [].filter.call(t.endContainer.children, function(m) {
+            return m.nodeName == "IMG";
+          }).length;
+          if (f > 1)
+            return;
+        } catch (m) {
+          console.info("error", m);
+        }
+        var p = v(t.endContainer).pos();
+        i.scrollTo(p.x, p.y);
       }
       return i.focus(), n;
     }, wrap: function(e) {
@@ -3817,7 +3826,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
           var l = v(u);
           if (ai(l))
             return;
-          if (l.type == 3 && ee(u.nodeValue).length > 0) {
+          if (l.type == 3 && te(u.nodeValue).length > 0) {
             for (var f; (f = l.parent()) && f.isStyle() && f.children().length == 1; )
               l = f;
             oi(l, t);
@@ -3851,9 +3860,9 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       if (o.enlarge(), o.startOffset === 0) {
         for (var r, s = v(o.startContainer); (r = s.parent()) && r.isStyle() && r.children().length == 1; )
           s = r;
-        o.setStart(s[0], 0), s = v(o.startContainer), s.isBlock() && Ft(s, e);
+        o.setStart(s[0], 0), s = v(o.startContainer), s.isBlock() && Ot(s, e);
         var c = s.parent();
-        c && c.isBlock() && Ft(c, e);
+        c && c.isBlock() && Ot(c, e);
       }
       var a, i;
       if (o.collapsed) {
@@ -3878,12 +3887,12 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         var C = v(a.childNodes[i]);
         C && ze(C) && (C.remove(), a == g && o.setEnd(g, y - 1));
       }
-      var D = v(g.childNodes[o.endOffset]);
-      D && ze(D) && D.remove();
-      var A = o.createBookmark(!0);
-      return P(p, function(N, B) {
-        Ft(v(B), e);
-      }), o.moveToBookmark(A), t;
+      var E = v(g.childNodes[o.endOffset]);
+      E && ze(E) && E.remove();
+      var I = o.createBookmark(!0);
+      return P(p, function(N, A) {
+        Ot(v(A), e);
+      }), o.moveToBookmark(I), t;
     }, commonNode: function(e) {
       function t(i) {
         for (var d = i, u = i; u; ) {
@@ -4079,14 +4088,14 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       var t = this;
       return e = e || {}, e.moveEl = t.div, e.moveFn = function(n, o, r, s, c, a) {
         (n += c) < 0 && (n = 0), (o += a) < 0 && (o = 0), t.pos(n, o);
-      }, Ot(e), t;
+      }, Ut(e), t;
     } }), v.WidgetClass = Te, v.widget = Pt;
     var Tt, Gt = "";
     (Tt = document.getElementsByTagName("html")) && (Gt = Tt[0].dir), he(Je, Te, { init: function(e) {
       function t() {
         var u = jt(n.iframe);
         u.open(), a && (u.domain = document.domain), u.write(si(o, r, s, c)), u.close(), n.win = n.iframe[0].contentWindow, n.doc = u;
-        var l = gn(u);
+        var l = gn(u, e.editorOptions);
         n.afterChange(function(f) {
           l.selection();
         }), Be && v(u).click(function(f) {
@@ -4397,7 +4406,7 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
             return;
         }
         t.clickToolbar(m);
-      } }), l = X(r) - u.div.height(), f = t.edit = vn({ height: l > 0 && X(r) > t.minHeight ? l : t.minHeight, src: a, srcElement: t.srcElement, designMode: t.designMode, themesPath: t.themesPath, bodyClass: t.bodyClass, cssPath: t.cssPath, cssData: t.cssData, beforeGetHtml: function(p) {
+      } }), l = X(r) - u.div.height(), f = t.edit = vn({ height: l > 0 && X(r) > t.minHeight ? l : t.minHeight, src: a, srcElement: t.srcElement, designMode: t.designMode, themesPath: t.themesPath, bodyClass: t.bodyClass, cssPath: t.cssPath, cssData: t.cssData, editorOptions: t.options, beforeGetHtml: function(p) {
         return p = t.beforeGetHtml(p), p = Se(bt(p)), Ie(p, t.filterMode ? t.htmlTags : null, t.urlType, t.wellFormatMode, t.indentChar);
       }, beforeSetHtml: function(p) {
         return p = Ie(p, t.filterMode ? t.htmlTags : null, "", !1), t.beforeSetHtml(p);
@@ -4420,11 +4429,13 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         t.isCreated && t.resize(ge().clientWidth, ge().clientHeight, !1);
       }, v(window).bind("resize", t._fullscreenResizeHandler), u.select("fullscreen"), i.first().css("visibility", "hidden"), i.last().css("visibility", "hidden")) : (Re && v(window).bind("scroll", function(p) {
         t._scrollPos = je();
-      }), t.resizeType > 0 ? Ot({ moveEl: s, clickEl: i, moveFn: function(p, m, g, y, b, C) {
+      }), t.resizeType > 0 ? Ut({ moveEl: s, clickEl: i, moveFn: function(p, m, g, y, b, C) {
         y += C, t.resize(null, y);
-      } }) : i.first().css("visibility", "hidden"), t.resizeType === 2 ? Ot({ moveEl: s, clickEl: i.last(), moveFn: function(p, m, g, y, b, C) {
+      } }) : i.first().css("visibility", "hidden"), t.resizeType === 2 ? Ut({ moveEl: s, clickEl: i.last(), moveFn: function(p, m, g, y, b, C) {
         g += b, y += C, t.resize(g, y);
-      } }) : i.last().css("visibility", "hidden")), t;
+      } }) : i.last().css("visibility", "hidden")), setTimeout(function() {
+        t.focus && t.focus();
+      }, 100), t;
     }, remove: function() {
       var e = this;
       return e.isCreated && (e.beforeRemove(), e.srcElement.data("kindeditor", ""), e.menu && e.hideMenu(), P(e.dialogs, function() {
@@ -4447,11 +4458,11 @@ var Ui = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return this.isCreated ? this.edit.html(void 0, !0) : "";
     }, text: function(e) {
       var t = this;
-      return e === void 0 ? ee(t.html().replace(/<(?!img|embed).*?>/gi, "").replace(/&nbsp;/gi, " ")) : t.html(se(e));
+      return e === void 0 ? te(t.html().replace(/<(?!img|embed).*?>/gi, "").replace(/&nbsp;/gi, " ")) : t.html(se(e));
     }, isEmpty: function() {
-      return ee(this.text().replace(/\r\n|\n|\r/, "")) === "";
+      return te(this.text().replace(/\r\n|\n|\r/, "")) === "";
     }, isDirty: function() {
-      return ee(this.initContent.replace(/\r\n|\n|\r|t/g, "")) !== ee(this.html().replace(/\r\n|\n|\r|t/g, ""));
+      return te(this.initContent.replace(/\r\n|\n|\r|t/g, "")) !== te(this.html().replace(/\r\n|\n|\r|t/g, ""));
     }, selectedHtml: function() {
       var e = this.isCreated ? this.cmd.range.html() : "";
       return e = Se(bt(e));
@@ -4815,8 +4826,8 @@ Allowed file extension: swf,flv,mp3,wav,wma,wmv,mid,avi,mpg,asf,rm,rmvb`, invali
           i = y[0].contentWindow, d = e.iframeDoc(y), d.open(), d.write(g), d.close();
         }
         var i, d, u = ['<div style="padding:10px 20px;">', '<div class="ke-dialog-row">', o.address + ' <input id="kindeditor_plugin_map_address" name="address" class="ke-input-text" value="" style="width:450px;" /> ', '<span class="ke-button-common ke-button-outer">', '<input type="button" name="searchBtn" class="ke-button-common ke-button" value="' + o.search + '" />', "</span>", "</div>", '<div class="ke-map" style="width:' + s + "px;height:" + c + 'px;"></div>', "</div>"].join(""), l = t.createDialog({ name: n, width: s + 42, title: t.lang(n), body: u, yesBtn: { name: t.lang("yes"), click: function(b) {
-          var C = i.map, D = C.getCenter(), A = D.lng + "," + D.lat, N = C.getZoom(), B = ["http://api.map.baidu.com/staticimage/v2?ak=" + r, "&center=" + encodeURIComponent(A), "&zoom=" + encodeURIComponent(N), "&width=" + 2 * s, "&height=" + 2 * c, "&markers=" + encodeURIComponent(A), "&markerStyles=" + encodeURIComponent("l,A")].join("");
-          t.exec("insertimage", B, "title", s + "", c + "", 0), t.hideDialog().focus();
+          var C = i.map, E = C.getCenter(), I = E.lng + "," + E.lat, N = C.getZoom(), A = ["http://api.map.baidu.com/staticimage/v2?ak=" + r, "&center=" + encodeURIComponent(I), "&zoom=" + encodeURIComponent(N), "&width=" + 2 * s, "&height=" + 2 * c, "&markers=" + encodeURIComponent(I), "&markerStyles=" + encodeURIComponent("l,A")].join("");
+          t.exec("insertimage", A, "title", s + "", c + "", 0), t.hideDialog().focus();
         } }, beforeRemove: function() {
           m.remove(), d && d.write(""), y.remove();
         } }), f = l.div, p = e('[name="address"]', f), m = e('[name="searchBtn"]', f), g = ["<!doctype html><html><head>", '<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />', "<style>", "	html { height: 100% }", "	body { height: 100%; margin: 0; padding: 0; background-color: #FFF }", "	#map_canvas { height: 100% }", "</style>", '<script charset="utf-8" src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=' + r + '"><\/script>', "<script>", "var map, geocoder;", "function initialize() {", '	map = new BMapGL.Map("map_canvas");', "	var point = new BMapGL.Point(121.473704, 31.230393);", "	map.centerAndZoom(point, 11);", "	map.addControl(new BMapGL.NavigationControl());", "	map.enableScrollWheelZoom();", "	var gc = new BMapGL.Geocoder();", "	gc.getLocation(point, function(rs){", "		var addComp = rs.addressComponents;", '		var address = [addComp.city].join("");', '		parent.document.getElementById("kindeditor_plugin_map_address").value = address;', "	});", "}", "function search(address) {", "	if (!map) return;", "	var local = new BMapGL.LocalSearch(map, {", "		renderOptions: {", "			map: map,", "			autoViewport: true,", "			selectFirstResult: false", "		}", "	});", "	local.search(address);", "}", "<\/script>", "</head>", '<body onload="initialize();">', '<div id="map_canvas" style="width:100%; height:100%"></div>', "</body></html>"].join(`
@@ -4847,6 +4858,60 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
         } } }), c = e("textarea", s.div);
         c[0].focus();
       });
+    }), KindEditor.plugin("emoticons", function(e) {
+      var t = this, n = "emoticons", o = { faces: ["\u{1F600}", "\u{1F601}", "\u{1F602}", "\u{1F923}", "\u{1F603}", "\u{1F604}", "\u{1F605}", "\u{1F606}", "\u{1F609}", "\u{1F60A}", "\u{1F60B}", "\u{1F60E}", "\u{1F60D}", "\u{1F618}", "\u{1F970}", "\u{1F617}", "\u{1F619}", "\u{1F61A}", "\u{1F642}", "\u{1F917}", "\u{1F929}", "\u{1F914}", "\u{1F928}", "\u{1F610}", "\u{1F611}", "\u{1F636}", "\u{1F644}", "\u{1F60F}", "\u{1F623}", "\u{1F625}", "\u{1F62E}", "\u{1F910}", "\u{1F62F}", "\u{1F62A}", "\u{1F62B}", "\u{1F634}", "\u{1F60C}", "\u{1F61B}", "\u{1F61C}", "\u{1F61D}", "\u{1F924}", "\u{1F612}", "\u{1F613}", "\u{1F614}", "\u{1F615}", "\u{1F643}", "\u{1F911}", "\u{1F632}", "\u2639\uFE0F", "\u{1F641}", "\u{1F616}", "\u{1F61E}", "\u{1F61F}", "\u{1F624}", "\u{1F622}", "\u{1F62D}", "\u{1F626}", "\u{1F627}", "\u{1F628}", "\u{1F629}", "\u{1F92F}", "\u{1F62C}", "\u{1F630}", "\u{1F631}", "\u{1F975}", "\u{1F976}", "\u{1F633}", "\u{1F92A}", "\u{1F635}", "\u{1F621}", "\u{1F620}", "\u{1F92C}", "\u{1F637}", "\u{1F912}", "\u{1F915}", "\u{1F922}", "\u{1F92E}", "\u{1F927}", "\u{1F607}", "\u{1F920}", "\u{1F921}", "\u{1F973}", "\u{1F974}", "\u{1F97A}", "\u{1F925}", "\u{1F92B}", "\u{1F92D}", "\u{1F9D0}", "\u{1F913}"], hands: ["\u{1F932}", "\u{1F450}", "\u{1F64C}", "\u{1F44F}", "\u{1F91D}", "\u{1F44D}", "\u{1F44E}", "\u{1F44A}", "\u270A", "\u{1F91B}", "\u{1F91C}", "\u{1F91E}", "\u270C\uFE0F", "\u{1F91F}", "\u{1F918}", "\u{1F44C}", "\u{1F448}", "\u{1F449}", "\u{1F446}", "\u{1F447}", "\u261D\uFE0F", "\u270B", "\u{1F91A}", "\u{1F590}", "\u{1F596}", "\u{1F44B}", "\u{1F919}", "\u{1F4AA}", "\u{1F9B5}", "\u{1F9B6}", "\u{1F595}", "\u270D\uFE0F", "\u{1F64F}", "\u{1F450}\u{1F3FB}", "\u{1F64C}\u{1F3FB}", "\u{1F44F}\u{1F3FB}", "\u{1F64F}\u{1F3FB}", "\u{1F44D}\u{1F3FB}", "\u{1F44E}\u{1F3FB}", "\u{1F44A}\u{1F3FB}", "\u270A\u{1F3FB}", "\u{1F91B}\u{1F3FB}", "\u{1F91C}\u{1F3FB}", "\u{1F91E}\u{1F3FB}", "\u270C\u{1F3FB}", "\u{1F91F}\u{1F3FB}", "\u{1F918}\u{1F3FB}", "\u{1F44C}\u{1F3FB}", "\u{1F448}\u{1F3FB}", "\u{1F449}\u{1F3FB}", "\u{1F446}\u{1F3FB}", "\u{1F447}\u{1F3FB}", "\u261D\u{1F3FB}", "\u270B\u{1F3FB}", "\u{1F91A}\u{1F3FB}", "\u{1F590}\u{1F3FB}", "\u{1F596}\u{1F3FB}", "\u{1F44B}\u{1F3FB}", "\u{1F919}\u{1F3FB}", "\u{1F4AA}\u{1F3FB}", "\u{1F595}\u{1F3FB}", "\u270D\u{1F3FB}", "\u{1F932}\u{1F3FE}", "\u{1F450}\u{1F3FE}", "\u{1F64C}\u{1F3FE}", "\u{1F44F}\u{1F3FE}", "\u{1F64F}\u{1F3FE}", "\u{1F44D}\u{1F3FE}", "\u{1F44E}\u{1F3FE}", "\u{1F44A}\u{1F3FE}", "\u270A\u{1F3FE}", "\u{1F91B}\u{1F3FE}", "\u{1F91C}\u{1F3FE}", "\u{1F91E}\u{1F3FE}", "\u270C\u{1F3FE}", "\u{1F91F}\u{1F3FE}", "\u{1F918}\u{1F3FE}", "\u{1F44C}\u{1F3FE}", "\u{1F448}\u{1F3FE}", "\u{1F449}\u{1F3FE}", "\u{1F446}\u{1F3FE}", "\u{1F447}\u{1F3FE}", "\u261D\u{1F3FE}", "\u270B\u{1F3FE}", "\u{1F91A}\u{1F3FE}", "\u{1F590}\u{1F3FE}", "\u{1F596}\u{1F3FE}", "\u{1F44B}\u{1F3FE}", "\u{1F919}\u{1F3FE}", "\u{1F4AA}\u{1F3FE}", "\u{1F595}\u{1F3FE}", "\u270D\u{1F3FE}"], avatar: ["\u{1F476}\u{1F3FB}", "\u{1F466}\u{1F3FB}", "\u{1F467}\u{1F3FB}", "\u{1F468}\u{1F3FB}", "\u{1F469}\u{1F3FB}", "\u{1F471}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F471}\u{1F3FB}", "\u{1F474}\u{1F3FB}", "\u{1F475}\u{1F3FB}", "\u{1F472}\u{1F3FB}", "\u{1F473}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F473}\u{1F3FB}", "\u{1F46E}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F46E}\u{1F3FB}", "\u{1F477}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F477}\u{1F3FB}", "\u{1F482}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F482}\u{1F3FB}", "\u{1F575}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F575}\u{1F3FB}", "\u{1F469}\u{1F3FB}\u200D\u2695\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2695\uFE0F", "\u{1F469}\u{1F3FB}\u200D\u{1F33E}", "\u{1F468}\u{1F3FB}\u200D\u{1F33E}", "\u{1F469}\u{1F3FB}\u200D\u{1F373}", "\u{1F468}\u{1F3FB}\u200D\u{1F373}", "\u{1F469}\u{1F3FB}\u200D\u{1F393}", "\u{1F468}\u{1F3FB}\u200D\u{1F393}", "\u{1F469}\u{1F3FB}\u200D\u{1F3A4}", "\u{1F468}\u{1F3FB}\u200D\u{1F3A4}", "\u{1F469}\u{1F3FB}\u200D\u{1F3EB}", "\u{1F468}\u{1F3FB}\u200D\u{1F3EB}", "\u{1F469}\u{1F3FB}\u200D\u{1F3ED}", "\u{1F468}\u{1F3FB}\u200D\u{1F3ED}", "\u{1F469}\u{1F3FB}\u200D\u{1F4BB}", "\u{1F468}\u{1F3FB}\u200D\u{1F4BB}", "\u{1F469}\u{1F3FB}\u200D\u{1F4BC}", "\u{1F468}\u{1F3FB}\u200D\u{1F4BC}", "\u{1F469}\u{1F3FB}\u200D\u{1F527}", "\u{1F468}\u{1F3FB}\u200D\u{1F527}", "\u{1F469}\u{1F3FB}\u200D\u{1F52C}", "\u{1F468}\u{1F3FB}\u200D\u{1F52C}", "\u{1F469}\u{1F3FB}\u200D\u{1F3A8}", "\u{1F468}\u{1F3FB}\u200D\u{1F3A8}", "\u{1F469}\u{1F3FB}\u200D\u{1F692}", "\u{1F468}\u{1F3FB}\u200D\u{1F692}", "\u{1F469}\u{1F3FB}\u200D\u2708\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2708\uFE0F", "\u{1F469}\u{1F3FB}\u200D\u{1F680}", "\u{1F468}\u{1F3FB}\u200D\u{1F680}", "\u{1F469}\u{1F3FB}\u200D\u2696\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2696\uFE0F", "\u{1F936}\u{1F3FB}", "\u{1F385}\u{1F3FB}", "\u{1F478}\u{1F3FB}", "\u{1F934}\u{1F3FB}", "\u{1F470}\u{1F3FB}", "\u{1F935}\u{1F3FB}", "\u{1F47C}\u{1F3FB}", "\u{1F930}\u{1F3FB}", "\u{1F647}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F647}\u{1F3FB}", "\u{1F481}\u{1F3FB}", "\u{1F481}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F645}\u{1F3FB}", "\u{1F645}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F646}\u{1F3FB}", "\u{1F646}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64B}\u{1F3FB}", "\u{1F64B}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F926}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F926}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F937}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F937}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64E}\u{1F3FB}", "\u{1F64E}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64D}\u{1F3FB}", "\u{1F64D}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F487}\u{1F3FB}", "\u{1F487}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F486}\u{1F3FB}", "\u{1F486}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F574}\u{1F3FB}", "\u{1F483}\u{1F3FB}", "\u{1F57A}\u{1F3FB}", "\u{1F6B6}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F6B6}\u{1F3FB}", "\u{1F3C3}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F3C3}\u{1F3FB}"], foods: ["\u{1F34F}", "\u{1F34E}", "\u{1F350}", "\u{1F34A}", "\u{1F34B}", "\u{1F34C}", "\u{1F349}", "\u{1F347}", "\u{1F353}", "\u{1F348}", "\u{1F352}", "\u{1F351}", "\u{1F34D}", "\u{1F96D}", "\u{1F965}", "\u{1F95D}", "\u{1F345}", "\u{1F346}", "\u{1F951}", "\u{1F966}", "\u{1F952}", "\u{1F96C}", "\u{1F336}", "\u{1F33D}", "\u{1F955}", "\u{1F954}", "\u{1F360}", "\u{1F950}", "\u{1F35E}", "\u{1F956}", "\u{1F968}", "\u{1F96F}", "\u{1F9C0}", "\u{1F95A}", "\u{1F373}", "\u{1F95E}", "\u{1F953}", "\u{1F969}", "\u{1F357}", "\u{1F356}", "\u{1F32D}", "\u{1F354}", "\u{1F35F}", "\u{1F355}", "\u{1F96A}", "\u{1F959}", "\u{1F32E}", "\u{1F32F}", "\u{1F957}", "\u{1F958}", "\u{1F96B}", "\u{1F35D}", "\u{1F35C}", "\u{1F372}", "\u{1F35B}", "\u{1F363}", "\u{1F371}", "\u{1F95F}", "\u{1F364}", "\u{1F359}", "\u{1F35A}", "\u{1F358}", "\u{1F365}", "\u{1F96E}", "\u{1F960}", "\u{1F362}", "\u{1F361}", "\u{1F367}", "\u{1F368}", "\u{1F366}", "\u{1F967}", "\u{1F370}", "\u{1F382}", "\u{1F36E}", "\u{1F36D}", "\u{1F36C}", "\u{1F36B}", "\u{1F37F}", "\u{1F9C2}", "\u{1F369}", "\u{1F36A}", "\u{1F330}", "\u{1F95C}", "\u{1F36F}", "\u{1F95B}", "\u{1F37C}", "\u2615\uFE0F", "\u{1F375}", "\u{1F964}", "\u{1F376}", "\u{1F37A}", "\u{1F37B}", "\u{1F942}", "\u{1F377}", "\u{1F943}", "\u{1F378}", "\u{1F379}", "\u{1F37E}", "\u{1F944}", "\u{1F374}", "\u{1F37D}", "\u{1F963}", "\u{1F961}", "\u{1F962}"], animals: ["\u{1F436}", "\u{1F431}", "\u{1F42D}", "\u{1F439}", "\u{1F430}", "\u{1F98A}", "\u{1F99D}", "\u{1F43B}", "\u{1F43C}", "\u{1F998}", "\u{1F9A1}", "\u{1F428}", "\u{1F42F}", "\u{1F981}", "\u{1F42E}", "\u{1F437}", "\u{1F43D}", "\u{1F438}", "\u{1F435}", "\u{1F648}", "\u{1F649}", "\u{1F64A}", "\u{1F412}", "\u{1F414}", "\u{1F427}", "\u{1F426}", "\u{1F424}", "\u{1F423}", "\u{1F425}", "\u{1F986}", "\u{1F9A2}", "\u{1F985}", "\u{1F989}", "\u{1F99A}", "\u{1F99C}", "\u{1F987}", "\u{1F43A}", "\u{1F417}", "\u{1F434}", "\u{1F984}", "\u{1F41D}", "\u{1F41B}", "\u{1F98B}", "\u{1F40C}", "\u{1F41A}", "\u{1F41E}", "\u{1F41C}", "\u{1F997}", "\u{1F577}", "\u{1F578}", "\u{1F982}", "\u{1F99F}", "\u{1F9A0}", "\u{1F422}", "\u{1F40D}", "\u{1F98E}", "\u{1F996}", "\u{1F995}", "\u{1F419}", "\u{1F991}", "\u{1F990}", "\u{1F980}", "\u{1F421}", "\u{1F420}", "\u{1F41F}", "\u{1F42C}", "\u{1F433}", "\u{1F40B}", "\u{1F988}", "\u{1F40A}", "\u{1F405}", "\u{1F406}", "\u{1F993}", "\u{1F98D}", "\u{1F418}", "\u{1F98F}", "\u{1F99B}", "\u{1F42A}", "\u{1F42B}", "\u{1F999}", "\u{1F992}", "\u{1F403}", "\u{1F402}", "\u{1F404}", "\u{1F40E}", "\u{1F416}", "\u{1F40F}", "\u{1F411}", "\u{1F410}", "\u{1F98C}", "\u{1F415}", "\u{1F429}", "\u{1F408}", "\u{1F413}", "\u{1F983}", "\u{1F54A}", "\u{1F407}", "\u{1F401}", "\u{1F400}", "\u{1F43F}", "\u{1F994}", "\u{1F43E}", "\u{1F409}", "\u{1F432}"], nature: ["\u{1F335}", "\u{1F384}", "\u{1F332}", "\u{1F333}", "\u{1F334}", "\u{1F331}", "\u{1F33F}", "\u2618\uFE0F", "\u{1F340}", "\u{1F38D}", "\u{1F38B}", "\u{1F343}", "\u{1F342}", "\u{1F341}", "\u{1F344}", "\u{1F33E}", "\u{1F490}", "\u{1F337}", "\u{1F339}", "\u{1F940}", "\u{1F33A}", "\u{1F338}", "\u{1F33C}", "\u{1F33B}", "\u{1F31E}", "\u{1F31D}", "\u{1F31B}", "\u{1F31C}", "\u{1F31A}", "\u{1F315}", "\u{1F316}", "\u{1F317}", "\u{1F318}", "\u{1F311}", "\u{1F312}", "\u{1F313}", "\u{1F314}", "\u{1F319}", "\u{1F30E}", "\u{1F30D}", "\u{1F30F}", "\u{1F4AB}", "\u2B50\uFE0F", "\u{1F31F}", "\u2728", "\u26A1\uFE0F", "\u2604\uFE0F", "\u{1F4A5}", "\u{1F525}", "\u{1F32A}", "\u{1F308}", "\u2600\uFE0F", "\u{1F324}", "\u26C5\uFE0F", "\u{1F325}", "\u2601\uFE0F", "\u{1F326}", "\u{1F327}", "\u26C8", "\u{1F329}", "\u{1F328}", "\u2744\uFE0F", "\u2603\uFE0F", "\u26C4\uFE0F", "\u{1F32C}", "\u{1F4A8}", "\u{1F4A7}", "\u{1F4A6}", "\u2614\uFE0F", "\u2602\uFE0F"], tags: ["\u2764\uFE0F", "\u{1F9E1}", "\u{1F49B}", "\u{1F49A}", "\u{1F499}", "\u{1F49C}", "\u{1F5A4}", "\u{1F494}", "\u2763\uFE0F", "\u{1F495}", "\u{1F49E}", "\u{1F493}", "\u{1F497}", "\u{1F496}", "\u{1F498}", "\u{1F49D}", "\u{1F49F}", "\u262E\uFE0F", "\u271D\uFE0F", "\u262A\uFE0F", "\u{1F549}", "\u2638\uFE0F", "\u2721\uFE0F", "\u{1F52F}", "\u{1F54E}", "\u262F\uFE0F", "\u2626\uFE0F", "\u{1F6D0}", "\u26CE", "\u2648\uFE0F", "\u2649\uFE0F", "\u264A\uFE0F", "\u264B\uFE0F", "\u264C\uFE0F", "\u264D\uFE0F", "\u264E\uFE0F", "\u264F\uFE0F", "\u2650\uFE0F", "\u2651\uFE0F", "\u2652\uFE0F", "\u2653\uFE0F", "\u{1F194}", "\u{1F6BB}", "\u{1F6AE}", "\u{1F3A6}", "\u{1F4F6}", "\u{1F201}", "\u{1F523}", "\u2139\uFE0F", "\u{1F524}", "\u{1F521}", "\u{1F520}", "\u{1F196}", "\u{1F197}", "\u{1F199}", "\u{1F192}", "\u{1F195}", "\u{1F193}", "0\uFE0F\u20E3", "1\uFE0F\u20E3", "2\uFE0F\u20E3", "3\uFE0F\u20E3", "4\uFE0F\u20E3", "5\uFE0F\u20E3", "6\uFE0F\u20E3", "7\uFE0F\u20E3", "8\uFE0F\u20E3", "9\uFE0F\u20E3", "\u{1F51F}", "\u{1F522}", "#\uFE0F\u20E3", "*\uFE0F\u20E3", "\u23CF\uFE0F", "\u25B6\uFE0F", "\u23F8", "\u23EF", "\u23F9", "\u23FA", "\u23ED", "\u23EE", "\u23E9", "\u23EA", "\u23EB", "\u23EC", "\u25C0\uFE0F", "\u{1F53C}", "\u{1F53D}", "\u27A1\uFE0F", "\u2B05\uFE0F", "\u2B06\uFE0F", "\u2B07\uFE0F", "\u2197\uFE0F", "\u2198\uFE0F", "\u2199\uFE0F", "\u2196\uFE0F", "\u2195\uFE0F", "\u2194\uFE0F", "\u21AA\uFE0F", "\u21A9\uFE0F", "\u2934\uFE0F", "\u2935\uFE0F", "\u{1F500}", "\u{1F501}", "\u{1F502}", "\u{1F504}", "\u{1F503}"] }, r = { cols: 10, total: Object.keys(o), current: "faces", tags: { faces: "\u8868\u60C5", hands: "\u624B\u52BF", avatar: "\u5934\u50CF", foods: "\u98DF\u7269", animals: "\u52A8\u7269", nature: "\u81EA\u7136", tags: "\u7B26\u53F7" } };
+      t.emojiConfig && t.emojiConfig instanceof Function && t.emojiConfig.call(null, o, r), t.clickToolbar(n, function() {
+        function s(E, I) {
+          E.mouseover(function() {
+            e(this).addClass("ke-on");
+          }), E.mouseout(function() {
+            e(this).removeClass("ke-on");
+          }), E.click(function(N) {
+            t.insertHtml(I).hideMenu().focus(), N.stop();
+          });
+        }
+        function c(E, I) {
+          var N = document.createElement("table");
+          I.append(N), N.className = "ke-table";
+          for (var A, j = Math.ceil(o[E].length / r.cols), R = 0; j > R; R++)
+            for (var D = N.insertRow(R), S = 0; S < r.cols; S++) {
+              var w = e(D.insertCell(S));
+              if (w.addClass("ke-cell"), A = o[E][r.cols * R + S], A !== void 0) {
+                s(w, A);
+                var x = e('<span class="ke-emoji">' + A + "</span>");
+                w.append(x), u.push(w);
+              }
+            }
+          return N;
+        }
+        function a() {
+          e.each(u, function() {
+            this.unbind();
+          });
+        }
+        function i(E, I) {
+          E.click(function(N) {
+            a(), b.parentNode.removeChild(b), y.remove(), b = c(I, l), d(I), r.current = I, N.stop();
+          });
+        }
+        function d(E) {
+          y = e('<div class="ke-page"></div>'), l.append(y);
+          for (var I in r.tags) {
+            var N = r.tags[I];
+            if (I !== E) {
+              var A = e('<span class="ke-page-item"><a href="javascript:;">[' + N + "]</a></span>");
+              i(A, I), y.append(A), u.push(A);
+            } else
+              y.append(e('<span class="ke-page-item">[' + N + "]</span>"));
+          }
+        }
+        var u = [], l = e('<div class="ke-plugin-emoji"></div>'), f = t.createMenu({ name: n, beforeRemove: function() {
+          a();
+        } }), p = e(".ke-toolbar .ke-icon-emoticons").pos().x, m = e(".ke-toolbar .ke-icon-emoticons").width(), g = e(document.body).width();
+        f.div.append(l);
+        var y, b = c(r.current, l), C = e(l).width();
+        p + C > g && e(f.div).css({ left: p - (C - m) + "px" }), d(r.current);
+      });
     }), KindEditor.plugin("filemanager", function(e) {
       function t(i, d, u) {
         return i + " (" + Math.ceil(d / 1024) + "KB, " + u + ")";
@@ -4858,132 +4923,123 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
       o.plugin.filemanagerDialog = function(i) {
         function d(w, x, _) {
           var M = "path=" + w + "&order=" + x + "&dir=" + y;
-          A.showLoading(o.lang("ajaxLoading")), e.ajax(e.addParam(s, M + "&" + new Date().getTime()), function(F) {
-            A.hideLoading(), _(F);
+          I.showLoading(o.lang("ajaxLoading")), e.ajax(e.addParam(s, M + "&" + new Date().getTime()), function(O) {
+            I.hideLoading(), _(O);
           });
         }
         function u(w, x, _, M) {
-          var F = e.formatUrl(x.current_url + _.filename, "absolute"), I = encodeURIComponent(x.current_dir_path + _.filename + "/");
-          _.is_dir ? w.click(function(O) {
-            d(I, E.val(), M);
-          }) : _.is_photo ? w.click(function(O) {
-            C.call(this, F, _.filename);
-          }) : w.click(function(O) {
-            C.call(this, F, _.filename);
+          var O = e.formatUrl(x.current_url + _.filename, "absolute"), L = encodeURIComponent(x.current_dir_path + _.filename + "/");
+          _.is_dir ? w.click(function(U) {
+            d(L, D.val(), M);
+          }) : _.is_photo ? w.click(function(U) {
+            C.call(this, O, _.filename);
+          }) : w.click(function(U) {
+            C.call(this, O, _.filename);
           }), S.push(w);
         }
         function l(w, x) {
           function _() {
-            R.val() == "VIEW" ? d(w.current_dir_path, E.val(), p) : d(w.current_dir_path, E.val(), f);
+            R.val() == "VIEW" ? d(w.current_dir_path, D.val(), p) : d(w.current_dir_path, D.val(), f);
           }
           e.each(S, function() {
             this.unbind();
-          }), j.unbind(), R.unbind(), E.unbind(), w.current_dir_path && j.click(function(M) {
-            d(w.moveup_dir_path, E.val(), x);
-          }), R.change(_), E.change(_), B.html("");
+          }), j.unbind(), R.unbind(), D.unbind(), w.current_dir_path && j.click(function(M) {
+            d(w.moveup_dir_path, D.val(), x);
+          }), R.change(_), D.change(_), A.html("");
         }
         function f(w) {
           l(w, f);
           var x = document.createElement("table");
-          x.className = "ke-table", x.cellPadding = 0, x.cellSpacing = 0, x.border = 0, B.append(x);
-          for (var _ = w.file_list, M = 0, F = _.length; F > M; M++) {
-            var I = _[M], O = e(x.insertRow(M));
-            O.mouseover(function(V) {
+          x.className = "ke-table", x.cellPadding = 0, x.cellSpacing = 0, x.border = 0, A.append(x);
+          for (var _ = w.file_list, M = 0, O = _.length; O > M; M++) {
+            var L = _[M], U = e(x.insertRow(M));
+            U.mouseover(function(V) {
               e(this).addClass("ke-on");
             }).mouseout(function(V) {
               e(this).removeClass("ke-on");
             });
-            var U = c + (I.is_dir ? "folder-16.gif" : "file-16.gif"), W = e('<img src="' + U + '" width="16" height="16" alt="' + I.filename + '" align="absmiddle" />'), z = e(O[0].insertCell(0)).addClass("ke-cell ke-name").append(W).append(document.createTextNode(" " + I.filename));
-            !I.is_dir || I.has_file ? (O.css("cursor", "pointer"), z.attr("title", I.filename), u(z, w, I, f)) : z.attr("title", a.emptyFolder), e(O[0].insertCell(1)).addClass("ke-cell ke-size").html(I.is_dir ? "-" : Math.ceil(I.filesize / 1024) + "KB"), e(O[0].insertCell(2)).addClass("ke-cell ke-datetime").html(I.datetime);
+            var F = c + (L.is_dir ? "folder-16.gif" : "file-16.gif"), W = e('<img src="' + F + '" width="16" height="16" alt="' + L.filename + '" align="absmiddle" />'), z = e(U[0].insertCell(0)).addClass("ke-cell ke-name").append(W).append(document.createTextNode(" " + L.filename));
+            !L.is_dir || L.has_file ? (U.css("cursor", "pointer"), z.attr("title", L.filename), u(z, w, L, f)) : z.attr("title", a.emptyFolder), e(U[0].insertCell(1)).addClass("ke-cell ke-size").html(L.is_dir ? "-" : Math.ceil(L.filesize / 1024) + "KB"), e(U[0].insertCell(2)).addClass("ke-cell ke-datetime").html(L.datetime);
           }
         }
         function p(w) {
           l(w, p);
           for (var x = w.file_list, _ = 0, M = x.length; M > _; _++) {
-            var F = x[_], I = e('<div class="ke-inline-block ke-item"></div>');
-            B.append(I);
-            var O = e('<div class="ke-inline-block ke-photo"></div>').mouseover(function(V) {
+            var O = x[_], L = e('<div class="ke-inline-block ke-item"></div>');
+            A.append(L);
+            var U = e('<div class="ke-inline-block ke-photo"></div>').mouseover(function(V) {
               e(this).addClass("ke-on");
             }).mouseout(function(V) {
               e(this).removeClass("ke-on");
             });
-            I.append(O);
-            var U = w.current_url + F.filename, W = F.is_dir ? c + "folder-64.gif" : F.is_photo ? U : c + "file-64.gif", z = e('<img src="' + W + '" width="80" height="80" alt="' + F.filename + '" />');
-            !F.is_dir || F.has_file ? (O.css("cursor", "pointer"), n(O, F), u(O, w, F, p)) : O.attr("title", a.emptyFolder), O.append(z), I.append('<div class="ke-name" title="' + F.filename + '">' + F.filename + "</div>");
+            L.append(U);
+            var F = w.current_url + O.filename, W = O.is_dir ? c + "folder-64.gif" : O.is_photo ? F : c + "file-64.gif", z = e('<img src="' + W + '" width="80" height="80" alt="' + O.filename + '" />');
+            !O.is_dir || O.has_file ? (U.css("cursor", "pointer"), n(U, O), u(U, w, O, p)) : U.attr("title", a.emptyFolder), U.append(z), L.append('<div class="ke-name" title="' + O.filename + '">' + O.filename + "</div>");
           }
         }
-        var m = e.undef(i.width, 650), g = e.undef(i.height, 510), y = e.undef(i.dirName, ""), b = e.undef(i.viewType, "VIEW").toUpperCase(), C = i.clickFn, D = ['<div style="padding:10px 20px;">', '<div class="ke-plugin-filemanager-header">', '<div class="ke-left">', '<img class="ke-inline-block" name="moveupImg" src="' + c + 'go-up.gif" width="16" height="16" border="0" alt="" /> ', '<a class="ke-inline-block" name="moveupLink" href="javascript:;">' + a.moveup + "</a>", "</div>", '<div class="ke-right">', a.viewType + ' <select class="ke-inline-block" name="viewType">', '<option value="VIEW">' + a.viewImage + "</option>", '<option value="LIST">' + a.listImage + "</option>", "</select> ", a.orderType + ' <select class="ke-inline-block" name="orderType">', '<option value="NAME">' + a.fileName + "</option>", '<option value="SIZE">' + a.fileSize + "</option>", '<option value="TYPE">' + a.fileType + "</option>", "</select>", "</div>", '<div class="ke-clearfix"></div>', "</div>", '<div class="ke-plugin-filemanager-body"></div>', "</div>"].join(""), A = o.createDialog({ name: r, width: m, height: g, title: o.lang(r), body: D }), N = A.div, B = e(".ke-plugin-filemanager-body", N), j = (e('[name="moveupImg"]', N), e('[name="moveupLink"]', N)), R = (e('[name="viewServer"]', N), e('[name="viewType"]', N)), E = e('[name="orderType"]', N), S = [];
-        return R.val(b), d("", E.val(), b == "VIEW" ? p : f), A;
+        var m = e.undef(i.width, 650), g = e.undef(i.height, 510), y = e.undef(i.dirName, ""), b = e.undef(i.viewType, "VIEW").toUpperCase(), C = i.clickFn, E = ['<div style="padding:10px 20px;">', '<div class="ke-plugin-filemanager-header">', '<div class="ke-left">', '<img class="ke-inline-block" name="moveupImg" src="' + c + 'go-up.gif" width="16" height="16" border="0" alt="" /> ', '<a class="ke-inline-block" name="moveupLink" href="javascript:;">' + a.moveup + "</a>", "</div>", '<div class="ke-right">', a.viewType + ' <select class="ke-inline-block" name="viewType">', '<option value="VIEW">' + a.viewImage + "</option>", '<option value="LIST">' + a.listImage + "</option>", "</select> ", a.orderType + ' <select class="ke-inline-block" name="orderType">', '<option value="NAME">' + a.fileName + "</option>", '<option value="SIZE">' + a.fileSize + "</option>", '<option value="TYPE">' + a.fileType + "</option>", "</select>", "</div>", '<div class="ke-clearfix"></div>', "</div>", '<div class="ke-plugin-filemanager-body"></div>', "</div>"].join(""), I = o.createDialog({ name: r, width: m, height: g, title: o.lang(r), body: E }), N = I.div, A = e(".ke-plugin-filemanager-body", N), j = (e('[name="moveupImg"]', N), e('[name="moveupLink"]', N)), R = (e('[name="viewServer"]', N), e('[name="viewType"]', N)), D = e('[name="orderType"]', N), S = [];
+        return R.val(b), d("", D.val(), b == "VIEW" ? p : f), I;
       };
     }), KindEditor.plugin("image", function(e) {
       var t = this, n = "image", o = e.undef(t.allowImageUpload, !0), r = e.undef(t.allowImageRemote, !0), s = e.undef(t.allowFileManager, !1), c = e.undef(t.uploadHeader, {}), a = e.undef(t.uploadFileSizeLimit, "2MB"), i = e.undef(t.uploadFileTypeLimit, "*.jpg;*.gif;*.png;*.jpeg,*.bmp"), d = e.undef(t.extraFileUploadParams, {}), u = e.undef(t.filePostName, "imgFile"), l = e.undef(t.uploadJson, t.basePath + "_404.html"), f = e.undef(t.formatUploadUrl, !0), p = e.undef(t.imageTabIndex, 1), m = (t.pluginsPath + "", e.undef(t.fillDescAfterUploadImage, !1)), g = t.lang(n + ".");
       t.plugin.imageDialog = function(y) {
         function b(Y, Q) {
-          O.val(Y), U.val(Q), K = Y, ae = Q;
+          U.val(Y), F.val(Q), K = Y, ae = Q;
         }
-        var C = (y.imageUrl, e.undef(y.imageWidth, ""), e.undef(y.imageHeight, ""), e.undef(y.imageTitle, ""), e.undef(y.imageAlign, ""), e.undef(y.showRemote, !0)), D = e.undef(y.showLocal, !0), A = e.undef(y.tabIndex, 0), N = y.clickFn, B = ("" + new Date().getTime(), []);
+        var C = (y.imageUrl, e.undef(y.imageWidth, ""), e.undef(y.imageHeight, ""), e.undef(y.imageTitle, ""), e.undef(y.imageAlign, ""), e.undef(y.showRemote, !0)), E = e.undef(y.showLocal, !0), I = e.undef(y.tabIndex, 0), N = y.clickFn, A = ("" + new Date().getTime(), []);
         for (var j in d)
-          B.push('<input type="hidden" name="' + j + '" value="' + d[j] + '" />');
-        console.info("extraParams", d);
-        var R, E = ['<div style="padding:20px;">', '<div class="tabs"></div>', '<div class="tab1" style="display:none;">', '<div class="ke-dialog-row">', '<label for="remoteUrl" style="width:60px;">' + g.remoteUrl + "</label>", '<input type="text" id="remoteUrl" class="ke-input-text" name="url" value="" style="width:' + (s ? 250 : 360) + 'px;" />', '<span class="ke-button-common ke-button-outer"  style="margin-left:' + (s ? 12 : 0) + 'px">', '<input type="button" class="ke-button-common ke-button" name="viewServer" value="' + g.viewServer + '" />', "</span>", "</div>", '<div class="ke-dialog-row">', '<label for="remoteWidth" style="width:60px;">' + g.size + "</label>", g.width + '\uFF1A<input type="text" id="remoteWidth" class="ke-input-text ke-input-number" name="width" value="" maxlength="4" style="width:130px;margin-right:10px" />', g.height + '\uFF1A<input type="text" class="ke-input-text ke-input-number" name="height" value="" maxlength="4" style="width:130px;margin-right:10px" />', '<span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-icon-refresh-bold"></span>', "</div>", '<div class="ke-dialog-row">', '<label style="width:60px;">' + g.align + "</label>", '<input type="radio" name="align" class="ke-inline-block" value="" checked="checked" /><span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-icon-float-default"></span><text style="margin-right:30px;">&nbsp;\u9ED8\u8BA4</text>', ' <input type="radio" name="align" class="ke-inline-block" value="left" /><span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-icon-float-left"></span><text style="margin-right:30px;">&nbsp;\u5DE6\u5BF9\u9F50</text>', ' <input type="radio" name="align" class="ke-inline-block" value="right" /><span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-icon-float-right"></span><text style="margin-right:30px;" >&nbsp;\u53F3\u5BF9\u9F50</text>', "</div>", '<div class="ke-dialog-row">', '<label for="remoteTitle" style="width:60px;">' + g.imgTitle + "</label>", '<input type="text" id="remoteTitle" class="ke-input-text" name="title" value="" style="width:360px;" />', "</div>", "</div>", '<div class="tab2" style="display:none;">', '<div class="ke-dialog-row">', '<label style="width:60px;">' + g.localUrl + "</label>", '<input type="text" name="localUrl" class="ke-input-text" tabindex="-1" style="width:270px;" readonly="true" /> &nbsp;', '<input type="button" class="ke-upload-button" value="' + g.upload + '" />', "</div>", "</div>", "</div>"].join(""), S = 480, w = C ? 340 : 220, x = t.createDialog({
-          name: n,
-          width: S,
-          height: w,
-          title: t.lang(n),
-          body: E,
-          yesBtn: { name: t.lang("yes"), click: function(Y) {
-            if (!x.isLoading) {
-              if (D && C && R && R.selectedIndex === 1 || !C)
-                return te.fileBox.val() == "" ? void alert(t.lang("pleaseSelectFile")) : (x.showLoading(t.lang("uploadLoading")), te.submit(), void F.val(""));
-              var Q = e.trim(M.val()), ne = O.val(), Fe = U.val(), Me = z.val(), ct = "";
-              return V.each(function() {
-                return this.checked ? (ct = this.value, !1) : void 0;
-              }), Q == "http://" || e.invalidUrl(Q) ? (alert(t.lang("invalidUrl")), void M[0].focus()) : /^\d*$/.test(ne) ? /^\d*$/.test(Fe) ? void N.call(t, Q, Me, ne, Fe, 0, ct) : (alert(t.lang("invalidHeight")), void U[0].focus()) : (alert(t.lang("invalidWidth")), void O[0].focus());
-            }
-          } },
-          beforeRemove: function() {
-            I.unbind(), O.unbind(), U.unbind(), W.unbind();
+          A.push('<input type="hidden" name="' + j + '" value="' + d[j] + '" />');
+        var R, D = ['<div style="padding:20px;">', '<div class="tabs"></div>', '<div class="tab1" style="display:none;">', '<div class="ke-dialog-row">', '<label for="remoteUrl" style="width:60px;">' + g.remoteUrl + "</label>", '<input type="text" id="remoteUrl" class="ke-input-text" name="url" value="" style="width:' + (s ? 250 : 360) + 'px;" />', '<span class="ke-button-common ke-button-outer"  style="margin-left:' + (s ? 12 : 0) + 'px">', '<input type="button" class="ke-button-common ke-button" name="viewServer" value="' + g.viewServer + '" />', "</span>", "</div>", '<div class="ke-dialog-row">', '<label for="remoteWidth" style="width:60px;">' + g.size + "</label>", g.width + '\uFF1A<input type="text" id="remoteWidth" class="ke-input-text ke-input-number" name="width" value="" maxlength="4" style="width:130px;margin-right:10px" />', g.height + '\uFF1A<input type="text" class="ke-input-text ke-input-number" name="height" value="" maxlength="4" style="width:130px;margin-right:10px" />', '<span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-icon-refresh-bold"></span>', "</div>", '<div class="ke-dialog-row">', '<label style="width:60px;">' + g.align + "</label>", '<input type="radio" name="align" class="ke-inline-block" value="" checked="checked" /><span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-icon-float-default"></span><text style="margin-right:30px;">&nbsp;\u9ED8\u8BA4</text>', ' <input type="radio" name="align" class="ke-inline-block" value="left" /><span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-icon-float-left"></span><text style="margin-right:30px;">&nbsp;\u5DE6\u5BF9\u9F50</text>', ' <input type="radio" name="align" class="ke-inline-block" value="right" /><span class="ke-inline-block ke-toolbar-icon icon-ke-font ke-icon-float-right"></span><text style="margin-right:30px;" >&nbsp;\u53F3\u5BF9\u9F50</text>', "</div>", '<div class="ke-dialog-row">', '<label for="remoteTitle" style="width:60px;">' + g.imgTitle + "</label>", '<input type="text" id="remoteTitle" class="ke-input-text" name="title" value="" style="width:360px;" />', "</div>", "</div>", '<div class="tab2" style="display:none;">', '<div class="ke-dialog-row">', '<label style="width:60px;">' + g.localUrl + "</label>", '<input type="text" name="localUrl" class="ke-input-text" tabindex="-1" style="width:270px;" readonly="true" /> &nbsp;', '<input type="button" class="ke-upload-button" value="' + g.upload + '" />', "</div>", "</div>", "</div>"].join(""), S = 480, w = C ? 340 : 220, x = t.createDialog({ name: n, width: S, height: w + 3, title: t.lang(n), body: D, yesBtn: { name: t.lang("yes"), click: function(Y) {
+          if (!x.isLoading) {
+            if (E && C && R && R.selectedIndex === 1 || !C)
+              return ne.fileBox.val() == "" ? void alert(t.lang("pleaseSelectFile")) : (x.showLoading(t.lang("uploadLoading")), ne.submit(), void O.val(""));
+            var Q = e.trim(M.val()), ie = U.val(), Oe = F.val(), Me = z.val(), ct = "";
+            return V.each(function() {
+              return this.checked ? (ct = this.value, !1) : void 0;
+            }), Q == "http://" || e.invalidUrl(Q) ? (alert(t.lang("invalidUrl")), void M[0].focus()) : /^\d*$/.test(ie) ? /^\d*$/.test(Oe) ? void N.call(t, Q, Me, ie, Oe, 0, ct) : (alert(t.lang("invalidHeight")), void F[0].focus()) : (alert(t.lang("invalidWidth")), void U[0].focus());
           }
-        }), _ = x.div, M = e('[name="url"]', _), F = e('[name="localUrl"]', _), I = e('[name="viewServer"]', _), O = e('.tab1 [name="width"]', _), U = e('.tab1 [name="height"]', _), W = e(".ke-refresh-btn", _), z = e('.tab1 [name="title"]', _), V = e('.tab1 [name="align"]', _);
-        C && D ? (R = e.tabs({ src: e(".tabs", _), afterSelect: function(Y) {
-        } }), R.add({ title: g.remoteImage, panel: e(".tab1", _) }), R.add({ title: g.localImage, panel: e(".tab2", _) }), R.select(A)) : C ? e(".tab1", _).show() : D && e(".tab2", _).show();
-        var te = e.uploadbutton({ button: e(".ke-upload-button", _)[0], width: "auto", fieldName: u, fileSizeLimit: a, fileTypeLimit: i, uploadHeader: c, uploadData: d, uploadUrl: e.addParam(l, "dir=image"), afterUpload: function(Y) {
+        } }, beforeRemove: function() {
+          L.unbind(), U.unbind(), F.unbind(), W.unbind();
+        } }), _ = x.div, M = e('[name="url"]', _), O = e('[name="localUrl"]', _), L = e('[name="viewServer"]', _), U = e('.tab1 [name="width"]', _), F = e('.tab1 [name="height"]', _), W = e(".ke-refresh-btn", _), z = e('.tab1 [name="title"]', _), V = e('.tab1 [name="align"]', _);
+        C && E ? (R = e.tabs({ src: e(".tabs", _), afterSelect: function(Y) {
+        } }), R.add({ title: g.remoteImage, panel: e(".tab1", _) }), R.add({ title: g.localImage, panel: e(".tab2", _) }), R.select(I)) : C ? e(".tab1", _).show() : E && e(".tab2", _).show();
+        var ne = e.uploadbutton({ button: e(".ke-upload-button", _)[0], width: "auto", fieldName: u, fileSizeLimit: a, fileTypeLimit: i, uploadHeader: c, uploadData: d, uploadUrl: e.addParam(l, "dir=image"), afterUpload: function(Y) {
           if (x.hideLoading(), Y.error === 0) {
             var Q = Y.url;
             f && (Q = e.formatUrl(Q, "absolute")), t.afterUpload && t.afterUpload.call(t, Q, Y, n), m ? (e(".ke-dialog-row #remoteUrl", _).val(Q), e(".ke-tabs-li", _)[0].click(), e(".ke-refresh-btn", _).click()) : N.call(t, Q, Y.title, Y.width, Y.height, Y.border, Y.align);
           } else
             alert(Y.message), setTimeout(function() {
-              F.val("");
+              O.val("");
             }, 100);
         }, afterError: function(Y) {
           x.hideLoading(), t.errorDialog(Y);
         } });
-        te.fileBox.change(function(Y) {
-          F.val(te.fileBox.val());
-        }), s ? I.click(function(Y) {
+        ne.fileBox.change(function(Y) {
+          O.val(ne.fileBox.val());
+        }), s ? L.click(function(Y) {
           t.loadPlugin("filemanager", function() {
-            t.plugin.filemanagerDialog({ viewType: "VIEW", dirName: "image", clickFn: function(Q, ne) {
+            t.plugin.filemanagerDialog({ viewType: "VIEW", dirName: "image", clickFn: function(Q, ie) {
               t.dialogs.length > 1 && (e('[name="url"]', _).val(Q), t.afterSelectFile && t.afterSelectFile.call(t, Q), t.hideDialog());
             } });
           });
-        }) : I.hide();
+        }) : L.hide();
         var K = 0, ae = 0;
         return W.click(function(Y) {
           var Q = e('<img src="' + M.val() + '" />', document).css({ position: "absolute", visibility: "hidden", top: 0, left: "-1000px" });
           Q.bind("load", function() {
             b(Q.width(), Q.height()), Q.remove();
           }), e(document.body).append(Q);
-        }), O.change(function(Y) {
-          K > 0 && U.val(Math.round(ae / K * parseInt(this.value, 10)));
         }), U.change(function(Y) {
-          ae > 0 && O.val(Math.round(K / ae * parseInt(this.value, 10)));
+          K > 0 && F.val(Math.round(ae / K * parseInt(this.value, 10)));
+        }), F.change(function(Y) {
+          ae > 0 && U.val(Math.round(K / ae * parseInt(this.value, 10)));
         }), M.val(y.imageUrl), b(y.imageWidth, y.imageHeight), z.val(y.imageTitle), V.each(function() {
           return this.value === y.imageAlign ? (this.checked = !0, !1) : void 0;
-        }), C && A === 0 && (M[0].focus(), M[0].select()), x;
+        }), C && I === 0 && (M[0].focus(), M[0].select()), x;
       }, t.plugin.image = { edit: function() {
         var y = t.plugin.getSelectedImage();
-        t.plugin.imageDialog({ imageUrl: y ? y.attr("data-ke-src") : "http://", imageWidth: y ? y.width() : "", imageHeight: y ? y.height() : "", imageTitle: y ? y.attr("title") : "", imageAlign: y ? y.attr("align") : "", showRemote: r, showLocal: o, tabIndex: y ? 0 : p, clickFn: function(b, C, D, A, N, B) {
-          y ? (y.attr("src", b), y.attr("data-ke-src", b), y.attr("width", D), y.attr("height", A), y.attr("title", C), y.attr("align", B), y.attr("alt", C)) : (t.exec("insertimage", b, C, D, A, N, B, "ke-image"), setTimeout(function() {
+        t.plugin.imageDialog({ imageUrl: y ? y.attr("data-ke-src") : "http://", imageWidth: y ? y.width() : "", imageHeight: y ? y.height() : "", imageTitle: y ? y.attr("title") : "", imageAlign: y ? y.attr("align") : "", showRemote: r, showLocal: o, tabIndex: y ? 0 : p, clickFn: function(b, C, E, I, N, A) {
+          y ? (y.attr("src", b), y.attr("data-ke-src", b), y.attr("width", E), y.attr("height", I), y.attr("title", C), y.attr("align", A), y.attr("alt", C)) : (t.exec("insertimage", b, C, E, I, N, A, "ke-image"), setTimeout(function() {
             t.edit.afterChange.call(t.edit);
           }, 300)), setTimeout(function() {
             t.hideDialog().focus();
@@ -4997,32 +5053,32 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
       var t = this, n = "insertfile", o = e.undef(t.allowFileUpload, !0), r = e.undef(t.allowFileManager, !1), s = e.undef(t.uploadHeader, {}), c = e.undef(t.uploadFileSizeLimit, "20MB"), a = e.undef(t.uploadFileTypeLimit, "*.mp3;*.wav;*.mp4;*.wmv;*.rmvb;*.avi,*.jpg;*.gif;*.png;*.jpeg,*.bmp"), i = e.undef(t.extraFileUploadParams, {}), d = e.undef(t.filePostName, "imgFile"), u = e.undef(t.uploadJson, t.basePath + "_404.html"), l = e.undef(t.formatUploadUrl, !0), f = t.lang(n + ".");
       t.plugin.fileDialog = function(p) {
         var m = e.undef(p.fileUrl, "http://"), g = e.undef(p.fileTitle, ""), y = p.clickFn, b = ['<div style="padding:20px;">', '<div class="ke-dialog-row">', '<label for="keUrl" style="width:60px;">' + f.url + "</label>", '<input type="text" id="keUrl" name="url" class="ke-input-text" style="width:' + (r ? 160 : 260) + 'px;" />', '<input type="button" class="ke-upload-button" value="' + f.upload + '" />', '<span class="ke-button-common ke-button-outer" style="margin-left:' + (r ? 5 : 0) + 'px" >', '<input type="button" class="ke-button-common ke-button" name="viewServer" value="' + f.viewServer + '" />', "</span>", "</div>", '<div class="ke-dialog-row">', '<label for="keTitle" style="width:60px;">' + f.title + "</label>", '<input type="text" id="keTitle" class="ke-input-text" name="title" value="" style="width:160px;" /></div>', "</div>", "</form>", "</div>"].join(""), C = t.createDialog({ name: n, width: 450, height: 220, title: t.lang(n), body: b, yesBtn: { name: t.lang("yes"), click: function(R) {
-          var E = e.trim(A.val()), S = B.val();
-          return E == "http://" || e.invalidUrl(E) ? (alert(t.lang("invalidUrl")), void A[0].focus()) : (e.trim(S) === "" && (S = E), void y.call(t, E, S));
-        } } }), D = C.div, A = e('[name="url"]', D), N = e('[name="viewServer"]', D), B = e('[name="title"]', D);
+          var D = e.trim(I.val()), S = A.val();
+          return D == "http://" || e.invalidUrl(D) ? (alert(t.lang("invalidUrl")), void I[0].focus()) : (e.trim(S) === "" && (S = D), void y.call(t, D, S));
+        } } }), E = C.div, I = e('[name="url"]', E), N = e('[name="viewServer"]', E), A = e('[name="title"]', E);
         if (o) {
-          var j = e.uploadbutton({ button: e(".ke-upload-button", D)[0], width: "auto", fieldName: d, fileSizeLimit: c, fileTypeLimit: a, uploadHeader: s, uploadData: i, uploadUrl: e.addParam(u, "dir=file"), afterUpload: function(R) {
+          var j = e.uploadbutton({ button: e(".ke-upload-button", E)[0], width: "auto", fieldName: d, fileSizeLimit: c, fileTypeLimit: a, uploadHeader: s, uploadData: i, uploadUrl: e.addParam(u, "dir=file"), afterUpload: function(R) {
             if (C.hideLoading(), R.error === 0) {
-              var E = R.url;
-              l && (E = e.formatUrl(E, "absolute")), A.val(E), t.afterUpload && t.afterUpload.call(t, E, R, n);
+              var D = R.url;
+              l && (D = e.formatUrl(D, "absolute")), I.val(D), t.afterUpload && t.afterUpload.call(t, D, R, n);
             } else
               alert(R.message);
           }, afterError: function(R) {
             C.hideLoading(), t.errorDialog(R);
           } });
           j.fileBox.change(function(R) {
-            var E = e("input[type='file']", j.form[0]).val();
-            E && (C.showLoading(t.lang("uploadLoading")), j.submit());
+            var D = e("input[type='file']", j.form[0]).val();
+            D && (C.showLoading(t.lang("uploadLoading")), j.submit());
           });
         } else
-          e(".ke-upload-button", D).hide();
+          e(".ke-upload-button", E).hide();
         r ? N.click(function(R) {
           t.loadPlugin("filemanager", function() {
-            t.plugin.filemanagerDialog({ viewType: "LIST", dirName: "file", clickFn: function(E, S) {
-              t.dialogs.length > 1 && (e('[name="url"]', D).val(E), t.afterSelectFile && t.afterSelectFile.call(t, E), t.hideDialog());
+            t.plugin.filemanagerDialog({ viewType: "LIST", dirName: "file", clickFn: function(D, S) {
+              t.dialogs.length > 1 && (e('[name="url"]', E).val(D), t.afterSelectFile && t.afterSelectFile.call(t, D), t.hideDialog());
             } });
           });
-        }) : N.hide(), A.val(m), B.val(g), A[0].focus(), A[0].select();
+        }) : N.hide(), I.val(m), A.val(g), I[0].focus(), I[0].select();
       }, t.clickToolbar(n, function() {
         t.plugin.fileDialog({ clickFn: function(p, m) {
           var g = '<a class="ke-insertfile" href="' + p + '" data-ke-src="' + p + '" target="_blank">' + m + "</a>";
@@ -5064,20 +5120,20 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
       };
       t.plugin.media = { edit: function() {
         var m = ['<div style="padding:20px;">', '<div class="ke-dialog-row">', '<label for="keUrl" style="width:60px;">' + o.url + "</label>", '<input class="ke-input-text" type="text" id="keUrl" name="url" value="" style="width:' + (s ? 160 : 260) + 'px;" />', '<input type="button" class="ke-upload-button" value="' + o.upload + '" />', '<span class="ke-button-common ke-button-outer"  style="margin-left:' + (s ? 5 : 0) + 'px" >', '<input type="button" class="ke-button-common ke-button " name="viewServer" value="' + o.viewServer + '" />', "</span>", "</div>", '<div class="ke-dialog-row">', '<label for="keWidth" style="width:60px;">' + o.width + "</label>", '<input type="text" id="keWidth" class="ke-input-text ke-input-number" name="width" value="320" maxlength="4" />', '<label for="keHeight" style="width:60px;text-align:left;margin-left:30px">' + o.height + "</label>", '<input type="text" id="keHeight" class="ke-input-text ke-input-number" name="height" value="auto" maxlength="4" />', "</div>", '<div class="ke-dialog-row">', '<label for="kePreload" style="width:60px;">preload</label>', '<div style="width:80px;display:inline-block;"><input type="checkbox" id="kePreload" name="preload" value="" /></div>', '<label for="keAutostart" style="width:60px;text-align:left;margin-left:30px">autoplay</label>', '<div style="width:80px;display:inline-block;"><input type="checkbox" id="keAutostart" name="autoplay" value="" /></div>', "</div>", '<div class="ke-dialog-row">', '<label for="keControls" style="width:60px;">controls</label>', '<div style="width:80px;display:inline-block;"><input type="checkbox" id="keControls" name="controls" checked value="" /></div>', '<label for="keLoop" style="width:60px;text-align:left;margin-left:30px">loop</label>', '<div style="width:80px;display:inline-block;"><input type="checkbox" id="keLoop" name="loop" checked value="" /></div>', "</div>", "</div>"].join(""), g = t.createDialog({ name: n, width: 450, height: 300, title: t.lang(n), body: m, yesBtn: { name: t.lang("yes"), click: function(S) {
-          var w = e.trim(b.val()), x = D.val(), _ = A.val(), M = B[0].checked, F = N[0].checked, I = j[0].checked, O = R[0].checked;
+          var w = e.trim(b.val()), x = E.val(), _ = I.val(), M = A[0].checked, O = N[0].checked, L = j[0].checked, U = R[0].checked;
           if (w == "http://" || e.invalidUrl(w))
             return alert(t.lang("invalidUrl")), void b[0].focus();
           if (x != "auto" && !/^\d*$/.test(x))
-            return alert(t.lang("invalidWidth")), void D[0].focus();
+            return alert(t.lang("invalidWidth")), void E[0].focus();
           if (_ != "auto" && !/^\d*$/.test(_))
-            return alert(t.lang("invalidHeight")), void A[0].focus();
-          var U = "video";
-          /\.(mp3|wav|ogg|acc)(\?|$)/i.test(w) && (U = "audio");
-          var W = ["<p><" + U, 'data-ke-class="ke-audio"', 'class="ke-media"', 'style="display:inline;"', 'src="' + w + '"', 'width="' + x + '"', 'height="' + _ + '"', M ? "preload" : "", F ? "autoplay" : "", I ? "controls" : "", O ? "loop" : "", "></" + U + "><span>\u200B\u3000</span></p>"].join(" "), z = p(t.cmd.range);
+            return alert(t.lang("invalidHeight")), void I[0].focus();
+          var F = "video";
+          /\.(mp3|wav|ogg|acc)(\?|$)/i.test(w) && (F = "audio");
+          var W = ["<p><" + F, 'data-ke-class="ke-audio"', 'class="ke-media"', 'style="display:inline;"', 'src="' + w + '"', 'width="' + x + '"', 'height="' + _ + '"', M ? "preload" : "", O ? "autoplay" : "", L ? "controls" : "", U ? "loop" : "", "></" + F + "><span>\u200B\u3000</span></p>"].join(" "), z = p(t.cmd.range);
           z && z.name != "p" ? t.insertHtml(W).hideDialog().focus() : (e(z).after(W), t.hideDialog().focus());
-        } } }), y = g.div, b = e('[name="url"]', y), C = e('[name="viewServer"]', y), D = e('[name="width"]', y), A = e('[name="height"]', y), N = e('[name="autoplay"]', y), B = e('[name="preload"]', y), j = e('[name="controls"]', y), R = e('[name="loop"]', y);
+        } } }), y = g.div, b = e('[name="url"]', y), C = e('[name="viewServer"]', y), E = e('[name="width"]', y), I = e('[name="height"]', y), N = e('[name="autoplay"]', y), A = e('[name="preload"]', y), j = e('[name="controls"]', y), R = e('[name="loop"]', y);
         if (b.val("http://"), r) {
-          var E = e.uploadbutton({ button: e(".ke-upload-button", y)[0], width: "auto", fieldName: u, fileSizeLimit: a, fileTypeLimit: i, uploadHeader: c, uploadData: d, uploadUrl: e.addParam(l, "dir=media"), afterUpload: function(S) {
+          var D = e.uploadbutton({ button: e(".ke-upload-button", y)[0], width: "auto", fieldName: u, fileSizeLimit: a, fileTypeLimit: i, uploadHeader: c, uploadData: d, uploadUrl: e.addParam(l, "dir=media"), afterUpload: function(S) {
             if (g.hideLoading(), S.error === 0) {
               var w = S.url;
               f && (w = e.formatUrl(w, "absolute")), b.val(w), t.afterUpload && t.afterUpload.call(t, w, S, n);
@@ -5088,9 +5144,9 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
           }, afterError: function(S) {
             g.hideLoading(), t.errorDialog(S);
           } });
-          E.fileBox.change(function(S) {
-            var w = e("input[type='file']", E.form[0]).val();
-            w && (g.showLoading(t.lang("uploadLoading")), E.submit());
+          D.fileBox.change(function(S) {
+            var w = e("input[type='file']", D.form[0]).val();
+            w && (g.showLoading(t.lang("uploadLoading")), D.submit());
           });
         } else
           e(".ke-upload-button", y).hide();
@@ -5192,7 +5248,7 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
       var t = this, n = "multiimage", o = (e.undef(t.formatUploadUrl, !0), e.undef(t.uploadJson, t.basePath + "php/upload_json.php")), r = e.undef(t.uploadHeader, t.basePath + "php/upload_json.php"), s = e.undef(t.uploadData, t.basePath + "php/upload_json.php"), c = t.pluginsPath + "multiimage/images/", a = e.undef(t.imageSizeLimit, "1MB"), i = (e.undef(t.imageFileTypes, "*.jpg;*.gif;*.png"), e.undef(t.imageUploadLimit, 20)), d = e.undef(t.filePostName, "imgFile"), u = t.lang(n + ".");
       t.plugin.multiImageDialog = function(l) {
         var f = l.clickFn, p = e.tmpl(u.uploadDesc, { uploadLimit: i, sizeLimit: a }), m = ['<div style="padding:10px 20px;">', '<div class="swfupload">', "</div>", "</div>"].join(""), g = t.createDialog({ name: n, width: 650, height: 500, title: t.lang(n), body: m, previewBtn: { name: u.insertAll, click: function(C) {
-          console.info(123), f.call(t, b.getUrlList());
+          f.call(t, b.getUrlList());
         } }, yesBtn: { name: u.clearAll, click: function(C) {
           b.removeFiles();
         } }, beforeRemove: function() {
@@ -5202,10 +5258,10 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
         } });
         return e(b.bodyDiv).bind("drop", function(C) {
           C.preventDefault(), C.event.preventDefault();
-          var D = [];
-          [].forEach.call(C.event.dataTransfer.files, function(A) {
-            D.push(A);
-          }, !1), D.length > 0 && b.uploader.addFiles(D), e(b.bodyDiv).removeClass("drag-hover");
+          var E = [];
+          [].forEach.call(C.event.dataTransfer.files, function(I) {
+            E.push(I);
+          }, !1), E.length > 0 && b.uploader.addFiles(E), e(b.bodyDiv).removeClass("drag-hover");
         }), e(b.bodyDiv).bind("dragenter", function(C) {
           e(b.bodyDiv).addClass("drag-hover");
         }), e(b.bodyDiv).bind("dragover", function(C) {
@@ -5328,57 +5384,64 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
       }
       var r = this, s = "table", c = r.lang(s + "."), a = "ke-zeroborder", i = [];
       r.plugin.table = { prop: function(d) {
-        var u = ['<div style="padding:20px;">', '<div class="ke-dialog-row">', '<label for="keRows" style="width:90px;">' + c.cells + "</label>", c.rows + ' <input type="text" id="keRows" class="ke-input-text ke-input-number" name="rows" value="" maxlength="4" /> &nbsp; ', c.cols + ' <input type="text" class="ke-input-text ke-input-number" name="cols" value="" maxlength="4" />', "</div>", '<div class="ke-dialog-row">', '<label for="keWidth" style="width:90px;">' + c.size + "</label>", c.width + ' <input type="text" id="keWidth" class="ke-input-text ke-input-number" name="width" value="" maxlength="4" /> &nbsp; ', '<select name="widthType">', '<option value="%">' + c.percent + "</option>", '<option value="px">' + c.px + "</option>", "</select> &nbsp; ", c.height + ' <input type="text" class="ke-input-text ke-input-number" name="height" value="" maxlength="4" /> &nbsp; ', '<select name="heightType">', '<option value="%">' + c.percent + "</option>", '<option value="px">' + c.px + "</option>", "</select>", "</div>", '<div class="ke-dialog-row">', '<label for="kePadding" style="width:90px;">' + c.space + "</label>", c.padding + ' <input type="text" id="kePadding" class="ke-input-text ke-input-number" name="padding" value="" maxlength="4" /> &nbsp; ', c.spacing + ' <input type="text" class="ke-input-text ke-input-number" name="spacing" value="" maxlength="4" />', "</div>", '<div class="ke-dialog-row">', '<label for="keAlign" style="width:90px;">' + c.align + "</label>", '<select id="keAlign" name="align">', '<option value="">' + c.alignDefault + "</option>", '<option value="left">' + c.alignLeft + "</option>", '<option value="center">' + c.alignCenter + "</option>", '<option value="right">' + c.alignRight + "</option>", "</select>", "</div>", '<div class="ke-dialog-row">', '<label for="keBorder" style="width:90px;">' + c.border + "</label>", c.borderWidth + ' <input type="text" id="keBorder" class="ke-input-text ke-input-number" name="border" value="" maxlength="4" /> &nbsp; ', c.borderColor + ' <span class="ke-inline-block ke-input-color"></span>', "</div>", '<div class="ke-dialog-row">', '<label for="keBgColor" style="width:90px;">' + c.backgroundColor + "</label>", '<span class="ke-inline-block ke-input-color"></span>', "</div>", "</div>"].join(""), l = r.cmd.range.createBookmark(), f = r.createDialog({ name: s, width: 500, title: r.lang(s), body: u, beforeRemove: function() {
-          R.unbind();
-        }, yesBtn: { name: r.lang("yes"), click: function(_) {
-          var M = m.val(), F = g.val(), I = y.val(), O = b.val(), U = C.val(), W = D.val(), z = A.val(), V = N.val(), te = B.val(), K = j.val(), ae = e(R[0]).html() || "", Y = e(R[1]).html() || "";
-          if (M == 0 || !/^\d+$/.test(M))
-            return alert(r.lang("invalidRows")), void m[0].focus();
-          if (F == 0 || !/^\d+$/.test(F))
-            return alert(r.lang("invalidRows")), void g[0].focus();
-          if (!/^\d*$/.test(I))
-            return alert(r.lang("invalidWidth")), void y[0].focus();
-          if (!/^\d*$/.test(O))
-            return alert(r.lang("invalidHeight")), void b[0].focus();
-          if (!/^\d*$/.test(z))
-            return alert(r.lang("invalidPadding")), void A[0].focus();
-          if (!/^\d*$/.test(V))
-            return alert(r.lang("invalidSpacing")), void N[0].focus();
-          if (!/^\d*$/.test(K))
-            return alert(r.lang("invalidBorder")), void j[0].focus();
-          if (E)
-            return I !== "" ? E.width(I + U) : E.css("width", ""), E[0].width !== void 0 && E.removeAttr("width"), O !== "" ? E.height(O + W) : E.css("height", ""), E[0].height !== void 0 && E.removeAttr("height"), E.css("background-color", Y), E[0].bgColor !== void 0 && E.removeAttr("bgColor"), z !== "" ? E[0].cellPadding = z : E.removeAttr("cellPadding"), V !== "" ? E[0].cellSpacing = V : E.removeAttr("cellSpacing"), te !== "" ? E[0].align = te : E.removeAttr("align"), K !== "" ? E.attr("border", K) : E.removeAttr("border"), K === "" || K === "0" ? E.addClass(a) : E.removeClass(a), ae !== "" ? E.attr("borderColor", ae) : E.removeAttr("borderColor"), r.hideDialog().focus(), r.cmd.range.moveToBookmark(l), r.cmd.select(), void r.addBookmark();
-          var Q = "";
-          I !== "" && (Q += "width:" + I + U + ";"), O !== "" && (Q += "height:" + O + W + ";"), Y !== "" && (Q += "background-color:" + Y + ";");
-          var ne = "<table";
-          Q !== "" && (ne += ' style="' + Q + '"'), z !== "" && (ne += ' cellpadding="' + z + '"'), V !== "" && (ne += ' cellspacing="' + V + '"'), te !== "" && (ne += ' align="' + te + '"'), K !== "" && (ne += ' border="' + K + '"'), (K === "" || K === "0") && (ne += ' class="' + a + '"'), ae !== "" && (ne += ' bordercolor="' + ae + '"'), ne += ">";
-          for (var Fe = 0; M > Fe; Fe++) {
-            ne += "<tr>";
-            for (var Me = 0; F > Me; Me++)
-              ne += "<td>" + (e.IE ? "&nbsp;" : "<br />") + "</td>";
-            ne += "</tr>";
-          }
-          ne += "</table>", e.IE || (ne += "<br />"), r.insertHtml(ne), r.select().hideDialog().focus(), r.addBookmark();
-        } } }), p = f.div, m = e('[name="rows"]', p).val(3), g = e('[name="cols"]', p).val(2), y = e('[name="width"]', p).val(100), b = e('[name="height"]', p), C = e('[name="widthType"]', p), D = e('[name="heightType"]', p), A = e('[name="padding"]', p).val(2), N = e('[name="spacing"]', p).val(0), B = e('[name="align"]', p), j = e('[name="border"]', p).val(1), R = e(".ke-input-color", p);
+        var u = ['<div style="padding:20px;">', '<div class="ke-dialog-row">', '<label for="keRows" style="width:90px;">' + c.cells + "</label>", c.rows + ' <input type="text" id="keRows" class="ke-input-text ke-input-number" name="rows" value="" maxlength="4" /> &nbsp; ', c.cols + ' <input type="text" class="ke-input-text ke-input-number" name="cols" value="" maxlength="4" />', "</div>", '<div class="ke-dialog-row">', '<label for="keWidth" style="width:90px;">' + c.size + "</label>", c.width + ' <input type="text" id="keWidth" class="ke-input-text ke-input-number" name="width" value="" maxlength="4" /> &nbsp; ', '<select name="widthType">', '<option value="%">' + c.percent + "</option>", '<option value="px">' + c.px + "</option>", "</select> &nbsp; ", c.height + ' <input type="text" class="ke-input-text ke-input-number" name="height" value="" maxlength="4" /> &nbsp; ', '<select name="heightType">', '<option value="%">' + c.percent + "</option>", '<option value="px">' + c.px + "</option>", "</select>", "</div>", '<div class="ke-dialog-row">', '<label for="kePadding" style="width:90px;">' + c.space + "</label>", c.padding + ' <input type="text" id="kePadding" class="ke-input-text ke-input-number" name="padding" value="" maxlength="4" /> &nbsp; ', c.spacing + ' <input type="text" class="ke-input-text ke-input-number" name="spacing" value="" maxlength="4" />', "</div>", '<div class="ke-dialog-row">', '<label for="keAlign" style="width:90px;">' + c.align + "</label>", '<select id="keAlign" name="align">', '<option value="">' + c.alignDefault + "</option>", '<option value="left">' + c.alignLeft + "</option>", '<option value="center">' + c.alignCenter + "</option>", '<option value="right">' + c.alignRight + "</option>", "</select>", "</div>", '<div class="ke-dialog-row">', '<label for="keBorder" style="width:90px;">' + c.border + "</label>", c.borderWidth + ' <input type="text" id="keBorder" class="ke-input-text ke-input-number" name="border" value="" maxlength="4" /> &nbsp; ', c.borderColor + ' <span class="ke-inline-block ke-input-color"></span>', "</div>", '<div class="ke-dialog-row">', '<label for="keBgColor" style="width:90px;">' + c.backgroundColor + "</label>", '<span class="ke-inline-block ke-input-color"></span>', "</div>", "</div>"].join(""), l = r.cmd.range.createBookmark(), f = r.createDialog({
+          name: s,
+          width: 500,
+          title: r.lang(s),
+          body: u,
+          beforeRemove: function() {
+            R.unbind();
+          },
+          yesBtn: { name: r.lang("yes"), click: function(_) {
+            var M = m.val(), O = g.val(), L = y.val(), U = b.val(), F = C.val(), W = E.val(), z = I.val(), V = N.val(), ne = A.val(), K = j.val(), ae = e(R[0]).html() || "", Y = e(R[1]).html() || "";
+            if (M == 0 || !/^\d+$/.test(M))
+              return alert(r.lang("invalidRows")), void m[0].focus();
+            if (O == 0 || !/^\d+$/.test(O))
+              return alert(r.lang("invalidRows")), void g[0].focus();
+            if (!/^\d*$/.test(L))
+              return alert(r.lang("invalidWidth")), void y[0].focus();
+            if (!/^\d*$/.test(U))
+              return alert(r.lang("invalidHeight")), void b[0].focus();
+            if (!/^\d*$/.test(z))
+              return alert(r.lang("invalidPadding")), void I[0].focus();
+            if (!/^\d*$/.test(V))
+              return alert(r.lang("invalidSpacing")), void N[0].focus();
+            if (!/^\d*$/.test(K))
+              return alert(r.lang("invalidBorder")), void j[0].focus();
+            if (D)
+              return L !== "" ? D.width(L + F) : D.css("width", ""), D[0].width !== void 0 && D.removeAttr("width"), U !== "" ? D.height(U + W) : D.css("height", ""), D[0].height !== void 0 && D.removeAttr("height"), D.css("background-color", Y), D[0].bgColor !== void 0 && D.removeAttr("bgColor"), z !== "" ? D[0].cellPadding = z : D.removeAttr("cellPadding"), V !== "" ? D[0].cellSpacing = V : D.removeAttr("cellSpacing"), ne !== "" ? D[0].align = ne : D.removeAttr("align"), K !== "" ? D.attr("border", K) : D.removeAttr("border"), K === "" || K === "0" ? D.addClass(a) : D.removeClass(a), ae !== "" ? D.attr("borderColor", ae) : D.removeAttr("borderColor"), r.hideDialog().focus(), r.cmd.range.moveToBookmark(l), r.cmd.select(), void r.addBookmark();
+            var Q = "";
+            L !== "" && (Q += "width:" + L + F + ";"), U !== "" && (Q += "height:" + U + W + ";"), Y !== "" && (Q += "background-color:" + Y + ";");
+            var ie = "<table";
+            Q !== "" && (ie += ' style="' + Q + '"'), z !== "" && (ie += ' cellpadding="' + z + '"'), V !== "" && (ie += ' cellspacing="' + V + '"'), ne !== "" && (ie += ' align="' + ne + '"'), K !== "" && (ie += ' border="' + K + '"'), (K === "" || K === "0") && (ie += ' class="' + a + '"'), ae !== "" && (ie += ' bordercolor="' + ae + '"'), ie += ">";
+            for (var Oe = 0; M > Oe; Oe++) {
+              ie += "<tr>";
+              for (var Me = 0; O > Me; Me++)
+                ie += "<td>" + (e.IE ? "&nbsp;" : "<br />") + "</td>";
+              ie += "</tr>";
+            }
+            ie += "</table>", e.IE || (ie += "<br />"), r.insertHtml(ie), r.select().hideDialog().focus(), r.addBookmark();
+          } }
+        }), p = f.div, m = e('[name="rows"]', p).val(3), g = e('[name="cols"]', p).val(2), y = e('[name="width"]', p).val(100), b = e('[name="height"]', p), C = e('[name="widthType"]', p), E = e('[name="heightType"]', p), I = e('[name="padding"]', p).val(2), N = e('[name="spacing"]', p).val(0), A = e('[name="align"]', p), j = e('[name="border"]', p).val(1), R = e(".ke-input-color", p);
         n(p, R.eq(0)), n(p, R.eq(1)), t(R.eq(0), "#000000"), t(R.eq(1), ""), m[0].focus(), m[0].select();
-        var E;
-        if (!d && (E = r.plugin.getSelectedTable())) {
-          m.val(E[0].rows.length), g.val(E[0].rows.length > 0 ? E[0].rows[0].cells.length : 0), m.attr("disabled", !0), g.attr("disabled", !0);
-          var S, w = E[0].style.width || E[0].width, x = E[0].style.height || E[0].height;
-          w !== void 0 && (S = /^(\d+)((?:px|%)*)$/.exec(w)) ? (y.val(S[1]), C.val(S[2])) : y.val(""), x !== void 0 && (S = /^(\d+)((?:px|%)*)$/.exec(x)) && (b.val(S[1]), D.val(S[2])), A.val(E[0].cellPadding || ""), N.val(E[0].cellSpacing || ""), B.val(E[0].align || ""), j.val(E[0].border === void 0 ? "" : E[0].border), t(R.eq(0), e.toHex(E.attr("borderColor") || "")), t(R.eq(1), e.toHex(E[0].style.backgroundColor || E[0].bgColor || "")), y[0].focus(), y[0].select();
+        var D;
+        if (!d && (D = r.plugin.getSelectedTable())) {
+          m.val(D[0].rows.length), g.val(D[0].rows.length > 0 ? D[0].rows[0].cells.length : 0), m.attr("disabled", !0), g.attr("disabled", !0);
+          var S, w = D[0].style.width || D[0].width, x = D[0].style.height || D[0].height;
+          w !== void 0 && (S = /^(\d+)((?:px|%)*)$/.exec(w)) ? (y.val(S[1]), C.val(S[2])) : y.val(""), x !== void 0 && (S = /^(\d+)((?:px|%)*)$/.exec(x)) && (b.val(S[1]), E.val(S[2])), I.val(D[0].cellPadding || ""), N.val(D[0].cellSpacing || ""), A.val(D[0].align || ""), j.val(D[0].border === void 0 ? "" : D[0].border), t(R.eq(0), e.toHex(D.attr("borderColor") || "")), t(R.eq(1), e.toHex(D[0].style.backgroundColor || D[0].bgColor || "")), y[0].focus(), y[0].select();
         }
       }, cellprop: function() {
         var d = ['<div style="padding:20px;">', '<div class="ke-dialog-row">', '<label for="keWidth" style="width:90px;">' + c.size + "</label>", c.width + ' <input type="text" id="keWidth" class="ke-input-text ke-input-number" name="width" value="" maxlength="4" /> &nbsp; ', '<select name="widthType">', '<option value="%">' + c.percent + "</option>", '<option value="px">' + c.px + "</option>", "</select> &nbsp; ", c.height + ' <input type="text" class="ke-input-text ke-input-number" name="height" value="" maxlength="4" /> &nbsp; ', '<select name="heightType">', '<option value="%">' + c.percent + "</option>", '<option value="px">' + c.px + "</option>", "</select>", "</div>", '<div class="ke-dialog-row">', '<label for="keAlign" style="width:90px;">' + c.align + "</label>", c.textAlign + ' <select id="keAlign" name="textAlign">', '<option value="">' + c.alignDefault + "</option>", '<option value="left">' + c.alignLeft + "</option>", '<option value="center">' + c.alignCenter + "</option>", '<option value="right">' + c.alignRight + "</option>", "</select> ", c.verticalAlign + ' <select name="verticalAlign">', '<option value="">' + c.alignDefault + "</option>", '<option value="top">' + c.alignTop + "</option>", '<option value="middle">' + c.alignMiddle + "</option>", '<option value="bottom">' + c.alignBottom + "</option>", '<option value="baseline">' + c.alignBaseline + "</option>", "</select>", "</div>", '<div class="ke-dialog-row">', '<label for="keBorder" style="width:90px;">' + c.border + "</label>", c.borderWidth + ' <input type="text" id="keBorder" class="ke-input-text ke-input-number" name="border" value="" maxlength="4" /> &nbsp; ', c.borderColor + ' <span class="ke-inline-block ke-input-color"></span>', "</div>", '<div class="ke-dialog-row">', '<label for="keBgColor" style="width:90px;">' + c.backgroundColor + "</label>", '<span class="ke-inline-block ke-input-color"></span>', "</div>", "</div>"].join(""), u = r.cmd.range.createBookmark(), l = r.createDialog({ name: s, width: 500, title: r.lang("tablecell"), body: d, beforeRemove: function() {
-          B.unbind();
+          A.unbind();
         }, yesBtn: { name: r.lang("yes"), click: function(x) {
-          var _ = p.val(), M = m.val(), F = g.val(), I = y.val(), O = (b.val(), C.val(), D.val()), U = A.val(), W = N.val(), z = e(B[0]).html() || "", V = e(B[1]).html() || "";
-          return /^\d*$/.test(_) ? /^\d*$/.test(M) ? /^\d*$/.test(W) ? (R.css({ width: _ !== "" ? _ + F : "", height: M !== "" ? M + I : "", "background-color": V, "text-align": O, "vertical-align": U, "border-width": W, "border-style": W !== "" ? "solid" : "", "border-color": z }), r.hideDialog().focus(), r.cmd.range.moveToBookmark(u), r.cmd.select(), void r.addBookmark()) : (alert(r.lang("invalidBorder")), void N[0].focus()) : (alert(r.lang("invalidHeight")), void m[0].focus()) : (alert(r.lang("invalidWidth")), void p[0].focus());
-        } } }), f = l.div, p = e('[name="width"]', f).val(100), m = e('[name="height"]', f), g = e('[name="widthType"]', f), y = e('[name="heightType"]', f), b = e('[name="padding"]', f).val(2), C = e('[name="spacing"]', f).val(0), D = e('[name="textAlign"]', f), A = e('[name="verticalAlign"]', f), N = e('[name="border"]', f).val(1), B = e(".ke-input-color", f);
-        n(f, B.eq(0)), n(f, B.eq(1)), t(B.eq(0), "#000000"), t(B.eq(1), ""), p[0].focus(), p[0].select();
-        var j, R = r.plugin.getSelectedCell(), E = R[0].style.width || R[0].width || "", S = R[0].style.height || R[0].height || "";
-        (j = /^(\d+)((?:px|%)*)$/.exec(E)) ? (p.val(j[1]), g.val(j[2])) : p.val(""), (j = /^(\d+)((?:px|%)*)$/.exec(S)) && (m.val(j[1]), y.val(j[2])), D.val(R[0].style.textAlign || ""), A.val(R[0].style.verticalAlign || "");
+          var _ = p.val(), M = m.val(), O = g.val(), L = y.val(), U = (b.val(), C.val(), E.val()), F = I.val(), W = N.val(), z = e(A[0]).html() || "", V = e(A[1]).html() || "";
+          return /^\d*$/.test(_) ? /^\d*$/.test(M) ? /^\d*$/.test(W) ? (R.css({ width: _ !== "" ? _ + O : "", height: M !== "" ? M + L : "", "background-color": V, "text-align": U, "vertical-align": F, "border-width": W, "border-style": W !== "" ? "solid" : "", "border-color": z }), r.hideDialog().focus(), r.cmd.range.moveToBookmark(u), r.cmd.select(), void r.addBookmark()) : (alert(r.lang("invalidBorder")), void N[0].focus()) : (alert(r.lang("invalidHeight")), void m[0].focus()) : (alert(r.lang("invalidWidth")), void p[0].focus());
+        } } }), f = l.div, p = e('[name="width"]', f).val(100), m = e('[name="height"]', f), g = e('[name="widthType"]', f), y = e('[name="heightType"]', f), b = e('[name="padding"]', f).val(2), C = e('[name="spacing"]', f).val(0), E = e('[name="textAlign"]', f), I = e('[name="verticalAlign"]', f), N = e('[name="border"]', f).val(1), A = e(".ke-input-color", f);
+        n(f, A.eq(0)), n(f, A.eq(1)), t(A.eq(0), "#000000"), t(A.eq(1), ""), p[0].focus(), p[0].select();
+        var j, R = r.plugin.getSelectedCell(), D = R[0].style.width || R[0].width || "", S = R[0].style.height || R[0].height || "";
+        (j = /^(\d+)((?:px|%)*)$/.exec(D)) ? (p.val(j[1]), g.val(j[2])) : p.val(""), (j = /^(\d+)((?:px|%)*)$/.exec(S)) && (m.val(j[1]), y.val(j[2])), E.val(R[0].style.textAlign || ""), I.val(R[0].style.verticalAlign || "");
         var w = R[0].style.borderWidth || "";
-        w && (w = parseInt(w)), N.val(w), t(B.eq(0), e.toHex(R[0].style.borderColor || "")), t(B.eq(1), e.toHex(R[0].style.backgroundColor || "")), p[0].focus(), p[0].select();
+        w && (w = parseInt(w)), N.val(w), t(A.eq(0), e.toHex(R[0].style.borderColor || "")), t(A.eq(1), e.toHex(R[0].style.backgroundColor || "")), p[0].focus(), p[0].select();
       }, insert: function() {
         this.prop(!0);
       }, delete: function() {
@@ -5405,10 +5468,10 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
           d === 1 && l.cells[g].colSpan > 1 && (b.colSpan = l.cells[g].colSpan), b.innerHTML = e.IE ? "" : "<br />";
         }
         for (var C = p; C >= 0; C--) {
-          var D = u.rows[C].cells;
-          if (D.length > g) {
-            for (var A = f.cellIndex; A >= 0; A--)
-              D[A].rowSpan > 1 && (D[A].rowSpan += 1);
+          var E = u.rows[C].cells;
+          if (E.length > g) {
+            for (var I = f.cellIndex; I >= 0; I--)
+              E[I].rowSpan > 1 && (E[I].rowSpan += 1);
             break;
           }
         }
@@ -5472,7 +5535,7 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
           t[i[0].checked ? "html" : "insertHtml"](a.val()).hideDialog().focus();
         } } }), a = e("select", c.div), i = e('[name="replaceFlag"]', c.div), d = e(".ke-temp-preview", c.div);
         i[0].checked = !1, d.html(a.val()), a.change(function() {
-          console.info(d), d.html(this.value);
+          d.html(this.value);
         });
       });
     }), KindEditor.plugin("wordpaste", function(e) {
@@ -5500,11 +5563,11 @@ $1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), u = i === "" ? "" : " lang-" + i, l 
         var r = e(o);
         return r.length < 1 ? void console.error("fixToolBarWatchRef can not be null") : void (n.isCreated ? t() : n.afterCreate(t));
       }
-    }), KindEditor.lang({ source: "HTML\u4EE3\u7801", preview: "\u9884\u89C8", undo: "\u540E\u9000(Ctrl+Z)", redo: "\u524D\u8FDB(Ctrl+Y)", cut: "\u526A\u5207(Ctrl+X)", copy: "\u590D\u5236(Ctrl+C)", paste: "\u7C98\u8D34(Ctrl+V)", plainpaste: "\u7C98\u8D34\u4E3A\u65E0\u683C\u5F0F\u6587\u672C", wordpaste: "\u4ECEWord\u7C98\u8D34", selectall: "\u5168\u9009(Ctrl+A)", justifyleft: "\u5DE6\u5BF9\u9F50", justifycenter: "\u5C45\u4E2D", justifyright: "\u53F3\u5BF9\u9F50", justifyfull: "\u4E24\u7AEF\u5BF9\u9F50", insertorderedlist: "\u7F16\u53F7", insertunorderedlist: "\u9879\u76EE\u7B26\u53F7", indent: "\u589E\u52A0\u7F29\u8FDB", outdent: "\u51CF\u5C11\u7F29\u8FDB", subscript: "\u4E0B\u6807", superscript: "\u4E0A\u6807", formatblock: "\u6BB5\u843D", fontname: "\u5B57\u4F53", fontsize: "\u6587\u5B57\u5927\u5C0F", forecolor: "\u6587\u5B57\u989C\u8272", hilitecolor: "\u6587\u5B57\u80CC\u666F", bold: "\u7C97\u4F53(Ctrl+B)", italic: "\u659C\u4F53(Ctrl+I)", underline: "\u4E0B\u5212\u7EBF(Ctrl+U)", strikethrough: "\u5220\u9664\u7EBF", removeformat: "\u5220\u9664\u683C\u5F0F", image: "\u56FE\u7247", multiimage: "\u6279\u91CF\u56FE\u7247\u4E0A\u4F20", flash: "Flash", media: "\u89C6\u97F3\u9891", table: "\u8868\u683C", tablecell: "\u5355\u5143\u683C", hr: "\u63D2\u5165\u6A2A\u7EBF", emoticons: "\u63D2\u5165\u8868\u60C5", link: "\u8D85\u7EA7\u94FE\u63A5", unlink: "\u53D6\u6D88\u8D85\u7EA7\u94FE\u63A5", fullscreen: "\u5168\u5C4F\u663E\u793A", about: "\u5173\u4E8E", print: "\u6253\u5370(Ctrl+P)", filemanager: "\u6587\u4EF6\u7A7A\u95F4", code: "\u63D2\u5165\u7A0B\u5E8F\u4EE3\u7801", map: "Google\u5730\u56FE", baidumap: "\u767E\u5EA6\u5730\u56FE", lineheight: "\u884C\u8DDD", clearhtml: "\u6E05\u7406HTML\u4EE3\u7801", pagebreak: "\u63D2\u5165\u5206\u9875\u7B26", quickformat: "\u4E00\u952E\u6392\u7248", insertfile: "\u63D2\u5165\u6587\u4EF6", template: "\u63D2\u5165\u6A21\u677F", anchor: "\u951A\u70B9", yes: "\u786E\u5B9A", no: "\u53D6\u6D88", close: "\u5173\u95ED", editImage: "\u56FE\u7247\u5C5E\u6027", deleteImage: "\u5220\u9664\u56FE\u7247", editFlash: "Flash\u5C5E\u6027", deleteFlash: "\u5220\u9664Flash", editMedia: "\u89C6\u97F3\u9891\u5C5E\u6027", deleteMedia: "\u5220\u9664\u89C6\u97F3\u9891", editLink: "\u8D85\u7EA7\u94FE\u63A5\u5C5E\u6027", deleteLink: "\u53D6\u6D88\u8D85\u7EA7\u94FE\u63A5", editAnchor: "\u951A\u70B9\u5C5E\u6027", deleteAnchor: "\u5220\u9664\u951A\u70B9", tableprop: "\u8868\u683C\u5C5E\u6027", tablecellprop: "\u5355\u5143\u683C\u5C5E\u6027", tableinsert: "\u63D2\u5165\u8868\u683C", tabledelete: "\u5220\u9664\u8868\u683C", tablecolinsertleft: "\u5DE6\u4FA7\u63D2\u5165\u5217", tablecolinsertright: "\u53F3\u4FA7\u63D2\u5165\u5217", tablerowinsertabove: "\u4E0A\u65B9\u63D2\u5165\u884C", tablerowinsertbelow: "\u4E0B\u65B9\u63D2\u5165\u884C", tablerowmerge: "\u5411\u4E0B\u5408\u5E76\u5355\u5143\u683C", tablecolmerge: "\u5411\u53F3\u5408\u5E76\u5355\u5143\u683C", tablerowsplit: "\u62C6\u5206\u884C", tablecolsplit: "\u62C6\u5206\u5217", tablecoldelete: "\u5220\u9664\u5217", tablerowdelete: "\u5220\u9664\u884C", noColor: "\u65E0\u989C\u8272", pleaseSelectFile: "\u8BF7\u9009\u62E9\u6587\u4EF6\u3002", invalidImg: `\u8BF7\u8F93\u5165\u6709\u6548\u7684URL\u5730\u5740\u3002
+    }), KindEditor.lang({ source: "HTML\u4EE3\u7801", preview: "\u9884\u89C8", undo: "\u540E\u9000(Ctrl+Z)", redo: "\u524D\u8FDB(Ctrl+Y)", cut: "\u526A\u5207(Ctrl+X)", copy: "\u590D\u5236(Ctrl+C)", paste: "\u7C98\u8D34(Ctrl+V)", plainpaste: "\u7C98\u8D34\u4E3A\u65E0\u683C\u5F0F\u6587\u672C", wordpaste: "\u4ECEWord\u7C98\u8D34", selectall: "\u5168\u9009(Ctrl+A)", justifyleft: "\u5DE6\u5BF9\u9F50", justifycenter: "\u5C45\u4E2D", justifyright: "\u53F3\u5BF9\u9F50", justifyfull: "\u4E24\u7AEF\u5BF9\u9F50", insertorderedlist: "\u7F16\u53F7", insertunorderedlist: "\u9879\u76EE\u7B26\u53F7", indent: "\u589E\u52A0\u7F29\u8FDB", outdent: "\u51CF\u5C11\u7F29\u8FDB", subscript: "\u4E0B\u6807", quote: "\u5F15\u7528", superscript: "\u4E0A\u6807", formatblock: "\u6BB5\u843D", fontname: "\u5B57\u4F53", fontsize: "\u6587\u5B57\u5927\u5C0F", forecolor: "\u6587\u5B57\u989C\u8272", hilitecolor: "\u6587\u5B57\u80CC\u666F", bold: "\u7C97\u4F53(Ctrl+B)", italic: "\u659C\u4F53(Ctrl+I)", underline: "\u4E0B\u5212\u7EBF(Ctrl+U)", strikethrough: "\u5220\u9664\u7EBF", removeformat: "\u5220\u9664\u683C\u5F0F", image: "\u56FE\u7247", multiimage: "\u6279\u91CF\u56FE\u7247\u4E0A\u4F20", flash: "Flash", media: "\u89C6\u97F3\u9891", table: "\u8868\u683C", tablecell: "\u5355\u5143\u683C", hr: "\u63D2\u5165\u6A2A\u7EBF", emoticons: "\u63D2\u5165\u8868\u60C5", link: "\u8D85\u7EA7\u94FE\u63A5", unlink: "\u53D6\u6D88\u8D85\u7EA7\u94FE\u63A5", fullscreen: "\u5168\u5C4F\u663E\u793A", about: "\u5173\u4E8E", print: "\u6253\u5370(Ctrl+P)", filemanager: "\u6587\u4EF6\u7A7A\u95F4", code: "\u63D2\u5165\u7A0B\u5E8F\u4EE3\u7801", map: "Google\u5730\u56FE", baidumap: "\u767E\u5EA6\u5730\u56FE", lineheight: "\u884C\u8DDD", clearhtml: "\u6E05\u7406HTML\u4EE3\u7801", pagebreak: "\u63D2\u5165\u5206\u9875\u7B26", quickformat: "\u4E00\u952E\u6392\u7248", insertfile: "\u63D2\u5165\u6587\u4EF6", template: "\u63D2\u5165\u6A21\u677F", anchor: "\u951A\u70B9", yes: "\u786E\u5B9A", no: "\u53D6\u6D88", close: "\u5173\u95ED", editImage: "\u56FE\u7247\u5C5E\u6027", deleteImage: "\u5220\u9664\u56FE\u7247", editFlash: "Flash\u5C5E\u6027", deleteFlash: "\u5220\u9664Flash", editMedia: "\u89C6\u97F3\u9891\u5C5E\u6027", deleteMedia: "\u5220\u9664\u89C6\u97F3\u9891", editLink: "\u8D85\u7EA7\u94FE\u63A5\u5C5E\u6027", deleteLink: "\u53D6\u6D88\u8D85\u7EA7\u94FE\u63A5", editAnchor: "\u951A\u70B9\u5C5E\u6027", deleteAnchor: "\u5220\u9664\u951A\u70B9", tableprop: "\u8868\u683C\u5C5E\u6027", tablecellprop: "\u5355\u5143\u683C\u5C5E\u6027", tableinsert: "\u63D2\u5165\u8868\u683C", tabledelete: "\u5220\u9664\u8868\u683C", tablecolinsertleft: "\u5DE6\u4FA7\u63D2\u5165\u5217", tablecolinsertright: "\u53F3\u4FA7\u63D2\u5165\u5217", tablerowinsertabove: "\u4E0A\u65B9\u63D2\u5165\u884C", tablerowinsertbelow: "\u4E0B\u65B9\u63D2\u5165\u884C", tablerowmerge: "\u5411\u4E0B\u5408\u5E76\u5355\u5143\u683C", tablecolmerge: "\u5411\u53F3\u5408\u5E76\u5355\u5143\u683C", tablerowsplit: "\u62C6\u5206\u884C", tablecolsplit: "\u62C6\u5206\u5217", tablecoldelete: "\u5220\u9664\u5217", tablerowdelete: "\u5220\u9664\u884C", noColor: "\u65E0\u989C\u8272", pleaseSelectFile: "\u8BF7\u9009\u62E9\u6587\u4EF6\u3002", invalidImg: `\u8BF7\u8F93\u5165\u6709\u6548\u7684URL\u5730\u5740\u3002
 \u53EA\u5141\u8BB8jpg,gif,bmp,png\u683C\u5F0F\u3002`, invalidMedia: `\u8BF7\u8F93\u5165\u6709\u6548\u7684URL\u5730\u5740\u3002
 \u53EA\u5141\u8BB8swf,flv,mp3,wav,wma,wmv,mid,avi,mpg,asf,rm,rmvb\u683C\u5F0F\u3002`, invalidWidth: "\u5BBD\u5EA6\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidHeight: "\u9AD8\u5EA6\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidBorder: "\u8FB9\u6846\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidUrl: "\u8BF7\u8F93\u5165\u6709\u6548\u7684URL\u5730\u5740\u3002", invalidRows: "\u884C\u6570\u4E3A\u5FC5\u9009\u9879\uFF0C\u53EA\u5141\u8BB8\u8F93\u5165\u5927\u4E8E0\u7684\u6570\u5B57\u3002", invalidCols: "\u5217\u6570\u4E3A\u5FC5\u9009\u9879\uFF0C\u53EA\u5141\u8BB8\u8F93\u5165\u5927\u4E8E0\u7684\u6570\u5B57\u3002", invalidPadding: "\u8FB9\u8DDD\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidSpacing: "\u95F4\u8DDD\u5FC5\u987B\u4E3A\u6570\u5B57\u3002", invalidJson: "\u670D\u52A1\u5668\u53D1\u751F\u6545\u969C\u3002", uploadSuccess: "\u4E0A\u4F20\u6210\u529F\u3002", cutError: "\u60A8\u7684\u6D4F\u89C8\u5668\u5B89\u5168\u8BBE\u7F6E\u4E0D\u5141\u8BB8\u4F7F\u7528\u526A\u5207\u64CD\u4F5C\uFF0C\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+X)\u6765\u5B8C\u6210\u3002", copyError: "\u60A8\u7684\u6D4F\u89C8\u5668\u5B89\u5168\u8BBE\u7F6E\u4E0D\u5141\u8BB8\u4F7F\u7528\u590D\u5236\u64CD\u4F5C\uFF0C\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+C)\u6765\u5B8C\u6210\u3002", pasteError: "\u60A8\u7684\u6D4F\u89C8\u5668\u5B89\u5168\u8BBE\u7F6E\u4E0D\u5141\u8BB8\u4F7F\u7528\u7C98\u8D34\u64CD\u4F5C\uFF0C\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+V)\u6765\u5B8C\u6210\u3002", ajaxLoading: "\u52A0\u8F7D\u4E2D\uFF0C\u8BF7\u7A0D\u5019 ...", uploadLoading: "\u4E0A\u4F20\u4E2D\uFF0C\u8BF7\u7A0D\u5019 ...", uploadError: "\u4E0A\u4F20\u9519\u8BEF", "plainpaste.comment": "\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+V)\u628A\u5185\u5BB9\u7C98\u8D34\u5230\u4E0B\u9762\u7684\u65B9\u6846\u91CC\u3002", "wordpaste.comment": "\u8BF7\u4F7F\u7528\u5FEB\u6377\u952E(Ctrl+V)\u628A\u5185\u5BB9\u7C98\u8D34\u5230\u4E0B\u9762\u7684\u65B9\u6846\u91CC\u3002", "code.pleaseInput": "\u8BF7\u8F93\u5165\u7A0B\u5E8F\u4EE3\u7801\u3002", "link.url": "URL", "link.linkType": "\u6253\u5F00\u7C7B\u578B", "link.newWindow": "\u65B0\u7A97\u53E3", "link.selfWindow": "\u5F53\u524D\u7A97\u53E3", "flash.url": "URL", "flash.width": "\u5BBD\u5EA6", "flash.height": "\u9AD8\u5EA6", "flash.upload": "\u4E0A\u4F20", "flash.viewServer": "\u6587\u4EF6\u7A7A\u95F4", "media.url": "URL", "media.width": "\u5BBD\u5EA6", "media.height": "\u9AD8\u5EA6", "media.autostart": "\u81EA\u52A8\u64AD\u653E", "media.upload": "\u4E0A\u4F20", "media.viewServer": "\u6587\u4EF6\u7A7A\u95F4", "image.remoteImage": "\u7F51\u7EDC\u56FE\u7247", "image.localImage": "\u672C\u5730\u4E0A\u4F20", "image.remoteUrl": "\u56FE\u7247\u5730\u5740", "image.localUrl": "\u4E0A\u4F20\u6587\u4EF6", "image.size": "\u56FE\u7247\u5927\u5C0F", "image.width": "\u5BBD", "image.height": "\u9AD8", "image.resetSize": "\u91CD\u7F6E\u5927\u5C0F", "image.align": "\u5BF9\u9F50\u65B9\u5F0F", "image.defaultAlign": "\u9ED8\u8BA4\u65B9\u5F0F", "image.leftAlign": "\u5DE6\u5BF9\u9F50", "image.rightAlign": "\u53F3\u5BF9\u9F50", "image.imgTitle": "\u56FE\u7247\u8BF4\u660E", "image.upload": "\u6D4F\u89C8...", "image.viewServer": "\u56FE\u7247\u7A7A\u95F4", "multiimage.uploadDesc": "\u5141\u8BB8\u7528\u6237\u540C\u65F6\u4E0A\u4F20<%=uploadLimit%>\u5F20\u56FE\u7247\uFF0C\u5355\u5F20\u56FE\u7247\u5BB9\u91CF\u4E0D\u8D85\u8FC7<%=sizeLimit%>", "multiimage.startUpload": "\u5F00\u59CB\u4E0A\u4F20", "multiimage.clearAll": "\u5168\u90E8\u6E05\u7A7A", "multiimage.insertAll": "\u5168\u90E8\u63D2\u5165", "multiimage.queueLimitExceeded": "\u6587\u4EF6\u6570\u91CF\u8D85\u8FC7\u9650\u5236\u3002", "multiimage.fileExceedsSizeLimit": "\u6587\u4EF6\u5927\u5C0F\u8D85\u8FC7\u9650\u5236\u3002", "multiimage.zeroByteFile": "\u65E0\u6CD5\u4E0A\u4F20\u7A7A\u6587\u4EF6\u3002", "multiimage.invalidFiletype": "\u6587\u4EF6\u7C7B\u578B\u4E0D\u6B63\u786E\u3002", "multiimage.unknownError": "\u53D1\u751F\u5F02\u5E38\uFF0C\u65E0\u6CD5\u4E0A\u4F20\u3002", "multiimage.pending": "\u7B49\u5F85\u4E0A\u4F20", "multiimage.uploadError": "\u4E0A\u4F20\u5931\u8D25", "filemanager.emptyFolder": "\u7A7A\u6587\u4EF6\u5939", "filemanager.moveup": "\u79FB\u5230\u4E0A\u4E00\u7EA7\u6587\u4EF6\u5939", "filemanager.viewType": "\u663E\u793A\u65B9\u5F0F\uFF1A", "filemanager.viewImage": "\u7F29\u7565\u56FE", "filemanager.listImage": "\u8BE6\u7EC6\u4FE1\u606F", "filemanager.orderType": "\u6392\u5E8F\u65B9\u5F0F\uFF1A", "filemanager.fileName": "\u540D\u79F0", "filemanager.fileSize": "\u5927\u5C0F", "filemanager.fileType": "\u7C7B\u578B", "insertfile.url": "URL", "insertfile.title": "\u6587\u4EF6\u8BF4\u660E", "insertfile.upload": "\u4E0A\u4F20", "insertfile.viewServer": "\u6587\u4EF6\u7A7A\u95F4", "table.cells": "\u5355\u5143\u683C\u6570", "table.rows": "\u884C\u6570", "table.cols": "\u5217\u6570", "table.size": "\u5927\u5C0F", "table.width": "\u5BBD\u5EA6", "table.height": "\u9AD8\u5EA6", "table.percent": "%", "table.px": "px", "table.space": "\u8FB9\u8DDD\u95F4\u8DDD", "table.padding": "\u8FB9\u8DDD", "table.spacing": "\u95F4\u8DDD", "table.align": "\u5BF9\u9F50\u65B9\u5F0F", "table.textAlign": "\u6C34\u5E73\u5BF9\u9F50", "table.verticalAlign": "\u5782\u76F4\u5BF9\u9F50", "table.alignDefault": "\u9ED8\u8BA4", "table.alignLeft": "\u5DE6\u5BF9\u9F50", "table.alignCenter": "\u5C45\u4E2D", "table.alignRight": "\u53F3\u5BF9\u9F50", "table.alignTop": "\u9876\u90E8", "table.alignMiddle": "\u4E2D\u90E8", "table.alignBottom": "\u5E95\u90E8", "table.alignBaseline": "\u57FA\u7EBF", "table.border": "\u8FB9\u6846", "table.borderWidth": "\u8FB9\u6846", "table.borderColor": "\u989C\u8272", "table.backgroundColor": "\u80CC\u666F\u989C\u8272", "map.address": "\u5730\u5740: ", "map.search": "\u641C\u7D22", "baidumap.address": "\u5730\u5740: ", "baidumap.search": "\u641C\u7D22", "baidumap.insertDynamicMap": "\u63D2\u5165\u52A8\u6001\u5730\u56FE", "anchor.name": "\u951A\u70B9\u540D\u79F0", "formatblock.formatBlock": { h1: "\u6807\u9898 1", h2: "\u6807\u9898 2", h3: "\u6807\u9898 3", h4: "\u6807\u9898 4", p: "\u6B63 \u6587" }, "fontname.fontName": { SimSun: "\u5B8B\u4F53", NSimSun: "\u65B0\u5B8B\u4F53", FangSong_GB2312: "\u4EFF\u5B8B_GB2312", KaiTi_GB2312: "\u6977\u4F53_GB2312", SimHei: "\u9ED1\u4F53", "Microsoft YaHei": "\u5FAE\u8F6F\u96C5\u9ED1", Arial: "Arial", "Arial Black": "Arial Black", "Times New Roman": "Times New Roman", "Courier New": "Courier New", Tahoma: "Tahoma", Verdana: "Verdana" }, "lineheight.lineHeight": [{ 1: "\u5355\u500D\u884C\u8DDD" }, { 1.5: "1.5\u500D\u884C\u8DDD" }, { 2: "2\u500D\u884C\u8DDD" }, { 2.5: "2.5\u500D\u884C\u8DDD" }, { 3: "3\u500D\u884C\u8DDD" }], "template.selectTemplate": "\u53EF\u9009\u6A21\u677F", "template.replaceContent": "\u66FF\u6362\u5F53\u524D\u5185\u5BB9", "template.fileList": { "1.html": "\u56FE\u7247\u548C\u6587\u5B57", "2.html": "\u8868\u683C", "3.html": "\u9879\u76EE\u7F16\u53F7" } }, "zh-CN"), KindEditor.options.langType = "zh-CN", KindEditor;
   });
-})(Oi);
+})(Ui);
 const dt = KindEditor, Pi = ["id"], ji = {
   __name: "VKindEditor",
   props: {
@@ -5529,9 +5592,16 @@ const dt = KindEditor, Pi = ["id"], ji = {
   emits: ["update:modelValue"],
   setup(We, { emit: ft }) {
     var J, X;
-    const ie = We;
+    const ee = We;
     var re = null;
-    const pe = (J = ie.configs) == null ? void 0 : J.afterBlur, P = (X = ie.configs) == null ? void 0 : X.afterChange, ee = ie.id;
+    Ni(() => {
+      dt.remove("#" + te), re = dt.create("#" + te, $e), ee && ee.modelValue && re.html(ee.modelValue);
+    }), Ii(() => {
+      dt.remove("#" + te), re && re.remove(), re = null;
+    }), Ai(() => {
+      dt.remove("#" + te), re = dt.create("#" + te, $e), ee && ee.modelValue && re.html(ee.modelValue);
+    });
+    const pe = (J = ee.configs) == null ? void 0 : J.afterBlur, P = (X = ee.configs) == null ? void 0 : X.afterChange, te = ee.id;
     var $e = Object.assign(
       {
         loadStyleMode: !1,
@@ -5539,7 +5609,7 @@ const dt = KindEditor, Pi = ["id"], ji = {
         pasteType: 2,
         newlineTag: "p"
       },
-      ie.configs,
+      ee.configs,
       {
         allowFlashUpload: !1,
         allowFileManager: !1,
@@ -5551,27 +5621,21 @@ const dt = KindEditor, Pi = ["id"], ji = {
         }
       }
     );
-    return Ni(
-      () => ie.readonly,
+    return Li(
+      () => ee.readonly,
       (se) => {
         re && re.readonly(se);
       }
-    ), Ii(() => {
-      dt.remove("#" + ee), re = dt.create("#" + ee, $e), ie.modelValue && re.html(ie.modelValue);
-    }), Ai(() => {
-      dt.remove("#" + ee), re && re.remove(), re = null;
-    }), Li(() => {
-      dt.remove("#" + ee), re = dt.create("#" + ee, $e), ie.modelValue && re.html(ie.modelValue);
-    }), (se, Ve) => (Ri(), Bi("div", {
-      id: Fi(ee),
+    ), (se, Ve) => (Ri(), Bi("div", {
+      id: Oi(te),
       style: { visibility: "hidden" }
     }, null, 8, Pi));
   }
 };
 const Hi = {
   install(We, ft) {
-    const ie = ft || { name: "VKindEditor" };
-    We.component(ie.name, ji);
+    const ee = ft || { name: "VKindEditor" };
+    We.component(ee.name, ji);
   }
 };
 export {

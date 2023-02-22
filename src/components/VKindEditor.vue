@@ -2,10 +2,27 @@
   <div :id="editorId" style="visibility: hidden;"></div>
 </template>
 <script setup>
+
 import KindEditor from "mhalo.kindeditor";
-import { onActivated, onDeactivated, onMounted, reactive, watch } from "vue";
-const updateEmit = defineEmits(["update:modelValue"]);
+import { onActivated, onDeactivated, onMounted, watch } from "vue";
 var editor = null;
+onMounted(() => {
+  KindEditor.remove("#" + editorId);
+  editor = KindEditor.create("#" + editorId, options);
+  props && props.modelValue && editor.html(props.modelValue);
+});
+onDeactivated(() => {
+  KindEditor.remove("#" + editorId);
+  editor && editor.remove();
+  editor = null;
+});
+onActivated(() => {
+  KindEditor.remove("#" + editorId);
+  editor = KindEditor.create("#" + editorId, options);
+  props && props.modelValue && editor.html(props.modelValue);
+});
+
+const updateEmit = defineEmits(["update:modelValue"]);
 const props = defineProps({
   id: {
     type: String,
@@ -59,19 +76,4 @@ watch(
   }
 );
 
-onMounted(() => {
-  KindEditor.remove("#" + editorId);
-  editor = KindEditor.create("#" + editorId, options);
-  props.modelValue && editor.html(props.modelValue);
-});
-onDeactivated(() => {
-  KindEditor.remove("#" + editorId);
-  editor && editor.remove();
-  editor = null;
-});
-onActivated(() => {
-  KindEditor.remove("#" + editorId);
-  editor = KindEditor.create("#" + editorId, options);
-  props.modelValue && editor.html(props.modelValue);
-});
 </script>

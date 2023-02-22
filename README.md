@@ -8,6 +8,9 @@ a component use mhalo.kindeditor for vue3.
 
 ## 更新日志
 
+v1.2.4 (2022-11-13)  
+1. ReadMe中增加关于vite.config.js配置的文档信息
+
 v1.2.3 (2022-11-10)  
 1. 修复页面存在切换动画的情况下，onDeactivated时编辑器文本展示异常的bug
 2. 修复页面切换editor为null时报错的异常
@@ -27,6 +30,21 @@ pnpm i mhalo.vue-kindeditor
 ```
 
 ## 使用
+```
+vite.config.js 中增加配置 ->
+
+optimizeDeps: {
+    exclude: ['mhalo.vue-kindeditor'], 
+},
+build: {
+    commonjsOptions: { 
+        exclude: ['mhalo.vue-kindeditor'], 
+        transformMixedEsModules: true,
+        },
+},
+
+```
+
 ```
 import { createApp } from 'vue'
 import App from './App.vue'
