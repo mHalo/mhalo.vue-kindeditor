@@ -7,6 +7,11 @@ a component use mhalo.kindeditor for vue3.
 
 
 ## 更新日志
+v1.3.0 (2023-02-24)  
+1. 更新mhalo.kindeditor版本至4.4.6，具体更新详情： [mhalo.kindeditor@4.4.3](https://github.com/mHalo/mhalo.kindeditor)
+
+v1.2.9 (2023-02-22)  
+1. 更新mhalo.kindeditor版本至4.4.3
 
 v1.2.4 (2022-11-13)  
 1. ReadMe中增加关于vite.config.js配置的文档信息
