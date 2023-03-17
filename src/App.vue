@@ -16,9 +16,15 @@ const editor = reactive({
         autoHeightMode: false,
         fixToolBar: true,
         // fixToolBarWatchRef: '#layoutBody',
-        uploadJson: '/handler/upload-test?dir=image',
+        uploadJson: '/handler/upload-test',
         uploadHeader:{
             corefx: 'mhalo'
+        },
+        extraFileUploadParams:{
+            'paramA': 'A'
+        },
+        uploadResponseFilter: function(response){
+            return response.data
         },
         imageSizeLimit: '2MB',
         items: KindEditor.Tools.Normal,

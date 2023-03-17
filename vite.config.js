@@ -27,5 +27,25 @@ export default defineConfig({
         }
       }
     }
+  },
+  server: {
+      host: '127.0.0.1',
+      port: 8080,
+      open: false,
+      hmr: true,
+      proxy: [
+          '/authen', '/sysmenu', '/sysuser',
+          '/images', '/handler', '/uploadfiles',
+          '/sysrole', '/sys-user-role', '/sys-user-auth',
+          '/sys-role-auth', '/sys-auth', '/property-dictionary'
+      ].reduce((t, c, i) => { 
+          const proxyHost = 1 ? 'http://127.0.0.1:5801/' : 'http://192.168.2.222:5801/';
+          t[c] = {
+              target: proxyHost,
+              changeOrigin: true,
+              rewrite: (path) => path
+          }
+          return t
+      }, {})
   }
 })
