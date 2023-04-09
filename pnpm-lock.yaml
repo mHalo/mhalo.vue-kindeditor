@@ -2,13 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vitejs/plugin-vue': ^3.2.0
-  mhalo.kindeditor: ^4.4.10
+  mhalo.kindeditor: ^4.4.11
   vite: ^3.2.5
   vite-plugin-style-inject: ^0.0.1
   vue: ^3.2.47
 
 dependencies:
-  mhalo.kindeditor: 4.4.10
+  mhalo.kindeditor: 4.4.11
   vue: 3.2.47
 
 devDependencies:
@@ -389,8 +389,8 @@ packages:
     dependencies:
       sourcemap-codec: 1.4.8
 
-  /mhalo.kindeditor/4.4.10:
-    resolution: {integrity: sha512-Tx40C7+dy5z2sviBzfZHZNnieSUPkTzhxNNi9tqll8xO9cYuXWuC0Gh2H+CugW9eBZlU3wlL69dbzGEWGManPg==}
+  /mhalo.kindeditor/4.4.11:
+    resolution: {integrity: sha512-HLw+KlFmSNbLiXa1d6LdhLKRDinfaAzw8xeSeP/HsTmW/U+geeYuycs/7VNG2bym5013XyoSO/McVzQTp1fYRQ==}
     dev: false
 
   /nanoid/3.3.4:

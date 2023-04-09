@@ -27,7 +27,7 @@ const editor = reactive({
             return response.data
         },
         imageSizeLimit: '2MB',
-        items: KindEditor.Tools.Normal,
+        items: KindEditor.Tools.All,
         cssData: 'body{font-size: 16px;line-height: 28px;}',
         afterChange: function(){
             console.info('afterChange')
