@@ -870,7 +870,7 @@ var Oi = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       return e = Ce(e), e.contentDocument || e.contentWindow.document;
     }
     function ui(e, t, n, o) {
-      var i = [Xt === "" ? "<html>" : '<html dir="' + Xt + '">', '<head><meta charset="utf-8" /><title></title>', "<style>", "html,body {margin:0;padding:0;}", 'body, td {font:12px/1.5 "PingFang","Microsoft Yahei","\u82F9\u65B9","\u5FAE\u8F6F\u96C5\u9ED1", "sans serif",tahoma,verdana,helvetica;}', "body, p, div {word-wrap: break-word;line-height:28px;}", "table {border-collapse:collapse;}", "noscript {display:none;}", "table.ke-zeroborder td {border:1px dotted #AAA;}", ".ke-content {padding: 15px;}", 'img[data-ke-class="ke-image"] { max-width: 100%;border: 2px solid transparent; }', 'img[data-ke-class="ke-image"]:hover { border-color: #4696ec; }', "audio,video{ border:3px solid transparent; }", "audio:hover, video:hover{ border:3px solid #2196f3; }", "pre{ font-size: 14px;line-height: 20px;width: 100%;background-color: #f4f2f0;padding: 6px 18px;box-sizing: border-box; border: 3px solid transparent;}", "pre:hover{border: 3px solid #4696ec;}", ".ke-script, .ke-noscript, .ke-display-none {", "	display:none;", "	font-size:0;", "	width:0;", "	height:0;", "}", ".ke-pagebreak {", "	border:1px dotted #AAA;", "	font-size:0;", "	height:2px;", "}", "</style>"];
+      var i = [Xt === "" ? "<html>" : '<html dir="' + Xt + '">', '<head><meta charset="utf-8" /><title></title>', "<style>", "html,body {margin:0;padding:0;}", 'body, td {font:12px/1.5 "PingFang","Microsoft Yahei","\u82F9\u65B9","\u5FAE\u8F6F\u96C5\u9ED1", "sans serif",tahoma,verdana,helvetica;}', "body, p, div {word-wrap: break-word;line-height:28px;}", "table {border-collapse:collapse;}", "noscript {display:none;}", "table.ke-zeroborder td {border:1px dotted #AAA;}", ".ke-content {padding: 15px;}", 'img[data-ke-class="ke-image"] { max-width: 100%;border: 2px solid transparent; }', 'img[data-ke-class="ke-image"]:hover { border-color: #4696ec; }', "audio,video{ border:3px solid transparent; }", "audio:hover, video:hover{ border:3px solid #2196f3; }", "pre{ font-size: 14px;line-height: 20px;width: 100%;background-color: #f4f2f0;padding: 6px 18px;box-sizing: border-box; border: 3px solid transparent;}", "pre:hover,pre:active{border: 3px solid #4696ec;}", ".ke-script, .ke-noscript, .ke-display-none {", "	display:none;", "	font-size:0;", "	width:0;", "	height:0;", "}", ".ke-pagebreak {", "	border:1px dotted #AAA;", "	font-size:0;", "	height:2px;", "}", "</style>"];
       return ee(n) || (n = [n]), z(n, function(s, c) {
         c && i.push('<link href="' + c + '" rel="stylesheet" />');
       }), o && i.push("<style>" + o + "</style>"), i.push("</head><body " + (t ? 'class="' + t + '"' : "") + ' author="MHalo"></body></html>'), i.join(`
@@ -3320,7 +3320,7 @@ var Oi = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), n("webuploader");
     }), window.console || (window.console = {}), console.log || (console.log = function() {
     });
-    var Ct = "4.4.11 (2023-04-09)", ke = navigator.userAgent.toLowerCase(), Y = ke.indexOf("msie") > -1 && ke.indexOf("opera") == -1, bi = ke.indexOf("msie") == -1 && ke.indexOf("trident") > -1, Be = ke.indexOf("gecko") > -1 && ke.indexOf("khtml") == -1, Oe = ke.indexOf("applewebkit") > -1, Qt = ke.indexOf("opera") > -1, wi = ke.indexOf("mobile") > -1, xi = /ipad|iphone|ipod/.test(ke), Ne = document.compatMode != "CSS1Compat", be = !window.getSelection, An = /(?:msie|firefox|webkit|opera)[\/:\s](\d+)/.exec(ke), ce = An ? An[1] : "0", _t = new Date().getTime(), Ie = Math.round, v = { DEBUG: !1, VERSION: Ct, IE: Y, GECKO: Be, WEBKIT: Oe, OPERA: Qt, V: ce, TIME: _t, each: z, isArray: ee, isFunction: ie, inArray: he, inString: Ke, trim: te, addUnit: J, removeUnit: Z, escape: se, unescape: Ge, toCamel: Qe, toHex: mt, toMap: re, toArray: Nt, undef: V, invalidUrl: $n, addParam: Vn, extend: me, json: en }, Rn = re("a,abbr,acronym,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,img,input,ins,kbd,label,map,q,s,samp,select,small,span,strike,strong,sub,sup,textarea,tt,u,var"), Ln = re("address,applet,blockquote,body,center,dd,dir,div,dl,dt,fieldset,form,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,iframe,ins,isindex,li,map,menu,meta,noframes,noscript,object,ol,p,pre,script,style,table,tbody,td,tfoot,th,thead,title,tr,ul,audio,video"), Fn = re("area,base,basefont,br,col,frame,hr,img,input,isindex,link,meta,param,embed"), Bn = re("b,basefont,big,del,em,font,i,s,small,span,strike,strong,sub,sup,u"), Ci = re("img,table,input,textarea,button,audio,video"), Yt = re("pre,style,script"), Tt = re("html,head,body,td,tr,table,ol,ul,li"), _i = (re("colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr"), re("checked,compact,declare,defer,disabled,ismap,multiple,nohref,noresize,noshade,nowrap,readonly,selected")), Ti = re("input,button,textarea,select");
+    var Ct = "4.4.13 (2023-04-11)", ke = navigator.userAgent.toLowerCase(), Y = ke.indexOf("msie") > -1 && ke.indexOf("opera") == -1, bi = ke.indexOf("msie") == -1 && ke.indexOf("trident") > -1, Be = ke.indexOf("gecko") > -1 && ke.indexOf("khtml") == -1, Oe = ke.indexOf("applewebkit") > -1, Qt = ke.indexOf("opera") > -1, wi = ke.indexOf("mobile") > -1, xi = /ipad|iphone|ipod/.test(ke), Ne = document.compatMode != "CSS1Compat", be = !window.getSelection, An = /(?:msie|firefox|webkit|opera)[\/:\s](\d+)/.exec(ke), ce = An ? An[1] : "0", _t = new Date().getTime(), Ie = Math.round, v = { DEBUG: !1, VERSION: Ct, IE: Y, GECKO: Be, WEBKIT: Oe, OPERA: Qt, V: ce, TIME: _t, each: z, isArray: ee, isFunction: ie, inArray: he, inString: Ke, trim: te, addUnit: J, removeUnit: Z, escape: se, unescape: Ge, toCamel: Qe, toHex: mt, toMap: re, toArray: Nt, undef: V, invalidUrl: $n, addParam: Vn, extend: me, json: en }, Rn = re("a,abbr,acronym,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,img,input,ins,kbd,label,map,q,s,samp,select,small,span,strike,strong,sub,sup,textarea,tt,u,var"), Ln = re("address,applet,blockquote,body,center,dd,dir,div,dl,dt,fieldset,form,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,iframe,ins,isindex,li,map,menu,meta,noframes,noscript,object,ol,p,pre,script,style,table,tbody,td,tfoot,th,thead,title,tr,ul,audio,video"), Fn = re("area,base,basefont,br,col,frame,hr,img,input,isindex,link,meta,param,embed"), Bn = re("b,basefont,big,del,em,font,i,s,small,span,strike,strong,sub,sup,u"), Ci = re("img,table,input,textarea,button,audio,video"), Yt = re("pre,style,script"), Tt = re("html,head,body,td,tr,table,ol,ul,li"), _i = (re("colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr"), re("checked,compact,declare,defer,disabled,ismap,multiple,nohref,noresize,noshade,nowrap,readonly,selected")), Ti = re("input,button,textarea,select");
     v.basePath = Kn(), v.Tools = { All: ["source", "|", "undo", "redo", "removeformat", "clearhtml", "|", "template", "code", "cut", "copy", "plainpaste", "wordpaste", "|", "preview", "selectall", "fullscreen", "print", "|", "quickformat", "/", "formatblock", "fontname", "fontsize", "|", "forecolor", "hilitecolor", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "quote", "subscript", "superscript", "|", "image", "multiimage", "media", "insertfile", "baidumap", "link", "unlink", "|", "table", "anchor", "hr", "pagebreak", "|", "emoticons", "symbols"], Normal: ["source", "|", "formatblock", "fontname", "fontsize", "|", "forecolor", "hilitecolor", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "image", "multiimage", "media", "insertfile", "baidumap", "link", "unlink", "|", "table", "anchor", "hr", "pagebreak", "|", "quote", "subscript", "superscript", "|", "preview", "fullscreen", "quickformat", "emoticons", "symbols"], Small: ["source", "|", "formatblock", "fontname", "fontsize", "|", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "indent", "outdent", "lineheight", "/", "quote", "image", "multiimage", "media", "insertfile", "|", "table", "hr", "pagebreak", "|", "link", "unlink", "|", "preview", "fullscreen"], Mini: ["formatblock", "bold", "italic", "underline", "strikethrough", "|", "justifyleft", "justifycenter", "justifyright", "justifyfull", "|", "insertorderedlist", "insertunorderedlist", "|", "image", "insertfile", "table", "link", "unlink"] }, v.Templates = [{ name: "\u56FE\u7247\u548C\u6587\u5B57", content: '<h3><img align="left" height="100" style="margin-right: 10px" width="100" />\u5728\u6B64\u5904\u8F93\u5165\u6807\u9898</h3><p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p>' }, { name: "\u8868\u683C", content: '<h3>\u6807\u9898</h3><table style="width:100%;" cellpadding="2" cellspacing="0" border="1"><tbody><tr><td><h3>\u6807\u98981</h3></td><td><h3>\u6807\u98981</h3></td></tr><tr><td>\u5185\u5BB91</td><td>\u5185\u5BB92</td></tr><tr><td>\u5185\u5BB93</td><td>\u5185\u5BB94</td></tr></tbody></table><p>\u8868\u683C\u8BF4\u660E</p>' }, { name: "\u9879\u76EE\u7F16\u53F7", content: "<p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p><ol><li>\u63CF\u8FF01</li><li>\u63CF\u8FF02</li><li>\u63CF\u8FF03</li></ol><p>\u5728\u6B64\u5904\u8F93\u5165\u5185\u5BB9</p><ul><li>\u63CF\u8FF01</li><li>\u63CF\u8FF02</li><li>\u63CF\u8FF03</li></ul>" }], v.options = { designMode: !0, fullscreenMode: !1, filterMode: !0, wellFormatMode: !0, shadowMode: !0, loadStyleMode: !0, basePath: v.basePath, themesPath: v.basePath + "themes/", langPath: v.basePath + "lang/", pluginsPath: v.basePath + "plugins/", themeType: "default", langType: "zh-CN", urlType: "", newlineTag: "p", resizeType: 2, syncType: "form", pasteType: 2, dialogAlignType: "page", useContextmenu: !0, fullscreenShortcut: !1, bodyClass: "ke-content", indentChar: "	", cssPath: "", cssData: "", minWidth: 650, minHeight: 100, minChangeSize: 50, zIndex: 811213, items: v.Tools.Normal, noDisableItems: ["source", "fullscreen"], colorTable: [["#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#4e5f70", "#f1c40f"], ["#16a085", "#27ae60", "#2980b9", "#8e44ad", "#2c3e50", "#f39c12"], ["#E53333", "#E56600", "#FF9900", "#64451D", "#DFC5A4", "#FFE500"], ["#009900", "#006600", "#99BB00", "#B8D100", "#60D978", "#00D5FF"], ["#337FE5", "#003399", "#4C33E5", "#9933E5", "#CC33E5", "#EE33EE"], ["#FFFFFF", "#CCCCCC", "#999999", "#666666", "#333333", "#000000"]], fontSizeTable: ["9px", "10px", "12px", "14px", "16px", "18px", "24px", "32px"], htmlTags: { font: ["id", "class", "color", "size", "face", ".background-color"], span: ["id", "class", ".color", ".background-color", ".font-size", ".font-family", ".background", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".line-height"], div: ["id", "class", "align", ".border", ".margin", ".padding", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".background", ".font-style", ".text-decoration", ".vertical-align", ".margin-left"], table: ["id", "class", "border", "cellspacing", "cellpadding", "width", "height", "align", "bordercolor", ".padding", ".margin", ".border", "bgcolor", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".font-style", ".text-decoration", ".background", ".width", ".height", ".border-collapse"], "td,th": ["id", "class", "align", "valign", "width", "height", "colspan", "rowspan", "bgcolor", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".background", ".border"], a: ["id", "class", "href", "target", "name"], media: ["id", "class"], audio: ["id", "class", "src", "width", "height", "type", "loop", "autostart", "autoplay", ".width", ".height", "controls", "muted", "preload", "data-ke-class"], video: ["id", "class", "src", "width", "height", "type", "loop", "autostart", "autoplay", ".width", ".height", "controls", "muted", "poster", "preload", "data-ke-class"], img: ["id", "class", "src", "width", "height", "border", "alt", "title", "align", ".width", ".height", ".border", "data-ke-class"], "p,ol,ul,li,blockquote,h1,h2,h3,h4,h5,h6": ["id", "class", "align", ".text-align", ".color", ".background-color", ".font-size", ".font-family", ".background", ".font-weight", ".font-style", ".text-decoration", ".vertical-align", ".text-indent", ".margin-left"], pre: ["id", "class"], hr: ["id", "class", ".page-break-after"], "br,tbody,tr,strong,b,sub,sup,em,i,u,strike,s,del": ["id", "class"], iframe: ["id", "class", "src", "frameborder", "width", "height", ".width", ".height"] }, layout: '<div class="container"><div class="toolbar"></div><div class="edit"></div><div class="statusbar"></div></div>' };
     var On = !1, Un = re("8,9,13,32,46,48..57,59,61,65..90,106,109..111,188,190..192,219..222"), Si = re("33..40"), Zt = {};
     z(Un, function(e, t) {
@@ -4099,7 +4099,7 @@ var Oi = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
         n.afterChange(function(f) {
           l.selection();
         }), Oe && v(u).click(function(f) {
-          (v(f.target).name === "img" || v(f.target).name === "audio" || v(f.target).name === "video") && (l.selection(!0), l.range.selectNode(f.target), l.select());
+          (v(f.target).name === "img" || v(f.target).name === "audio" || v(f.target).name === "video" || v(f.target).name === "pre") && (l.selection(!0), l.range.selectNode(f.target), l.select());
         }), Y && (n._mousedownHandler = function() {
           var f = l.range.cloneRange();
           f.shrink(), f.isControl() && n.blur();
@@ -4346,206 +4346,246 @@ var Oi = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : t
       }), rt.parent.remove.call(e), e;
     } }), v.DialogClass = rt, v.dialog = _n, v.tabs = pi, v.loadScript = Kt, v.loadStyle = Gt, v.ajax = hi;
     var Te = {}, Se = {};
-    ot.prototype = { lang: function(e) {
-      return Dn(e, this.langType);
-    }, loadPlugin: function(e, t) {
-      var n = this, o = this._pluginStatus;
-      return o || (o = this._pluginStatus = {}), Te[e] ? ie(Te[e]) ? (o[e] || (Te[e].call(n, KindEditor), o[e] = "inited"), t && t.call(n), n) : (setTimeout(function() {
-        n.loadPlugin(e, t);
-      }, 100), n) : (Te[e] = "loading", Kt(n.pluginsPath + e + "/" + e + ".js?ver=" + encodeURIComponent(v.DEBUG ? _t : Ct), function() {
-        setTimeout(function() {
-          Te[e] && n.loadPlugin(e, t);
-        }, 0);
-      }), n);
-    }, handler: function(e, t) {
-      var n = this;
-      return n._handlers[e] || (n._handlers[e] = []), ie(t) ? (n._handlers[e].push(t), n) : (z(n._handlers[e], function() {
-        t = this.call(n, t);
-      }), t);
-    }, clickToolbar: function(e, t) {
-      var n = this, o = "clickToolbar" + e;
-      return t === void 0 ? n._handlers[o] ? n.handler(o) : (n.loadPlugin(e, function() {
-        n.handler(o);
-      }), n) : n.handler(o, t);
-    }, updateState: function() {
-      var e = this;
-      return z("justifyleft,justifycenter,justifyright,justifyfull,insertorderedlist,insertunorderedlist,subscript,superscript,bold,italic,underline,strikethrough".split(","), function(t, n) {
-        e.cmd.state(n) ? e.toolbar.select(n) : e.toolbar.unselect(n);
-      }), e;
-    }, addContextmenu: function(e) {
-      return this._contextmenus.push(e), this;
-    }, afterCreate: function(e) {
-      return this.handler("afterCreate", e);
-    }, beforeRemove: function(e) {
-      return this.handler("beforeRemove", e);
-    }, beforeGetHtml: function(e) {
-      return this.handler("beforeGetHtml", e);
-    }, beforeSetHtml: function(e) {
-      return this.handler("beforeSetHtml", e);
-    }, afterSetHtml: function(e) {
-      return this.handler("afterSetHtml", e);
-    }, create: function() {
-      function e() {
-        return r.height() === 0 ? void setTimeout(e, 100) : void t.resize(o, i, !1);
-      }
-      var t = this, n = t.fullscreenMode;
-      if (t.isCreated || t.srcElement.data("kindeditor"))
-        return t;
-      t.srcElement.data("kindeditor", "true"), n ? ye().style.overflow = "hidden" : ye().style.overflow = "";
-      var o = n ? ye().clientWidth + "px" : t.width, i = n ? ye().clientHeight + "px" : t.height;
-      (Y && 8 > ce || Ne) && (i = J(Z(i) + 2));
-      var s = t.container = v(t.layout);
-      n ? v(document.body).append(s) : t.srcElement.before(s);
-      var c = v(".toolbar", s), a = v(".edit", s), r = t.statusbar = v(".statusbar", s);
-      s.removeClass("container").addClass("ke-container ke-container-" + t.themeType).css("width", o), n ? (s.css({ position: "absolute", left: 0, top: 0, "z-index": 811211 }), Be || (t._scrollPos = je()), window.scrollTo(0, 0), v(document.body).css({ height: "1px", overflow: "hidden" }), v(document.body.parentNode).css("overflow", "hidden"), t._fullscreenExecuted = !0) : (t._fullscreenExecuted && (v(document.body).css({ height: "", overflow: "" }), v(document.body.parentNode).css("overflow", "")), t._scrollPos && window.scrollTo(t._scrollPos.x, t._scrollPos.y));
-      var d = [];
-      v.each(t.items, function(p, m) {
-        m == "|" ? d.push('<span class="ke-inline-block ke-separator"></span>') : m == "/" ? d.push('<div class="ke-hr"></div>') : (d.push('<span class="ke-outline" data-name="' + m + '" title="' + t.lang(m) + '" unselectable="on">'), d.push('<span class="ke-toolbar-icon icon-ke-font ke-toolbar-icon-url ke-icon-' + m + '" unselectable="on"></span></span>'));
-      });
-      var u = t.toolbar = xn({ src: c, html: d.join(""), noDisableItems: t.noDisableItems, click: function(p, m) {
-        if (p.stop(), t.menu) {
-          var g = t.menu.name;
-          if (t.hideMenu(), g === m)
-            return;
+    ot.prototype = {
+      lang: function(e) {
+        return Dn(e, this.langType);
+      },
+      loadPlugin: function(e, t) {
+        var n = this, o = this._pluginStatus;
+        return o || (o = this._pluginStatus = {}), Te[e] ? ie(Te[e]) ? (o[e] || (Te[e].call(n, KindEditor), o[e] = "inited"), t && t.call(n), n) : (setTimeout(function() {
+          n.loadPlugin(e, t);
+        }, 100), n) : (Te[e] = "loading", Kt(n.pluginsPath + e + "/" + e + ".js?ver=" + encodeURIComponent(v.DEBUG ? _t : Ct), function() {
+          setTimeout(function() {
+            Te[e] && n.loadPlugin(e, t);
+          }, 0);
+        }), n);
+      },
+      handler: function(e, t) {
+        var n = this;
+        return n._handlers[e] || (n._handlers[e] = []), ie(t) ? (n._handlers[e].push(t), n) : (z(n._handlers[e], function() {
+          t = this.call(n, t);
+        }), t);
+      },
+      clickToolbar: function(e, t) {
+        var n = this, o = "clickToolbar" + e;
+        return t === void 0 ? n._handlers[o] ? n.handler(o) : (n.loadPlugin(e, function() {
+          n.handler(o);
+        }), n) : n.handler(o, t);
+      },
+      updateState: function() {
+        var e = this;
+        return z("justifyleft,justifycenter,justifyright,justifyfull,insertorderedlist,insertunorderedlist,subscript,superscript,bold,italic,underline,strikethrough".split(","), function(t, n) {
+          e.cmd.state(n) ? e.toolbar.select(n) : e.toolbar.unselect(n);
+        }), e;
+      },
+      addContextmenu: function(e) {
+        return this._contextmenus.push(e), this;
+      },
+      afterCreate: function(e) {
+        return this.handler("afterCreate", e);
+      },
+      beforeRemove: function(e) {
+        return this.handler("beforeRemove", e);
+      },
+      beforeGetHtml: function(e) {
+        return this.handler("beforeGetHtml", e);
+      },
+      beforeSetHtml: function(e) {
+        return this.handler("beforeSetHtml", e);
+      },
+      afterSetHtml: function(e) {
+        return this.handler("afterSetHtml", e);
+      },
+      create: function() {
+        function e() {
+          return r.height() === 0 ? void setTimeout(e, 100) : void t.resize(o, i, !1);
         }
-        t.clickToolbar(m);
-      } }), l = Z(i) - u.div.height(), f = t.edit = bn({ height: l > 0 && Z(i) > t.minHeight ? l : t.minHeight, src: a, srcElement: t.srcElement, designMode: t.designMode, themesPath: t.themesPath, bodyClass: t.bodyClass, cssPath: t.cssPath, cssData: t.cssData, editorOptions: t.options, beforeGetHtml: function(p) {
-        return p = t.beforeGetHtml(p), p = Me(xt(p)), Re(p, t.filterMode ? t.htmlTags : null, t.urlType, t.wellFormatMode, t.indentChar);
-      }, beforeSetHtml: function(p) {
-        return p = Re(p, t.filterMode ? t.htmlTags : null, "", !1), t.beforeSetHtml(p);
-      }, afterSetHtml: function() {
-        t.edit = f = this, t.afterSetHtml();
-      }, afterCreate: function() {
-        if (t.edit = f = this, t.cmd = f.cmd, t._docMousedownFn = function(m) {
-          t.menu && t.hideMenu();
-        }, v(f.doc, document).mousedown(t._docMousedownFn), mi.call(t), gi.call(t), vi.call(t), yi.call(t), f.afterChange(function(m) {
-          f.designMode && (t.updateState(), t.addBookmark(), t.options.afterChange && t.options.afterChange.call(t));
-        }), f.textarea.keyup(function(m) {
-          m.ctrlKey || m.altKey || !Un[m.which] || t.options.afterChange && t.options.afterChange.call(t);
-        }), t.readonlyMode && t.readonly(), t.isCreated = !0, t.initContent === "" && (t.initContent = t.html()), t._undoStack.length > 0) {
-          var p = t._undoStack.pop();
-          p.start && (t.html(p.html), f.cmd.range.moveToBookmark(p), t.select());
+        var t = this, n = t.fullscreenMode;
+        if (t.isCreated || t.srcElement.data("kindeditor"))
+          return t;
+        t.srcElement.data("kindeditor", "true"), n ? ye().style.overflow = "hidden" : ye().style.overflow = "";
+        var o = n ? ye().clientWidth + "px" : t.width, i = n ? ye().clientHeight + "px" : t.height;
+        (Y && 8 > ce || Ne) && (i = J(Z(i) + 2));
+        var s = t.container = v(t.layout);
+        n ? v(document.body).append(s) : t.srcElement.before(s);
+        var c = v(".toolbar", s), a = v(".edit", s), r = t.statusbar = v(".statusbar", s);
+        s.removeClass("container").addClass("ke-container ke-container-" + t.themeType).css("width", o), n ? (s.css({ position: "absolute", left: 0, top: 0, "z-index": 811211 }), Be || (t._scrollPos = je()), window.scrollTo(0, 0), v(document.body).css({ height: "1px", overflow: "hidden" }), v(document.body.parentNode).css("overflow", "hidden"), t._fullscreenExecuted = !0) : (t._fullscreenExecuted && (v(document.body).css({ height: "", overflow: "" }), v(document.body.parentNode).css("overflow", "")), t._scrollPos && window.scrollTo(t._scrollPos.x, t._scrollPos.y));
+        var d = [];
+        v.each(t.items, function(p, m) {
+          m == "|" ? d.push('<span class="ke-inline-block ke-separator"></span>') : m == "/" ? d.push('<div class="ke-hr"></div>') : (d.push('<span class="ke-outline" data-name="' + m + '" title="' + t.lang(m) + '" unselectable="on">'), d.push('<span class="ke-toolbar-icon icon-ke-font ke-toolbar-icon-url ke-icon-' + m + '" unselectable="on"></span></span>'));
+        });
+        var u = t.toolbar = xn({ src: c, html: d.join(""), noDisableItems: t.noDisableItems, click: function(p, m) {
+          if (p.stop(), t.menu) {
+            var g = t.menu.name;
+            if (t.hideMenu(), g === m)
+              return;
+          }
+          t.clickToolbar(m);
+        } }), l = Z(i) - u.div.height(), f = t.edit = bn({ height: l > 0 && Z(i) > t.minHeight ? l : t.minHeight, src: a, srcElement: t.srcElement, designMode: t.designMode, themesPath: t.themesPath, bodyClass: t.bodyClass, cssPath: t.cssPath, cssData: t.cssData, editorOptions: t.options, beforeGetHtml: function(p) {
+          return p = t.beforeGetHtml(p), p = Me(xt(p)), Re(p, t.filterMode ? t.htmlTags : null, t.urlType, t.wellFormatMode, t.indentChar);
+        }, beforeSetHtml: function(p) {
+          return p = Re(p, t.filterMode ? t.htmlTags : null, "", !1), t.beforeSetHtml(p);
+        }, afterSetHtml: function() {
+          t.edit = f = this, t.afterSetHtml();
+        }, afterCreate: function() {
+          if (t.edit = f = this, t.cmd = f.cmd, t._docMousedownFn = function(m) {
+            t.menu && t.hideMenu();
+          }, v(f.doc, document).mousedown(t._docMousedownFn), mi.call(t), gi.call(t), vi.call(t), yi.call(t), f.afterChange(function(m) {
+            f.designMode && (t.updateState(), t.addBookmark(), t.options.afterChange && t.options.afterChange.call(t));
+          }), f.textarea.keyup(function(m) {
+            m.ctrlKey || m.altKey || !Un[m.which] || t.options.afterChange && t.options.afterChange.call(t);
+          }), t.readonlyMode && t.readonly(), t.isCreated = !0, t.initContent === "" && (t.initContent = t.html()), t._undoStack.length > 0) {
+            var p = t._undoStack.pop();
+            p.start && (t.html(p.html), f.cmd.range.moveToBookmark(p), t.select());
+          }
+          t.afterCreate(), t.options.afterCreate && t.options.afterCreate.call(t);
+        } });
+        return r.removeClass("statusbar").addClass("ke-statusbar").append('<span class="ke-inline-block ke-statusbar-center-icon"><i></i><i></i><i></i></span>').append('<span class="ke-inline-block ke-statusbar-right-icon"></span>'), t._fullscreenResizeHandler && (v(window).unbind("resize", t._fullscreenResizeHandler), t._fullscreenResizeHandler = null), e(), n ? (t._fullscreenResizeHandler = function(p) {
+          t.isCreated && t.resize(ye().clientWidth, ye().clientHeight, !1);
+        }, v(window).bind("resize", t._fullscreenResizeHandler), u.select("fullscreen"), r.first().css("visibility", "hidden"), r.last().css("visibility", "hidden")) : (Be && v(window).bind("scroll", function(p) {
+          t._scrollPos = je();
+        }), t.resizeType > 0 ? Ht({ moveEl: s, clickEl: r, moveFn: function(p, m, g, y, w, b) {
+          y += b, t.resize(null, y);
+        } }) : r.first().css("visibility", "hidden"), t.resizeType === 2 ? Ht({ moveEl: s, clickEl: r.last(), moveFn: function(p, m, g, y, w, b) {
+          g += w, y += b, t.resize(g, y);
+        } }) : r.last().css("visibility", "hidden")), setTimeout(function() {
+          t.focus && t.focus();
+        }, 100), t;
+      },
+      remove: function() {
+        var e = this;
+        return e.isCreated && (e.beforeRemove(), e.srcElement.data("kindeditor", ""), e.menu && e.hideMenu(), z(e.dialogs, function() {
+          e.hideDialog();
+        }), v(document).unbind("mousedown", e._docMousedownFn), e.toolbar.remove(), e.edit.remove(), e.statusbar.last().unbind(), e.statusbar.unbind(), e.container.remove(), e.container = e.toolbar = e.edit = e.menu = null, e.dialogs = [], e.isCreated = !1), e;
+      },
+      resize: function(e, t, n) {
+        var o = this;
+        if (n = V(n, !0), e && (/%/.test(e) || (e = Z(e), e = e < o.minWidth ? o.minWidth : e), o.container.css("width", J(e)), n && (o.width = J(e))), t) {
+          t = Z(t);
+          var i = Z(t) - o.toolbar.div.height() - o.statusbar.height();
+          i = i < o.minHeight ? o.minHeight : i, o.edit.setHeight(i), n && (o.height = J(t));
         }
-        t.afterCreate(), t.options.afterCreate && t.options.afterCreate.call(t);
-      } });
-      return r.removeClass("statusbar").addClass("ke-statusbar").append('<span class="ke-inline-block ke-statusbar-center-icon"><i></i><i></i><i></i></span>').append('<span class="ke-inline-block ke-statusbar-right-icon"></span>'), t._fullscreenResizeHandler && (v(window).unbind("resize", t._fullscreenResizeHandler), t._fullscreenResizeHandler = null), e(), n ? (t._fullscreenResizeHandler = function(p) {
-        t.isCreated && t.resize(ye().clientWidth, ye().clientHeight, !1);
-      }, v(window).bind("resize", t._fullscreenResizeHandler), u.select("fullscreen"), r.first().css("visibility", "hidden"), r.last().css("visibility", "hidden")) : (Be && v(window).bind("scroll", function(p) {
-        t._scrollPos = je();
-      }), t.resizeType > 0 ? Ht({ moveEl: s, clickEl: r, moveFn: function(p, m, g, y, w, b) {
-        y += b, t.resize(null, y);
-      } }) : r.first().css("visibility", "hidden"), t.resizeType === 2 ? Ht({ moveEl: s, clickEl: r.last(), moveFn: function(p, m, g, y, w, b) {
-        g += w, y += b, t.resize(g, y);
-      } }) : r.last().css("visibility", "hidden")), setTimeout(function() {
-        t.focus && t.focus();
-      }, 100), t;
-    }, remove: function() {
-      var e = this;
-      return e.isCreated && (e.beforeRemove(), e.srcElement.data("kindeditor", ""), e.menu && e.hideMenu(), z(e.dialogs, function() {
-        e.hideDialog();
-      }), v(document).unbind("mousedown", e._docMousedownFn), e.toolbar.remove(), e.edit.remove(), e.statusbar.last().unbind(), e.statusbar.unbind(), e.container.remove(), e.container = e.toolbar = e.edit = e.menu = null, e.dialogs = [], e.isCreated = !1), e;
-    }, resize: function(e, t, n) {
-      var o = this;
-      if (n = V(n, !0), e && (/%/.test(e) || (e = Z(e), e = e < o.minWidth ? o.minWidth : e), o.container.css("width", J(e)), n && (o.width = J(e))), t) {
-        t = Z(t);
-        var i = Z(t) - o.toolbar.div.height() - o.statusbar.height();
-        i = i < o.minHeight ? o.minHeight : i, o.edit.setHeight(i), n && (o.height = J(t));
+        return o;
+      },
+      select: function() {
+        return this.isCreated && this.cmd.select(), this;
+      },
+      html: function(e) {
+        var t = this;
+        return e === void 0 ? t.isCreated ? t.edit.html() : et(t.srcElement) : (t.isCreated ? t.edit.html(e) : et(t.srcElement, e), t.isCreated && t.cmd.selection(), t);
+      },
+      fullHtml: function() {
+        return this.isCreated ? this.edit.html(void 0, !0) : "";
+      },
+      text: function(e) {
+        var t = this;
+        return e === void 0 ? te(t.html().replace(/<(?!img|embed).*?>/gi, "").replace(/&nbsp;/gi, " ")) : t.html(se(e));
+      },
+      isEmpty: function() {
+        return te(this.text().replace(/\r\n|\n|\r/, "")) === "";
+      },
+      isDirty: function() {
+        return te(this.initContent.replace(/\r\n|\n|\r|t/g, "")) !== te(this.html().replace(/\r\n|\n|\r|t/g, ""));
+      },
+      selectedHtml: function() {
+        var e = this.isCreated ? this.cmd.range.html() : "";
+        return e = Me(xt(e));
+      },
+      count: function(e) {
+        var t = this;
+        return e = (e || "html").toLowerCase(), e === "html" ? t.html().length : e === "text" ? t.text().replace(/<(?:img|embed).*?>/gi, "K").replace(/\r\n|\n|\r/g, "").length : 0;
+      },
+      exec: function(e) {
+        e = e.toLowerCase();
+        var t = this, n = t.cmd, o = he(e, "selectall,copy,paste,print".split(",")) < 0;
+        return o && t.addBookmark(!1), n[e].apply(n, Nt(arguments, 1)), o && (t.updateState(), t.addBookmark(!1), t.options.afterChange && t.options.afterChange.call(t)), t;
+      },
+      insertHtml: function(e, t) {
+        return this.isCreated ? (e = this.beforeSetHtml(e), this.exec("inserthtml", e, t), this) : this;
+      },
+      appendHtml: function(e) {
+        if (this.html(this.html() + e), this.isCreated) {
+          var t = this.cmd;
+          t.range.selectNodeContents(t.doc.body).collapse(!1), t.select();
+        }
+        return this;
+      },
+      sync: function() {
+        return et(this.srcElement, this.html()), this;
+      },
+      focus: function() {
+        return this.isCreated ? this.edit.focus() : this.srcElement[0].focus(), this;
+      },
+      blur: function() {
+        return this.isCreated ? this.edit.blur() : this.srcElement[0].blur(), this;
+      },
+      addBookmark: function(e) {
+        e = V(e, !0);
+        var t, n = this, o = n.edit, i = o.doc.body, s = xt(i.innerHTML);
+        if (e && n._undoStack.length > 0) {
+          var c = n._undoStack[n._undoStack.length - 1];
+          if (Math.abs(s.length - Me(c.html).length) < n.minChangeSize)
+            return n;
+        }
+        if (o.designMode && !n._firstAddBookmark) {
+          var a = n.cmd.range;
+          t = a.createBookmark(!0), t.html = xt(i.innerHTML), a.moveToBookmark(t);
+        } else
+          t = { html: s };
+        return n._firstAddBookmark = !1, Mn(n._undoStack, t), n;
+      },
+      undo: function() {
+        return Nn.call(this, this._undoStack, this._redoStack);
+      },
+      redo: function() {
+        return Nn.call(this, this._redoStack, this._undoStack);
+      },
+      fullscreen: function(e) {
+        return this.fullscreenMode = e === void 0 ? !this.fullscreenMode : e, this.addBookmark(!1), this.remove().create();
+      },
+      readonly: function(e) {
+        e = V(e, !0);
+        var t = this, n = t.edit, o = n.doc;
+        t.designMode ? t.toolbar.disableAll(e, []) : z(t.noDisableItems, function() {
+          t.toolbar[e ? "disable" : "enable"](this);
+        }), Y ? o.body.contentEditable = !e : o.designMode = e ? "off" : "on", n.textarea[0].disabled = e;
+      },
+      createMenu: function(e) {
+        var t = this, n = e.name, o = t.toolbar.get(n), i = o.pos();
+        return e.x = i.x, e.y = i.y + o.height(), e.z = t.options.zIndex, e.shadowMode = V(e.shadowMode, t.shadowMode), e.selectedColor !== void 0 ? (e.cls = "ke-colorpicker-" + t.themeType, e.noColor = t.lang("noColor"), t.menu = Cn(e)) : (e.cls = "ke-menu-" + t.themeType, e.centerLineMode = !1, t.menu = $t(e)), t.menu;
+      },
+      hideMenu: function() {
+        return this.menu.remove(), this.menu = null, this;
+      },
+      hideContextmenu: function() {
+        return this.contextmenu.remove(), this.contextmenu = null, this;
+      },
+      createDialog: function(e) {
+        var t = this;
+        if (e.name, e.z = t.options.zIndex, e.shadowMode = V(e.shadowMode, t.shadowMode), e.closeBtn = V(e.closeBtn, { name: t.lang("close"), click: function(s) {
+          t.hideDialog(), Y && t.cmd && t.cmd.select();
+        } }), e.noBtn = V(e.noBtn, { name: t.lang(e.yesBtn ? "no" : "close"), click: function(s) {
+          t.hideDialog(), Y && t.cmd && t.cmd.select();
+        } }), t.dialogAlignType != "page" && (e.alignEl = t.container), e.cls = "ke-dialog-" + t.themeType, t.dialogs.length > 0) {
+          var n = t.dialogs[0], o = t.dialogs[t.dialogs.length - 1];
+          n.setMaskIndex(o.z + 2), e.z = o.z + 3, e.showMask = !1;
+        }
+        var i = _n(e);
+        return t.dialogs.push(i), i;
+      },
+      hideDialog: function() {
+        var e = this;
+        if (e.dialogs.length > 0 && e.dialogs.pop().remove(), e.dialogs.length > 0) {
+          var t = e.dialogs[0], n = e.dialogs[e.dialogs.length - 1];
+          t.setMaskIndex(n.z - 1);
+        }
+        return e;
+      },
+      errorDialog: function(e) {
+        var t = this, n = t.createDialog({ width: 750, title: t.lang("uploadError"), body: '<div style="padding:10px 20px;"><iframe frameborder="0" style="width:708px;height:400px;"></iframe></div>' }), o = v("iframe", n.div), i = v.iframeDoc(o);
+        return i.open(), i.write(e), i.close(), v(i.body).css("background-color", "#FFF"), o[0].contentWindow.focus(), t;
       }
-      return o;
-    }, select: function() {
-      return this.isCreated && this.cmd.select(), this;
-    }, html: function(e) {
-      var t = this;
-      return e === void 0 ? t.isCreated ? t.edit.html() : et(t.srcElement) : (t.isCreated ? t.edit.html(e) : et(t.srcElement, e), t.isCreated && t.cmd.selection(), t);
-    }, fullHtml: function() {
-      return this.isCreated ? this.edit.html(void 0, !0) : "";
-    }, text: function(e) {
-      var t = this;
-      return e === void 0 ? te(t.html().replace(/<(?!img|embed).*?>/gi, "").replace(/&nbsp;/gi, " ")) : t.html(se(e));
-    }, isEmpty: function() {
-      return te(this.text().replace(/\r\n|\n|\r/, "")) === "";
-    }, isDirty: function() {
-      return te(this.initContent.replace(/\r\n|\n|\r|t/g, "")) !== te(this.html().replace(/\r\n|\n|\r|t/g, ""));
-    }, selectedHtml: function() {
-      var e = this.isCreated ? this.cmd.range.html() : "";
-      return e = Me(xt(e));
-    }, count: function(e) {
-      var t = this;
-      return e = (e || "html").toLowerCase(), e === "html" ? t.html().length : e === "text" ? t.text().replace(/<(?:img|embed).*?>/gi, "K").replace(/\r\n|\n|\r/g, "").length : 0;
-    }, exec: function(e) {
-      e = e.toLowerCase();
-      var t = this, n = t.cmd, o = he(e, "selectall,copy,paste,print".split(",")) < 0;
-      return o && t.addBookmark(!1), n[e].apply(n, Nt(arguments, 1)), o && (t.updateState(), t.addBookmark(!1), t.options.afterChange && t.options.afterChange.call(t)), t;
-    }, insertHtml: function(e, t) {
-      return this.isCreated ? (e = this.beforeSetHtml(e), this.exec("inserthtml", e, t), this) : this;
-    }, appendHtml: function(e) {
-      if (this.html(this.html() + e), this.isCreated) {
-        var t = this.cmd;
-        t.range.selectNodeContents(t.doc.body).collapse(!1), t.select();
-      }
-      return this;
-    }, sync: function() {
-      return et(this.srcElement, this.html()), this;
-    }, focus: function() {
-      return this.isCreated ? this.edit.focus() : this.srcElement[0].focus(), this;
-    }, blur: function() {
-      return this.isCreated ? this.edit.blur() : this.srcElement[0].blur(), this;
-    }, addBookmark: function(e) {
-      e = V(e, !0);
-      var t, n = this, o = n.edit, i = o.doc.body, s = xt(i.innerHTML);
-      if (e && n._undoStack.length > 0) {
-        var c = n._undoStack[n._undoStack.length - 1];
-        if (Math.abs(s.length - Me(c.html).length) < n.minChangeSize)
-          return n;
-      }
-      if (o.designMode && !n._firstAddBookmark) {
-        var a = n.cmd.range;
-        t = a.createBookmark(!0), t.html = xt(i.innerHTML), a.moveToBookmark(t);
-      } else
-        t = { html: s };
-      return n._firstAddBookmark = !1, Mn(n._undoStack, t), n;
-    }, undo: function() {
-      return Nn.call(this, this._undoStack, this._redoStack);
-    }, redo: function() {
-      return Nn.call(this, this._redoStack, this._undoStack);
-    }, fullscreen: function(e) {
-      return this.fullscreenMode = e === void 0 ? !this.fullscreenMode : e, this.addBookmark(!1), this.remove().create();
-    }, readonly: function(e) {
-      e = V(e, !0);
-      var t = this, n = t.edit, o = n.doc;
-      t.designMode ? t.toolbar.disableAll(e, []) : z(t.noDisableItems, function() {
-        t.toolbar[e ? "disable" : "enable"](this);
-      }), Y ? o.body.contentEditable = !e : o.designMode = e ? "off" : "on", n.textarea[0].disabled = e;
-    }, createMenu: function(e) {
-      var t = this, n = e.name, o = t.toolbar.get(n), i = o.pos();
-      return e.x = i.x, e.y = i.y + o.height(), e.z = t.options.zIndex, e.shadowMode = V(e.shadowMode, t.shadowMode), e.selectedColor !== void 0 ? (e.cls = "ke-colorpicker-" + t.themeType, e.noColor = t.lang("noColor"), t.menu = Cn(e)) : (e.cls = "ke-menu-" + t.themeType, e.centerLineMode = !1, t.menu = $t(e)), t.menu;
-    }, hideMenu: function() {
-      return this.menu.remove(), this.menu = null, this;
-    }, hideContextmenu: function() {
-      return this.contextmenu.remove(), this.contextmenu = null, this;
-    }, createDialog: function(e) {
-      var t = this;
-      if (e.name, e.z = t.options.zIndex, e.shadowMode = V(e.shadowMode, t.shadowMode), e.closeBtn = V(e.closeBtn, { name: t.lang("close"), click: function(s) {
-        t.hideDialog(), Y && t.cmd && t.cmd.select();
-      } }), e.noBtn = V(e.noBtn, { name: t.lang(e.yesBtn ? "no" : "close"), click: function(s) {
-        t.hideDialog(), Y && t.cmd && t.cmd.select();
-      } }), t.dialogAlignType != "page" && (e.alignEl = t.container), e.cls = "ke-dialog-" + t.themeType, t.dialogs.length > 0) {
-        var n = t.dialogs[0], o = t.dialogs[t.dialogs.length - 1];
-        n.setMaskIndex(o.z + 2), e.z = o.z + 3, e.showMask = !1;
-      }
-      var i = _n(e);
-      return t.dialogs.push(i), i;
-    }, hideDialog: function() {
-      var e = this;
-      if (e.dialogs.length > 0 && e.dialogs.pop().remove(), e.dialogs.length > 0) {
-        var t = e.dialogs[0], n = e.dialogs[e.dialogs.length - 1];
-        t.setMaskIndex(n.z - 1);
-      }
-      return e;
-    }, errorDialog: function(e) {
-      var t = this, n = t.createDialog({ width: 750, title: t.lang("uploadError"), body: '<div style="padding:10px 20px;"><iframe frameborder="0" style="width:708px;height:400px;"></iframe></div>' }), o = v("iframe", n.div), i = v.iframeDoc(o);
-      return i.open(), i.write(e), i.close(), v(i.body).css("background-color", "#FFF"), o[0].contentWindow.focus(), t;
-    } };
+    };
     var ut = [];
     return v.remove = function(e) {
       lt(e, function(t) {
@@ -4852,21 +4892,34 @@ Allowed file extension: swf,flv,mp3,wav,wma,wmv,mid,avi,mpg,asf,rm,rmvb`, invali
     }), KindEditor.plugin("code", function(e) {
       var t = this, n = "code";
       t.clickToolbar(n, function() {
-        t.cmd.selection();
-        var o = t.plugin.getSelectedPreCode(), i = "";
-        o && (i = o.html());
-        var s = t.lang(n + "."), c = ['<div style="padding:10px 20px;">', '<div class="ke-dialog-row">', '<select class="ke-code-type">', '<option value="js">JavaScript</option>', '<option value="html">HTML</option>', '<option value="css">CSS</option>', '<option value="php">PHP</option>', '<option value="pl">Perl</option>', '<option value="py">Python</option>', '<option value="rb">Ruby</option>', '<option value="java">Java</option>', '<option value="vb">ASP/VB</option>', '<option value="cpp">C/C++</option>', '<option value="cs">C#</option>', '<option value="xml">XML</option>', '<option value="bsh">Shell</option>', '<option value="bsh">SQL</option>', '<option value="">Other</option>', "</select>", "</div>", '<textarea class="ke-textarea" style="width:518px;height:260px;">', i, "</textarea>", "</div>"].join(""), a = t.createDialog({ name: n, width: 560, title: t.lang(n), body: c, yesBtn: { name: t.lang("yes"), click: function(d) {
-          var u = e(".ke-code-type", a.div).val(), l = r.val().replace(/^\s+/g, "").replace(/\s+$/g, `
+        t.cmd.selection(), console.info(t);
+        var o = t.plugin.getSelectedPreCode(), i = "", s = "js";
+        o && (i = o.html(), s = (o.attr("class").match(/lang-(\w+)/gi) || [])[0], s && (s = s.replace("lang-", "")));
+        var c = t.lang(n + "."), a = ['<div style="padding:10px 20px;">', '<div class="ke-dialog-row">', '<select class="ke-code-type">', '<option value="js">JavaScript</option>', '<option value="html">HTML</option>', '<option value="css">CSS</option>', '<option value="php">PHP</option>', '<option value="pl">Perl</option>', '<option value="py">Python</option>', '<option value="rb">Ruby</option>', '<option value="java">Java</option>', '<option value="vb">ASP/VB</option>', '<option value="cpp">C/C++</option>', '<option value="cs">C#</option>', '<option value="xml">XML</option>', '<option value="bsh">Shell</option>', '<option value="sql">SQL</option>', '<option value="">Other</option>', "</select>", "</div>", '<textarea class="ke-textarea" style="width:518px;height:260px;">', i, "</textarea>", "</div>"].join(""), r = t.createDialog({ name: n, width: 560, title: t.lang(n), body: a, yesBtn: { name: t.lang("yes"), click: function(l) {
+          var f = e(".ke-code-type", r.div).val(), p = d.val().replace(/^\s+/g, "").replace(/\s+$/g, `
 `).replace(/(\s*<!--)/g, `
-$1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), f = u === "" ? "" : " ke-code lang-" + u, p = '<pre class="' + f + `">
-` + e.escape(l) + `
-</pre> `;
-          return e.trim(l) === "" ? (alert(s.pleaseInput), void r[0].focus()) : void t.insertHtml(p).hideDialog().focus();
-        } } }), r = e("textarea", a.div);
-        r[0].focus();
+$1`).replace(/>(\s*)(?=<!--\s*\/)/g, "> "), m = f === "" ? "" : " ke-code lang-" + f;
+          return e.trim(p) === "" ? (alert(c.pleaseInput), void d[0].focus()) : o ? (o.html(e.escape(p)).attr("class", m), void t.hideDialog().focus()) : (a = '<pre class="' + m + `">
+` + e.escape(p) + `
+</pre> `, void t.insertHtml(a).hideDialog().focus());
+        } } }), d = e("textarea", r.div), u = e("select", r.div);
+        e(u).children().each(function(l, f) {
+          var p = e(f);
+          p.val() === s ? (p.attr("selected", !0), setTimeout(function() {
+            e(u).val(s), u[0].value = s;
+          }, 180)) : p.removeAttr("selected");
+        }), d[0].focus();
       });
     }), KindEditor.plugin("emoticons", function(e) {
-      var t = this, n = "emoticons", o = { faces: ["\u{1F600}", "\u{1F601}", "\u{1F602}", "\u{1F923}", "\u{1F603}", "\u{1F604}", "\u{1F605}", "\u{1F606}", "\u{1F609}", "\u{1F60A}", "\u{1F60B}", "\u{1F60E}", "\u{1F60D}", "\u{1F618}", "\u{1F970}", "\u{1F617}", "\u{1F619}", "\u{1F61A}", "\u{1F642}", "\u{1F917}", "\u{1F929}", "\u{1F914}", "\u{1F928}", "\u{1F610}", "\u{1F611}", "\u{1F636}", "\u{1F644}", "\u{1F60F}", "\u{1F623}", "\u{1F625}", "\u{1F62E}", "\u{1F910}", "\u{1F62F}", "\u{1F62A}", "\u{1F62B}", "\u{1F634}", "\u{1F60C}", "\u{1F61B}", "\u{1F61C}", "\u{1F61D}", "\u{1F924}", "\u{1F612}", "\u{1F613}", "\u{1F614}", "\u{1F615}", "\u{1F643}", "\u{1F911}", "\u{1F632}", "\u{1F641}", "\u{1F616}", "\u{1F61E}", "\u{1F61F}", "\u{1F624}", "\u{1F622}", "\u{1F62D}", "\u{1F626}", "\u{1F627}", "\u{1F628}", "\u{1F629}", "\u{1F92F}", "\u{1F62C}", "\u{1F630}", "\u{1F631}", "\u{1F975}", "\u{1F976}", "\u{1F633}", "\u{1F92A}", "\u{1F635}", "\u{1F621}", "\u{1F620}", "\u{1F92C}", "\u{1F637}", "\u{1F912}", "\u{1F915}", "\u{1F922}", "\u{1F92E}", "\u{1F927}", "\u{1F607}", "\u{1F920}", "\u{1F921}", "\u{1F973}", "\u{1F974}", "\u{1F97A}", "\u{1F925}", "\u{1F92B}", "\u{1F92D}", "\u{1F9D0}", "\u{1F913}"], hands: ["\u{1F932}", "\u{1F450}", "\u{1F64C}", "\u{1F44F}", "\u{1F91D}", "\u{1F44D}", "\u{1F44E}", "\u{1F44A}", "\u270A", "\u{1F91B}", "\u{1F91C}", "\u{1F91E}", "\u270C\uFE0F", "\u{1F91F}", "\u{1F918}", "\u{1F44C}", "\u{1F448}", "\u{1F449}", "\u{1F446}", "\u{1F447}", "\u261D\uFE0F", "\u270B", "\u{1F91A}", "\u{1F590}", "\u{1F596}", "\u{1F44B}", "\u{1F919}", "\u{1F4AA}", "\u{1F9B5}", "\u{1F9B6}", "\u{1F595}", "\u270D\uFE0F", "\u{1F64F}", "\u{1F450}\u{1F3FB}", "\u{1F64C}\u{1F3FB}", "\u{1F44F}\u{1F3FB}", "\u{1F64F}\u{1F3FB}", "\u{1F44D}\u{1F3FB}", "\u{1F44E}\u{1F3FB}", "\u{1F44A}\u{1F3FB}", "\u270A\u{1F3FB}", "\u{1F91B}\u{1F3FB}", "\u{1F91C}\u{1F3FB}", "\u{1F91E}\u{1F3FB}", "\u270C\u{1F3FB}", "\u{1F91F}\u{1F3FB}", "\u{1F918}\u{1F3FB}", "\u{1F44C}\u{1F3FB}", "\u{1F448}\u{1F3FB}", "\u{1F449}\u{1F3FB}", "\u{1F446}\u{1F3FB}", "\u{1F447}\u{1F3FB}", "\u261D\u{1F3FB}", "\u270B\u{1F3FB}", "\u{1F91A}\u{1F3FB}", "\u{1F590}\u{1F3FB}", "\u{1F596}\u{1F3FB}", "\u{1F44B}\u{1F3FB}", "\u{1F919}\u{1F3FB}", "\u{1F4AA}\u{1F3FB}", "\u{1F595}\u{1F3FB}", "\u270D\u{1F3FB}", "\u{1F932}\u{1F3FE}", "\u{1F450}\u{1F3FE}", "\u{1F64C}\u{1F3FE}", "\u{1F44F}\u{1F3FE}", "\u{1F64F}\u{1F3FE}", "\u{1F44D}\u{1F3FE}", "\u{1F44E}\u{1F3FE}", "\u{1F44A}\u{1F3FE}", "\u270A\u{1F3FE}", "\u{1F91B}\u{1F3FE}", "\u{1F91C}\u{1F3FE}", "\u{1F91E}\u{1F3FE}", "\u270C\u{1F3FE}", "\u{1F91F}\u{1F3FE}", "\u{1F918}\u{1F3FE}", "\u{1F44C}\u{1F3FE}", "\u{1F448}\u{1F3FE}", "\u{1F449}\u{1F3FE}", "\u{1F446}\u{1F3FE}", "\u{1F447}\u{1F3FE}", "\u261D\u{1F3FE}", "\u270B\u{1F3FE}", "\u{1F91A}\u{1F3FE}", "\u{1F590}\u{1F3FE}", "\u{1F596}\u{1F3FE}", "\u{1F44B}\u{1F3FE}", "\u{1F919}\u{1F3FE}", "\u{1F4AA}\u{1F3FE}", "\u{1F595}\u{1F3FE}", "\u270D\u{1F3FE}"], avatar: ["\u{1F476}\u{1F3FB}", "\u{1F466}\u{1F3FB}", "\u{1F467}\u{1F3FB}", "\u{1F468}\u{1F3FB}", "\u{1F469}\u{1F3FB}", "\u{1F471}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F471}\u{1F3FB}", "\u{1F474}\u{1F3FB}", "\u{1F475}\u{1F3FB}", "\u{1F472}\u{1F3FB}", "\u{1F473}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F473}\u{1F3FB}", "\u{1F46E}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F46E}\u{1F3FB}", "\u{1F477}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F477}\u{1F3FB}", "\u{1F482}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F482}\u{1F3FB}", "\u{1F575}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F575}\u{1F3FB}", "\u{1F469}\u{1F3FB}\u200D\u2695\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2695\uFE0F", "\u{1F469}\u{1F3FB}\u200D\u{1F33E}", "\u{1F468}\u{1F3FB}\u200D\u{1F33E}", "\u{1F469}\u{1F3FB}\u200D\u{1F373}", "\u{1F468}\u{1F3FB}\u200D\u{1F373}", "\u{1F469}\u{1F3FB}\u200D\u{1F393}", "\u{1F468}\u{1F3FB}\u200D\u{1F393}", "\u{1F469}\u{1F3FB}\u200D\u{1F3A4}", "\u{1F468}\u{1F3FB}\u200D\u{1F3A4}", "\u{1F469}\u{1F3FB}\u200D\u{1F3EB}", "\u{1F468}\u{1F3FB}\u200D\u{1F3EB}", "\u{1F469}\u{1F3FB}\u200D\u{1F3ED}", "\u{1F468}\u{1F3FB}\u200D\u{1F3ED}", "\u{1F469}\u{1F3FB}\u200D\u{1F4BB}", "\u{1F468}\u{1F3FB}\u200D\u{1F4BB}", "\u{1F469}\u{1F3FB}\u200D\u{1F4BC}", "\u{1F468}\u{1F3FB}\u200D\u{1F4BC}", "\u{1F469}\u{1F3FB}\u200D\u{1F527}", "\u{1F468}\u{1F3FB}\u200D\u{1F527}", "\u{1F469}\u{1F3FB}\u200D\u{1F52C}", "\u{1F468}\u{1F3FB}\u200D\u{1F52C}", "\u{1F469}\u{1F3FB}\u200D\u{1F3A8}", "\u{1F468}\u{1F3FB}\u200D\u{1F3A8}", "\u{1F469}\u{1F3FB}\u200D\u{1F692}", "\u{1F468}\u{1F3FB}\u200D\u{1F692}", "\u{1F469}\u{1F3FB}\u200D\u2708\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2708\uFE0F", "\u{1F469}\u{1F3FB}\u200D\u{1F680}", "\u{1F468}\u{1F3FB}\u200D\u{1F680}", "\u{1F469}\u{1F3FB}\u200D\u2696\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2696\uFE0F", "\u{1F936}\u{1F3FB}", "\u{1F385}\u{1F3FB}", "\u{1F478}\u{1F3FB}", "\u{1F934}\u{1F3FB}", "\u{1F470}\u{1F3FB}", "\u{1F935}\u{1F3FB}", "\u{1F47C}\u{1F3FB}", "\u{1F930}\u{1F3FB}", "\u{1F647}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F647}\u{1F3FB}", "\u{1F481}\u{1F3FB}", "\u{1F481}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F645}\u{1F3FB}", "\u{1F645}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F646}\u{1F3FB}", "\u{1F646}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64B}\u{1F3FB}", "\u{1F64B}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F926}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F926}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F937}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F937}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64E}\u{1F3FB}", "\u{1F64E}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64D}\u{1F3FB}", "\u{1F64D}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F487}\u{1F3FB}", "\u{1F487}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F486}\u{1F3FB}", "\u{1F486}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F574}\u{1F3FB}", "\u{1F483}\u{1F3FB}", "\u{1F57A}\u{1F3FB}", "\u{1F6B6}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F6B6}\u{1F3FB}", "\u{1F3C3}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F3C3}\u{1F3FB}"], foods: ["\u{1F34F}", "\u{1F34E}", "\u{1F350}", "\u{1F34A}", "\u{1F34B}", "\u{1F34C}", "\u{1F349}", "\u{1F347}", "\u{1F353}", "\u{1F348}", "\u{1F352}", "\u{1F351}", "\u{1F34D}", "\u{1F96D}", "\u{1F965}", "\u{1F95D}", "\u{1F345}", "\u{1F346}", "\u{1F951}", "\u{1F966}", "\u{1F952}", "\u{1F96C}", "\u{1F336}", "\u{1F33D}", "\u{1F955}", "\u{1F954}", "\u{1F360}", "\u{1F950}", "\u{1F35E}", "\u{1F956}", "\u{1F968}", "\u{1F96F}", "\u{1F9C0}", "\u{1F95A}", "\u{1F373}", "\u{1F95E}", "\u{1F953}", "\u{1F969}", "\u{1F357}", "\u{1F356}", "\u{1F32D}", "\u{1F354}", "\u{1F35F}", "\u{1F355}", "\u{1F96A}", "\u{1F959}", "\u{1F32E}", "\u{1F32F}", "\u{1F957}", "\u{1F958}", "\u{1F96B}", "\u{1F35D}", "\u{1F35C}", "\u{1F372}", "\u{1F35B}", "\u{1F363}", "\u{1F371}", "\u{1F95F}", "\u{1F364}", "\u{1F359}", "\u{1F35A}", "\u{1F358}", "\u{1F365}", "\u{1F96E}", "\u{1F960}", "\u{1F362}", "\u{1F361}", "\u{1F367}", "\u{1F368}", "\u{1F366}", "\u{1F967}", "\u{1F370}", "\u{1F382}", "\u{1F36E}", "\u{1F36D}", "\u{1F36C}", "\u{1F36B}", "\u{1F37F}", "\u{1F9C2}", "\u{1F369}", "\u{1F36A}", "\u{1F330}", "\u{1F95C}", "\u{1F36F}", "\u{1F95B}", "\u{1F37C}", "\u2615\uFE0F", "\u{1F375}", "\u{1F964}", "\u{1F376}", "\u{1F37A}", "\u{1F37B}", "\u{1F942}", "\u{1F377}", "\u{1F943}", "\u{1F378}", "\u{1F379}", "\u{1F37E}", "\u{1F944}", "\u{1F374}", "\u{1F37D}", "\u{1F963}", "\u{1F961}", "\u{1F962}"], animals: ["\u{1F436}", "\u{1F431}", "\u{1F42D}", "\u{1F439}", "\u{1F430}", "\u{1F98A}", "\u{1F99D}", "\u{1F43B}", "\u{1F43C}", "\u{1F998}", "\u{1F9A1}", "\u{1F428}", "\u{1F42F}", "\u{1F981}", "\u{1F42E}", "\u{1F437}", "\u{1F43D}", "\u{1F438}", "\u{1F435}", "\u{1F648}", "\u{1F649}", "\u{1F64A}", "\u{1F412}", "\u{1F414}", "\u{1F427}", "\u{1F426}", "\u{1F424}", "\u{1F423}", "\u{1F425}", "\u{1F986}", "\u{1F9A2}", "\u{1F985}", "\u{1F989}", "\u{1F99A}", "\u{1F99C}", "\u{1F987}", "\u{1F43A}", "\u{1F417}", "\u{1F434}", "\u{1F984}", "\u{1F41D}", "\u{1F41B}", "\u{1F98B}", "\u{1F40C}", "\u{1F41A}", "\u{1F41E}", "\u{1F41C}", "\u{1F997}", "\u{1F577}", "\u{1F578}", "\u{1F982}", "\u{1F99F}", "\u{1F9A0}", "\u{1F422}", "\u{1F40D}", "\u{1F98E}", "\u{1F996}", "\u{1F995}", "\u{1F419}", "\u{1F991}", "\u{1F990}", "\u{1F980}", "\u{1F421}", "\u{1F420}", "\u{1F41F}", "\u{1F42C}", "\u{1F433}", "\u{1F40B}", "\u{1F988}", "\u{1F40A}", "\u{1F405}", "\u{1F406}", "\u{1F993}", "\u{1F98D}", "\u{1F418}", "\u{1F98F}", "\u{1F99B}", "\u{1F42A}", "\u{1F42B}", "\u{1F999}", "\u{1F992}", "\u{1F403}", "\u{1F402}", "\u{1F404}", "\u{1F40E}", "\u{1F416}", "\u{1F40F}", "\u{1F411}", "\u{1F410}", "\u{1F98C}", "\u{1F415}", "\u{1F429}", "\u{1F408}", "\u{1F413}", "\u{1F983}", "\u{1F54A}", "\u{1F407}", "\u{1F401}", "\u{1F400}", "\u{1F43F}", "\u{1F994}", "\u{1F43E}", "\u{1F409}", "\u{1F432}"], nature: ["\u{1F335}", "\u{1F384}", "\u{1F332}", "\u{1F333}", "\u{1F334}", "\u{1F331}", "\u{1F33F}", "\u2618\uFE0F", "\u{1F340}", "\u{1F38D}", "\u{1F38B}", "\u{1F343}", "\u{1F342}", "\u{1F341}", "\u{1F344}", "\u{1F33E}", "\u{1F490}", "\u{1F337}", "\u{1F339}", "\u{1F940}", "\u{1F33A}", "\u{1F338}", "\u{1F33C}", "\u{1F33B}", "\u{1F31E}", "\u{1F31D}", "\u{1F31B}", "\u{1F31C}", "\u{1F31A}", "\u{1F315}", "\u{1F316}", "\u{1F317}", "\u{1F318}", "\u{1F311}", "\u{1F312}", "\u{1F313}", "\u{1F314}", "\u{1F319}", "\u{1F30E}", "\u{1F30D}", "\u{1F30F}", "\u{1F4AB}", "\u2B50\uFE0F", "\u{1F31F}", "\u2728", "\u26A1\uFE0F", "\u2604\uFE0F", "\u{1F4A5}", "\u{1F525}", "\u{1F32A}", "\u{1F308}", "\u2600\uFE0F", "\u{1F324}", "\u26C5\uFE0F", "\u{1F325}", "\u2601\uFE0F", "\u{1F326}", "\u{1F327}", "\u26C8", "\u{1F329}", "\u{1F328}", "\u2744\uFE0F", "\u2603\uFE0F", "\u26C4\uFE0F", "\u{1F32C}", "\u{1F4A8}", "\u{1F4A7}", "\u{1F4A6}", "\u2614\uFE0F", "\u2602\uFE0F"], tags: ["\u2764\uFE0F", "\u{1F9E1}", "\u{1F49B}", "\u{1F49A}", "\u{1F499}", "\u{1F49C}", "\u{1F5A4}", "\u{1F494}", "\u2763\uFE0F", "\u{1F495}", "\u{1F49E}", "\u{1F493}", "\u{1F497}", "\u{1F496}", "\u{1F498}", "\u{1F49D}", "\u{1F49F}", "\u262E\uFE0F", "\u271D\uFE0F", "\u262A\uFE0F", "\u{1F549}", "\u2638\uFE0F", "\u2721\uFE0F", "\u{1F52F}", "\u{1F54E}", "\u262F\uFE0F", "\u2626\uFE0F", "\u{1F6D0}", "\u26CE", "\u2648\uFE0F", "\u2649\uFE0F", "\u264A\uFE0F", "\u264B\uFE0F", "\u264C\uFE0F", "\u264D\uFE0F", "\u264E\uFE0F", "\u264F\uFE0F", "\u2650\uFE0F", "\u2651\uFE0F", "\u2652\uFE0F", "\u2653\uFE0F", "\u{1F194}", "\u{1F6BB}", "\u{1F6AE}", "\u{1F3A6}", "\u{1F4F6}", "\u{1F201}", "\u{1F523}", "\u2139\uFE0F", "\u{1F524}", "\u{1F521}", "\u{1F520}", "\u{1F196}", "\u{1F197}", "\u{1F199}", "\u{1F192}", "\u{1F195}", "\u{1F193}", "0\uFE0F\u20E3", "1\uFE0F\u20E3", "2\uFE0F\u20E3", "3\uFE0F\u20E3", "4\uFE0F\u20E3", "5\uFE0F\u20E3", "6\uFE0F\u20E3", "7\uFE0F\u20E3", "8\uFE0F\u20E3", "9\uFE0F\u20E3", "\u{1F51F}", "\u{1F522}", "#\uFE0F\u20E3", "*\uFE0F\u20E3", "\u23CF\uFE0F", "\u25B6\uFE0F", "\u23F8", "\u23EF", "\u23F9", "\u23FA", "\u23ED", "\u23EE", "\u23E9", "\u23EA", "\u23EB", "\u23EC", "\u25C0\uFE0F", "\u{1F53C}", "\u{1F53D}", "\u27A1\uFE0F", "\u2B05\uFE0F", "\u2B06\uFE0F", "\u2B07\uFE0F", "\u2197\uFE0F", "\u2198\uFE0F", "\u2199\uFE0F", "\u2196\uFE0F", "\u2195\uFE0F", "\u2194\uFE0F", "\u21AA\uFE0F", "\u21A9\uFE0F", "\u2934\uFE0F", "\u2935\uFE0F", "\u{1F500}", "\u{1F501}", "\u{1F502}", "\u{1F504}", "\u{1F503}"] }, i = { cols: 10, total: Object.keys(o), current: "faces", tags: { faces: "\u8868\u60C5", hands: "\u624B\u52BF", avatar: "\u5934\u50CF", foods: "\u98DF\u7269", animals: "\u52A8\u7269", nature: "\u81EA\u7136", tags: "\u7B26\u53F7" } };
+      var t = this, n = "emoticons", o = { faces: ["\u{1F600}", "\u{1F601}", "\u{1F602}", "\u{1F923}", "\u{1F603}", "\u{1F604}", "\u{1F605}", "\u{1F606}", "\u{1F609}", "\u{1F60A}", "\u{1F60B}", "\u{1F60E}", "\u{1F60D}", "\u{1F618}", "\u{1F970}", "\u{1F617}", "\u{1F619}", "\u{1F61A}", "\u{1F642}", "\u{1F917}", "\u{1F929}", "\u{1F914}", "\u{1F928}", "\u{1F610}", "\u{1F611}", "\u{1F636}", "\u{1F644}", "\u{1F60F}", "\u{1F623}", "\u{1F625}", "\u{1F62E}", "\u{1F910}", "\u{1F62F}", "\u{1F62A}", "\u{1F62B}", "\u{1F634}", "\u{1F60C}", "\u{1F61B}", "\u{1F61C}", "\u{1F61D}", "\u{1F924}", "\u{1F612}", "\u{1F613}", "\u{1F614}", "\u{1F615}", "\u{1F643}", "\u{1F911}", "\u{1F632}", "\u{1F641}", "\u{1F616}", "\u{1F61E}", "\u{1F61F}", "\u{1F624}", "\u{1F622}", "\u{1F62D}", "\u{1F626}", "\u{1F627}", "\u{1F628}", "\u{1F629}", "\u{1F92F}", "\u{1F62C}", "\u{1F630}", "\u{1F631}", "\u{1F975}", "\u{1F976}", "\u{1F633}", "\u{1F92A}", "\u{1F635}", "\u{1F621}", "\u{1F620}", "\u{1F92C}", "\u{1F637}", "\u{1F912}", "\u{1F915}", "\u{1F922}", "\u{1F92E}", "\u{1F927}", "\u{1F607}", "\u{1F920}", "\u{1F921}", "\u{1F973}", "\u{1F974}", "\u{1F97A}", "\u{1F925}", "\u{1F92B}", "\u{1F92D}", "\u{1F9D0}", "\u{1F913}"], hands: ["\u{1F932}", "\u{1F450}", "\u{1F64C}", "\u{1F44F}", "\u{1F91D}", "\u{1F44D}", "\u{1F44E}", "\u{1F44A}", "\u270A", "\u{1F91B}", "\u{1F91C}", "\u{1F91E}", "\u270C\uFE0F", "\u{1F91F}", "\u{1F918}", "\u{1F44C}", "\u{1F448}", "\u{1F449}", "\u{1F446}", "\u{1F447}", "\u261D\uFE0F", "\u270B", "\u{1F91A}", "\u{1F590}", "\u{1F596}", "\u{1F44B}", "\u{1F919}", "\u{1F4AA}", "\u{1F9B5}", "\u{1F9B6}", "\u{1F595}", "\u270D\uFE0F", "\u{1F64F}", "\u{1F450}\u{1F3FB}", "\u{1F64C}\u{1F3FB}", "\u{1F44F}\u{1F3FB}", "\u{1F64F}\u{1F3FB}", "\u{1F44D}\u{1F3FB}", "\u{1F44E}\u{1F3FB}", "\u{1F44A}\u{1F3FB}", "\u270A\u{1F3FB}", "\u{1F91B}\u{1F3FB}", "\u{1F91C}\u{1F3FB}", "\u{1F91E}\u{1F3FB}", "\u270C\u{1F3FB}", "\u{1F91F}\u{1F3FB}", "\u{1F918}\u{1F3FB}", "\u{1F44C}\u{1F3FB}", "\u{1F448}\u{1F3FB}", "\u{1F449}\u{1F3FB}", "\u{1F446}\u{1F3FB}", "\u{1F447}\u{1F3FB}", "\u261D\u{1F3FB}", "\u270B\u{1F3FB}", "\u{1F91A}\u{1F3FB}", "\u{1F590}\u{1F3FB}", "\u{1F596}\u{1F3FB}", "\u{1F44B}\u{1F3FB}", "\u{1F919}\u{1F3FB}", "\u{1F4AA}\u{1F3FB}", "\u{1F595}\u{1F3FB}", "\u270D\u{1F3FB}", "\u{1F932}\u{1F3FE}", "\u{1F450}\u{1F3FE}", "\u{1F64C}\u{1F3FE}", "\u{1F44F}\u{1F3FE}", "\u{1F64F}\u{1F3FE}", "\u{1F44D}\u{1F3FE}", "\u{1F44E}\u{1F3FE}", "\u{1F44A}\u{1F3FE}", "\u270A\u{1F3FE}", "\u{1F91B}\u{1F3FE}", "\u{1F91C}\u{1F3FE}", "\u{1F91E}\u{1F3FE}", "\u270C\u{1F3FE}", "\u{1F91F}\u{1F3FE}", "\u{1F918}\u{1F3FE}", "\u{1F44C}\u{1F3FE}", "\u{1F448}\u{1F3FE}", "\u{1F449}\u{1F3FE}", "\u{1F446}\u{1F3FE}", "\u{1F447}\u{1F3FE}", "\u261D\u{1F3FE}", "\u270B\u{1F3FE}", "\u{1F91A}\u{1F3FE}", "\u{1F590}\u{1F3FE}", "\u{1F596}\u{1F3FE}", "\u{1F44B}\u{1F3FE}", "\u{1F919}\u{1F3FE}", "\u{1F4AA}\u{1F3FE}", "\u{1F595}\u{1F3FE}", "\u270D\u{1F3FE}"], avatar: ["\u{1F476}\u{1F3FB}", "\u{1F466}\u{1F3FB}", "\u{1F467}\u{1F3FB}", "\u{1F468}\u{1F3FB}", "\u{1F469}\u{1F3FB}", "\u{1F471}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F471}\u{1F3FB}", "\u{1F474}\u{1F3FB}", "\u{1F475}\u{1F3FB}", "\u{1F472}\u{1F3FB}", "\u{1F473}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F473}\u{1F3FB}", "\u{1F46E}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F46E}\u{1F3FB}", "\u{1F477}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F477}\u{1F3FB}", "\u{1F482}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F482}\u{1F3FB}", "\u{1F575}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F575}\u{1F3FB}", "\u{1F469}\u{1F3FB}\u200D\u2695\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2695\uFE0F", "\u{1F469}\u{1F3FB}\u200D\u{1F33E}", "\u{1F468}\u{1F3FB}\u200D\u{1F33E}", "\u{1F469}\u{1F3FB}\u200D\u{1F373}", "\u{1F468}\u{1F3FB}\u200D\u{1F373}", "\u{1F469}\u{1F3FB}\u200D\u{1F393}", "\u{1F468}\u{1F3FB}\u200D\u{1F393}", "\u{1F469}\u{1F3FB}\u200D\u{1F3A4}", "\u{1F468}\u{1F3FB}\u200D\u{1F3A4}", "\u{1F469}\u{1F3FB}\u200D\u{1F3EB}", "\u{1F468}\u{1F3FB}\u200D\u{1F3EB}", "\u{1F469}\u{1F3FB}\u200D\u{1F3ED}", "\u{1F468}\u{1F3FB}\u200D\u{1F3ED}", "\u{1F469}\u{1F3FB}\u200D\u{1F4BB}", "\u{1F468}\u{1F3FB}\u200D\u{1F4BB}", "\u{1F469}\u{1F3FB}\u200D\u{1F4BC}", "\u{1F468}\u{1F3FB}\u200D\u{1F4BC}", "\u{1F469}\u{1F3FB}\u200D\u{1F527}", "\u{1F468}\u{1F3FB}\u200D\u{1F527}", "\u{1F469}\u{1F3FB}\u200D\u{1F52C}", "\u{1F468}\u{1F3FB}\u200D\u{1F52C}", "\u{1F469}\u{1F3FB}\u200D\u{1F3A8}", "\u{1F468}\u{1F3FB}\u200D\u{1F3A8}", "\u{1F469}\u{1F3FB}\u200D\u{1F692}", "\u{1F468}\u{1F3FB}\u200D\u{1F692}", "\u{1F469}\u{1F3FB}\u200D\u2708\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2708\uFE0F", "\u{1F469}\u{1F3FB}\u200D\u{1F680}", "\u{1F468}\u{1F3FB}\u200D\u{1F680}", "\u{1F469}\u{1F3FB}\u200D\u2696\uFE0F", "\u{1F468}\u{1F3FB}\u200D\u2696\uFE0F", "\u{1F936}\u{1F3FB}", "\u{1F385}\u{1F3FB}", "\u{1F478}\u{1F3FB}", "\u{1F934}\u{1F3FB}", "\u{1F470}\u{1F3FB}", "\u{1F935}\u{1F3FB}", "\u{1F47C}\u{1F3FB}", "\u{1F930}\u{1F3FB}", "\u{1F647}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F647}\u{1F3FB}", "\u{1F481}\u{1F3FB}", "\u{1F481}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F645}\u{1F3FB}", "\u{1F645}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F646}\u{1F3FB}", "\u{1F646}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64B}\u{1F3FB}", "\u{1F64B}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F926}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F926}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F937}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F937}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64E}\u{1F3FB}", "\u{1F64E}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F64D}\u{1F3FB}", "\u{1F64D}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F487}\u{1F3FB}", "\u{1F487}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F486}\u{1F3FB}", "\u{1F486}\u{1F3FB}\u200D\u2642\uFE0F", "\u{1F574}\u{1F3FB}", "\u{1F483}\u{1F3FB}", "\u{1F57A}\u{1F3FB}", "\u{1F6B6}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F6B6}\u{1F3FB}", "\u{1F3C3}\u{1F3FB}\u200D\u2640\uFE0F", "\u{1F3C3}\u{1F3FB}"], foods: ["\u{1F34F}", "\u{1F34E}", "\u{1F350}", "\u{1F34A}", "\u{1F34B}", "\u{1F34C}", "\u{1F349}", "\u{1F347}", "\u{1F353}", "\u{1F348}", "\u{1F352}", "\u{1F351}", "\u{1F34D}", "\u{1F96D}", "\u{1F965}", "\u{1F95D}", "\u{1F345}", "\u{1F346}", "\u{1F951}", "\u{1F966}", "\u{1F952}", "\u{1F96C}", "\u{1F336}", "\u{1F33D}", "\u{1F955}", "\u{1F954}", "\u{1F360}", "\u{1F950}", "\u{1F35E}", "\u{1F956}", "\u{1F968}", "\u{1F96F}", "\u{1F9C0}", "\u{1F95A}", "\u{1F373}", "\u{1F95E}", "\u{1F953}", "\u{1F969}", "\u{1F357}", "\u{1F356}", "\u{1F32D}", "\u{1F354}", "\u{1F35F}", "\u{1F355}", "\u{1F96A}", "\u{1F959}", "\u{1F32E}", "\u{1F32F}", "\u{1F957}", "\u{1F958}", "\u{1F96B}", "\u{1F35D}", "\u{1F35C}", "\u{1F372}", "\u{1F35B}", "\u{1F363}", "\u{1F371}", "\u{1F95F}", "\u{1F364}", "\u{1F359}", "\u{1F35A}", "\u{1F358}", "\u{1F365}", "\u{1F96E}", "\u{1F960}", "\u{1F362}", "\u{1F361}", "\u{1F367}", "\u{1F368}", "\u{1F366}", "\u{1F967}", "\u{1F370}", "\u{1F382}", "\u{1F36E}", "\u{1F36D}", "\u{1F36C}", "\u{1F36B}", "\u{1F37F}", "\u{1F9C2}", "\u{1F369}", "\u{1F36A}", "\u{1F330}", "\u{1F95C}", "\u{1F36F}", "\u{1F95B}", "\u{1F37C}", "\u2615\uFE0F", "\u{1F375}", "\u{1F964}", "\u{1F376}", "\u{1F37A}", "\u{1F37B}", "\u{1F942}", "\u{1F377}", "\u{1F943}", "\u{1F378}", "\u{1F379}", "\u{1F37E}", "\u{1F944}", "\u{1F374}", "\u{1F37D}", "\u{1F963}", "\u{1F961}", "\u{1F962}"], animals: ["\u{1F436}", "\u{1F431}", "\u{1F42D}", "\u{1F439}", "\u{1F430}", "\u{1F98A}", "\u{1F99D}", "\u{1F43B}", "\u{1F43C}", "\u{1F998}", "\u{1F9A1}", "\u{1F428}", "\u{1F42F}", "\u{1F981}", "\u{1F42E}", "\u{1F437}", "\u{1F43D}", "\u{1F438}", "\u{1F435}", "\u{1F648}", "\u{1F649}", "\u{1F64A}", "\u{1F412}", "\u{1F414}", "\u{1F427}", "\u{1F426}", "\u{1F424}", "\u{1F423}", "\u{1F425}", "\u{1F986}", "\u{1F9A2}", "\u{1F985}", "\u{1F989}", "\u{1F99A}", "\u{1F99C}", "\u{1F987}", "\u{1F43A}", "\u{1F417}", "\u{1F434}", "\u{1F984}", "\u{1F41D}", "\u{1F41B}", "\u{1F98B}", "\u{1F40C}", "\u{1F41A}", "\u{1F41E}", "\u{1F41C}", "\u{1F997}", "\u{1F577}", "\u{1F578}", "\u{1F982}", "\u{1F99F}", "\u{1F9A0}", "\u{1F422}", "\u{1F40D}", "\u{1F98E}", "\u{1F996}", "\u{1F995}", "\u{1F419}", "\u{1F991}", "\u{1F990}", "\u{1F980}", "\u{1F421}", "\u{1F420}", "\u{1F41F}", "\u{1F42C}", "\u{1F433}", "\u{1F40B}", "\u{1F988}", "\u{1F40A}", "\u{1F405}", "\u{1F406}", "\u{1F993}", "\u{1F98D}", "\u{1F418}", "\u{1F98F}", "\u{1F99B}", "\u{1F42A}", "\u{1F42B}", "\u{1F999}", "\u{1F992}", "\u{1F403}", "\u{1F402}", "\u{1F404}", "\u{1F40E}", "\u{1F416}", "\u{1F40F}", "\u{1F411}", "\u{1F410}", "\u{1F98C}", "\u{1F415}", "\u{1F429}", "\u{1F408}", "\u{1F413}", "\u{1F983}", "\u{1F54A}", "\u{1F407}", "\u{1F401}", "\u{1F400}", "\u{1F43F}", "\u{1F994}", "\u{1F43E}", "\u{1F409}", "\u{1F432}"], nature: ["\u{1F335}", "\u{1F384}", "\u{1F332}", "\u{1F333}", "\u{1F334}", "\u{1F331}", "\u{1F33F}", "\u2618\uFE0F", "\u{1F340}", "\u{1F38D}", "\u{1F38B}", "\u{1F343}", "\u{1F342}", "\u{1F341}", "\u{1F344}", "\u{1F33E}", "\u{1F490}", "\u{1F337}", "\u{1F339}", "\u{1F940}", "\u{1F33A}", "\u{1F338}", "\u{1F33C}", "\u{1F33B}", "\u{1F31E}", "\u{1F31D}", "\u{1F31B}", "\u{1F31C}", "\u{1F31A}", "\u{1F315}", "\u{1F316}", "\u{1F317}", "\u{1F318}", "\u{1F311}", "\u{1F312}", "\u{1F313}", "\u{1F314}", "\u{1F319}", "\u{1F30E}", "\u{1F30D}", "\u{1F30F}", "\u{1F4AB}", "\u2B50\uFE0F", "\u{1F31F}", "\u2728", "\u26A1\uFE0F", "\u2604\uFE0F", "\u{1F4A5}", "\u{1F525}", "\u{1F32A}", "\u{1F308}", "\u2600\uFE0F", "\u{1F324}", "\u26C5\uFE0F", "\u{1F325}", "\u2601\uFE0F", "\u{1F326}", "\u{1F327}", "\u26C8", "\u{1F329}", "\u{1F328}", "\u2744\uFE0F", "\u2603\uFE0F", "\u26C4\uFE0F", "\u{1F32C}", "\u{1F4A8}", "\u{1F4A7}", "\u{1F4A6}", "\u2614\uFE0F", "\u2602\uFE0F"], tags: ["\u2764\uFE0F", "\u{1F9E1}", "\u{1F49B}", "\u{1F49A}", "\u{1F499}", "\u{1F49C}", "\u{1F5A4}", "\u{1F494}", "\u2763\uFE0F", "\u{1F495}", "\u{1F49E}", "\u{1F493}", "\u{1F497}", "\u{1F496}", "\u{1F498}", "\u{1F49D}", "\u{1F49F}", "\u262E\uFE0F", "\u271D\uFE0F", "\u262A\uFE0F", "\u{1F549}", "\u2638\uFE0F", "\u2721\uFE0F", "\u{1F52F}", "\u{1F54E}", "\u262F\uFE0F", "\u2626\uFE0F", "\u{1F6D0}", "\u26CE", "\u2648\uFE0F", "\u2649\uFE0F", "\u264A\uFE0F", "\u264B\uFE0F", "\u264C\uFE0F", "\u264D\uFE0F", "\u264E\uFE0F", "\u264F\uFE0F", "\u2650\uFE0F", "\u2651\uFE0F", "\u2652\uFE0F", "\u2653\uFE0F", "\u{1F194}", "\u{1F6BB}", "\u{1F6AE}", "\u{1F3A6}", "\u{1F4F6}", "\u{1F201}", "\u{1F523}", "\u2139\uFE0F", "\u{1F524}", "\u{1F521}", "\u{1F520}", "\u{1F196}", "\u{1F197}", "\u{1F199}", "\u{1F192}", "\u{1F195}", "\u{1F193}", "0\uFE0F\u20E3", "1\uFE0F\u20E3", "2\uFE0F\u20E3", "3\uFE0F\u20E3", "4\uFE0F\u20E3", "5\uFE0F\u20E3", "6\uFE0F\u20E3", "7\uFE0F\u20E3", "8\uFE0F\u20E3", "9\uFE0F\u20E3", "\u{1F51F}", "\u{1F522}", "#\uFE0F\u20E3", "*\uFE0F\u20E3", "\u23CF\uFE0F", "\u25B6\uFE0F", "\u23F8", "\u23EF", "\u23F9", "\u23FA", "\u23ED", "\u23EE", "\u23E9", "\u23EA", "\u23EB", "\u23EC", "\u25C0\uFE0F", "\u{1F53C}", "\u{1F53D}", "\u27A1\uFE0F", "\u2B05\uFE0F", "\u2B06\uFE0F", "\u2B07\uFE0F", "\u2197\uFE0F", "\u2198\uFE0F", "\u2199\uFE0F", "\u2196\uFE0F", "\u2195\uFE0F", "\u2194\uFE0F", "\u21AA\uFE0F", "\u21A9\uFE0F", "\u2934\uFE0F", "\u2935\uFE0F", "\u{1F500}", "\u{1F501}", "\u{1F502}", "\u{1F504}", "\u{1F503}"] }, i = { cols: 10, total: Object.keys(o), current: "faces", tags: {
+        faces: "\u8868\u60C5",
+        hands: "\u624B\u52BF",
+        avatar: "\u5934\u50CF",
+        foods: "\u98DF\u7269",
+        animals: "\u52A8\u7269",
+        nature: "\u81EA\u7136",
+        tags: "\u7B26\u53F7"
+      } };
       t.emojiConfig && t.emojiConfig instanceof Function && t.emojiConfig.call(null, o, i), t.clickToolbar(n, function() {
         function s(_, M) {
           _.mouseover(function() {
