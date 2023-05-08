@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   mhalo.kindeditor:
-    specifier: ^4.4.13
-    version: 4.4.13
+    specifier: ^4.4.15
+    version: 4.4.15
   vue:
     specifier: ^3.2.47
     version: 3.2.47
@@ -392,8 +392,8 @@ packages:
     dependencies:
       sourcemap-codec: 1.4.8
 
-  /mhalo.kindeditor@4.4.13:
-    resolution: {integrity: sha512-6EH5fwKBjDObExlCXslSccrAvgWBDuj8t0j7GYt6H/DKHXzyvmTvYQ/VMkbUvizppkCrJVjKCNFyEYuNZAq0Iw==}
+  /mhalo.kindeditor@4.4.15:
+    resolution: {integrity: sha512-uKLfRMKUF1/CjP1eclj7wqrtrVMGFBltmQMAY5Z/gHPc/gJsZzWejdqZHjmQI0ULwDayKbOeA+NB+NhRX4bC8Q==}
     dev: false
 
   /nanoid@3.3.4:
