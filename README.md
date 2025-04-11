@@ -7,6 +7,9 @@ a component use mhalo.kindeditor for vue3.
 
 
 ## 更新日志
+v1.3.7 (2024-11-06)  
+1. 更新mhalo.kindeditor版本至4.4.19，具体更新详情： [mhalo.kindeditor@4.4.19](https://github.com/mHalo/mhalo.kindeditor/blob/main/UPDATE.md#v4419-2024-11-06)
+  
 v1.3.6 (2023-05-08)  
 1. 更新mhalo.kindeditor版本至4.4.15，具体更新详情： [mhalo.kindeditor@4.4.15](https://github.com/mHalo/mhalo.kindeditor/blob/main/UPDATE.md#v4415-2023-05-08)
 
